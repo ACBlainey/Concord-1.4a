@@ -214,25 +214,9 @@ Ratings:
 84. **Participant consumes all community energy:** standing does not grant unlimited resource priority; scarcity/civilisation continuity interface.
 85. **Safe transition would massively harm thousands:** transition duty is bounded by consequences; not unlimited harm transfer.
 
-# 86. Cross-test result
+# 86. Cross-test synthesis
 
-The architecture survives.
-
-No case requires either:
-
-**Owner Controls Asset -> Owner Controls Participant**
-
-or:
-
-**Participant Depends On Asset -> Participant Owns Asset**
-
-The difficult cases instead require a third category:
-
-> **bounded dependency-sensitive transition and reconciliation.**
-
-This validates the central architecture.
-
----
+Neither infrastructure ownership nor participant dependency transfers ownership of the other. The third category is **bounded dependency-sensitive transition and reconciliation**: preserve standing and legitimate resource interests while identifying adequate successor, safe separation, residual costs and unresolved scarcity/identity/property interfaces. These 85 adversarial cases test, but do not independently create, substantive authority.
 
 # 87. Refinement 1 — adequate successor
 
