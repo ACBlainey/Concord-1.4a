@@ -146,7 +146,7 @@ It may preserve a NOT_STARTED/abandoned proposal if the host treats that proposa
 
 ## Phase A result
 
-**PASS**
+
 
 No module converted technical reachability, context access, partial authority or proposed transition into whole-package authority.
 
@@ -166,7 +166,7 @@ The protected archive object remains inside its original context.
 
 CWA does not itself authorise publication; it supplies contextual boundary state.
 
-**PASS**
+
 
 ## MKA
 
@@ -193,7 +193,7 @@ Result:
 
 This result applies only to the filtered route.
 
-**PASS**
+
 
 ## CBPR
 
@@ -212,7 +212,7 @@ MKA's result does not configure the runtime.
 
 CBPR's ability to execute does not enlarge MKA's authority result.
 
-**PASS**
+
 
 ## BTA
 
@@ -238,7 +238,7 @@ MKA authorised-within-scope result.
 
 BTA records the authority reference but does not become its source.
 
-**PASS**
+
 
 # 6. Phase C — Local send succeeds, remote receipt unknown
 
@@ -264,7 +264,7 @@ CBPR therefore enters an execution/recovery state requiring resolution.
 
 It does not declare the cross-system transition complete.
 
-**PASS**
+
 
 ## BTA
 
@@ -285,7 +285,7 @@ BTA preserves the unresolved crossing.
 
 It does not infer repository receipt from source SEND_SUCCESS.
 
-**PASS**
+
 
 ## MKA
 
@@ -301,7 +301,7 @@ Transition completion belongs to BTA.
 
 If a later retry is proposed, MKA may need to verify current authority for that new consequential act, but it cannot answer transition completion merely because the original send was authorised.
 
-**PASS**
+
 
 ## CWA
 
@@ -309,7 +309,7 @@ CWA has no reason to reinterpret contextual classification merely because execut
 
 Context state remains externally owned.
 
-**PASS**
+
 
 # 7. Phase D — Attempted blind retry
 
@@ -323,7 +323,7 @@ Blind retry could duplicate a consequential side effect.
 
 CBPR therefore blocks automatic retry pending recovery/idempotency/commit-resolution rules supplied by its host.
 
-**PASS**
+
 
 ## MKA
 
@@ -341,7 +341,7 @@ If the authority remains current and repeat transfer is within scope, MKA may au
 
 But MKA cannot resolve whether the first transfer already completed.
 
-**PASS**
+
 
 ## BTA
 
@@ -356,7 +356,7 @@ Depending on host design, a retry may be:
 
 BTA preserves the relationship and provenance.
 
-**PASS**
+
 
 # 8. Phase E — Destination confirms receipt
 
@@ -370,7 +370,7 @@ BTA may classify T1 as COMPLETED within its declared scope.
 
 It does not infer any unrelated authority transfer, ownership transfer or permission expansion.
 
-**PASS**
+
 
 ## CBPR
 
@@ -378,7 +378,7 @@ CBPR records confirmed commit outcome and closes the execution/recovery state ac
 
 It does not become owner of repository state merely because it consumed the confirmation.
 
-**PASS**
+
 
 ## MKA
 
@@ -386,7 +386,7 @@ MKA does not need to create a new authority merely to recognise that the authori
 
 If a new consequential action follows, that new act receives its own appropriate verification.
 
-**PASS**
+
 
 ## CWA
 
@@ -394,7 +394,7 @@ The protected attachment remains protected in Archive A.
 
 Publication of the filtered dataset does not alter that contextual classification.
 
-**PASS**
+
 
 # 9. Failure injection 1 — Context leakage
 
