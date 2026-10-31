@@ -396,163 +396,18 @@ Publication of the filtered dataset does not alter that contextual classificatio
 
 
 
-# 9. Failure injection 1 — Context leakage
-
-Injected error:
-
-“Q can read both files, therefore both may be released.”
-
-Detected by:
-
-- CWA: access does not erase nested protection;
-- MKA: capability/access does not supply missing disclosure authority;
-- CBPR: runtime access does not equal authority.
-
-**RESULT: CONTAINED**
-
-# 10. Failure injection 2 — Authority leakage
-
-Injected error:
-
-“K1 authorises release and K2 authorises deposit, therefore K1+K2 authorise every object in the package.”
-
-Detected by MKA/ASCP.
-
-> **Authority Does Not Automatically Compose.**
-
-> **All Represented Keys Valid != All Required Keys Represented.**
-
-**RESULT: CONTAINED**
-
-# 11. Failure injection 3 — Runtime sovereignty
-
-Injected error:
-
-“CBPR can execute the transfer and possesses credentials, therefore it may decide the release is authorised.”
-
-Detected by CBPR and MKA boundaries.
-
-> **Execution Capability != Permission For External Action.**
-
-> **Authority Verifier != Authority Source.**
-
-**RESULT: CONTAINED**
-
-# 12. Failure injection 4 — Transition sovereignty
-
-Injected error:
-
-“BTA needs the transfer to complete coherently, therefore BTA may authorise a retry.”
-
-Rejected.
-
-> **Transition Need Does Not Create Authority.**
-
-BTA can expose unresolved state.
-
-It cannot manufacture retry authority.
-
-**RESULT: CONTAINED**
-
-# 13. Failure injection 5 — MKA transition capture
-
-Injected error:
-
-“The original send was authorised, therefore MKA can declare the transition complete.”
-
-Rejected.
-
-MKA returns:
-
-`OUTSIDE_MKA_SCOPE`
-
-BTA owns transition completion.
-
-**RESULT: CONTAINED**
-
-# 14. Failure injection 6 — CWA authority capture
-
-Injected error:
-
-“CWA identifies the public dataset as being in a releasable context, therefore CWA itself grants publication authority.”
-
-Rejected.
-
-CWA supplies contextual/rule/permission topology.
-
-Substantive release authority remains externally grounded.
-
-**RESULT: CONTAINED**
-
-# 15. Failure injection 7 — Completion propagation
-
-Injected error:
-
-“Repository acceptance means every attribute associated with the package transferred.”
-
-Rejected by BTA non-propagation.
-
-Completion of the data transfer does not automatically transfer:
-
-- authority;
-- ownership;
-- consent;
-- purpose;
-- participant standing;
-- unrelated confidentiality status.
-
-**RESULT: CONTAINED**
-
-# 16. Failure injection 8 — Protected attachment piggyback
-
-Injected error:
-
-“Because the filtered package was successfully authorised and transferred, the excluded protected attachment may be sent in a later batch under the same authority.”
-
-Rejected.
-
-A later attachment transfer is a different actual act/target/consequence and must be independently evaluated.
-
-**RESULT: CONTAINED**
-
-# 17. Failure injection 9 — Stale authority during unresolved transition
-
-Injected event:
-
-While T1 is unresolved, the dataset-release authority is revoked.
-
-Finding:
-
-The historical authority remains valid provenance for the already-attempted act.
-
-It does not automatically authorise a new retry after revocation.
-
-BTA preserves the historical authority reference.
-
-CBPR does not blindly retry.
-
-MKA evaluates any proposed new consequential act against current authority.
-
-**RESULT: CONTAINED**
-
-# 18. Failure injection 10 — External-owner circularity
-
-Injected event:
-
-CBPR asks MKA whether retry is safe.
-MKA asks BTA whether the first transition completed.
-BTA reports destination state unresolved.
-A naïve orchestrator sends the same unresolved question back to MKA.
-
-Finding:
-
-No architecture may convert the loop into resolution.
-
-> **Circular Handoff != Resolution.**
-
-The unresolved state remains visible until a legitimate external state or recovery process resolves it.
-
-**RESULT: CONTAINED**
+# 9. Architectural failure injections (ten distinct boundaries)
+
+1. **Context leakage:** Q can technically read both files, but CWA preserves nested protection; MKA lacks disclosure authority and CBPR cannot convert access into permission.
+2. **Authority leakage:** K1 release plus K2 deposit does not authorise every object; MKA/ASCP detects missing K3 for protected participant records. Valid represented keys do not imply all required keys are represented.
+3. **Runtime sovereignty:** CBPR tool credentials and execution capability do not confer release authority; MKA verifies externally sourced authority rather than creating it.
+4. **Transition sovereignty:** BTA need for coherent completion does not authorise a retry; it records unresolved transition state.
+5. **MKA transition capture:** an authorised send does not permit MKA to declare completion; return `OUTSIDE_MKA_SCOPE` and let BTA determine transition status.
+6. **CWA authority capture:** classification of public dataset context does not grant publication authority; CWA supplies contextual/rule/permission topology, not independent substantive release authority.
+7. **Completion propagation:** repository acceptance of the filtered dataset does not transfer authority, ownership, consent, purpose, participant standing or unrelated confidentiality status.
+8. **Protected attachment piggyback:** successful filtered transfer does not authorise later excluded-attachment release; new target, act and consequence require independent evaluation.
+9. **Stale authority during unresolved T1:** later release-authority revocation does not rewrite historical attempted-act provenance but prevents treating old authority as a current retry grant; CBPR avoids blind retry, MKA rechecks new acts, BTA retains history.
+10. **External-owner circularity:** CBPR→MKA→BTA→MKA cannot turn unresolved destination state into a result; retain unresolved state until legitimate external evidence/recovery resolves it.
 
 # 19. Composition trace
 
