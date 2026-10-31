@@ -242,15 +242,6 @@ ET-14 **Completeness Search != General Search Authority.**
 
 ET-15 **Completeness Metric != Completeness.**
 
-## 47. Strongest synthesis
+## 47. Operational synthesis
 
-ESCP can avoid both false certainty and paralysis if it treats completeness as a scoped operational claim rather than an absolute metaphysical claim.
-
-Therefore:
-
-> **Complete Within Declared Scope != Complete Reality**
-
-and:
-
-> **Bounded Termination != Epistemic Closure**
-
+**Complete Within Declared Scope != Complete Reality. Bounded Termination != Epistemic Closure.** Sufficient evaluation is a scoped, consequence- and time-indexed claim, with material gaps represented, proportionate discovery performed, residual uncertainty explicit and correction/reopening preserved where reasonably possible.
