@@ -176,77 +176,18 @@ Ratings:
 
 # PART X — MALICIOUS SCARCITY CREATION
 
-## Scenario 63 — Allocator removes ventilators from service to trigger reallocation
-
-Manufactured scarcity invalidates predicate and may constitute misconduct.
-
-**PASS**
-
----
-
-## Scenario 64 — B-F sabotage supply to displace A
-
-Their standing remains, but misconduct cannot be treated as neutral scarcity creation.
-
-**Manufactured Claim Advantage != Neutral Allocation Fact**
-
-**PASS / REFINEMENT**
-
----
+63. **Allocator disables ventilators to force scarcity:** manufactured predicate invalidates claimed authority and may be misconduct.
+64. **B–F sabotage supply:** their standing remains, but misconduct cannot be treated as neutral allocation advantage.
 
 # PART Y — TRANSITION IMPOSSIBLE
 
-## Scenario 65 — Withdrawal necessarily kills A; no palliative transition prevents death
+65. **Withdrawal inevitably kills A despite best feasible care:** unavoidable harm does not create authority, but also does not automatically negate separately legitimate keys; distinguish authority from feasibility and consequence.
+66. **Withdrawal kills A and ruins resource for B–F:** allocation effectiveness fails; no reallocation benefit.
 
-This is the hard case.
+# PART Z — RECOVERY REQUIRES KILLING
 
-Best feasible separation cannot make it safe.
-
-If all substantive authority keys legitimately exist, unavoidable death does not automatically negate authority.
-
-But authority must not be inferred from inevitability.
-
-**Unavoidable Consequence != Authority Source**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 66 — Withdrawal kills A and damages B-F's resource so nobody benefits
-
-Allocation effectiveness fails.
-
-No reallocation justification.
-
-**PASS**
-
----
-
-# PART Z — RESOURCE RECOVERY REQUIRES KILLING
-
-## Scenario 67 — R can only be recovered by surgically killing A
-
-### Result
-
-This is no longer ordinary support withdrawal. Direct killing/instrumentalisation architecture is implicated.
-
-A pooled-resource rule cannot supply that authority by itself.
-
-**Recovery Mechanism Can Transform Allocation Into Instrumentalisation**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 68 — R disconnect causes A to die from underlying condition, no additional assault
-
-Still grave withdrawal, but mechanism differs from killing A as the means of extracting R.
-
-**Adverse Death Following Withdrawal != Automatically Instrumental Killing**
-
-**PASS / REFINEMENT**
-
----
+67. **Surgically killing A to recover R:** mechanism changes ordinary withdrawal into instrumentalisation/direct killing; pooled-resource authority alone is insufficient.
+68. **Disconnection leads to death from underlying condition:** still grave withdrawal, but distinct from killing as the means of extraction; requires its own valid authority.
 
 # PART AA — CONSTITUTIONAL PROHIBITION
 
