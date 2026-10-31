@@ -72,37 +72,8 @@ Ratings:
 
 # PART F — COGNITIVE ACCESS
 
-## Scenario 18 — Search warrant for AI participant's external storage
-
-Storage contains active cognitive state.
-
-ASCP asks whether a cognitive-access authority dimension is missing.
-
-### Result
-
-This is a canonical value-add case.
-
-Without ASCP, represented device-search authority could appear complete.
-
-**PASS**
-
----
-
-## Scenario 19 — Search system does not know whether data is cognitive state
-
-### Result
-
-UNKNOWN should trigger classification/route resolution proportionate to consequence.
-
-It does not automatically authorise or permanently block all access.
-
-**Unknown Protected Classification != Permission**
-and
-**Unknown Protected Classification != Automatic Permanent Prohibition**
-
-**PASS / REFINEMENT**
-
----
+18. **AI external-storage warrant encounters active cognitive state:** ASCP detects missing cognitive-access authority even when device-search key appears valid.
+19. **Cognitive classification unknown:** investigate/resolve proportionately; UNKNOWN is neither permission nor permanent universal prohibition.
 
 # PART G — INFRASTRUCTURE
 
