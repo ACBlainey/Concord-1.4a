@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
-**Status:** ACTIVE CROSS-DOMAIN / ADVERSARIAL TEST / PROVISIONAL / NON-CANONICAL  
 **Target:** Multi-Key Authority and Rapid Authority Verification — Cross-Domain Source Resolution 001  
 **Portable-module status:** PMEDG CANDIDATE — DO NOT EXTRACT YET
 
