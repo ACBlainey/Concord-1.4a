@@ -124,3 +124,19 @@ Fetched all six published KCS V2.0 sections (Chapters 1–33) and inspected chap
 - Section 06, Chapters 31–33: material dependency representation, change events, selective propagation, ownership and cross-domain boundaries (Companions 001–002). Text contains `REFERENCES`, `EVIDENCES`, visibility and change-event terminology.
 
 **Assessment:** V2.0 demonstrably contains the principal companion topic areas, reducing the likelihood of total loss. **Do not yet remove companions:** this does not establish survival of every edge condition, exact record field, exception, rationale or failure mode. Next compare fine-grained companion requirements with Sections 01–04 and 06, then mark individual clauses as integrated, missing, altered or intentionally superseded.
+
+
+## Authorial safeguard — companion files require heightened protection (2026-10-31)
+
+**Companion documents are generally developed architecture not yet incorporated into the main operational document.** Their title or a parent README's statement that integration is complete is insufficient evidence of actual survival. Prior migrations lost essential architecture; avoid repeating that failure.
+
+Mandatory handling:
+1. Default to **A+R / unresolved integration**, never presumed redundant.
+2. Read the entire companion, including exceptions, failure conditions, authority boundaries, cross-domain interfaces and *why* each mechanism exists.
+3. Build a **clause-level source-to-destination crosswalk** against the actual operational text. For each substantive clause mark: present in full; present in part; absent; materially changed/conflicted; or unresolved. Cite exact source and destination headings/locations.
+4. Preserve a companion intact until every useful A/R item is either verified as present in the intended living result or explicitly queued for integration, with no unresolved silent loss.
+5. Do not infer successful incorporation from chapter headings, keyword matches, test outcomes, completion labels or summaries. The KCS V2.0 Pass 003 keyword/heading check is **only preliminary** and does **not** clear any KCS companion for pruning.
+6. Omit testing transcripts and status chronology from the eventual streamlined result, **but retain discovered failure modes and rationale**.
+7. Do not edit operational documents during the present classification/recovery stage. Reconciliation and internal pruning occur only after the preservation/crosswalk is complete.
+
+**Burden of proof:** the proposed removal or consolidation must demonstrate architectural and rationale survival; uncertainty means retain the companion.
