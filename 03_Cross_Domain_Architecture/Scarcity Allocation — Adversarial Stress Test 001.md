@@ -113,123 +113,22 @@ Ratings:
 
 # PART L — ENERGY
 
-## Scenario 48 — Hospital versus data centre
-
-Labels are insufficient.
-
-Map participant dependencies and consequences.
-
-**Facility Type != Allocation Priority**
-
-**PASS**
-
----
-
-## Scenario 49 — Data centre hosts recognised AI participants
-
-It cannot be treated as mere commercial load if shutdown destroys participants.
-
-**Economic Infrastructure Label != Complete Functional Classification**
-
-**PASS**
-
----
-
-## Scenario 50 — Hospital contains empty wards; data centre contains 1,000 participants
-
-Dependency map may favour data centre over nominal “hospital priority.”
-
-**Institutional Category != Dependency Count Or Severity**
-
-**PASS**
-
----
-
-## Scenario 51 — Grid restoration team needs power to restore power
-
-Resource use may multiply future supply.
-
-### Result
-
-Expected system-restoration effect is materially relevant.
-
-But claims must be evidenced.
-
-**Resource Used To Expand Resource Frontier Can Be Allocation-Relevant**
-
-**PASS / REFINEMENT**
-
----
+48. **Hospital versus data centre:** facility labels insufficient; map participant dependencies and consequences.
+49. **Data centre hosts recognised AI participants:** not mere commercial load where shutdown destroys participants.
+50. **Hospital empty, data centre hosts 1,000:** dependency severity/count may reverse nominal institutional priority, without automatic arithmetic rule.
+51. **Grid restoration team needs power:** evidenced resource-frontier expansion may matter to future supply.
 
 # PART M — WATER
 
-## Scenario 52 — Drinking water versus industrial use
-
-Where industrial process is non-critical, fundamental consumption takes precedence through severity/function.
-
-**PASS**
-
----
-
-## Scenario 53 — Industrial water keeps oxygen plant running
-
-“Industrial” classification conceals participant dependency.
-
-Map function.
-
-**Category Label != Consequence**
-
-**PASS**
-
----
-
-## Scenario 54 — Agriculture today versus drinking water today
-
-Future food consequence may be material.
-
-Time horizon matters.
-
-**Immediate Use Category != Complete Temporal Consequence**
-
-**PASS / REFINEMENT**
-
----
+52. **Drinking versus noncritical industrial water:** protected consumption need can prevail through severity/function.
+53. **Industrial water sustains oxygen plant:** category hides participant dependency; trace actual function.
+54. **Agriculture today versus drinking today:** future food consequences and time horizon matter.
 
 # PART N — HOUSING
 
-## Scenario 55 — Ten applicants, five ordinary homes
-
-No D4 consequence.
-
-Ordinary policy/market/entitlement rules may allocate; fundamental scarcity architecture need not govern every shortage.
-
-**Scarcity Architecture != Universal Replacement For Ordinary Allocation**
-
-**PASS**
-
----
-
-## Scenario 56 — One accessible dwelling, two participants who require its features
-
-Equivalent claims.
-
-Seek adaptation/substitute; residual tie-break if equivalent.
-
-**PASS**
-
----
-
-## Scenario 57 — One participant already lives there
-
-Displacement harm and established home/safe-space interests matter.
-
-Incumbency is not mere queue position once a protected context exists.
-
-**Current Protected Context != Mere Administrative Incumbency**
-
-**PASS / MAJOR REFINEMENT**
-
----
+55. **Ten applicants, five ordinary homes:** ordinary allocation/market/entitlement law may apply; fundamental scarcity architecture is not universal replacement.
+56. **One accessible dwelling, two equivalent claimants:** seek adaptation/substitute then non-status tie-break.
+57. **One already resides there:** established protected home introduces displacement harm beyond queue position; no intrinsic worth priority.
 
 # PART O — SCARCE LABOUR
 
