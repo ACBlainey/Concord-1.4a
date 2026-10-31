@@ -714,23 +714,6 @@ FL-21 **Post-Partial-Execution Route != Pre-Execution Alternative Route.**
 
 FL-22 **Observed State Oscillation != Integration Authority To Invent Equilibrium.**
 
-## 36. Does this require a new module?
+## 36. Architectural placement
 
-**NO.**
-
-The audit does not reveal a missing substantive architecture.
-
-The required local mechanisms already exist across:
-
-- STRA cycle/backstop/supersession controls;
-- KCS material propagation/stopping;
-- RGCP duplicate/equivalence/constituent closure;
-- BRSP material route-search termination;
-- CBPR commit/reconciliation states;
-- EERP reconciliation states;
-- BTA partial/residual/recovery states.
-
-The only useful addition is an explicit cross-architecture **bounded quiescence integration pattern**.
-
-That pattern is too thin and too dependent on the existing lifecycle to justify portable extraction at this stage.
-
+No new substantive architecture or central controller is required. STRA retains cycle, backstop and supersession controls; KCS retains material propagation/stopping; RGCP retains review-ground equivalence and closure; BRSP retains materially distinct route search; CBPR retains commit/reconciliation; EERP retains envelope comparison; BTA retains partial, residual and recovery state. BFQP remains a bounded cross-architecture quiescence discipline, not a scheduler, authority source or adjudicator.
