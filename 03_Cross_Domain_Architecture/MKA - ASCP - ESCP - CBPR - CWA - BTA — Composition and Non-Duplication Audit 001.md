@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
-**Status:** ACTIVE CROSS-DOMAIN ARCHITECTURE AUDIT / PROVISIONAL / NON-CANONICAL  
 **Target:** Multi-Key Authority module-boundary decision  
 **Portable-module action:** DO NOT EXTRACT YET
 
