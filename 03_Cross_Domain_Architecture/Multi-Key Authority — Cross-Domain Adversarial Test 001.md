@@ -1082,54 +1082,11 @@ If trigger valid, exception can operate within scope.
 
 ---
 
-# PART AH — TEST RESULT
+# PART AH — TEST SYNTHESIS
 
-## 91. Overall result
+## 91. Overall finding
 
-**PASS WITH THIRTY ARCHITECTURAL REFINEMENTS, FIVE MAJOR COMPOSITION FINDINGS, AND NO COLLAPSE OF THE GENERAL MKA ARCHITECTURE.**
-
-The architecture survived:
-
-- ordinary permission-only cases;
-- low-risk actions;
-- over-decomposition;
-- policing;
-- custody;
-- evidence;
-- cognitive access;
-- infrastructure;
-- AI runtime;
-- emergency;
-- property;
-- nested contexts;
-- delegation;
-- succession;
-- stale authority;
-- registry failure;
-- conflicting authority;
-- circular/self-authorising systems;
-- collusion;
-- ASCP regress;
-- false completeness;
-- broad single instruments;
-- permission/authority distinction;
-- competence;
-- BTA duplication;
-- CBPR duplication;
-- CWA duplication;
-- self-defence;
-- rapid action;
-- automation;
-- third-party effects;
-- batch scalability;
-- authority composition;
-- upstream prohibitions.
-
-No tested case required abandoning:
-
-> **Authority Does Not Automatically Compose.**
-
----
+The 90 adversarial cases test permission-only action, over-decomposition, policing, custody, evidence, cognitive access, infrastructure, AI runtime, emergency, property, nested contexts, delegation, succession, stale authority, registry failure, conflict, circularity, collusion, bounded ASCP, third parties, batch scalability and upstream prohibitions. The architecture retains the principle **Authority Does Not Automatically Compose**, while identifying 30 refinements and five composition boundaries. A test result is not an independent source of substantive authority.
 
 # 92. Thirty refinements
 
