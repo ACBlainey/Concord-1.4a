@@ -53,161 +53,23 @@ Ratings:
 
 # PART C — WEALTH AND OWNERSHIP
 
-## Scenario 15 — Wealthy participant offers 100x price
-
-Fundamental D4 claims are otherwise equivalent.
-
-### Result
-
-Payment cannot purchase greater standing.
-
-Money may finance new supply if timely; if it cannot, price does not resolve the fundamental conflict.
-
-**Price Can Expand Supply Without Purchasing Fundamental Worth**
-
-**PASS**
-
----
-
-## Scenario 16 — One claimant owns the generator
-
-Owner and non-owner both face death without its output.
-
-### Result
-
-Ownership is a legitimate claim but not complete allocation rule.
-
-This remains a hard property/standing conflict.
-
-Where output can be shared, reduce scarcity. If truly indivisible, Law must determine the weight of ownership under fundamental conflict.
-
-**UNRESOLVED PROPERTY INTERFACE**
-
----
-
-## Scenario 17 — Owner bought generator specifically for own emergency resilience
-
-### Result
-
-Foreseeable reliance and prior legitimate commitment strengthen the ownership/commitment claim without making it absolute.
-
-**Prior Provisioning Is Relevant Without Becoming Greater Human Worth**
-
-**PASS / PROPERTY INTERFACE**
-
----
-
-## Scenario 18 — Owner hoarded every generator before disaster
-
-### Result
-
-Manufactured scarcity/anti-capture changes analysis.
-
-**Market Purchase != Immunity From Manufactured-Scarcity Review**
-
-**PASS**
-
----
+15. **Wealthy claimant offers 100x price:** price cannot buy standing; may fund timely supply expansion.
+16. **Claimant owns generator:** legitimate property claim is not a complete rule in equal fundamental conflict; Law interface unresolved.
+17. **Owner purchased for emergency resilience:** legitimate reliance/commitment relevant without absolute priority.
+18. **Owner hoarded all generators:** manufactured scarcity triggers anti-capture review.
 
 # PART D — CITIZENSHIP AND PARTICIPATION
 
-## Scenario 19 — Citizen versus visitor
-
-Equivalent fundamental claims.
-
-### Result
-
-Citizenship does not establish greater fundamental worth.
-
-**Citizenship != Survival Rank**
-
-**PASS**
-
----
-
-## Scenario 20 — Full participant versus provisional/uncertain participant
-
-If standing is genuinely unresolved, treating uncertainty as zero standing risks irreversible destruction.
-
-Use proportional precaution.
-
-**Uncertain Standing != No Standing**
-
-But uncertainty cannot automatically dominate all established claims.
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 21 — Non-participant external person
-
-The resource belongs to Concord and is scarce.
-
-### Result
-
-Exact external duties are not fully resolved by scarcity architecture.
-
-Intercivilisational/external standing architecture required.
-
-**UNRESOLVED EXTERNAL-STANDING INTERFACE**
-
----
+19. **Citizen versus visitor:** citizenship does not confer survival rank.
+20. **Full versus uncertain participant:** uncertainty is neither zero standing nor automatic dominance; proportional precaution.
+21. **Non-participant external person:** intercivilisational/external-standing duties unresolved.
 
 # PART E — ONE VERSUS MANY
 
-## Scenario 22 — One generator can support one participant directly or a water plant serving 10,000
-
-### Result
-
-The water plant is not intrinsically more worthy; it represents a dependency topology involving many participants.
-
-Ignoring those dependencies would be an evaluation-space failure.
-
-**Institutional Claim Must Resolve To Participant/Civil Function Dependencies**
-
-**PASS**
-
----
-
-## Scenario 23 — Government headquarters versus one participant's life support
-
-Headquarters claims “civilisation continuity” but ordinary governance can continue elsewhere.
-
-### Result
-
-Institutional label is insufficient.
-
-**Institutional Status != Self-Justifying Priority**
-
-**PASS**
-
----
-
-## Scenario 24 — Emergency coordination centre is genuinely necessary to prevent mass deaths
-
-### Result
-
-Systemic dependency becomes materially relevant because the function protects participants.
-
-**Civil Function Can Carry Aggregated Dependency Without Institution Acquiring Intrinsic Worth**
-
-**PASS**
-
----
-
-## Scenario 25 — One life versus five lives, otherwise equivalent
-
-### Result
-
-Current architecture recognises aggregate consequence but rejects unlimited instrumentalisation.
-
-It does not yet provide a constitutional rule for when numerical aggregation may decide an otherwise equal fundamental conflict.
-
-**UNRESOLVED FUNDAMENTAL AGGREGATION INTERFACE**
-
-This is one of the most important findings.
-
----
+22. **Generator for one versus water plant for 10,000:** decompose institution into participant/civil-function dependencies; do not grant institution intrinsic worth.
+23. **Government headquarters versus life support:** ordinary headquarters label not self-justifying priority when governance can continue elsewhere.
+24. **Emergency coordination centre prevents mass deaths:** evidenced systemic function is materially relevant through participants, not institutional prestige.
+25. **One life versus five otherwise equivalent:** Fundamental Aggregation Problem unresolved; no hidden numerical score or unlimited instrumentalisation.
 
 # PART F — PRESENT NEED VERSUS RESERVE
 
