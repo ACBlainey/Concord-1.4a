@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework
 **Date:** 3 October 2026
-**Status:** ADVERSARIAL INTEGRATION TEST / COMPLETE / NON-CANONICAL
 **Source resolution:** Execution Conformance — Evaluated Route, Actual Execution and Consequence Reconciliation — Source Resolution 001
 **Development label:** Execution Envelope Reconciliation Pattern (EERP)
 **Architectures tested:** CBPR, BTA, KCS Change Propagation, STRA, MKA/ASCP, CWA, BRSP, ESCP and external substantive owners
@@ -702,22 +701,6 @@ with material deviation and reconciliation states that can be routed back into e
 
 If EERP begins specifying runtime implementation, authority rules, transition semantics, liability or remedy, it has crossed its boundary and should fail PMEDG review.
 
-## 63. Is EERP stable?
-
-**YES — AS A CROSS-ARCHITECTURE INTEGRATION PATTERN.**
-
-The adversarial test found no case requiring EERP to become a substantive authority or adjudicator.
-
-## 64. Extraction decision
-
-**DO NOT EXTRACT YET.**
-
-Classification:
-
-**STABLE CROSS-ARCHITECTURE INTEGRATION PATTERN / PMEDG CANDIDATE / NON-CANONICAL**
-
-Independent portability outside the Concord integration stack has not yet been demonstrated.
-
 ## 65. Architectural chain now visible
 
 The recent integration work forms a coherent lifecycle:
@@ -754,10 +737,3 @@ This is already strongly implied by MKA, CBPR, CWA and BTA.
 
 It should not yet be extracted as a new principle without source resolution against the existing bounded-authority corpus.
 
-## 67. Result
-
-**ADVERSARIAL INTEGRATION TEST: PASS — 52 SCENARIOS**
-
-EERP remains a stable cross-architecture integration pattern and PMEDG candidate.
-
-**Do not extract yet.**
