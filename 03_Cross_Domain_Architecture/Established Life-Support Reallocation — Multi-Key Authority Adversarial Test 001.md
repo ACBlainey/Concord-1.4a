@@ -1153,97 +1153,16 @@ Institutional self-interest must not masquerade as participant aggregation.
 
 ---
 
-# PART AK — FALSIFICATION SUMMARY
+# PART AK — FALSIFICATION SYNTHESIS
 
-## 91. First-come priority
+## 91–96. Tested failure modes
 
-The synthesis does **not** conceptually equate incumbency with worth.
-
-However, where withdrawal authority is absent, it can produce de facto first-come outcomes.
-
-This is a real operational consequence.
-
-Refinement:
-
-> **Foreseeably scarce pooled systems should resolve the status of established-support withdrawal prospectively rather than allowing missing authority to become an accidental allocation rule.**
-
-Still:
-
-**Missing Authority Must Not Be Repaired By Inventing Authority At Bedside**
-
----
-
-## 92. Prospective-rule laundering
-
-The synthesis resists laundering if it preserves:
-
-**Pooled Label != Pooled Authority**
-
-**Conditional Resource Use != Conditional Participant Standing**
-
-**Resource Governance Authority != Participant Governance Authority**
-
-**Later Rule != Retroactive Authority By Default**
-
-**Public Pool Title != Bodily Recovery Authority**
-
-Thus prospective governance can be legitimate, but only where authority actually existed and remains within scope.
-
----
-
-## 93. Emergency speed
-
-The architecture risks being too slow if every key requires fresh institutional deliberation.
-
-The solution is not fewer authority distinctions.
-
-It is **precomputed authority state** plus current factual verification.
-
-Candidate:
-
-> **Precompute rules and authority; verify facts at runtime.**
-
-Therefore:
-
-**Precomputation Can Reduce Decision Time Without Pre-Deciding Clinical Facts**
-
----
-
-## 94. Public-control risk
-
-Public ownership does not collapse participant boundaries.
-
-**Monopoly Resource Control -> Stronger Stewardship, Not Participant Ownership**
-
-The architecture survives this falsification.
-
----
-
-## 95. Functional independence
-
-Multiple keys only matter where authority functions are genuinely distinct.
-
-**Multiple Fields != Multiple Independent Authorities**
-
-**Organisational Separation != Functional Independence**
-
-This requires institutional topology, conflict-of-interest and audit design.
-
----
-
-# 96. Overall result
-
-**PASS WITH TWENTY-FOUR ARCHITECTURAL REFINEMENTS, NINE MAJOR DOWNSTREAM INTERFACES AND NO COLLAPSE OF THE MULTI-KEY SYNTHESIS.**
-
-The synthesis did not produce a universal answer to every case.
-
-That is a strength where source authority is genuinely absent.
-
-The most important validated architecture is:
-
-> **Precompute authority; verify current facts; require every authority necessary for the actual act; never infer participant authority from resource authority.**
-
----
+1. **First-come priority:** missing established-support withdrawal authority can create de facto incumbency without establishing greater participant worth. Foreseeably scarce pooled systems should define withdrawal status prospectively; bedside urgency cannot invent a missing key.
+2. **Prospective-rule laundering:** a pooled label is not authority, conditional resource use is not conditional participant standing, a later rule does not automatically apply retrospectively, and public title does not authorise bodily recovery.
+3. **Emergency speed:** precompute rule/authority state and verify live clinical, scarcity, intervention and route predicates at execution. Do not precompute the final patient decision.
+4. **Public monopoly:** public control strengthens stewardship duties; it does not establish ownership over participants.
+5. **Functional independence:** multiple keys or committees are not independent when one actor controls their effective source. Verify functional separation, conflicts and evidence provenance.
+6. **Overall synthesis:** the architecture preserves protected established support without granting permanent resource sovereignty and permits legitimate reallocation only through current, independently grounded keys. Genuinely absent authority or unresolved comparability remains unresolved rather than being invented.
 
 # 97. Twenty-four refinements
 
