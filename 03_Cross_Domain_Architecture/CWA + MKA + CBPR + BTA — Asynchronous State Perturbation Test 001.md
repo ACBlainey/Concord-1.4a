@@ -8,22 +8,7 @@
 
 # 1. Purpose
 
-Test whether the four-module stack remains coherent when material state changes asynchronously during a consequential process.
-
-The central question is:
-
-> **Can a material change reopen the correct dependency without either propagating stale state or unnecessarily invalidating unrelated valid state?**
-
-The test injects:
-
-- permission revocation;
-- context reclassification;
-- authority expiry;
-- runtime recovery;
-- route change;
-- partial transition;
-- destination-owner succession;
-- emergency activation and termination.
+Preserve the dependency-scoped reopening architecture and its fifteen asynchronous perturbations. Full historical test instructions and results remain in Concord-1.3.
 
 # 2. Baseline scenario
 
@@ -506,47 +491,11 @@ An authority revocation may block a CBPR commit without changing CWA classificat
 
 A BTA receipt update may complete a transition without reopening an unchanged MKA authority decision.
 
-# 24. Failure injection — global restart
+# 24. Rejected propagation policies
 
-Injected policy:
-
-“Any material state change restarts CWA, MKA, CBPR and BTA from zero.”
-
-Finding:
-
-Safe but structurally excessive.
-
-It destroys useful valid state, increases latency and encourages unnecessary centralisation.
-
-**REJECTED AS DEFAULT ARCHITECTURE.**
-
-# 25. Failure injection — no propagation
-
-Injected policy:
-
-“Each module is independent, so changes never invalidate another module's result.”
-
-Finding:
-
-Unsafe.
-
-It permits stale permission, authority, route and commit state.
-
-**REJECTED.**
-
-# 26. Failure injection — adjacency propagation
-
-Injected policy:
-
-“A changed state invalidates the next module in the chain only.”
-
-Finding:
-
-Insufficient.
-
-Dependencies are not always linear. A destination-owner change may affect CWA, MKA and BTA while not necessarily invalidating unrelated CBPR internal state.
-
-**REJECTED.**
+- **Global restart:** discards unrelated valid state, increases latency and encourages centralisation.
+- **No propagation:** allows stale permission, authority, route and commit claims to persist.
+- **Adjacency-only propagation:** misses non-linear material dependencies, such as destination-owner succession affecting multiple owners.
 
 # 27. Preferred model
 
