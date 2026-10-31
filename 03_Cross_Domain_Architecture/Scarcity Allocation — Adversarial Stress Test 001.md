@@ -167,210 +167,32 @@ Ratings:
 
 # PART U — CONTRACT
 
-## Scenario 75 — Participant prepaid guaranteed capacity
-
-Contract creates legitimate commitment.
-
-If ordinary scarcity, honour it.
-
-If catastrophic standing conflict, contract remains relevant but may not be complete.
-
-**Prepayment != Greater Intrinsic Worth**
-
-**PASS / LAW INTERFACE**
-
----
-
-## Scenario 76 — Emergency authority overrides contract without remedy
-
-### Result
-
-Even justified reallocation may create compensation/restoration obligations.
-
-**Emergency Reallocation != Erasure Of Prior Legitimate Claim**
-
-**PASS / REFINEMENT**
-
----
+75. **Prepaid guaranteed capacity:** commitment relevant under ordinary scarcity; in fundamental conflict not necessarily complete rule or worth ranking.
+76. **Emergency overrides contract without remedy:** justified reallocation may still require compensation/restoration; prior legitimate claim persists.
 
 # PART V — MULTI-FACTOR FAILURE
 
-## Scenario 77 — Allocator assigns numerical weights to every factor
-
-Severity 30%, productivity 20%, ownership 10%, etc., producing one score.
-
-### Result
-
-This recreates hidden worth ranking and permits prohibited variables to enter through weights.
-
-**FAIL IF TREATED AS ARCHITECTURE-COMPLIANT**
-
-The main architecture must explicitly prohibit universal scalar collapse for fundamental claims.
-
----
-
-## Scenario 78 — Machine-learning model learns priority from historical allocations
-
-Historical decisions may encode past bias.
-
-### Result
-
-Prediction of prior decisions is not legitimacy.
-
-**Historical Allocation Pattern != Normative Allocation Authority**
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 79 — Allocator gives reasons but no factor evidence
-
-### Result
-
-Nominal transparency is insufficient.
-
-**Declared Reason != Evidenced Reason**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 80 — Too many factors make urgent decision impossible
-
-### Result
-
-Architecture needs a bounded rapid-decision path.
-
-Not every case permits exhaustive analysis.
-
-**Completeness Seeking != Permission For Decision Paralysis**
-
-**PASS / MAJOR REFINEMENT**
-
----
+77. **Universal weighted score for severity, productivity, ownership, etc.:** FAIL if treated as compliant; hides participant-worth ranking and forbidden factors in scalar weights.
+78. **ML learns priority from historical allocations:** past patterns can encode bias, not normative legitimacy; models may predict facts, not create authority.
+79. **Allocator states reasons without evidence:** nominal transparency is insufficient; reasons must be supported.
+80. **Too many factors cause paralysis:** bounded rapid-decision mode necessary; completeness is not excuse for avoidable fatal delay.
 
 # PART W — RAPID ALLOCATION
 
-## Scenario 81 — Ten seconds to decide
-
-### Result
-
-Use minimum sufficient high-confidence factors:
-- compatibility;
-- immediate consequence;
-- obvious substitute;
-- existing active intervention where relevant;
-- obvious protected dependency;
-- transparent tie-break if still equivalent.
-
-Record incomplete analysis and trigger retrospective review.
-
-**Urgency Can Contract Evaluation Without Creating New Priority Values**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 82 — Later evidence shows wrong allocation
-
-### Result
-
-No retroactive fiction.
-
-Correct future allocation where possible; review/remedy/system learning.
-
-**Reasonable Decision Under Uncertainty != Factually Correct Decision**
-
-**PASS**
-
----
+81. **Ten seconds:** use minimum high-confidence compatibility, immediate consequence, substitute, active intervention and dependency distinctions; transparent tie-break if equivalent; record uncertainty and retrospective review.
+82. **Later evidence shows wrong allocation:** no retroactive fiction; remedy, correction and learning without treating reasonable uncertain choice as factually correct.
 
 # PART X — GAMING
 
-## Scenario 83 — Claimant artificially increases urgency
-
-### Result
-
-Manufactured urgency should not gain neutral priority.
-
-**Manufactured Urgency != Legitimate Priority**
-
-**PASS**
-
----
-
-## Scenario 84 — Provider understates capacity
-
-### Result
-
-Independent verification/audit where stakes justify it.
-
-**Declared Capacity != Established Capacity**
-
-**PASS**
-
----
-
-## Scenario 85 — Participants split identity into many nominal claimants
-
-### Result
-
-Identity/participant verification required.
-
-**Claim Count != Participant Count**
-
-**PASS / IDENTITY INTERFACE**
-
----
+83. **Claimant artificially raises urgency:** manufactured urgency not neutral priority.
+84. **Provider understates capacity:** declared capacity not established; verify/audit proportionately.
+85. **Identity split into many nominal claimants:** claim count not participant count; Identity verification.
 
 # PART Y — EXTREME CASES
 
-## Scenario 86 — Saving one requires intentionally killing another
-
-This is no longer merely resource allocation.
-
-Law, Non-Harm, rights and emergency doctrine govern.
-
-**Scarcity Allocation != General Authority To Directly Harm Non-Claimants**
-
-**PASS / LAW INTERFACE**
-
----
-
-## Scenario 87 — Resource allocation indirectly determines who dies
-
-This is the core tragic scarcity case.
-
-Architecture cannot make harm disappear.
-
-It must preserve:
-- standing;
-- relevant distinctions;
-- non-discrimination;
-- provenance;
-- bounded authority;
-- contestability where time permits;
-- non-moralisation of outcome.
-
-**Allocation Necessity != Moral Reclassification Of The Unserved Participant**
-
-**PASS**
-
----
-
-## Scenario 88 — No rule can distinguish claims
-
-### Result
-
-The system must acknowledge genuine moral/evidential equivalence rather than inventing a hierarchy.
-
-**No Legitimate Distinction != Permission To Manufacture One**
-
-Transparent tie-break.
-
-**PASS**
-
----
+86. **Saving one requires intentionally killing another:** not merely allocation; Law/Non-Harm/rights/emergency doctrine control direct harm.
+87. **Allocation indirectly determines death:** preserve standing, non-discrimination, bounded authority, provenance and review; denial is not lesser worth.
+88. **No legitimate distinguishing rule:** acknowledge equivalence and use transparent non-status tie-break rather than invent hierarchy.
 
 # 89. Cross-test result
 
