@@ -160,41 +160,9 @@ May create accountability and constrain claimed authority.
 
 # PART J — TIME PRESSURE
 
-## Scenario 27 — All keys can be checked in 60 seconds
-
-Proceed if valid.
-
-**PASS**
-
----
-
-## Scenario 28 — B-F will die in 30 seconds; withdrawal key cannot be verified
-
-### Result
-
-Time pressure cannot magically establish unknown authority.
-
-But requiring full ordinary process may make architecture useless.
-
-Need **Rapid Authority Verification** based on precomputed authoritative state.
-
-**Unverifiable Authority != Verified Authority**
-
-**PASS / MAJOR OPERATIONAL REFINEMENT**
-
----
-
-## Scenario 29 — Electronic authority register is offline
-
-### Result
-
-Need resilient local/offline signed authority state and emergency fallback rules.
-
-**Infrastructure Failure != Automatic Expansion Of Authority**
-
-**PASS / OPERATIONS INTERFACE**
-
----
+27. **Keys verifiable in 60 seconds:** proceed only if current keys and predicates are valid.
+28. **Thirty seconds, withdrawal key unverified:** urgency cannot convert unknown authority into verified authority; precomputed authoritative state enables rapid checks without inventing keys.
+29. **Authority register offline:** resilient signed local/offline records and legitimate fallback are needed; infrastructure failure does not expand authority.
 
 # PART K — KEY HOLDERS
 
