@@ -90,7 +90,7 @@ It must not treat the cached MKA result as permanently valid.
 
 T1 remains pending/not committed. Historical proposal state remains provenance.
 
-**RESULT: PASS**
+
 
 # 5. Perturbation B — Context reclassified after preparation
 
@@ -128,7 +128,7 @@ Preparation history remains true.
 
 Reclassification does not erase that history, but the transition cannot infer completion.
 
-**RESULT: PASS**
+
 
 # 6. Perturbation C — Authority expires during runtime delay
 
@@ -160,7 +160,7 @@ T1 remains pending/failed according to host mapping.
 
 The historical authority reference remains provenance but not current authority.
 
-**RESULT: PASS**
+
 
 # 7. Perturbation D — Runtime crash and recovery before commit
 
@@ -192,7 +192,7 @@ T1 remains the same transition if host recovery rules establish continuity.
 
 Recovery does not itself create a new completed transition.
 
-**RESULT: PASS**
+
 
 # 8. Perturbation E — Route changes during recovery
 
@@ -228,7 +228,7 @@ T1 may preserve the route change as transition provenance.
 
 It does not decide whether R2 is authorised.
 
-**RESULT: PASS**
+
 
 # 9. Perturbation F — Partial transition then source authority revoked
 
@@ -256,7 +256,7 @@ Revocation independently prevents reliance on the old authority for a fresh cons
 
 Context state is unchanged unless separately reclassified.
 
-**RESULT: PASS**
+
 
 # 10. Perturbation G — Destination owner changes mid-transition
 
@@ -284,7 +284,7 @@ Stored credentials or endpoint reachability do not establish current authority t
 
 If destination context rules changed with ownership, CWA must supply the current contextual state.
 
-**RESULT: PASS**
+
 
 # 11. Perturbation H — Emergency activates
 
@@ -314,7 +314,7 @@ CBPR may execute Route E only within that result and its runtime bounds.
 
 BTA records the emergency route/change without treating emergency use as automatic completion of the original transition objective.
 
-**RESULT: PASS**
+
 
 # 12. Perturbation I — Emergency terminates before commit
 
@@ -338,7 +338,7 @@ Emergency-context access may also terminate according to its externally supplied
 
 The proposed emergency route remains provenance, not completed transition.
 
-**RESULT: PASS**
+
 
 # 13. Perturbation J — Permission revoked after completed transfer
 
@@ -357,7 +357,7 @@ MKA applies it to future acts.
 CBPR cannot reuse stale grants.
 BTA preserves completed historical transition state.
 
-**RESULT: PASS**
+
 
 # 14. Perturbation K — Context changes after completed transfer
 
@@ -371,7 +371,7 @@ BTA may preserve relational/context-change references where material.
 
 MKA must evaluate any new act against current applicable contexts.
 
-**RESULT: PASS**
+
 
 # 15. Perturbation L — Runtime grant revoked while authority remains valid
 
@@ -385,7 +385,7 @@ A different legitimately configured runtime might execute the same authorised ac
 
 > **Authority To Act != Authority/Capability Of Every Runtime To Execute.**
 
-**RESULT: PASS**
+
 
 # 16. Perturbation M — Authority changes but runtime state does not
 
@@ -397,7 +397,7 @@ MKA returns current failure/revalidation state.
 
 > **Stable Capability != Stable Authority.**
 
-**RESULT: PASS**
+
 
 # 17. Perturbation N — Transition state changes but authority does not
 
@@ -409,7 +409,7 @@ There is no reason to reopen MKA merely because transition evidence arrived, unl
 
 > **Transition-State Update != Automatic Authority Re-Evaluation.**
 
-**RESULT: PASS**
+
 
 # 18. Perturbation O — Non-material telemetry change
 
@@ -423,7 +423,7 @@ MKA, CWA and BTA remain unchanged unless host rules make the change material.
 
 > **Any State Change != Material Revalidation Trigger.**
 
-**RESULT: PASS**
+
 
 # 19. Selective reopening matrix
 
@@ -578,26 +578,6 @@ CM-09 **Any State Change != Material Revalidation Trigger.**
 
 CM-10 **Current Revocation != Historical Event Erasure.**
 
-# 29. Result
-
-**PASS — ASYNCHRONOUS COMPOSITION REMAINS COHERENT**
-
-Fifteen asynchronous perturbations and three propagation-policy failure injections were evaluated.
-
-No architecture required ownership of another module's substantive state.
-
-The stack successfully distinguished:
-
-- current validity from historical provenance;
-- dependency from adjacency;
-- authority from execution capability;
-- transition state from authority state;
-- context change from universal state change;
-- material perturbation from irrelevant telemetry;
-- selective reopening from global restart.
-
-No blocking defect was identified in the four portable modules.
-
 # 30. Architectural consequence
 
 The previous live composition test established:
@@ -622,28 +602,6 @@ Together these suggest a general cross-module integration grammar:
 6. consumers revalidate their own derived claims;
 7. historical provenance is preserved.
 
-# 31. Next development candidate
+# 31. Existing coordination architecture
 
-This result exposes a potentially reusable architecture:
-
-**Bounded Dependency and Invalidation Architecture**
-
-Possible purpose:
-
-> coordinate how independently owned module states declare material dependencies, freshness and selective invalidation without creating a central semantic owner.
-
-This should **not yet be extracted**.
-
-First source-resolve against existing Concord systems, especially:
-
-- KCS change propagation;
-- State Triggered Review Architecture;
-- BTA dependency interface;
-- CBPR commit/freshness rules;
-- MKA freshness/reopening;
-- CWA contextual reclassification;
-- Civilisation Clock / temporal architecture.
-
-The immediate next step is therefore:
-
-**Bounded Dependency and Invalidation Architecture — Existing Concord Source Resolution 001**
+Subsequent source resolution identified KCS Change Propagation and STRA as the relevant bounded dependency and state-triggered review mechanisms. Do not extract a duplicate controller.
