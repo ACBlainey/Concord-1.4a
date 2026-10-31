@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
-**Status:** ACTIVE CROSS-DOMAIN DEVELOPMENT / ADVERSARIAL TEST / PROVISIONAL / NON-CANONICAL  
 **Target:** Scarcity Allocation — Competing Legitimate Claims Under Genuine Resource Insufficiency — Source Resolution 001
 
 ## 1. Test objective
