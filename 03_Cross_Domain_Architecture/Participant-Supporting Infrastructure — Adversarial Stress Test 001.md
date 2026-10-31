@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
-**Status:** ACTIVE CROSS-DOMAIN DEVELOPMENT / ADVERSARIAL TEST / PROVISIONAL / NON-CANONICAL  
 **Target:** Participant-Supporting Infrastructure — Dependency, Property and Continuity Reconciliation 001
 
 ## 1. Purpose
