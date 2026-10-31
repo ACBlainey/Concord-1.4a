@@ -1211,113 +1211,17 @@ Therefore:
 
 ---
 
-# PART X — WHAT BREAKS IF MKA IS TOO LARGE
+# PART X — MKA sizing failure modes
 
-## 81. Sovereignty creep
+## 81–85. Too large: sovereignty and duplication
 
-If MKA begins deciding substantive authority legitimacy itself:
+MKA must not (81) decide substantive legal legitimacy and become sovereign; (82) model all context rules in place of CWA; (83) manage credentials, networks, compute, storage or recovery in place of CBPR; (84) own partial transitions in place of BTA; or (85) reimplement general epistemic evaluation-space theory in place of ESCP. Its value is the narrow composition seam.
 
-- it becomes a constitutional/legal sovereign;
-- domain ownership collapses;
-- verifier/source separation fails.
+# PART XI — MKA minimum necessary functions
 
-Reject.
+## 86–90. Too small: incomplete composition gate
 
----
-
-## 82. Context duplication
-
-If MKA models every contextual rule:
-
-CWA is duplicated.
-
-Reject.
-
----
-
-## 83. Runtime duplication
-
-If MKA manages credentials, network, compute, storage and recovery:
-
-CBPR is duplicated.
-
-Reject.
-
----
-
-## 84. Transition duplication
-
-If MKA tracks all partial transition state:
-
-BTA is duplicated.
-
-Reject.
-
----
-
-## 85. Epistemic duplication
-
-If MKA reimplements general evaluation-space theory:
-
-ESCP is duplicated.
-
-Reject.
-
----
-
-# PART XI — WHAT BREAKS IF MKA IS TOO SMALL
-
-## 86. Pure checklist
-
-If MKA merely asks:
-
-> are all listed keys valid?
-
-ASCP failure returns.
-
-Reject.
-
----
-
-## 87. Static validation
-
-If MKA validates only at proposal:
-
-stale authority can survive to commit.
-
-Reject.
-
----
-
-## 88. No route representation
-
-If MKA validates objective but not route:
-
-different interventions can hide behind same objective.
-
-Reject.
-
----
-
-## 89. No prohibition layer
-
-If MKA checks only positive authority:
-
-local keys can appear to authorise constitutionally prohibited action.
-
-Reject.
-
----
-
-## 90. No composition rule
-
-If MKA checks keys independently but not whether they legitimately compose:
-
-A+B can silently become C.
-
-Reject.
-
----
+MKA must not be reduced to (86) a checklist of valid represented keys without ASCP; (87) static proposal-time validation that permits stale authority at commit; (88) objective-only validation without actual route; (89) positive-key checking that ignores upstream prohibitions; or (90) independent key checks without explicit legitimate composition rules. Each omission allows a distinct false-authorisation pathway.
 
 # PART XII — AUDIT RESULT
 
