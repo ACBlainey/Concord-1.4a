@@ -77,35 +77,9 @@ Ratings:
 
 # PART G — INFRASTRUCTURE
 
-## Scenario 20 — Utility owns transformer and plans shutdown
-
-Ownership/operational authority exists; hospital dependency unrepresented.
-
-ASCP exposes missing participant-support transition dimension.
-
-**PASS**
-
----
-
-## Scenario 21 — Planned shutdown has complete successor service
-
-Transition requirements satisfied.
-
-No indefinite service obligation arises.
-
-**PASS**
-
----
-
-## Scenario 22 — Infrastructure operator has decommission authority but environmental remediation duty remains
-
-Decommission key does not erase residual duty.
-
-MKA and BTA coexist: MKA tests authority completeness; BTA tracks transition state.
-
-**PASS**
-
----
+20. **Utility owns transformer but hospital depends on it:** ownership/operations key does not resolve participant-support transition dimension; ASCP exposes omission.
+21. **Complete successor service exists:** transition obligations may be satisfied without perpetual service duty.
+22. **Decommission authority but residual remediation:** separate environmental duty survives; MKA checks authority, BTA tracks transition.
 
 # PART H — AI RUNTIME
 
