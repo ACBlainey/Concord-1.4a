@@ -74,3 +74,23 @@ Read in full or substantial part: `03_Cross_Domain_Architecture/README.md`, `Con
 **Critical survival conditions:** (1) “Cross-Domain Function != Cross-Domain Authority”; (2) knowledge/metrics/observation and review triggers must not become governance or adjudication; (3) authorised proposal, actual commit, actual execution, residual consequences, downstream material-change propagation, and quiescence are distinct states; (4) preserve independently owned semantics and authorisations.
 
 **Next pass:** inspect the lifecycle integration-test evidence and KCS companion/source-to-section mapping; then evaluate the other cross-domain subfamilies (Ratchet V4.3, Civilisational Developmental Topology, Intercivilisational Wrappers, Constitutional Emergency, metrics, private local evaluation, and rights/withdrawal architectures). Do not prune or merge yet.
+
+
+## Authorial methodology correction — rationale over test evidence (2026-10-31)
+
+The author clarified the purpose of reverse pruning: **retain developed architecture and the essential reasoning why it exists; do not routinely carry test evidence into V1.4a.** V1.3 remains the provenance and testing archive, and architecture/ideas will need subsequent verification anyway. Losing rationale creates a risk that later instances mistakenly remove essential safeguards because they cannot see the problems those safeguards solve.
+
+**Updated retention policy (supersedes the earlier default treatment of E as material to retain in V1.4a):**
+
+- **O — Operational architecture:** keep complete functioning rules, exceptions, interfaces and safeguards.
+- **A — Developed architecture:** keep substantive useful mechanisms, including mixed-source extracts, pending reconciliation.
+- **R — Essential rationale:** keep the problem being solved, why the design is necessary, meaningful alternatives/trade-offs, key failure modes, and the consequences of removing its constraints. Prefer concise explanation tied directly to the relevant architecture rather than exhaustive historical discussion.
+- **T — Tests and development evidence:** normally **exclude from the streamlined V1.4a result** after identifying any unique A/R content. Original tests and provenance remain available in untouched V1.3. Preserve a source pointer in the handoff or mapping, not a copied test transcript.
+- **D — Developmental history / obsolete discussion:** exclude after checking for hidden A/R.
+- **U — Unreviewed or ambiguous:** retain pending inspection.
+
+Files can contain mixed A+R+T+D material; **prune passages within files**, not merely whole files. A test that discovered a failure mode may justify preserving the *failure mode and consequent design requirement* as R/A, without preserving the test record. Do not remove unique rationale simply because the corresponding architecture exists elsewhere. Verify source-to-result survival before removing any inherited source from V1.4a.
+
+**Updated principle: Preserve the mechanism and its reason for existence; archive the evidence and developmental path.**
+
+Earlier inventory's E labels identify provenance-bearing source material; they are not recommendations to retain that evidence in the final V1.4a. This correction governs subsequent classification and pruning.
