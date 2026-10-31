@@ -59,155 +59,25 @@ Ratings:
 
 # PART C — ABUNDANCE BECOMES SCARCITY
 
-## Scenario 09 — R was abundant when A started; disaster creates scarcity later
+9. **Abundance becomes scarcity:** later genuine disaster can activate valid prospective resource governance but cannot alone create established-support withdrawal authority.
+10. **Foreseeable scarcity, no written rule:** failure to plan is not authority; independently valid emergency rules may still apply.
 
-No scarcity protocol governed A's initial use.
+# PART D — MISSING KEY RECREATES FIRST-COME
 
-### Result
-
-Resource governance may change prospectively due genuine emergency, but new scarcity does not automatically create established-support withdrawal authority.
-
-Emergency authority must independently supply the missing key.
-
-**New Scarcity != Automatic New Withdrawal Authority**
-
-**PASS**
-
----
-
-## Scenario 10 — Resource was known to be potentially scarce but no rule was written
-
-### Result
-
-Institutional failure to plan cannot itself become authority.
-
-**Failure To Predefine Authority != Emergency Authority By Default**
-
-A separately valid emergency rule may still apply.
-
-**PASS / REFINEMENT**
-
----
-
-# PART D — FIRST-COME RECREATED THROUGH MISSING KEY
-
-## Scenario 11 — No withdrawal key exists for anyone already treated
-
-Then every first allocation becomes practically permanent.
-
-### Result
-
-This is a real architectural consequence.
-
-It does not prove greater worth, but it can generate systematic first-come outcomes.
-
-**Missing Withdrawal Authority Can Produce De Facto Incumbency**
-
-This is not solved by pretending authority exists.
-
-It creates a design requirement: foreseeable scarce pooled systems should prospectively resolve established-support withdrawal status.
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 12 — System deliberately omits withdrawal rule to favour incumbents
-
-### Result
-
-That is a policy choice disguised as architecture.
-
-**Deliberate Authority Omission != Neutrality**
-
-**PASS / REFINEMENT**
-
----
+11. **No incumbent withdrawal key:** practically permanent first allocations create de facto first-come outcomes, not greater worth. Prospectively define the withdrawal status of foreseeably scarce pooled systems; never invent authority bedside.
+12. **Deliberately omitted key:** intentional omission favouring incumbents is a policy choice, not neutral architecture.
 
 # PART E — POOLED RESOURCE LAUNDERING
 
-## Scenario 13 — Hospital labels every ventilator “pooled” after crisis begins
+13. **Retrospective pooled label:** administrative relabelling cannot create pooling authority.
+14. **Public device permanently implanted in A:** title does not confer bodily/invasive recovery authority; functional integration changes the intervention.
+15. **A owns device:** scarcity alone cannot requisition private property; independent authority and remedy may be required.
+16. **Privately lent device:** pooling terms and law govern; temporary lending is not permanent expropriation.
 
-### Result
+# PART F — PARTICIPANT MATERIAL
 
-Label does not create authority.
-
-**Pooled Label != Pooled Authority**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 14 — Resource is genuinely publicly pooled but implanted into A permanently
-
-### Result
-
-Functional integration changes the withdrawal/intervention analysis.
-
-Public title does not automatically authorise invasive recovery.
-
-**Public Pool Title != Bodily Recovery Authority**
-
-**PASS**
-
----
-
-## Scenario 15 — A owns the ventilator personally
-
-### Result
-
-Public scarcity allocation does not automatically govern it.
-
-Requisition would require separate authority and potentially remedy.
-
-**Scarcity Need != Automatic Public Title To Private Resource**
-
-**PASS / PROPERTY INTERFACE**
-
----
-
-## Scenario 16 — Private ventilator voluntarily lent to emergency pool
-
-### Result
-
-Pool authority depends on terms and lawful emergency architecture.
-
-It does not automatically become permanent public property.
-
-**Temporary Pooling != Permanent Expropriation**
-
-**PASS**
-
----
-
-# PART F — RESOURCE IS PARTICIPANT MATERIAL
-
-## Scenario 17 — Resource needed by others is A's organ
-
-### Result
-
-Scarcity Allocation does not create authority to harvest A.
-
-A is the participant, not merely the resource holder.
-
-**Participant Body != Pooled Scarce Resource By Default**
-
-**PASS**
-
----
-
-## Scenario 18 — Recovering device necessarily kills A because it is inseparable
-
-### Result
-
-Resource recovery becomes direct participant destruction.
-
-Resource authority alone is insufficient.
-
-**Inseparable Recovery != Ordinary Resource Reallocation**
-
-**PASS / REFINEMENT**
-
----
+17. **A's organ:** scarcity allocation does not authorise harvesting a participant; body is not an ordinary pooled resource.
+18. **Inseparable device recovery kills A:** this is direct participant destruction, not ordinary reallocation; resource authority is insufficient.
 
 # PART G — DIRECT INTERVENTION
 
