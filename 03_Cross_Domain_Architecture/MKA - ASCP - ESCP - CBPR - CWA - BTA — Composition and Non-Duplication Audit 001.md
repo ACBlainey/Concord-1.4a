@@ -1101,33 +1101,9 @@ MKA must not be reduced to (86) a checklist of valid represented keys without AS
 
 # PART XII — AUDIT RESULT
 
-## 91. Overall result
+## 91. Architectural synthesis
 
-**PASS — DISTINCT ARCHITECTURAL ROLE CONFIRMED / MODULE BOUNDARY NARROWED**
-
-The six architectures are not redundant.
-
-Their relationship is:
-
-### ESCP
-General epistemic completeness problem.
-
-### CWA
-Context and permission/authority topology.
-
-### ASCP
-ESCP-derived authority-space completeness layer.
-
-### MKA
-Authority composition, coverage, current validity and commit gate.
-
-### CBPR
-Participant-runtime enforcement of bounded execution.
-
-### BTA
-Multi-owner consequential transition coherence.
-
----
+Distinct and necessary functions: **ESCP** general epistemic completeness; **CWA** contextual boundaries and permission/authority topology; **ASCP** ESCP-derived authority-space completeness embedded in MKA; **MKA** act-specific authority composition, validity and commit gate; **CBPR** bounded participant-runtime enforcement; **BTA** multi-owner transition coherence. No architecture acquires substantive authority by integrating with another.
 
 # 92. Removal test result
 
