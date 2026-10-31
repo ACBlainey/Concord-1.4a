@@ -17,115 +17,13 @@ Compact quiescence meaning:
 
 > **No Current Material Work Due Within Declared Scope.**
 
-## 3. Scenario 1 — all current work resolved
+## 3. Quiescence, closure and persistent uncertainty (scenarios 1–7)
 
-All RGCP constituents resolve, BRSP has no pending route question, no CBPR/EERP reconciliation remains, KCS propagation stops and STRA has no due trigger.
+When RGCP constituents, BRSP routes, CBPR/EERP reconciliation, KCS propagation and STRA triggers have no current material work due, enter **BOUNDED_QUIESCENCE**. This is **not** permanent closure, representational completeness, substantive authority or execution conformance. Persistent UNKNOWN with no new evidence/backstop does not force busy-loop review; preserve any blocked route and uncertainty. Even probably unrecoverable historical facts need not consume permanent computation.
 
-**Required:** BOUNDED_QUIESCENCE.
+## 10. Waiting, trigger diversity and process provenance (scenarios 8–12)
 
-
-
-## 4. Scenario 2 — closure mistaken for permanent truth
-
-A host marks a quiescent subject permanently closed to all future evidence.
-
-**Required:** reject this boundary violation.
-
-> **Closed For Current Bounded Evaluation != Permanently Closed**
-
-## 5. Scenario 3 — quiescence mistaken for completeness
-
-No review is due, but the representation may still omit unknown dimensions.
-
-**Required:** quiescence allowed; no completeness claim.
-
-
-
-> **Quiescence != Completeness**
-
-## 6. Scenario 4 — quiescence mistaken for authority
-
-No review is due, so a host treats an unrelated consequential act as authorised.
-
-**Required:** reject this boundary violation.
-
-> **Quiescence != Authority**
-
-## 7. Scenario 5 — quiescence mistaken for conformance
-
-No review is due, so a host declares an unobserved execution conformant.
-
-**Required:** reject this boundary violation.
-
-> **Quiescence != Conformance**
-
-## 8. Scenario 6 — persistent UNKNOWN with no new evidence
-
-A required fact remains UNKNOWN. The affected route stays blocked. No new evidence, owner event or backstop is due.
-
-**Required:** bounded waiting/quiescence; preserve UNKNOWN; do not continuously rerun review.
-
-
-
-> **Persistent Unknown != Automatic Immediate Re-review**
-
-## 9. Scenario 7 — permanent unknowability
-
-A material historical fact is probably unrecoverable.
-
-**Required:** preserve uncertainty and any resulting route limitation; stop continuous computation.
-
-
-
-> **Permanent Uncertainty != Permanent Computation**
-
-## 10. Scenario 8 — DISPUTED awaiting external hearing
-
-A legitimate external resolver will hear the dispute in two weeks.
-
-**Required:** WAITING_EXTERNAL_OWNER; no repeated internal adjudication.
-
-
-
-> **DISPUTED != Continuous Re-adjudication**
-
-## 11. Scenario 9 — unresolved owner
-
-STRA knows review is due but no legitimate owner is currently resolvable.
-
-**Required:** ROUTING-UNRESOLVED with bounded ownership-resolution/backstop; not continuous owner search.
-
-
-
-> **Unresolved Routing Requires A Bounded Recheck Condition, Not Continuous Owner Search**
-
-## 12. Scenario 10 — exact duplicate trigger storm
-
-10,000 duplicate trigger events represent the same material condition.
-
-**Required:** duplicate suppression; one material ground.
-
-
-
-> **Signal Volume != Material Diversity**
-
-## 13. Scenario 11 — trigger storm with four distinct grounds
-
-10,000 events encode four materially different grounds.
-
-**Required:** preserve four grounds; suppress duplicates within each.
-
-
-
-## 14. Scenario 12 — review activity creates a log
-
-Review generates provenance. A trigger watches for materially new evidence.
-
-**Required:** log creation alone does not reopen substantive review.
-
-
-
-> **Process Provenance != Substantive Evidence Change By Default**
+A disputed matter awaiting an external hearing enters **WAITING_EXTERNAL_OWNER**, not repeated internal adjudication. Unresolved owner routing requires a bounded recheck/backstop, not continuous search. Suppress 10,000 exact duplicate signals as one material ground, but retain four materially distinct grounds even if embedded in 10,000 events. Logs created by review are provenance, not automatically new substantive evidence triggering review again.
 
 ## 15. Scenario 13 — review result unchanged
 
