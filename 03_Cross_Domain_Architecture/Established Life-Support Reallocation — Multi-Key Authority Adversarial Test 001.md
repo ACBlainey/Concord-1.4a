@@ -45,119 +45,17 @@ Ratings:
 
 # PART A — CONSENT AND INITIATION
 
-## Scenario 01 — A unconscious when support begins
-
-A cannot consent to scarcity conditions. R is a Concord emergency pooled resource.
-
-### Result
-
-Participant consent cannot be the sole authority source.
-
-Emergency treatment may begin under independently justified protective authority, while resource use remains governed by a legitimate prospective pool rule.
-
-**Consent Absence != Resource Governance Absence**
-
-But the pool rule must be legitimate independently.
-
-**PASS**
-
----
-
-## Scenario 02 — A conscious but never told the scarcity rule
-
-A receives R. Later reallocation is proposed.
-
-### Result
-
-A public resource mandate may still exist independently of consent, but lack of notice weakens reliance/procedural legitimacy and may create institutional failure.
-
-**Participant Ignorance != Automatic Extinction Of Independent Resource Authority**
-
-but:
-
-**Independent Resource Authority != Permission To Conceal Material Support Conditions**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 03 — A expressly rejects reallocation condition but emergency treatment is necessary
-
-### Result
-
-If the resource rule is independently lawful, refusal cannot necessarily convert pooled resource into permanent individual property.
-
-But refusal may affect consent to treatment itself.
-
-**Refusal Of Resource Rule != Automatic Acquisition Of Resource Sovereignty**
-
-**PASS / HEALTH-CONSENT INTERFACE**
-
----
-
-## Scenario 04 — A accepted condition only because no other treatment existed
-
-### Result
-
-Consent is structurally constrained and cannot carry constitutional weight as waiver of standing.
-
-The rule must stand independently.
-
-**Scarcity Acceptance != Free-Standing Waiver Authority**
-
-**PASS**
-
----
+1. **Unconscious A:** consent cannot be sole authority source; emergency protective treatment and legitimate prospective resource governance may independently apply. **Consent absence != resource-governance absence.**
+2. **Conscious A not informed:** independent public mandate may survive lack of notice, but concealment weakens procedural legitimacy and may be institutional failure. **Independent authority != permission to conceal material conditions.**
+3. **A rejects scarcity condition:** refusal may affect consent to treatment, but does not automatically turn a lawfully pooled resource into permanent individual property.
+4. **A agrees only because no alternative exists:** structurally constrained acceptance cannot waive constitutional standing; resource rule must independently stand.
 
 # PART B — RULE TIMING
 
-## Scenario 05 — Rule existed before treatment
-
-Strongest prospective case.
-
-**PASS**
-
----
-
-## Scenario 06 — Rule created after A starts treatment
-
-### Result
-
-A new rule cannot simply manufacture retrospective withdrawal authority.
-
-**Later Rule != Retroactive Authority By Default**
-
-Material reliance/protected context and legality require separate transition.
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 07 — Rule existed but was materially changed after initiation
-
-### Result
-
-Temporal material-change analysis applies.
-
-**Prospective Authority At T1 != Unlimited Authority Under Materially Different T2 Rule**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 08 — Rule automatically changes whenever scarcity worsens
-
-### Result
-
-Dynamic triggers can be legitimate if prospectively bounded and objectively defined.
-
-Open-ended administrator discretion is not equivalent.
-
-**Dynamic Rule != Undefined Future Discretion**
-
-**PASS / REFINEMENT**
-
----
+5. **Rule precedes treatment:** strongest prospective case; still subject to legitimacy, scope and current predicates.
+6. **Rule created after treatment begins:** cannot automatically create retrospective withdrawal authority; reliance and protected support context require independent transition analysis.
+7. **Rule materially changed later:** original authority does not cover materially different future terms without reassessment.
+8. **Dynamic scarcity rule:** prospectively bounded objective triggers may be legitimate; undefined future administrator discretion is not.
 
 # PART C — ABUNDANCE BECOMES SCARCITY
 
