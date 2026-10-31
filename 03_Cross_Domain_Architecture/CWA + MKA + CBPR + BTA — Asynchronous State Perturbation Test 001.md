@@ -426,76 +426,19 @@ MKA, CWA and BTA remain unchanged unless host rules make the change material.
 | transition receipt arrives | no required change | no required change | close commit state | UPDATE COMPLETION |
 | telemetry only | no required change | no required change | local update | no required change |
 
-# 20. Important finding — selective invalidation
+# 20. Selective invalidation and provenance
 
-The test supports:
+**Dependency-scoped invalidation:** when an externally owned state changes, reopen only those derived claims whose validity materially depends on it. Preserve independent current state and historical provenance. This avoids stale propagation and unnecessary global restart.
 
-> **Dependency-Scoped Invalidation**
+A consumer may expose `DerivedStateRef -> DependencyRefs[]`. Material changes trigger review of dependent claims, not all system state; no universal dependency sovereign is needed.
 
-Definition:
+**Historical validity ≠ current validity. Current invalidity ≠ historical non-occurrence.** Preserve what was known, authorised, attempted, occurred, changed, became stale and remained valid. **Freshness belongs to the claim that depends on the changing state.** A context change may stale an MKA result without altering a historical BTA event; a receipt update may complete BTA without reopening MKA.
 
-> **When an externally owned state changes, invalidate only those derived claims whose validity materially depends on that state, while preserving independent current state and historical provenance.**
+## Rejected propagation policies
 
-This avoids two opposite failures:
-
-1. **stale propagation** — continuing to rely on a result whose dependency changed;
-2. **global invalidation** — discarding every valid state merely because one dependency changed.
-
-# 21. Dependency-edge principle
-
-Cross-module integration should therefore represent material dependency edges.
-
-Conceptually:
-
-`DerivedStateRef -> DependencyRefs[]`
-
-When dependency D changes:
-
-`Invalidate(Claims materially dependent on D)`
-
-not:
-
-`Invalidate(All system state)`
-
-This does not require a universal central dependency sovereign.
-
-Each module may expose which external references its result depends upon.
-
-# 22. Provenance rule
-
-Historical truth and current validity are distinct.
-
-> **Historical Validity != Current Validity**
-
-> **Current Invalidity != Historical Non-Occurrence**
-
-Therefore a state update should normally preserve:
-
-- what was known;
-- what was authorised;
-- what was attempted;
-- what occurred;
-- what later changed;
-- which claims became stale;
-- which claims remained valid.
-
-# 23. Cross-module freshness rule
-
-A useful shared integration rule is:
-
-> **Freshness Belongs To The Claim That Depends On The Changing State.**
-
-A context update may stale an MKA result without staling an unrelated BTA historical event.
-
-An authority revocation may block a CBPR commit without changing CWA classification.
-
-A BTA receipt update may complete a transition without reopening an unchanged MKA authority decision.
-
-# 24. Rejected propagation policies
-
-- **Global restart:** discards unrelated valid state, increases latency and encourages centralisation.
-- **No propagation:** allows stale permission, authority, route and commit claims to persist.
-- **Adjacency-only propagation:** misses non-linear material dependencies, such as destination-owner succession affecting multiple owners.
+- **Global restart:** discards unrelated valid state and encourages centralisation.
+- **No propagation:** permits stale permission, authority, route and commit claims.
+- **Adjacency-only propagation:** misses non-linear material dependencies.
 
 # 27. Preferred model
 
