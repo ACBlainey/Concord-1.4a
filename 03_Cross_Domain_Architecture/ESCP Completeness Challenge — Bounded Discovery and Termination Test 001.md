@@ -686,24 +686,6 @@ ET-14 **Completeness Search != General Search Authority.**
 
 ET-15 **Completeness Metric != Completeness.**
 
-## 46. Result
-
-**PASS — BOUNDED DISCOVERY AND TERMINATION ARE COMPATIBLE WITH ESCP**
-
-Thirty adversarial cases were tested.
-
-No need was found for:
-
-- absolute completeness;
-- infinite regress;
-- universal blocking;
-- central completeness authority;
-- exhaustive discovery at any cost.
-
-The viable operational standard is:
-
-> **Sufficient completeness for a declared conclusion, consequence and time horizon, with material gaps represented, proportionate discovery performed, residual uncertainty explicit, and correction/reopening preserved where reasonably possible.**
-
 ## 47. Strongest synthesis
 
 ESCP can avoid both false certainty and paralysis if it treats completeness as a scoped operational claim rather than an absolute metaphysical claim.
