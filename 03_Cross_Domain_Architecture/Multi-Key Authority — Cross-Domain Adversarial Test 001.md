@@ -60,37 +60,9 @@ Ratings:
 
 # PART D — CUSTODY
 
-## Scenario 12 — Detention lawful, communication restriction unnecessary
-
-Detention key valid; communication restriction key absent.
-
-Restriction blocked.
-
-**PASS**
-
----
-
-## Scenario 13 — Custody ends, independent evidence-preservation order remains
-
-Parent custody authority sunsets; independent preservation authority survives.
-
-**Parent Sunset != Independent Child Sunset**
-
-**PASS**
-
----
-
-## Scenario 14 — Custody database fails to propagate release
-
-Runtime state says detained; legal authority expired.
-
-Technical state cannot preserve authority.
-
-**Recorded Authority != Actual Authority**
-
-**PASS / REFINEMENT**
-
----
+12. **Lawful detention, unnecessary communications restriction:** detention authority does not imply communication-restriction authority.
+13. **Custody ends but evidence order remains:** independent preservation authority can survive custody sunset.
+14. **Release not propagated by database:** recorded detained state cannot preserve expired legal authority.
 
 # PART E — EVIDENCE
 
