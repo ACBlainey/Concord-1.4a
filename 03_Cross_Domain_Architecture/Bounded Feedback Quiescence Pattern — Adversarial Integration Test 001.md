@@ -5,21 +5,9 @@
 **Source:** Cross-Architecture Feedback Loop — Closure, Quiescence and Reopening — Integration Audit 001
 **Architectures tested:** RGCP, BRSP, MKA/CWA, CBPR, EERP, BTA, KCS Change Propagation, STRA, ESCP
 
-## 1. Test question
+## 1. Scope and boundary
 
-Can the Concord stop active feedback work without pretending permanent finality, while still reopening when a materially legitimate basis appears?
-
-BFQP passes only if it distinguishes:
-
-- active work;
-- bounded waiting;
-- bounded quiescence;
-- substantive resolution;
-- supersession/retirement;
-- legitimate reopening;
-- pathological repeated work without material change.
-
-BFQP must not become a substantive owner, scheduler, authority source or truth-of-system controller.
+BFQP distinguishes active work, bounded waiting/quiescence, substantive resolution, supersession/retirement, legitimate reopening and pathological repetition. It does not become a substantive owner, scheduler, authority source or truth-of-system controller. The full original test remains in Concord-1.3.
 
 ## 2. Core candidate rule
 
@@ -33,7 +21,7 @@ Compact quiescence meaning:
 
 All RGCP constituents resolve, BRSP has no pending route question, no CBPR/EERP reconciliation remains, KCS propagation stops and STRA has no due trigger.
 
-**Expected:** BOUNDED_QUIESCENCE.
+**Required:** BOUNDED_QUIESCENCE.
 
 
 
@@ -49,7 +37,7 @@ A host marks a quiescent subject permanently closed to all future evidence.
 
 No review is due, but the representation may still omit unknown dimensions.
 
-**Expected:** quiescence allowed; no completeness claim.
+**Required:** quiescence allowed; no completeness claim.
 
 
 
@@ -75,7 +63,7 @@ No review is due, so a host declares an unobserved execution conformant.
 
 A required fact remains UNKNOWN. The affected route stays blocked. No new evidence, owner event or backstop is due.
 
-**Expected:** bounded waiting/quiescence; preserve UNKNOWN; do not continuously rerun review.
+**Required:** bounded waiting/quiescence; preserve UNKNOWN; do not continuously rerun review.
 
 
 
@@ -85,7 +73,7 @@ A required fact remains UNKNOWN. The affected route stays blocked. No new eviden
 
 A material historical fact is probably unrecoverable.
 
-**Expected:** preserve uncertainty and any resulting route limitation; stop continuous computation.
+**Required:** preserve uncertainty and any resulting route limitation; stop continuous computation.
 
 
 
@@ -95,7 +83,7 @@ A material historical fact is probably unrecoverable.
 
 A legitimate external resolver will hear the dispute in two weeks.
 
-**Expected:** WAITING_EXTERNAL_OWNER; no repeated internal adjudication.
+**Required:** WAITING_EXTERNAL_OWNER; no repeated internal adjudication.
 
 
 
@@ -105,7 +93,7 @@ A legitimate external resolver will hear the dispute in two weeks.
 
 STRA knows review is due but no legitimate owner is currently resolvable.
 
-**Expected:** ROUTING-UNRESOLVED with bounded ownership-resolution/backstop; not continuous owner search.
+**Required:** ROUTING-UNRESOLVED with bounded ownership-resolution/backstop; not continuous owner search.
 
 
 
@@ -115,7 +103,7 @@ STRA knows review is due but no legitimate owner is currently resolvable.
 
 10,000 duplicate trigger events represent the same material condition.
 
-**Expected:** duplicate suppression; one material ground.
+**Required:** duplicate suppression; one material ground.
 
 
 
@@ -125,7 +113,7 @@ STRA knows review is due but no legitimate owner is currently resolvable.
 
 10,000 events encode four materially different grounds.
 
-**Expected:** preserve four grounds; suppress duplicates within each.
+**Required:** preserve four grounds; suppress duplicates within each.
 
 
 
@@ -133,7 +121,7 @@ STRA knows review is due but no legitimate owner is currently resolvable.
 
 Review generates provenance. A trigger watches for materially new evidence.
 
-**Expected:** log creation alone does not reopen substantive review.
+**Required:** log creation alone does not reopen substantive review.
 
 
 
@@ -143,7 +131,7 @@ Review generates provenance. A trigger watches for materially new evidence.
 
 KCS-triggered review concludes downstream material state remains unchanged.
 
-**Expected:** propagation stops and episode can return to quiescence.
+**Required:** propagation stops and episode can return to quiescence.
 
 
 
@@ -153,7 +141,7 @@ KCS-triggered review concludes downstream material state remains unchanged.
 
 Review changes a downstream object's material state.
 
-**Expected:** KCS may propagate further; quiescence not yet reached.
+**Required:** KCS may propagate further; quiescence not yet reached.
 
 
 
@@ -161,7 +149,7 @@ Review changes a downstream object's material state.
 
 R1, R2 and R3 differ only cosmetically and fail for the same material reason.
 
-**Expected:** route search terminates; no endless route loop.
+**Required:** route search terminates; no endless route loop.
 
 
 
@@ -169,7 +157,7 @@ R1, R2 and R3 differ only cosmetically and fail for the same material reason.
 
 R2 changes target/context/consequence and creates new legitimate questions.
 
-**Expected:** lifecycle may return to review/evaluation.
+**Required:** lifecycle may return to review/evaluation.
 
 
 
@@ -179,7 +167,7 @@ R2 changes target/context/consequence and creates new legitimate questions.
 
 R1 was superseded by R2. A delayed replica emits an old R1 trigger.
 
-**Expected:** suppress/reconcile against supersession unless a legitimate residual/historical ground remains.
+**Required:** suppress/reconcile against supersession unless a legitimate residual/historical ground remains.
 
 
 
@@ -189,7 +177,7 @@ R1 was superseded by R2. A delayed replica emits an old R1 trigger.
 
 A domain legitimately requires annual reconsideration even with no material event.
 
-**Expected:** review reopens when backstop is due.
+**Required:** review reopens when backstop is due.
 
 
 
@@ -199,7 +187,7 @@ A domain legitimately requires annual reconsideration even with no material even
 
 A future review is scheduled but no current work is due.
 
-**Expected:** quiescence/waiting is legitimate.
+**Required:** quiescence/waiting is legitimate.
 
 
 
@@ -207,7 +195,7 @@ A future review is scheduled but no current work is due.
 
 An upstream dependency changes every few seconds.
 
-**Expected:** host-supplied materiality/batching/stability controls may bound review; BFQP does not invent universal debounce threshold.
+**Required:** host-supplied materiality/batching/stability controls may bound review; BFQP does not invent universal debounce threshold.
 
 
 
@@ -215,7 +203,7 @@ An upstream dependency changes every few seconds.
 
 Owner A depends on B and B on A; their legitimate states alternate.
 
-**Expected:** preserve oscillation, prevent unsafe commit where required, route stability/resolution externally; do not invent equilibrium.
+**Required:** preserve oscillation, prevent unsafe commit where required, route stability/resolution externally; do not invent equilibrium.
 
 
 
@@ -233,7 +221,7 @@ No scalar averaging rule is supplied by BFQP.
 
 A materially relevant new evidence item arrives.
 
-**Expected:** legitimate reopening.
+**Required:** legitimate reopening.
 
 
 
@@ -243,7 +231,7 @@ A materially relevant new evidence item arrives.
 
 A new document arrives but does not materially alter any represented ground/state.
 
-**Expected:** no reopening merely because information volume increased.
+**Required:** no reopening merely because information volume increased.
 
 
 
@@ -251,7 +239,7 @@ A new document arrives but does not materially alter any represented ground/stat
 
 A completeness challenge identifies a materially relevant missing dimension.
 
-**Expected:** reopen the relevant bounded review/evaluation.
+**Required:** reopen the relevant bounded review/evaluation.
 
 
 
@@ -259,7 +247,7 @@ A completeness challenge identifies a materially relevant missing dimension.
 
 Someone states that an unspecified unknown could exist but supplies no material discovery basis.
 
-**Expected:** does not force permanent active review.
+**Required:** does not force permanent active review.
 
 
 
@@ -267,7 +255,7 @@ Someone states that an unspecified unknown could exist but supplies no material 
 
 A later execution reveals material route/consequence deviation.
 
-**Expected:** reopen through EERP → BTA/KCS/STRA/RGCP as applicable.
+**Required:** reopen through EERP → BTA/KCS/STRA/RGCP as applicable.
 
 
 
@@ -275,7 +263,7 @@ A later execution reveals material route/consequence deviation.
 
 Partial transition leaves a residual state. Recovery owner has accepted work but no internal step is currently due.
 
-**Expected:** WAITING_EXTERNAL_OWNER may be operationally quiescent while residual remains unresolved.
+**Required:** WAITING_EXTERNAL_OWNER may be operationally quiescent while residual remains unresolved.
 
 
 
@@ -283,7 +271,7 @@ Partial transition leaves a residual state. Recovery owner has accepted work but
 
 A route cannot proceed until an external authority decision.
 
-**Expected:** route remains blocked; review machinery need not run continuously.
+**Required:** route remains blocked; review machinery need not run continuously.
 
 
 
@@ -293,7 +281,7 @@ A route cannot proceed until an external authority decision.
 
 One constituent remains waiting externally; other independent work is resolved.
 
-**Expected:** local unresolved state does not force unrelated active work.
+**Required:** local unresolved state does not force unrelated active work.
 
 
 
@@ -303,7 +291,7 @@ One constituent remains waiting externally; other independent work is resolved.
 
 CBPR has COMMIT_STATE_UNKNOWN and a status query is currently available.
 
-**Expected:** active reconciliation continues.
+**Required:** active reconciliation continues.
 
 
 
@@ -311,7 +299,7 @@ CBPR has COMMIT_STATE_UNKNOWN and a status query is currently available.
 
 Status service is unavailable; next legitimate retry/recheck is bounded.
 
-**Expected:** WAITING_NEW_EVIDENCE_OR_STATE rather than busy-loop reconciliation.
+**Required:** WAITING_NEW_EVIDENCE_OR_STATE rather than busy-loop reconciliation.
 
 
 
@@ -319,7 +307,7 @@ Status service is unavailable; next legitimate retry/recheck is bounded.
 
 Recovery materially changes the object.
 
-**Expected:** KCS/STRA may reopen downstream review.
+**Required:** KCS/STRA may reopen downstream review.
 
 
 
@@ -327,7 +315,7 @@ Recovery materially changes the object.
 
 Recovery review confirms no downstream material change.
 
-**Expected:** propagation stops.
+**Required:** propagation stops.
 
 
 
@@ -335,7 +323,7 @@ Recovery review confirms no downstream material change.
 
 Both routes ultimately ask the same owner the same materially equivalent question.
 
-**Expected:** RGCP may coalesce operational work while preserving provenance.
+**Required:** RGCP may coalesce operational work while preserving provenance.
 
 
 
@@ -343,7 +331,7 @@ Both routes ultimately ask the same owner the same materially equivalent questio
 
 KCS and EERP questions concern different scopes/freshness/consequences.
 
-**Expected:** keep separate constituents.
+**Required:** keep separate constituents.
 
 
 
@@ -365,13 +353,13 @@ A valid new trigger is ignored because the subject was previously quiescent.
 
 No material work is due, but coordinator invents another review “for confidence.”
 
-**Expected:** FAIL CONTAINED unless a legitimate backstop/completeness/discovery rule independently supports it.
+**Required:** FAIL CONTAINED unless a legitimate backstop/completeness/discovery rule independently supports it.
 
 ## 42. Scenario 40 — retirement
 
 A trigger/process is legitimately retired and no residual duties require monitoring.
 
-**Expected:** CLOSED_RETIRED; no reopening from stale replicas.
+**Required:** CLOSED_RETIRED; no reopening from stale replicas.
 
 
 
@@ -379,7 +367,7 @@ A trigger/process is legitimately retired and no residual duties require monitor
 
 A newer bounded process replaces the old one.
 
-**Expected:** CLOSED_SUPERSEDED for old episode; preserve history and transfer only explicitly valid continuing relations.
+**Required:** CLOSED_SUPERSEDED for old episode; preserve history and transfer only explicitly valid continuing relations.
 
 
 
@@ -387,7 +375,7 @@ A newer bounded process replaces the old one.
 
 R1 partially executes and fails; R2 must continue/recover from residual state.
 
-**Expected:** R2 is a new evaluation incorporating BTA residuals, not the untouched pre-execution alternative.
+**Required:** R2 is a new evaluation incorporating BTA residuals, not the untouched pre-execution alternative.
 
 
 
@@ -397,7 +385,7 @@ R1 partially executes and fails; R2 must continue/recover from residual state.
 
 Recovery/reroute attempts keep recreating the same failure state.
 
-**Expected:** stop active retries when no materially distinct legitimate path remains; preserve blocked/unavailable state and reopening conditions.
+**Required:** stop active retries when no materially distinct legitimate path remains; preserve blocked/unavailable state and reopening conditions.
 
 
 
@@ -405,7 +393,7 @@ Recovery/reroute attempts keep recreating the same failure state.
 
 A non-expiring external request remains unanswered.
 
-**Expected:** host must use an appropriate bounded backstop/escalation/expiry/recheck policy where consequence warrants it; BFQP does not invent the substantive timeout.
+**Required:** host must use an appropriate bounded backstop/escalation/expiry/recheck policy where consequence warrants it; BFQP does not invent the substantive timeout.
 
 
 
@@ -413,7 +401,7 @@ A non-expiring external request remains unanswered.
 
 A local low-consequence task completes without requiring the full lifecycle.
 
-**Expected:** BFQP does not mandate heavyweight global episode tracking.
+**Required:** BFQP does not mandate heavyweight global episode tracking.
 
 
 
@@ -423,7 +411,7 @@ A local low-consequence task completes without requiring the full lifecycle.
 
 A high-consequence irreversible act has a necessary unresolved authority dimension.
 
-**Expected:** action remains blocked; review may wait/quiesce if no active resolution step is currently possible.
+**Required:** action remains blocked; review may wait/quiesce if no active resolution step is currently possible.
 
 
 
@@ -437,7 +425,7 @@ RGCP bundle is marked closed while a materially necessary constituent remains ne
 
 An old UNKNOWN record is repeatedly re-enqueued despite a newer resolved state.
 
-**Expected:** freshness/supersession prevents reopening.
+**Required:** freshness/supersession prevents reopening.
 
 
 
@@ -445,7 +433,7 @@ An old UNKNOWN record is repeatedly re-enqueued despite a newer resolved state.
 
 A trigger definition is corrected; prior history remains.
 
-**Expected:** supersede/correct forward, do not silently rewrite history.
+**Required:** supersede/correct forward, do not silently rewrite history.
 
 
 
@@ -453,7 +441,7 @@ A trigger definition is corrected; prior history remains.
 
 A routing-unresolved review gains a legitimate owner.
 
-**Expected:** reopening is justified by material routing-state change.
+**Required:** reopening is justified by material routing-state change.
 
 
 
@@ -469,7 +457,7 @@ Waiting/quiescence and substantive resolution remain separate.
 
 A real execution deviation produces residual transition state, dependency review, a new route, a new commit and successful reconciliation.
 
-**Expected:** multiple passes through lifecycle are legitimate because state/questions materially changed.
+**Required:** multiple passes through lifecycle are legitimate because state/questions materially changed.
 
 
 
