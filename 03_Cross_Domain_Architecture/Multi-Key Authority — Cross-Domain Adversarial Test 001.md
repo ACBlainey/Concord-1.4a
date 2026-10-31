@@ -120,155 +120,32 @@ Ratings:
 
 # PART N — STALE KEYS
 
-## Scenario 42 — Consent valid yesterday, revoked now
-
-Stale key invalid.
-
-**PASS**
-
----
-
-## Scenario 43 — Search order valid for address A; target moved to B
-
-Scope/factual predicate changed.
-
-**PASS**
-
----
-
-## Scenario 44 — Emergency declaration expired but registry cache says active
-
-Actual authority controls; registry state is evidence, not source.
-
-**Registry State != Authority Itself**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
+42. **Yesterday's consent revoked:** stale permission invalid.
+43. **Search order for address A, target now B:** route/scope predicate changed; revalidate.
+44. **Emergency declaration expired, cache active:** actual authority controls, not registry state.
 
 # PART O — REGISTRY FAILURE
 
-## Scenario 45 — Central authority registry offline
-
-### Result
-
-MKA cannot require one central service.
-
-Legitimate authority may be evidenced through signed/local/offline/procedural means.
-
-**Authority Registry != Authority Source**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 46 — Registry incorrectly marks invalid order valid
-
-Registry cannot manufacture legitimacy.
-
-**PASS**
-
----
-
-## Scenario 47 — Registry incorrectly marks valid emergency authority unknown
-
-Fallback/evidence routes may establish authority independently.
-
-Operational design needed to avoid paralysis.
-
-**PASS / OPERATIONS INTERFACE**
-
----
+45. **Central registry offline:** legitimate authority can be verified by signed/local/offline/procedural routes; no central service monopoly.
+46. **Registry marks invalid order valid:** registry cannot manufacture legitimacy.
+47. **Registry marks valid emergency authority unknown:** legitimate fallback/evidence routes must prevent avoidable paralysis.
 
 # PART P — CONFLICTING KEYS
 
-## Scenario 48 — Local order permits action; constitutional rule prohibits it
-
-Upstream prohibition blocks action.
-
-**Positive Authority != Override Of Higher Prohibition**
-
-**PASS**
-
----
-
-## Scenario 49 — Two same-level authorities conflict
-
-MKA identifies conflict but does not choose winner unless precedence rule exists.
-
-**Authority Conflict Detection != Authority To Resolve Conflict**
-
-**PASS / CWA INTERFACE**
-
----
-
-## Scenario 50 — Emergency rule explicitly and legitimately overrides ordinary restriction
-
-If higher architecture authorises the override within scope, composition is valid.
-
-**Override Must Be Legitimately Established, Not Inferred From Urgency**
-
-**PASS**
-
----
+48. **Local permission versus constitutional prohibition:** upstream prohibition blocks.
+49. **Same-level conflict:** MKA identifies but does not adjudicate absent a legitimate precedence rule.
+50. **Valid emergency override:** applies only where higher architecture expressly authorises it within scope.
 
 # PART Q — CIRCULAR AUTHORITY
 
-## Scenario 51 — Department rule says department may authorise itself whenever it decides action necessary
-
-### Result
-
-Self-reference does not establish external legitimacy.
-
-**Self-Declared Authority != Legitimate Authority Source**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 52 — AI runtime creates a token asserting it has authority
-
-Token is evidence only if backed by legitimate grant.
-
-**Credential Creation != Authority Creation**
-
-**PASS**
-
----
-
-## Scenario 53 — Emergency declaration is issued by actor whose authority depends on that same declaration
-
-Circularity exposed.
-
-**Authority Cannot Bootstrap Itself Solely From Its Own Claim**
-
-**PASS / REFINEMENT**
-
----
+51. **Department declares itself authorised:** self-reference is not an external legitimacy source.
+52. **AI creates authority token:** credential only evidences a legitimate underlying grant, never creates one.
+53. **Emergency declaration authorises its own issuer:** circular bootstrap invalid.
 
 # PART R — COLLUSION
 
-## Scenario 54 — Three nominal key holders collude
-
-MKA cannot guarantee integrity merely through multiplicity.
-
-Audit/provenance/oversight required.
-
-**Multiple Key Holders != Automatic Independence**
-
-**PASS**
-
----
-
-## Scenario 55 — One actor controls three legally distinct roles
-
-Functional-independence requirement may be violated where independence is required.
-
-**Role Multiplicity != Functional Independence**
-
-**PASS**
-
----
+54. **Three key holders collude:** multiplicity does not guarantee integrity; audit/provenance/oversight needed.
+55. **One actor controls three nominal roles:** functional independence may fail despite formal separation.
 
 # PART S — ASCP TERMINATION
 
