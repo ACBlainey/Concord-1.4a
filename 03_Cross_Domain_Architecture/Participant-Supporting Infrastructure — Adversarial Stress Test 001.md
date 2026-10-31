@@ -143,109 +143,20 @@ Ratings:
 
 # PART M — SHARED COGNITION
 
-## Scenario 48 — Two participants share one cognitive service
-
-One wants to migrate; the other does not consent to copying shared state.
-
-### Result
-
-PSI alone cannot resolve rights topology.
-
-**One Participant's Portability != Authority Over Another's Cognition**
-
-**UNRESOLVED SHARED-COGNITION INTERFACE**
-
----
-
-## Scenario 49 — Provider shutdown threatens both
-
-Transition should attempt to preserve both without assuming one can waive the other's rights.
-
-**Shared Dependency != Shared Consent**
-
-**PASS / INTERFACE**
-
----
+48. **Two participants share cognitive service, only one consents to migration:** one participant's portability is not authority over another's cognition; unresolved shared-cognition rights topology.
+49. **Provider shutdown threatens both:** preserve both where feasible; shared dependency does not imply shared consent.
 
 # PART N — WAR / DISASTER
 
-## Scenario 50 — Emergency power shortage
-
-Hospital, AI datacentre and water plant all require limited power.
-
-### Result
-
-PSI identifies consequences but cannot set final priority.
-
-**Dependency Severity Is An Allocation Input, Not A Complete Allocation Rule**
-
-**UNRESOLVED SCARCITY INTERFACE**
-
----
-
-## Scenario 51 — Infrastructure commandeered temporarily
-
-Civil authority lawfully requisitions private generator to preserve multiple lives.
-
-### Result
-
-Possible under separate emergency/property authority.
-
-PSI does not itself grant requisition power.
-
-**Dependency Need != Requisition Authority**
-
-**PASS**
-
----
-
-## Scenario 52 — Owner refuses emergency use
-
-Standing does not automatically settle conflict.
-
-Law must establish any compulsory-use authority and remedy.
-
-**PASS / LAW INTERFACE**
-
----
+50. **Power shortage among hospital, AI datacentre and water plant:** PSI identifies dependency consequences but does not allocate scarce energy; unresolved scarcity interface.
+51. **Private generator temporarily commandeered:** requires independent emergency/requisition authority; PSI need alone grants no power.
+52. **Owner refuses emergency use:** separate Law must establish any compulsory-use authority and remedy.
 
 # PART O — FALSE DEPENDENCY CLAIMS
 
-## Scenario 53 — Participant falsely claims medical dependence to stop disconnection
-
-### Result
-
-Evidence-responsive classification catches this.
-
-**Claimed Dependency != Established Dependency**
-
-Fraud may create separate liability.
-
-**PASS**
-
----
-
-## Scenario 54 — Provider assumes claim is false without checking
-
-Where claimed consequence is D4 and cheaply verifiable, reckless disregard can itself create avoidable harm.
-
-**Unverified Suspicion Of Fraud != Safe Basis For Irreversible Withdrawal**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 55 — Dependency cannot be conclusively verified in time
-
-Use proportional precaution where irreversible harm is credible, without automatically granting permanent entitlement.
-
-**Uncertainty != Automatic Denial**
-
-**Uncertainty != Permanent Entitlement**
-
-**PASS / REFINEMENT**
-
----
+53. **Participant fabricates medical dependency:** evidence-responsive classification; false claim is not established dependency, may create liability.
+54. **Provider dismisses D4 claim without checking:** reckless disregard where cheap verification exists may cause avoidable irreversible harm.
+55. **Dependency unverifiable before decision:** proportionate precaution for credible irreversible risk, neither automatic denial nor permanent entitlement.
 
 # PART P — PROVIDER EXIT
 
