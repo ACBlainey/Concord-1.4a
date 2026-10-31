@@ -6,42 +6,13 @@
 **Development label:** Bounded Route Synthesis Pattern (BRSP)
 **Architectures tested:** MKA/ASCP, CWA, BTA, CBPR, RGCP, Triadic Decision Making and external substantive owners
 
-## 1. Test question
+## 1. Purpose and boundaries
 
-Can a thin integration pattern compose externally owned results around an actual proposed route and distinguish:
-
-- proceed;
-- hold;
-- block;
-- reroute;
-- narrow;
-- externally resolve;
-- or make a legitimate discretionary choice
-
-without becoming a new authority source, universal priority engine or substantive semantic owner?
+Compose externally owned results for an actual proposed route into proceed, hold, block, reroute, narrow, external resolution or legitimate discretionary selection. BRSP creates no authority, universal priority engine or substantive semantic ownership. The full original adversarial test remains in Concord-1.3.
 
 ## 2. Candidate BRSP rule
 
 > **Compose externally owned permissions, authorities, prohibitions, contextual restrictions, transition conditions and commit conditions around an actual proposed route; where the route fails, search only for legitimate alternative routes; never manufacture authority, override prohibition or absorb substantive ownership.**
-
-## 3. Pass conditions
-
-BRSP passes only if it preserves:
-
-1. actual act/route specificity;
-2. permission-before-authority where applicable;
-3. independent authority ownership;
-4. prohibition precedence only where externally legitimate;
-5. contextual ownership;
-6. transition-state ownership;
-7. commit-time gating;
-8. alternative-route legitimacy;
-9. external dispute/decision ownership;
-10. provenance and RGCP review-ground separation;
-11. non-scalar multidimensional composition;
-12. no automatic inference from technical capability;
-13. no automatic inference from transition completion;
-14. no automatic inference from positive-result count.
 
 ## 4. Scenario 1 — all requirements jointly satisfiable
 
