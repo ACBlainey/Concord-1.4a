@@ -716,25 +716,3 @@ and:
 
 > **Bounded Termination != Epistemic Closure**
 
-## 48. Next development question
-
-The next useful step is not another general ESCP architecture.
-
-The test now provides enough material to define a small **ESCP operational companion** containing:
-
-- completeness challenge;
-- bounded discovery ladder;
-- consequence scaling;
-- termination states;
-- reopening triggers;
-- anti-paralysis/anti-closure rules.
-
-Before extraction, this should be checked against the existing ESCP portable module's status and PMEDG history to determine whether it belongs as:
-
-1. a companion upgrade to ESCP;
-2. a revision of the existing ESCP module; or
-3. development evidence only.
-
-Recommended next work:
-
-**ESCP Operational Companion — PMEDG Boundary Review 001**
