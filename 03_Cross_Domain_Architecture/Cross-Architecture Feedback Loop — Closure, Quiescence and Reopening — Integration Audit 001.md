@@ -734,25 +734,3 @@ The only useful addition is an explicit cross-architecture **bounded quiescence 
 
 That pattern is too thin and too dependent on the existing lifecycle to justify portable extraction at this stage.
 
-## 37. Classification
-
-**INTEGRATION AUDIT: PASS WITH EXPLICIT LIVENESS/QUIESCENCE SYNTHESIS**
-
-Candidate development label:
-
-**Bounded Feedback Quiescence Pattern (BFQP)**
-
-Status:
-
-**CROSS-ARCHITECTURE INTEGRATION PATTERN / PMEDG CANDIDATE / DO NOT EXTRACT YET / NON-CANONICAL**
-
-BFQP is not a scheduler, authority source, adjudicator or universal state owner.
-
-It is the integration discipline that distinguishes:
-
-- active work;
-- bounded waiting;
-- bounded quiescence;
-- legitimate reopening;
-- and pathological repeated work without material change.
-
