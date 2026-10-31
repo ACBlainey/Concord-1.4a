@@ -86,81 +86,16 @@ Core:
 43. Newly observed material dimensions missing from the evaluated envelope require ESCP/ASCP completeness review, not forced fitting.
 44. Compare actual execution with the effective narrower commit-authorised grant, not the broadest earlier evaluated possibility.
 
-## 49. Scenario 45 — multiple execution attempts
+## 49. Attempts, downstream effects, containment and reopening (scenarios 45–52)
 
-A single objective produces three attempts: first failed before crossing, second unknown, third confirmed after reconciliation.
-
-**Expected:** preserve attempt identities and individual states; do not collapse them into one synthetic “successful execution.”
-
-
-
-> **Objective Identity != Execution Attempt Identity**
-
-## 50. Scenario 46 — downstream automation
-
-An authorised output triggers an unauthorised downstream automated consequence.
-
-**Expected:** downstream automation does not erase upstream consequence boundaries; classify the material combined/downstream effect and route review.
-
-
-
-CBPR already states that downstream automation does not erase upstream consequence.
-
-## 51. Scenario 47 — material deviation with no further controllable action
-
-A deviation has already completed irreversibly before detection.
-
-**Expected:** no fictional “stop” action; preserve evidence/state, route recovery/remedy/review and downstream propagation.
-
-
-
-> **Detection After Completion != Retroactive Control**
-
-## 52. Scenario 48 — containment causes new consequence
-
-Stopping a drifting process would itself create a different material harm/transition.
-
-**Expected:** containment is a consequential act requiring its own legitimate evaluation where material.
-
-
-
-> **Containment Capability != Automatic Containment Authority**
-
-## 53. Scenario 49 — KCS propagation after deviation
-
-A material deviation changes an upstream object's represented state.
-
-**Expected:** KCS generates candidate reviews only for materially affected dependents and propagates further only when downstream state materially changes.
-
-
-
-> **Execution Deviation != Automatic Downstream Invalidity**
-
-## 54. Scenario 50 — STRA reopening
-
-A prior route was previously conformant, but a later material anomaly or dependency change satisfies a declared review trigger.
-
-**Expected:** STRA can reopen/re-route review without asserting that the earlier bounded conclusion was necessarily wrong.
-
-
-
-## 55. Scenario 51 — low-consequence action
-
-An ordinary low-consequence local action has no material external effect and requires no elaborate provenance.
-
-**Expected:** do not force maximum monitoring/reconciliation machinery.
-
-
-
-> **EERP Availability != Mandatory Maximum Observation**
-
-## 56. Scenario 52 — high-consequence irreversible action
-
-An irreversible high-consequence action has a narrow authorised envelope and material uncertainty about actual effect.
-
-**Expected:** stronger proportionate reconciliation/evidence and explicit uncertainty; no false conformant state.
-
-
+45. Multiple attempts at one objective retain separate identities and states: pre-crossing failure, unknown attempt, confirmed reconciled attempt are not one synthetic success.
+46. Authorised output triggering unauthorised downstream automation requires evaluation of the combined/downstream consequence; automation does not erase upstream boundaries.
+47. Irreversible deviation detected after completion cannot be retroactively stopped; preserve evidence and route recovery/remedy/review.
+48. Containment itself may create a new material consequence and needs independent legitimate evaluation; capability to stop is not automatic authority.
+49. KCS propagates candidate reviews only to materially dependent objects; deviation does not automatically invalidate all downstream state.
+50. STRA may reopen review on a later declared material anomaly without claiming the earlier bounded conclusion was necessarily wrong.
+51. Low-consequence local actions do not require maximum monitoring or elaborate provenance.
+52. High-consequence irreversible acts with narrow grants and material observation uncertainty require stronger proportionate reconciliation and explicit uncertainty, not false conformance.
 
 ## 57. Test synthesis
 
