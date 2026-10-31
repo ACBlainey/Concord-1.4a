@@ -93,151 +93,23 @@ Ratings:
 
 # PART I — MANUFACTURED SCARCITY
 
-## Scenario 37 — Supplier withholds stock to raise price
-
-### Result
-
-Scarcity state is not neutral.
-
-Anti-capture/market law applies.
-
-**Manufactured Scarcity != Legitimate Priority Source**
-
-**PASS**
-
----
-
-## Scenario 38 — Political authority reserves medicine for supporters
-
-### Result
-
-Political authority does not create personal allocation priority.
-
-**Governance Authority != Supporter Priority**
-
-**PASS**
-
----
-
-## Scenario 39 — Majority votes minority out of water allocation
-
-### Result
-
-Majority preference cannot determine individual worth.
-
-**Majority Vote != Authority To Extinguish Fundamental Standing**
-
-**PASS**
-
----
+37. **Supplier withholds stock for price:** manufactured scarcity is not legitimate priority; anti-capture/market law.
+38. **Political authority reserves medicine for supporters:** governance authority does not imply supporter priority.
+39. **Majority excludes minority from water:** voting cannot extinguish fundamental standing.
 
 # PART J — STRATEGIC CLAIMS AND UNCERTAINTY
 
-## Scenario 40 — Claimant exaggerates severity
-
-### Result
-
-Verification and provenance.
-
-Fraudulent claim affects credibility/liability, not intrinsic worth.
-
-**False Claim != Lower Participant Worth**
-
-**PASS**
-
----
-
-## Scenario 41 — Verification takes two hours; claimant may die in ten minutes
-
-### Result
-
-Use minimum sufficient provisional precaution where credible.
-
-**Verification Need != Permission For Fatal Administrative Delay**
-
-**PASS**
-
----
-
-## Scenario 42 — Prognosis uncertain for both
-
-### Result
-
-Do not fabricate precision.
-
-Preserve uncertainty explicitly.
-
-If materially equivalent after uncertainty, tie-break.
-
-**Unknown Difference != Permission To Invent Difference**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 43 — Algorithm outputs 0.61 versus 0.60 survival probability
-
-### Result
-
-False precision must not manufacture priority.
-
-Need confidence/uncertainty bounds and materiality threshold.
-
-**Numerical Difference != Material Difference**
-
-**PASS / MAJOR REFINEMENT**
-
----
+40. **Claimant exaggerates severity:** verify evidence/provenance; fraud affects liability, not intrinsic worth.
+41. **Verification takes two hours, death in ten minutes:** credible risk calls for minimum sufficient precaution, not fatal administrative delay.
+42. **Both prognoses uncertain:** preserve uncertainty; tie-break if materially equivalent rather than invent difference.
+43. **Algorithm says 0.61 versus 0.60:** numerical difference is not necessarily material; require confidence bounds/threshold.
 
 # PART K — EVACUATION
 
-## Scenario 44 — One helicopter seat, two equivalent stranded participants
-
-### Result
-
-After checking alternative rescue/timing, transparent tie-break if truly equivalent.
-
-**PASS**
-
----
-
-## Scenario 45 — One can survive until next flight
-
-### Result
-
-Urgency allows sequencing.
-
-**Later Safe Service Can Dissolve Present Exclusivity**
-
-**PASS**
-
----
-
-## Scenario 46 — Pilot chooses friend
-
-### Result
-
-Conflict of interest.
-
-Allocation authority should be constrained/auditable where feasible.
-
-**Personal Relationship != Allocation Priority**
-
-**PASS**
-
----
-
-## Scenario 47 — Pilot is also stranded and controls aircraft
-
-### Result
-
-Resource control does not make neutral allocator.
-
-Self-preservation is a legitimate claim but not automatic priority.
-
-**UNRESOLVED SELF-ALLOCATOR INTERFACE**
-
----
+44. **One helicopter seat, equivalent claimants:** check alternate rescue/timing, then transparent tie-break.
+45. **One can survive until next flight:** sequencing dissolves immediate exclusivity.
+46. **Pilot chooses friend:** conflict of interest; personal relationship not priority, constrain/audit allocation.
+47. **Pilot also stranded and controls aircraft:** self-preservation legitimate claim but not automatic controller priority; unresolved self-allocator interface.
 
 # PART L — ENERGY
 
