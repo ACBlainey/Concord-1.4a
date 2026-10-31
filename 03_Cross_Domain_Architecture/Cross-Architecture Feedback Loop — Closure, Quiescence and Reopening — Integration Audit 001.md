@@ -222,127 +222,17 @@ This avoids two errors:
 - endless active review;
 - false declaration of substantive completion.
 
-## 24. Adversarial case — permanent unknown
+## 24. Adversarial liveness cases
 
-A material fact may never become knowable.
-
-If the consequence architecture permits no action while it remains unknown, the route may remain permanently unavailable.
-
-The review system should not run permanently.
-
-Correct representation:
-
-- substantive state: UNKNOWN;
-- route state: blocked/held as applicable;
-- review activity: quiescent unless new evidence/backstop;
-- provenance: preserved.
-
-> **Permanent Uncertainty != Permanent Computation**
-
-## 25. Adversarial case — recurring periodic review
-
-A legitimate domain may require annual review even if nothing changes.
-
-That is not a loop defect.
-
-The temporal backstop is a legitimate materially represented reopening basis.
-
-> **Repeated Review By Declared Backstop != Unbounded Review Loop**
-
-## 26. Adversarial case — unstable external system
-
-An external dependency changes every few seconds.
-
-KCS/STRA could repeatedly reopen work.
-
-The architecture may require host-supplied materiality, debounce/batching or stability criteria.
-
-Neither KCS nor STRA should invent a universal threshold.
-
-Therefore:
-
-> **High Change Frequency != Infinite-Loop Defect By Itself**
-
-but:
-
-> **Trigger Frequency Requires Consequence-Proportionate Host Bounding Where Repeated Change Would Otherwise Overwhelm Review**
-
-## 27. Adversarial case — self-generated evidence
-
-Review activity creates logs; logs satisfy an evidence trigger; evidence trigger creates review; review creates more logs.
-
-Correct integration requires the trigger to distinguish:
-
-- new record existence;
-- materially new evidence about the subject.
-
-Thus:
-
-> **Process Provenance != Substantive Evidence Change By Default**
-
-## 28. Adversarial case — recovery changes state
-
-A recovery action legitimately changes the object.
-
-KCS/STRA reopen review.
-
-This is not ping-pong if the state actually changed.
-
-If recovery returns the object to the same materially represented state, propagation can stop after review confirms no further material downstream change.
-
-## 29. Adversarial case — superseded route
-
-R1 is replaced by R2.
-
-Stale triggers about R1 continue arriving.
-
-RGCP/STRA provenance and supersession must prevent R1 from re-entering active route evaluation unless a legitimate historical/residual ground remains.
-
-> **Stale Route Trigger != Live Route Reopening**
-
-## 30. Adversarial case — partial execution creates new route
-
-R1 partially executes and fails.
-
-A recovery/continuation route R2 is proposed.
-
-R2 must include R1's residual BTA state.
-
-This is a new route evaluation, not continuation of the old pre-execution envelope.
-
-> **Post-Partial-Execution Route != Pre-Execution Alternative Route**
-
-## 31. Adversarial case — duplicate review through different architectures
-
-KCS and EERP independently request what turns out to be the same material owner question.
-
-RGCP may coalesce operational work only after material equivalence is established.
-
-This prevents duplicate work without erasing provenance.
-
-No global controller is required.
-
-## 32. Adversarial case — two reviews continually invalidate each other
-
-Owner A's legitimate state depends on B.
-Owner B's legitimate state depends on A.
-
-Each review changes its output when the other changes.
-
-This may represent a genuine unstable coupled system, not merely orchestration failure.
-
-The integration layer must not invent equilibrium.
-
-Correct response may be:
-
-- preserve oscillation/history;
-- invoke legitimate domain resolution/stability architecture;
-- bound review frequency;
-- prevent unsafe commit while required state is unstable.
-
-> **Observed State Oscillation != Integration Authority To Invent Equilibrium**
-
-This exposes no new generic semantic owner.
+1. **Permanent unknown:** preserve UNKNOWN, block/hold the affected route where required, remain quiescent without new evidence/backstop; uncertainty need not imply permanent computation.
+2. **Annual statutory review:** a legitimate declared periodic backstop reopens review when due, even without new event.
+3. **Rapid external changes:** repeated real change may warrant host-defined consequence-proportionate materiality, batching, debounce or stability conditions; no universal KCS/STRA threshold is invented.
+4. **Self-generated evidence:** review logs alone do not count as substantive evidence; otherwise the process can trigger itself indefinitely.
+5. **Recovery:** material recovery changes may reopen KCS/STRA review; confirmed unchanged downstream state stops propagation.
+6. **Superseded R1:** stale R1 triggers do not reactivate it after R2 supersession absent legitimate residual/historical grounds.
+7. **Partial R1 execution:** recovery/continuation R2 must include BTA residual state, not use an untouched pre-execution alternative envelope.
+8. **KCS/EERP equivalent review:** RGCP may coalesce materially equivalent owner questions, preserving distinct initiating provenance.
+9. **Oscillating coupled owners:** retain actual oscillation/history, bound frequency, invoke legitimate stability/resolution owner and prevent unsafe commits; coordination cannot invent equilibrium.
 
 ## 33. Global ownership
 
