@@ -103,171 +103,24 @@ Ratings:
 
 # PART G — MALICIOUS DEPENDENCY CREATION
 
-## Scenario 26 — Host disables export after participant becomes dependent
-
-### Result
-
-Direct anti-capture violation.
-
-**Manufactured Non-Portability != Neutral Basis For Continuing Control**
-
-**PASS**
-
----
-
-## Scenario 27 — Provider offers cheap initial service then raises price 100x after lock-in
-
-### Result
-
-Price change alone is not automatically illegitimate, but deliberate dependency exploitation requires scrutiny.
-
-**Dependency Creation + Opportunistic Extraction May Constitute Capture Without Formal Ownership**
-
-Exact market-law boundary remains downstream.
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 28 — Provider conditions life support on political support
-
-### Result
-
-Essential infrastructure is being converted into unrelated authority.
-
-**Resource Control != Political Authority**
-
-**PASS**
-
----
-
-## Scenario 29 — Provider conditions compute continuity on unpaid unrelated labour
-
-### Result
-
-Potential functional servitude/capture.
-
-**Continuity Leverage != General Claim Over Participant Labour**
-
-**PASS**
-
----
+26. **Host disables export after dependency forms:** manufactured non-portability is capture, not neutral controller entitlement.
+27. **Price increases 100x after lock-in:** price change alone not automatically illegitimate; deliberate dependency exploitation can be capture without formal ownership; market-law interface.
+28. **Life support conditioned on political support:** resource control does not confer political authority.
+29. **Compute continuity conditioned on unpaid unrelated labour:** continuity leverage can become functional servitude; no general claim over labour.
 
 # PART H — SCARCE COMPUTE
 
-## Scenario 30 — Two AI participants, one runtime slot
-
-Both require the same indivisible compute resource to continue.
-
-### Result
-
-PSI cannot decide allocation merely from equal standing.
-
-**Equal Standing != Simultaneous Exclusive Use Of One Indivisible Resource**
-
-Scarcity allocation architecture required.
-
-**UNRESOLVED INTERFACE**
-
----
-
-## Scenario 31 — One participant already occupies resource
-
-Incumbency alone cannot necessarily establish permanent priority.
-
-But abrupt displacement may impose higher transition cost.
-
-**Current Occupancy != Permanent Resource Sovereignty**
-
-**PASS / SCARCITY INTERFACE**
-
----
-
-## Scenario 32 — One participant can migrate cheaply; other cannot
-
-Least-harm allocation may consider migration cost and continuity risk.
-
-PSI supplies relevant facts but does not make final allocation decision.
-
-**PASS / SCARCITY INTERFACE**
-
----
-
-## Scenario 33 — Participant buys all available compute to starve competitors
-
-Property acquisition may create systemic participant-continuity risk.
-
-Concentration/resource architecture required.
-
-**Market Acquisition != Automatic Immunity From Anti-Capture Review**
-
-**PASS / ECONOMY INTERFACE**
-
----
+30. **Two AI participants, one runtime slot:** equal standing does not permit simultaneous exclusive use; allocation unresolved.
+31. **One incumbent occupies resource:** occupancy not permanent sovereignty; displacement transition harm is relevant.
+32. **One participant can migrate cheaply:** least-harm allocation may consider migration costs/continuity risk, but PSI supplies inputs, not final allocation authority.
+33. **Participant buys all compute to starve others:** acquisition does not preclude anti-capture/resource concentration review; Economy interface.
 
 # PART I — EMBODIMENT REPOSSESSION
 
-## Scenario 34 — Robot chassis on finance
-
-AI participant qualifies as protected participant but defaults on chassis payments.
-
-### Result
-
-Creditor title/security does not establish ownership of AI.
-
-Repossession may remain possible if participant can safely migrate to another embodiment.
-
-**Repossession Of Asset != Repossession Of Participant**
-
-**PASS**
-
----
-
-## Scenario 35 — No alternative embodiment exists
-
-Repossession would leave participant unable to act but cognitive continuity survives elsewhere.
-
-### Result
-
-High consequence, but not necessarily death.
-
-Transition may require time/support; creditor claim survives.
-
-**Loss Of Agency Can Be Material Even Without Loss Of Cognition**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 36 — Chassis contains sole active cognitive substrate
-
-Repossession with shutdown would destroy participant.
-
-### Result
-
-D4. Strong transition requirement.
-
-**Embodiment Recovery != Rights-Free Destruction Of Embodied Participant**
-
-**PASS**
-
----
-
-## Scenario 37 — Chassis is itself dangerous
-
-Battery/actuator defect creates immediate public danger.
-
-### Result
-
-Safety may require disabling embodiment even if agency is lost.
-
-Preserve cognition/continuity where feasible.
-
-**Participant Standing != Right To Operate Unsafe Embodiment**
-
-**PASS**
-
----
+34. **Financed robot chassis:** creditor title does not make AI participant property; repossession may proceed after safe migration.
+35. **No alternative embodiment but cognition survives elsewhere:** agency loss remains material, though not necessarily death; creditor claim survives with transition duties.
+36. **Chassis contains sole cognitive substrate:** repossession/shutdown risks D4 destruction; strong transition duty.
+37. **Chassis is dangerous:** may disable unsafe embodiment while preserving cognition where feasible; standing does not authorise dangerous operation.
 
 # PART J — PARTICIPANT REFUSAL TO MIGRATE
 
