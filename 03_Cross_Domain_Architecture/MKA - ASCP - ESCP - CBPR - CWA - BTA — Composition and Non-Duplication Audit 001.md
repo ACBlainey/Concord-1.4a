@@ -898,140 +898,16 @@ Example: participant-supporting infrastructure migration.
 
 # PART VIII — NON-DUPLICATION TESTS
 
-## 62. Can ESCP absorb ASCP?
+## 62–69. Absorption boundaries
 
-Partly.
-
-ESCP already supplies the general logical problem.
-
-But ESCP does not define:
-
-- authority keys;
-- route-sensitive authority;
-- scope;
-- composition;
-- inheritance;
-- prohibitions;
-- commit consequences.
-
-### Finding
-
-ASCP should remain **derived from ESCP but operationally embedded in MKA**.
-
-Do not create a separate portable ASCP module at present.
-
----
-
-# 63. Can CWA absorb MKA?
-
-No.
-
-CWA represents authority topology and contextual conflict but explicitly does not claim universal composition/adjudication authority.
-
-MKA must work across contexts and domains after CWA has exposed relevant boundaries.
-
-### Finding
-
-**Distinct.**
-
----
-
-# 64. Can CBPR absorb MKA?
-
-No.
-
-CBPR contains a strong runtime implementation of MKA-like principles but is scoped to bounded participant-associated computation/execution.
-
-MKA applies to:
-
-- police;
-- courts;
-- clinicians;
-- property owners;
-- infrastructure operators;
-- emergency responders;
-- allocators;
-- institutions.
-
-### Finding
-
-**CBPR is an implementation host for MKA principles, not the general owner.**
-
----
-
-# 65. Can BTA absorb MKA?
-
-No.
-
-BTA explicitly refuses ownership of substantive authority.
-
-It can preserve AuthorityRefs but cannot determine whether the authority set for a transition action is complete/current/composable.
-
-### Finding
-
-**Distinct and complementary.**
-
----
-
-# 66. Can MKA absorb CWA?
-
-No.
-
-MKA cannot independently discover/represent the full contextual topology, nested spaces, permission variation, boundary activation or context residue.
-
-### Finding
-
-**No.**
-
----
-
-# 67. Can MKA absorb CBPR?
-
-No.
-
-MKA does not own:
-
-- compute;
-- resource budgets;
-- storage mounts;
-- tool permissions;
-- network controls;
-- credentials custody;
-- activation;
-- checkpoint/recovery;
-- runtime lifecycle.
-
-### Finding
-
-**No.**
-
----
-
-# 68. Can MKA absorb BTA?
-
-No.
-
-MKA does not own multi-owner transition identity, partial crossing, pending state, completion, rollback/recovery or transition provenance.
-
-### Finding
-
-**No.**
-
----
-
-# 69. Can MKA absorb ESCP?
-
-No.
-
-ASCP is only one specialised ESCP application.
-
-ESCP remains much broader across science, medicine, intelligence evaluation, governance, economics, engineering and other evaluation problems.
-
-### Finding
-
-**No.**
-
----
+- **ESCP cannot fully absorb ASCP (62):** ESCP supplies the general completeness problem but not authority keys, route-sensitive scope, composition, inheritance, prohibitions or commit consequences. ASCP is an ESCP-derived layer operationally embedded in MKA, not a separate peer portable module.
+- **CWA cannot absorb MKA (63):** context and authority topology do not themselves decide cross-context authority composition; conflict representation is not adjudication.
+- **CBPR cannot absorb MKA (64):** CBPR enforces runtime actions, whereas MKA also applies to human police, courts, clinicians, operators, allocators and institutions. CBPR hosts MKA principles without owning general authority composition.
+- **BTA cannot absorb MKA (65):** transition coordination preserves AuthorityRefs but cannot establish the required current/composable authority set.
+- **MKA cannot absorb CWA (66):** full contextual topology, nested spaces, permission variation, boundary activation and residual context remain with CWA.
+- **MKA cannot absorb CBPR (67):** compute, budgets, storage, tools, network, credential custody, activation, checkpoints and runtime recovery remain with CBPR.
+- **MKA cannot absorb BTA (68):** transition identity, partial crossings, pending state, completion, rollback/recovery and transition provenance remain with BTA.
+- **MKA cannot absorb ESCP (69):** ASCP is only one specialised application of domain-neutral ESCP, which continues to apply to science, medicine, governance, economics and engineering.
 
 # PART IX — MODULE-BOUNDARY DECISION
 
