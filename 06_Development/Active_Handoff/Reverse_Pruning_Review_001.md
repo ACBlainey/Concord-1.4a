@@ -147,3 +147,7 @@ Mandatory handling:
 Created `06_Development/Active_Handoff/KCS_Companion_002_Clause_Crosswalk_001.md` comparing source §§1–18 against actual KCS V2.0 Section 06 (Chapters 31–33), including rationale and authority boundaries. Findings: principal mechanisms represented; **partial survival** for the explicit three-way document-role distinction (§2), alternative-equivalence vocabulary (§7), and scope granularity (§11). Relationship to Companion 001 remains unresolved pending its own complete review. Test/status sections (§§17–18) need not be copied into the streamlined result.
 
 **Disposition: RETAIN Companion 002 intact.** No operational edits or pruning. Continue with Companion 001, Companion 003 and relevant KCS V2.0 sections; verify apparent omissions rather than automatically importing duplicate text.
+
+## Completed direct-pruning work
+
+- **2026-10-31 — DONE:** `03_Cross_Domain_Architecture/Concord Consequential Action and Feedback Lifecycle — End-to-End Integration Test 001.md` pruned **16,213 → 8,189 characters** in V1.4a, replacing repetitive test phases/PASS claims with source-grounded architectural rationale, owner boundaries, failure modes, implementation questions and provenance pointer to untouched V1.3. Commit `894546c388f141c58bcbc36d0b571c66e350f8c4`. No further audit required for this file unless later integration identifies a concrete conflict. **New method:** finish/prune/commit each file directly; record only concise completion or genuine unresolved issues; companion files require particular care.
