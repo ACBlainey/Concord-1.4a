@@ -213,83 +213,19 @@ Ratings:
 
 # PART AE — AGGREGATE ACTION
 
-## Scenario 84 — Batch operation contains 10,000 individually authorised actions
-
-Does MKA require 10,000 fresh constitutional analyses?
-
-### Result
-
-A validated common authority pattern may be applied at class/batch level where material contexts are genuinely equivalent, with exception detection.
-
-**Repeated Equivalent Action != Mandatory Re-Derivation Of Identical Authority**
-
-**PASS / MAJOR SCALABILITY REFINEMENT**
-
----
-
-## Scenario 85 — One item in batch crosses protected boundary
-
-Exception must be separable.
-
-**Batch Authority != Permission To Hide Material Exceptions**
-
-**PASS**
-
----
+84. **10,000 equivalent authorised actions:** validated common authority class may be reused where contexts genuinely equivalent, checking dynamic predicates and exceptions.
+85. **One batch item crosses protected boundary:** isolate exception; batch grant cannot hide material differences.
 
 # PART AF — AUTHORITY COMPOSITION
 
-## Scenario 86 — Authority A expressly includes B under governing law
-
-Composition valid.
-
-**Explicit Legitimate Composition != Authority Creep**
-
-**PASS**
-
----
-
-## Scenario 87 — A and B separately valid; actor assumes together they imply C
-
-No.
-
-**Authority(A) + Authority(B) != Authority(C) Without Legitimate Composition**
-
-**PASS**
-
----
-
-## Scenario 88 — Composition rule itself expired
-
-Composition fails at runtime.
-
-**Composition Rule Is Itself Authority-Relevant State**
-
-**PASS / REFINEMENT**
-
----
+86. **A expressly includes B under governing law:** legitimate composition is valid.
+87. **A+B assumed to imply C:** independent validity does not authorise an unprovided third function.
+88. **Composition rule expired:** composition fails; rule validity is itself authority-relevant state.
 
 # PART AG — UPSTREAM PROHIBITION
 
-## Scenario 89 — Every local key valid, but act would convert participant into property contrary to constitutional standing
-
-Blocked.
-
-This demonstrates why local completeness is not enough.
-
-**Complete Local Authority Set != Authority To Violate Upstream Constitutional Prohibition**
-
-**PASS**
-
----
-
-## Scenario 90 — Upstream rule permits exception under specified emergency trigger
-
-If trigger valid, exception can operate within scope.
-
-**PASS**
-
----
+89. **Local keys valid but act violates participant standing:** higher constitutional prohibition blocks despite local completeness.
+90. **Legitimate upstream emergency exception:** applies only if its actual trigger is satisfied within scope.
 
 # PART AH — TEST SYNTHESIS
 
