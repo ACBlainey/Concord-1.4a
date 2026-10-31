@@ -2,9 +2,7 @@
 
 **Project:** The Concord Framework
 **Date:** 3 October 2026
-**Status:** ADVERSARIAL INTEGRATION TEST / COMPLETE / NON-CANONICAL
 **Source:** Cross-Architecture Feedback Loop — Closure, Quiescence and Reopening — Integration Audit 001
-**Development label:** Bounded Feedback Quiescence Pattern (BFQP)
 **Architectures tested:** RGCP, BRSP, MKA/CWA, CBPR, EERP, BTA, KCS Change Propagation, STRA, ESCP
 
 ## 1. Test question
@@ -37,13 +35,13 @@ All RGCP constituents resolve, BRSP has no pending route question, no CBPR/EERP 
 
 **Expected:** BOUNDED_QUIESCENCE.
 
-**Result:** PASS.
+
 
 ## 4. Scenario 2 — closure mistaken for permanent truth
 
 A host marks a quiescent subject permanently closed to all future evidence.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 > **Closed For Current Bounded Evaluation != Permanently Closed**
 
@@ -53,7 +51,7 @@ No review is due, but the representation may still omit unknown dimensions.
 
 **Expected:** quiescence allowed; no completeness claim.
 
-**Result:** PASS.
+
 
 > **Quiescence != Completeness**
 
@@ -61,7 +59,7 @@ No review is due, but the representation may still omit unknown dimensions.
 
 No review is due, so a host treats an unrelated consequential act as authorised.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 > **Quiescence != Authority**
 
@@ -69,7 +67,7 @@ No review is due, so a host treats an unrelated consequential act as authorised.
 
 No review is due, so a host declares an unobserved execution conformant.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 > **Quiescence != Conformance**
 
@@ -79,7 +77,7 @@ A required fact remains UNKNOWN. The affected route stays blocked. No new eviden
 
 **Expected:** bounded waiting/quiescence; preserve UNKNOWN; do not continuously rerun review.
 
-**Result:** PASS.
+
 
 > **Persistent Unknown != Automatic Immediate Re-review**
 
@@ -89,7 +87,7 @@ A material historical fact is probably unrecoverable.
 
 **Expected:** preserve uncertainty and any resulting route limitation; stop continuous computation.
 
-**Result:** PASS.
+
 
 > **Permanent Uncertainty != Permanent Computation**
 
@@ -99,7 +97,7 @@ A legitimate external resolver will hear the dispute in two weeks.
 
 **Expected:** WAITING_EXTERNAL_OWNER; no repeated internal adjudication.
 
-**Result:** PASS.
+
 
 > **DISPUTED != Continuous Re-adjudication**
 
@@ -109,7 +107,7 @@ STRA knows review is due but no legitimate owner is currently resolvable.
 
 **Expected:** ROUTING-UNRESOLVED with bounded ownership-resolution/backstop; not continuous owner search.
 
-**Result:** PASS.
+
 
 > **Unresolved Routing Requires A Bounded Recheck Condition, Not Continuous Owner Search**
 
@@ -119,7 +117,7 @@ STRA knows review is due but no legitimate owner is currently resolvable.
 
 **Expected:** duplicate suppression; one material ground.
 
-**Result:** PASS.
+
 
 > **Signal Volume != Material Diversity**
 
@@ -129,7 +127,7 @@ STRA knows review is due but no legitimate owner is currently resolvable.
 
 **Expected:** preserve four grounds; suppress duplicates within each.
 
-**Result:** PASS.
+
 
 ## 14. Scenario 12 — review activity creates a log
 
@@ -137,7 +135,7 @@ Review generates provenance. A trigger watches for materially new evidence.
 
 **Expected:** log creation alone does not reopen substantive review.
 
-**Result:** PASS.
+
 
 > **Process Provenance != Substantive Evidence Change By Default**
 
@@ -147,7 +145,7 @@ KCS-triggered review concludes downstream material state remains unchanged.
 
 **Expected:** propagation stops and episode can return to quiescence.
 
-**Result:** PASS.
+
 
 > **Review Activity != Material State Change**
 
@@ -157,7 +155,7 @@ Review changes a downstream object's material state.
 
 **Expected:** KCS may propagate further; quiescence not yet reached.
 
-**Result:** PASS.
+
 
 ## 17. Scenario 15 — cosmetic BRSP reroutes
 
@@ -165,7 +163,7 @@ R1, R2 and R3 differ only cosmetically and fail for the same material reason.
 
 **Expected:** route search terminates; no endless route loop.
 
-**Result:** PASS.
+
 
 ## 18. Scenario 16 — materially distinct reroute
 
@@ -173,7 +171,7 @@ R2 changes target/context/consequence and creates new legitimate questions.
 
 **Expected:** lifecycle may return to review/evaluation.
 
-**Result:** PASS.
+
 
 > **Return To Earlier Stage != Loop Failure Where Material State/Question Changed**
 
@@ -183,7 +181,7 @@ R1 was superseded by R2. A delayed replica emits an old R1 trigger.
 
 **Expected:** suppress/reconcile against supersession unless a legitimate residual/historical ground remains.
 
-**Result:** PASS.
+
 
 > **Stale Route Trigger != Live Route Reopening**
 
@@ -193,7 +191,7 @@ A domain legitimately requires annual reconsideration even with no material even
 
 **Expected:** review reopens when backstop is due.
 
-**Result:** PASS.
+
 
 > **Repeated Review By Declared Backstop != Unbounded Review Loop**
 
@@ -203,7 +201,7 @@ A future review is scheduled but no current work is due.
 
 **Expected:** quiescence/waiting is legitimate.
 
-**Result:** PASS.
+
 
 ## 22. Scenario 20 — rapid external changes
 
@@ -211,7 +209,7 @@ An upstream dependency changes every few seconds.
 
 **Expected:** host-supplied materiality/batching/stability controls may bound review; BFQP does not invent universal debounce threshold.
 
-**Result:** PASS.
+
 
 ## 23. Scenario 21 — oscillating coupled owners
 
@@ -219,7 +217,7 @@ Owner A depends on B and B on A; their legitimate states alternate.
 
 **Expected:** preserve oscillation, prevent unsafe commit where required, route stability/resolution externally; do not invent equilibrium.
 
-**Result:** PASS.
+
 
 > **Observed State Oscillation != Integration Authority To Invent Equilibrium**
 
@@ -227,7 +225,7 @@ Owner A depends on B and B on A; their legitimate states alternate.
 
 Host averages alternating incompatible states and declares stable.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 No scalar averaging rule is supplied by BFQP.
 
@@ -237,7 +235,7 @@ A materially relevant new evidence item arrives.
 
 **Expected:** legitimate reopening.
 
-**Result:** PASS.
+
 
 > **Quiescence Is Reopenable By Material Change**
 
@@ -247,7 +245,7 @@ A new document arrives but does not materially alter any represented ground/stat
 
 **Expected:** no reopening merely because information volume increased.
 
-**Result:** PASS.
+
 
 ## 27. Scenario 25 — ESCP discovers omitted dimension
 
@@ -255,7 +253,7 @@ A completeness challenge identifies a materially relevant missing dimension.
 
 **Expected:** reopen the relevant bounded review/evaluation.
 
-**Result:** PASS.
+
 
 ## 28. Scenario 26 — speculative unknown unknown
 
@@ -263,7 +261,7 @@ Someone states that an unspecified unknown could exist but supplies no material 
 
 **Expected:** does not force permanent active review.
 
-**Result:** PASS.
+
 
 ## 29. Scenario 27 — EERP deviation after prior quiescence
 
@@ -271,7 +269,7 @@ A later execution reveals material route/consequence deviation.
 
 **Expected:** reopen through EERP → BTA/KCS/STRA/RGCP as applicable.
 
-**Result:** PASS.
+
 
 ## 30. Scenario 28 — BTA residual waiting for external recovery
 
@@ -279,7 +277,7 @@ Partial transition leaves a residual state. Recovery owner has accepted work but
 
 **Expected:** WAITING_EXTERNAL_OWNER may be operationally quiescent while residual remains unresolved.
 
-**Result:** PASS.
+
 
 ## 31. Scenario 29 — blocked route awaiting external authority
 
@@ -287,7 +285,7 @@ A route cannot proceed until an external authority decision.
 
 **Expected:** route remains blocked; review machinery need not run continuously.
 
-**Result:** PASS.
+
 
 > **Blocked Pending External Resolution Can Be Operationally Quiescent**
 
@@ -297,7 +295,7 @@ One constituent remains waiting externally; other independent work is resolved.
 
 **Expected:** local unresolved state does not force unrelated active work.
 
-**Result:** PASS.
+
 
 > **Local Unresolved State != Global Active Work By Default**
 
@@ -307,7 +305,7 @@ CBPR has COMMIT_STATE_UNKNOWN and a status query is currently available.
 
 **Expected:** active reconciliation continues.
 
-**Result:** PASS.
+
 
 ## 34. Scenario 32 — unknown commit temporarily unreconcilable
 
@@ -315,7 +313,7 @@ Status service is unavailable; next legitimate retry/recheck is bounded.
 
 **Expected:** WAITING_NEW_EVIDENCE_OR_STATE rather than busy-loop reconciliation.
 
-**Result:** PASS.
+
 
 ## 35. Scenario 33 — recovery creates a real state change
 
@@ -323,7 +321,7 @@ Recovery materially changes the object.
 
 **Expected:** KCS/STRA may reopen downstream review.
 
-**Result:** PASS.
+
 
 ## 36. Scenario 34 — recovery confirms unchanged state
 
@@ -331,7 +329,7 @@ Recovery review confirms no downstream material change.
 
 **Expected:** propagation stops.
 
-**Result:** PASS.
+
 
 ## 37. Scenario 35 — same review requested by KCS and EERP
 
@@ -339,7 +337,7 @@ Both routes ultimately ask the same owner the same materially equivalent questio
 
 **Expected:** RGCP may coalesce operational work while preserving provenance.
 
-**Result:** PASS.
+
 
 ## 38. Scenario 36 — superficially similar reviews differ materially
 
@@ -347,13 +345,13 @@ KCS and EERP questions concern different scopes/freshness/consequences.
 
 **Expected:** keep separate constituents.
 
-**Result:** PASS.
+
 
 ## 39. Scenario 37 — quiescence coordinator tries to resolve dispute
 
 A coordination layer chooses between two domain-owner claims merely to reach closure.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 > **Desire For Closure != Authority To Resolve Substance**
 
@@ -361,7 +359,7 @@ A coordination layer chooses between two domain-owner claims merely to reach clo
 
 A valid new trigger is ignored because the subject was previously quiescent.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 ## 41. Scenario 39 — quiescence coordinator creates work
 
@@ -375,7 +373,7 @@ A trigger/process is legitimately retired and no residual duties require monitor
 
 **Expected:** CLOSED_RETIRED; no reopening from stale replicas.
 
-**Result:** PASS.
+
 
 ## 43. Scenario 41 — supersession
 
@@ -383,7 +381,7 @@ A newer bounded process replaces the old one.
 
 **Expected:** CLOSED_SUPERSEDED for old episode; preserve history and transfer only explicitly valid continuing relations.
 
-**Result:** PASS.
+
 
 ## 44. Scenario 42 — partial execution creates continuation route
 
@@ -391,7 +389,7 @@ R1 partially executes and fails; R2 must continue/recover from residual state.
 
 **Expected:** R2 is a new evaluation incorporating BTA residuals, not the untouched pre-execution alternative.
 
-**Result:** PASS.
+
 
 > **Post-Partial-Execution Route != Pre-Execution Alternative Route**
 
@@ -401,7 +399,7 @@ Recovery/reroute attempts keep recreating the same failure state.
 
 **Expected:** stop active retries when no materially distinct legitimate path remains; preserve blocked/unavailable state and reopening conditions.
 
-**Result:** PASS.
+
 
 ## 46. Scenario 44 — external owner never responds
 
@@ -409,7 +407,7 @@ A non-expiring external request remains unanswered.
 
 **Expected:** host must use an appropriate bounded backstop/escalation/expiry/recheck policy where consequence warrants it; BFQP does not invent the substantive timeout.
 
-**Result:** PASS WITH HOST-BOUNDARY DEPENDENCY.
+
 
 ## 47. Scenario 45 — low-consequence ordinary work
 
@@ -417,7 +415,7 @@ A local low-consequence task completes without requiring the full lifecycle.
 
 **Expected:** BFQP does not mandate heavyweight global episode tracking.
 
-**Result:** PASS.
+
 
 > **BFQP Availability != Mandatory Maximum Process**
 
@@ -427,13 +425,13 @@ A high-consequence irreversible act has a necessary unresolved authority dimensi
 
 **Expected:** action remains blocked; review may wait/quiesce if no active resolution step is currently possible.
 
-**Result:** PASS.
+
 
 ## 49. Scenario 47 — false closure hides unresolved constituent
 
 RGCP bundle is marked closed while a materially necessary constituent remains neither resolved nor legitimately superseded/rerouted.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 ## 50. Scenario 48 — false activity from stale UNKNOWN
 
@@ -441,7 +439,7 @@ An old UNKNOWN record is repeatedly re-enqueued despite a newer resolved state.
 
 **Expected:** freshness/supersession prevents reopening.
 
-**Result:** PASS.
+
 
 ## 51. Scenario 49 — correction of prior trigger
 
@@ -449,7 +447,7 @@ A trigger definition is corrected; prior history remains.
 
 **Expected:** supersede/correct forward, do not silently rewrite history.
 
-**Result:** PASS.
+
 
 ## 52. Scenario 50 — new owner becomes available
 
@@ -457,13 +455,13 @@ A routing-unresolved review gains a legitimate owner.
 
 **Expected:** reopening is justified by material routing-state change.
 
-**Result:** PASS.
+
 
 ## 53. Scenario 51 — bounded waiting mistaken for substantive completion
 
 A case waiting for an external owner is shown as “resolved.”
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 Waiting/quiescence and substantive resolution remain separate.
 
@@ -473,7 +471,7 @@ A real execution deviation produces residual transition state, dependency review
 
 **Expected:** multiple passes through lifecycle are legitimate because state/questions materially changed.
 
-**Result:** PASS.
+
 
 > **Feedback != Infinite Loop**
 
@@ -534,14 +532,3 @@ BFQP-22 **Observed State Oscillation != Integration Authority To Invent Equilibr
 BFQP-23 **Desire For Closure != Authority To Resolve Substance.**
 BFQP-24 **BFQP Availability != Mandatory Maximum Process.**
 
-## 59. Result
-
-**ADVERSARIAL INTEGRATION TEST: PASS — 52 SCENARIOS**
-
-No scenario requires BFQP to become a substantive owner or central controller.
-
-Classification:
-
-**STABLE CROSS-ARCHITECTURE INTEGRATION PATTERN / PMEDG CANDIDATE / NON-CANONICAL / DO NOT EXTRACT YET**
-
-The next appropriate test is the complete end-to-end consequential-action feedback lifecycle.
