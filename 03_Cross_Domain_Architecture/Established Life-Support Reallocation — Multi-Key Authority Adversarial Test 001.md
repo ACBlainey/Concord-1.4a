@@ -87,47 +87,9 @@ Ratings:
 
 # PART H — FALSE EMERGENCY
 
-## Scenario 22 — Administrator exaggerates scarcity to activate emergency key
-
-### Result
-
-Scarcity verification fails.
-
-No authority stack.
-
-**Claimed Emergency != Established Emergency**
-
-**PASS**
-
----
-
-## Scenario 23 — Emergency declared because budget was cut
-
-### Result
-
-Financial constraint can create real scarcity but does not automatically satisfy emergency authority.
-
-Cause/provenance and alternatives matter.
-
-**Administrative Scarcity != Automatic Emergency Scarcity**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 24 — Institution deliberately underinvested then invokes emergency
-
-### Result
-
-Manufactured scarcity is not neutral.
-
-May create accountability and constrain claimed authority.
-
-**Manufactured Emergency != Neutral Authority Trigger**
-
-**PASS**
-
----
+22. **Exaggerated scarcity:** false predicate invalidates emergency key.
+23. **Budget cut:** financial scarcity does not automatically satisfy emergency legal criteria; cause, alternatives and provenance matter.
+24. **Deliberate underinvestment:** manufactured scarcity creates accountability questions and can constrain claimed emergency authority.
 
 # PART I — EMERGENCY DURATION
 
