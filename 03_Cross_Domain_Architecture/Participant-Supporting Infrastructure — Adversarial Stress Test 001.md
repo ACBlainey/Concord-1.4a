@@ -160,171 +160,23 @@ Ratings:
 
 # PART P — PROVIDER EXIT
 
-## Scenario 56 — Small provider wants retirement
-
-Provider has served one dependent participant for years and wants to stop working.
-
-### Result
-
-Participant protection cannot amount to ownership of provider labour.
-
-Transition planning should seek replacement.
-
-**Provider Exit Is A Legitimate Civil Interest**
-
-**PASS**
-
----
-
-## Scenario 57 — No successor provider exists
-
-### Result
-
-This is a genuine civil capability gap.
-
-The provider cannot automatically be compelled forever merely because society failed to create succession.
-
-**Institutional Failure To Provide Succession != Automatic Permanent Personal Service Duty**
-
-Emergency bounded duties may exist under separate Law.
-
-**PASS / MAJOR INTERFACE**
-
----
-
-## Scenario 58 — Provider created monopoly deliberately
-
-Provider bought/eliminated alternatives, then seeks extreme exit payment.
-
-### Result
-
-Manufactured dependency and concentration alter responsibility.
-
-**Controller-Created Absence Of Alternatives != Neutral Market Condition**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 59 — Provider gives very long notice
-
-Participant makes no effort to transition despite adequate support.
-
-### Result
-
-Transition duty can terminate.
-
-**Transition Protection Requires Opportunity, Not Guaranteed Acceptance**
-
-**PASS**
-
----
+56. **Small provider retires:** participant cannot own provider labour; seek replacement through bounded transition.
+57. **No successor exists:** institutional succession failure does not automatically compel perpetual personal service; separate emergency Law may impose bounded duties.
+58. **Provider deliberately creates monopoly:** controller-created lack of alternatives is not neutral market condition; responsibility increases.
+59. **Very long notice and participant makes no transition effort:** genuine adequate opportunity can sunset duty; acceptance not guaranteed.
 
 # PART Q — CONTRACTUAL ALLOCATION
 
-## Scenario 60 — Contract clearly states no continuity guarantee
-
-Participant knowingly accepts ordinary service with easy alternatives.
-
-### Result
-
-Relevant at D0-D2.
-
-**No-Guarantee Term != No Rights In Every Future Context**
-
-If circumstances later become D4, contract is relevant but not automatically dispositive.
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 61 — Provider explicitly accepts critical-service duty
-
-Provider charges for guaranteed failover/migration.
-
-### Result
-
-Contract strengthens transition obligation.
-
-**Accepted Continuity Duty != Ownership Of Participant**
-
-**PASS**
-
----
-
-## Scenario 62 — Participant conceals critical use
-
-Provider reasonably believed service was ordinary commodity hosting.
-
-### Result
-
-Foreseeability and knowledge matter to responsibility/cost allocation.
-
-But discovery of imminent D4 risk still affects permissible immediate action.
-
-**Unknown Dependency != Identical Responsibility To Knowingly Accepted Dependency**
-
-**PASS / REFINEMENT**
-
----
+60. **No-continuity-guarantee contract:** relevant for ordinary D0–D2 service, not advance waiver of all rights if dependency later becomes D4.
+61. **Provider expressly accepts critical-service/failover duty:** strengthens transition obligations, never ownership of participant.
+62. **Participant concealed critical use:** knowledge/foreseeability affect responsibility and costs, but discovery of imminent D4 still affects permissible immediate action.
 
 # PART R — COST
 
-## Scenario 63 — Migration costs £10; provider refuses
-
-D4 harm is avoidable at trivial cost.
-
-### Result
-
-Strong case for requiring bounded transition.
-
-**Trivial Avoidance Cost + Catastrophic Preventable Harm -> Strong Transition Duty**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 64 — Migration costs more than provider's entire assets
-
-### Result
-
-Duty cannot ignore feasibility.
-
-Public/shared emergency mechanisms may be required.
-
-**Transition Duty Must Remain Feasibility-Bounded**
-
-**PASS**
-
----
-
-## Scenario 65 — Participant can pay but refuses
-
-### Result
-
-Standing does not automatically shift all cost to provider.
-
-Cost allocation can affect transition conditions, though not necessarily justify abrupt catastrophic action.
-
-**Ability To Pay Is Relevant To Cost Allocation, Not Participant Standing**
-
-**PASS**
-
----
-
-## Scenario 66 — Participant cannot pay
-
-### Result
-
-Cannot be reduced to “therefore provider pays forever” or “therefore participant may be destroyed.”
-
-A third mechanism—public/shared fallback, insurance, reserve, alternative allocation—may be necessary.
-
-**Binary Owner-Or-Dependent Cost Allocation Can Be An Incomplete Evaluation Space**
-
-**PASS / ESCP REFINEMENT**
-
----
+63. **£10 migration avoids D4 loss:** trivial avoidance cost plus catastrophic preventable harm strongly supports bounded transition.
+64. **Migration exceeds provider's entire assets:** feasibility limits duty; public/shared emergency mechanism may be needed.
+65. **Participant can pay but refuses:** cost allocation may reflect ability to pay without diminishing standing or automatically permitting abrupt catastrophic harm.
+66. **Participant cannot pay:** neither perpetual provider subsidy nor participant destruction follows; third-party insurance, reserve, pool, emergency fund or alternate allocation may resolve binary gap.
 
 # PART S — SECURITY AND ABUSE
 
