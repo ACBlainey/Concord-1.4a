@@ -756,18 +756,3 @@ It is the integration discipline that distinguishes:
 - legitimate reopening;
 - and pathological repeated work without material change.
 
-## 38. Result
-
-The RGCP → BRSP → CBPR → EERP → BTA/KCS/STRA lifecycle has no identified ownership break or mandatory dead-end.
-
-It can close without pretending finality and reopen without requiring permanent activity.
-
-The central liveness synthesis is:
-
-> **No Current Material Work Due Within Declared Scope.**
-
-and the operating rule is:
-
-> **Continue active feedback only while there is a materially distinct unresolved work item, a material state/evidence change, an unprocessed legitimate trigger, an active reconciliation/transition step, or a due bounded backstop. Otherwise enter bounded quiescence while preserving reopening conditions.**
-
-**AUDIT RESULT: PASS.**
