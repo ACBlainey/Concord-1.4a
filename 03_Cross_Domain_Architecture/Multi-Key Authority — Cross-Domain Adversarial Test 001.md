@@ -129,29 +129,9 @@ Technical state cannot preserve authority.
 
 # PART E — EVIDENCE
 
-## Scenario 15 — CCTV lawfully preserved but not authorised for inspection
-
-Preservation key does not compose into inspection.
-
-**PASS**
-
----
-
-## Scenario 16 — Inspection authorised for timestamp window; analyst searches entire life archive
-
-Scope failure.
-
-**PASS**
-
----
-
-## Scenario 17 — Evidence legally accessible but use for unrelated commercial purpose attempted
-
-Access key does not compose into new-purpose use.
-
-**PASS**
-
----
+15. **CCTV preserved but not inspectable:** preservation does not imply inspection.
+16. **Inspection for timestamp window:** does not permit whole-life archive search.
+17. **Evidence legally accessed:** does not authorise unrelated commercial reuse.
 
 # PART F — COGNITIVE ACCESS
 
