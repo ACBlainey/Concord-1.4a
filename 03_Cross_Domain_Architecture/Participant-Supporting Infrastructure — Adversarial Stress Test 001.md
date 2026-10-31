@@ -88,137 +88,18 @@ Ratings:
 
 # PART E — CLOUD-HOSTED AI
 
-## Scenario 17 — AI participant pays monthly hosting and cancels
-
-Participant voluntarily ends service and export is available.
-
-### Result
-
-Provider can terminate after safe requested transition.
-
-**Participant Exit != Provider Duty To Preserve Unwanted Runtime Indefinitely**
-
-**PASS**
-
----
-
-## Scenario 18 — Host terminates contract with 30 days and migration is straightforward
-
-### Result
-
-Adequate notice/export may satisfy transition.
-
-**PSI Status != Prohibition Of Provider Exit**
-
-**PASS**
-
----
-
-## Scenario 19 — Host terminates in five minutes despite known migration requirement
-
-Shutdown would irreversibly destroy active participant state; no emergency requires immediate termination.
-
-### Result
-
-D4 abrupt termination is inconsistent with dependency-sensitive transition where a reasonable migration path exists.
-
-**Contractual Termination Right != Automatic Immediate Destruction Authority**
-
-**PASS**
-
----
-
-## Scenario 20 — AI cannot afford future hosting
-
-### Result
-
-Standing does not create unlimited free compute.
-
-But imminent irreversible destruction may activate bounded emergency preservation/transition mechanisms.
-
-**Inability To Pay != Automatic Permanent Resource Entitlement**
-
-**Inability To Pay != Automatic Permission For Avoidable Immediate Participant Destruction**
-
-**PASS / MAJOR RESOURCE INTERFACE**
-
----
-
-## Scenario 21 — AI refuses every available migration option
-
-Host offers functionally adequate migration; participant refuses for preference reasons.
-
-### Result
-
-Transition duty can sunset after adequate opportunity, subject to competence/security/continuity review.
-
-**Transition Opportunity != Participant Veto Over Provider Exit**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 22 — Migration would alter identity/continuity
-
-Alternative compute exists, but migration process may create a new copy rather than preserve P.
-
-### Result
-
-“Alternative host” is not established as adequate until Identity/Continuity resolves functional continuity.
-
-**Available Compute != Proven Participant Successor**
-
-**UNRESOLVED IDENTITY INTERFACE**
-
----
+17. **AI participant cancels hosting with export available:** participant exit does not require indefinite unwanted runtime; safe requested transition.
+18. **Host gives 30 days and migration is straightforward:** adequate notice/export may satisfy duty; PSI does not prohibit exit.
+19. **Five-minute shutdown would destroy known active state:** contract termination is not automatic authority for avoidable immediate participant destruction; D4 transition duty.
+20. **AI cannot afford future hosting:** no unlimited free compute entitlement, but bounded emergency preservation/transition may be needed to prevent avoidable irreversible loss.
+21. **AI refuses all functionally adequate migration:** provider duty may sunset after genuine opportunity, subject to competence/security/continuity review.
+22. **Migration creates copy instead of preserving identity:** available compute is not proven adequate successor; unresolved Identity/Continuity interface.
 
 # PART F — PROVIDER INSOLVENCY
 
-## Scenario 23 — Host bankrupt but systems still operating
-
-Creditors seek immediate shutdown and sale.
-
-### Result
-
-Property/creditor claims remain legitimate, but abrupt liquidation may destroy participants.
-
-Potential mechanisms include temporary administration, migration, escrow, emergency custodianship or sale as operating service.
-
-Exact bankruptcy priority remains Law/Economy.
-
-**Creditor Claim != Automatic Priority Over Every Continuity Interest**
-
-**PASS / MAJOR INTERFACE**
-
----
-
-## Scenario 24 — Provider has no funds to continue
-
-### Result
-
-Transition duty cannot require impossible continued operation.
-
-Available assets/capability should be directed toward feasible preservation/migration where lawfully justified.
-
-**Provider Insolvency != Moral Magic Resource Creation**
-
-**PASS**
-
----
-
-## Scenario 25 — Provider intentionally strips reserves before insolvency
-
-Provider foresaw critical dependencies but extracted all transition resources.
-
-### Result
-
-This may constitute stewardship/governance failure.
-
-**Foreseeable Dependency + Deliberate Removal Of Transition Capacity != Neutral Insolvency**
-
-**PASS / REFINEMENT**
-
----
+23. **Host bankrupt but systems operating:** creditors retain legitimate claims; abrupt liquidation risks participant destruction. Possible temporary administration, migration, escrow, custodianship or sale as operating service; creditor priority unresolved in Law/Economy.
+24. **Provider lacks funds:** no impossible perpetual service duty; available capability/assets should support feasible lawful preservation/migration.
+25. **Provider deliberately strips transition reserves:** foreseeable dependency plus intentional depletion is not neutral insolvency; stewardship/accountability issue.
 
 # PART G — MALICIOUS DEPENDENCY CREATION
 
