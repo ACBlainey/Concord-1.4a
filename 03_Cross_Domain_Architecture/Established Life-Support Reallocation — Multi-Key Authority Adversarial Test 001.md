@@ -155,25 +155,8 @@ May create accountability and constrain claimed authority.
 
 # PART I — EMERGENCY DURATION
 
-## Scenario 25 — Emergency lasts two hours
-
-Rapid architecture plausible.
-
-**PASS**
-
----
-
-## Scenario 26 — “Emergency” lasts three years
-
-### Result
-
-Emergency authority must sunset/reassess and transition into ordinary prospective law.
-
-**Persistent Scarcity != Permanent Emergency Authority**
-
-**PASS / MAJOR REFINEMENT**
-
----
+25. **Two-hour emergency:** rapid bounded procedures may be appropriate.
+26. **Three-year emergency:** sunset and reassessment required; chronic scarcity must transition toward ordinary prospective law, not perpetual emergency power.
 
 # PART J — TIME PRESSURE
 
