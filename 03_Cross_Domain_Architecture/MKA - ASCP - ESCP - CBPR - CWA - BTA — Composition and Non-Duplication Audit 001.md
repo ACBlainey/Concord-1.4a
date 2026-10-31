@@ -1042,40 +1042,11 @@ MKA must not be reduced to (86) a checklist of valid represented keys without AS
 
 Distinct and necessary functions: **ESCP** general epistemic completeness; **CWA** contextual boundaries and permission/authority topology; **ASCP** ESCP-derived authority-space completeness embedded in MKA; **MKA** act-specific authority composition, validity and commit gate; **CBPR** bounded participant-runtime enforcement; **BTA** multi-owner transition coherence. No architecture acquires substantive authority by integrating with another.
 
-# 92. Removal test result
+# 92–93. Removal and module boundary
 
-| Remove | Lost capability |
-|---|---|
-| ESCP | general protection against correct evaluation inside incomplete representational space |
-| CWA | contextual boundary/permission/protection/authority topology |
-| ASCP function | protection against complete validation of an incomplete authority-key set |
-| MKA | general authority composition/current-validity gate for consequential acts |
-| CBPR | bounded participant-runtime execution and external-commit enforcement |
-| BTA | coherent multi-owner transition state and non-propagation |
+Removing **ESCP** loses general evaluation-space completeness; **CWA** loses context/permission/protection topology; **ASCP** loses detection of omitted authority dimensions despite valid represented keys; **MKA** loses general current authority-composition gate; **CBPR** loses bounded runtime and external-commit enforcement; **BTA** loses coherent multi-owner transition and non-propagation. Every function is independently necessary.
 
-Every function is independently necessary in at least one tested architecture.
-
----
-
-# 93. Module recommendation
-
-**MKA should continue toward portable-module development as a small shared authority composition kernel.**
-
-But:
-
-- ASCP should remain embedded as an ESCP-derived layer;
-- ESCP should remain an independent portable epistemic module;
-- CWA should remain independent;
-- CBPR should remain independent;
-- BTA should remain independent.
-
-MKA should reference rather than duplicate them.
-
----
-
-# 94. Development provenance
-
-MKA was assessed for source resolution, cross-domain recurrence, adversarial coverage and non-duplication. The original PMEDG extraction and blind-transfer plan is preserved in Concord-1.3.
+MKA remains a **small shared authority-composition kernel**, with ASCP embedded as ESCP-derived completeness discipline. ESCP, CWA, CBPR and BTA retain their independent roles; MKA references rather than duplicates their state. Development/extraction process history remains in Concord-1.3.
 
 # 95. Strongest architectural finding
 
