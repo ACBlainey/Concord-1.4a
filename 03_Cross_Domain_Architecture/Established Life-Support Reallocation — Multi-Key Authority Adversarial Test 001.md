@@ -156,93 +156,23 @@ Ratings:
 
 # PART T — AUTHORITY EXPIRY
 
-## Scenario 55 — Resource-pool mandate expires while A is on support
-
-### Result
-
-Expired authority cannot simply continue because administratively convenient.
-
-Need successor authority/transition.
-
-**Past Resource Authority != Continuing Resource Authority**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 56 — Withdrawal authority expires seconds before action
-
-Action cannot rely on expired key unless a separate continuation rule applies.
-
-**Authority At Decision != Authority At Execution By Default**
-
-**PASS / MAJOR REFINEMENT**
-
----
+55. **Pool mandate expires during support:** old authority does not continue for convenience; successor authority/transition needed.
+56. **Withdrawal authority expires before execution:** proposal-time validity is insufficient; current execution authority or a separately legitimate continuation rule required.
 
 # PART U — JURISDICTION
 
-## Scenario 57 — A leaves Concord jurisdiction while physically connected to Concord resource
-
-Cross-jurisdiction authority unresolved; contract/intercivilisational rules needed.
-
-**UNRESOLVED INTERCIVILISATIONAL INTERFACE**
-
----
-
-## Scenario 58 — Resource crosses border with A
-
-Same.
-
-**UNRESOLVED**
-
----
+57. **A leaves Concord jurisdiction while connected to R:** cross-jurisdiction authority requires contract/intercivilisational resolution; unresolved.
+58. **R crosses border with A:** same unresolved jurisdiction/resource transition interface.
 
 # PART V — PRIVATE PROVIDER EXIT
 
-## Scenario 59 — Private provider owns R and exits market
-
-Public pooled-resource rule cannot silently convert private property.
-
-PSI/Withdrawal Authority/contract/requisition law apply.
-
-**PASS**
-
----
-
-## Scenario 60 — Concord requisitions R during emergency
-
-Requires independent requisition authority and remedy.
-
-**Requisition Authority != Participant Withdrawal Authority**
-
-**PASS / REFINEMENT**
-
----
+59. **Private provider owns R and exits:** public pooling cannot silently convert title; PSI, Withdrawal Authority, contracts or requisition rules apply.
+60. **Concord requisitions R:** requires separate requisition authority/remedy; requisition is not participant withdrawal authority.
 
 # PART W — PUBLIC MONOPOLY
 
-## Scenario 61 — Concord owns every ventilator
-
-### Result
-
-Public control strengthens duty to maintain fair prospective allocation architecture.
-
-It does not create unlimited authority over recipients.
-
-**Monopoly Resource Control -> Stronger Stewardship, Not Participant Ownership**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 62 — Concord deliberately prevents private alternatives
-
-Its responsibility for scarcity increases.
-
-**PASS**
-
----
+61. **Concord owns every ventilator:** stronger stewardship and fair prospective allocation duties, not participant ownership.
+62. **Concord prevents private alternatives:** institutional responsibility for resulting scarcity increases.
 
 # PART X — MALICIOUS SCARCITY CREATION
 
