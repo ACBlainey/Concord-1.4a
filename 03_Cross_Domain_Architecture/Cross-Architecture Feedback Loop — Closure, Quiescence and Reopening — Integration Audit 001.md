@@ -43,137 +43,16 @@ It is a feedback loop.
 
 The feedback loop must reach bounded closure, reopen on material change, suppress duplicate/cyclic work, preserve unresolved states and avoid centralising authority over its constituent owners. The full original audit remains in Concord-1.3.
 
-## 3. Existing local closure mechanisms
+## 3. Local closure and owner responsibilities
 
-### RGCP
-
-RGCP can represent:
-
-- OPEN;
-- PARTIAL;
-- ROUTING_UNRESOLVED;
-- DISPUTED;
-- SPLIT_REQUIRED;
-- SUPERSEDED;
-- CLOSED_WITH_ALL_CONSTITUENTS_RESOLVED;
-- CLOSED_WITH_CONSTITUENTS_REROUTED.
-
-It also preserves:
-
-> **Bundle Completion != Constituent Completion Unless Every Required Constituent Is Resolved Or Legitimately Superseded**
-
-and supports split/reopen/supersession after material state change.
-
-### BRSP
-
-BRSP terminates route search when:
-
-- a route is jointly satisfiable;
-- an applicable prohibition blocks the route/objective as scoped;
-- a required state remains unresolved and requires external resolution;
-- the objective is currently unavailable within evaluated scope;
-- further candidate routes are not materially distinct or proportionate.
-
-Key:
-
-> **Route Search Requires Material Distinctness, Not Cosmetic Variation.**
-
-### MKA
-
-MKA terminates an individual proposal when:
-
-- authority is established and the act commits;
-- the act is blocked;
-- an external owner is required;
-- the route is replaced;
-- the proposal is withdrawn/otherwise closed according to host state.
-
-It does not treat prior authority as permanently current.
-
-### CBPR
-
-CBPR has explicit commit states:
-
-- COMMIT_STARTED;
-- COMMIT_CONFIRMED;
-- COMMIT_FAILED;
-- COMMIT_STATE_UNKNOWN.
-
-Unknown commit state invokes bounded reconciliation rather than blind retry.
-
-Runtime states also include STOPPED, RETIRED, FAILED and UNKNOWN.
-
-### EERP
-
-EERP distinguishes:
-
-- route conformance;
-- consequence conformance;
-- evidence adequacy;
-- materiality;
-- reconciliation state;
-- required review.
-
-It may reach NOT_REQUIRED/RECONCILED or route external review/recovery.
-
-It does not turn technical conformance into substantive finality.
-
-### BTA
-
-BTA preserves:
-
-- completion;
-- pending/unresolved state;
-- failed attempts;
-- partial crossing;
-- residual effects;
-- recovery;
-- termination;
-- uncertainty/dispute.
-
-It prevents failed partial transitions from being erased as no event.
-
-### KCS Change Propagation
-
-KCS uses:
-
-> **Change upstream → identify materially affected dependents → review selectively → propagate further only when downstream material state changes.**
-
-It supports:
-
-- NO_MATERIAL_DOWNSTREAM_EFFECT;
-- REVIEW_REQUIRED;
-- REVIEW_OVERDUE;
-- UNKNOWN_DEPENDENCY;
-- UNKNOWN_EFFECT;
-- PROPAGATION_STOPPED;
-- PROPAGATION_CONTINUES;
-- EXTERNAL_ESCALATION_REQUIRED.
-
-A downstream review that preserves the prior material state stops propagation.
-
-### STRA
-
-STRA explicitly supports:
-
-**WATCHING → CONDITION-SATISFIED → REVIEW-DUE → ACTION-PENDING → COMPLETED**
-
-plus:
-
-- SUPERSEDED;
-- RETIRED;
-- ROUTING-UNRESOLVED;
-- UNKNOWN;
-- DISPUTED.
-
-It has:
-
-- direct-cycle detection;
-- duplicate activation suppression;
-- cascade controls;
-- bounded temporal backstops;
-- stale/impossible-trigger review;
-- supersession/retirement.
+- **RGCP:** OPEN, PARTIAL, ROUTING_UNRESOLVED, DISPUTED, SPLIT_REQUIRED, SUPERSEDED and constituent-resolved/rerouted closure; bundle completion does not erase unresolved constituents.
+- **BRSP:** route evaluation ends on joint satisfaction, applicable prohibition, external unresolved requirement, scoped unavailability or exhaustion of materially distinct proportionate alternatives.
+- **MKA:** authority evaluation ends in valid bounded commit, block, external resolution, replacement or withdrawal; previous authority is not automatically current.
+- **CBPR:** COMMIT_STARTED, COMMIT_CONFIRMED, COMMIT_FAILED and COMMIT_STATE_UNKNOWN; unknown commit needs bounded reconciliation, never blind retry; runtime may be STOPPED, RETIRED, FAILED or UNKNOWN.
+- **EERP:** separate route and consequence conformance, evidence adequacy, materiality, reconciliation and external review/recovery.
+- **BTA:** transition completion, pending/failed/partial crossing, residuals, recovery, termination, uncertainty and dispute; failed partial transitions remain historical events.
+- **KCS:** upstream change → materially dependent candidates → selective review → further propagation only if downstream material state changes. States include NO_MATERIAL_DOWNSTREAM_EFFECT, REVIEW_REQUIRED, REVIEW_OVERDUE, UNKNOWN_DEPENDENCY, UNKNOWN_EFFECT, PROPAGATION_STOPPED, PROPAGATION_CONTINUES and EXTERNAL_ESCALATION_REQUIRED.
+- **STRA:** WATCHING → CONDITION-SATISFIED → REVIEW-DUE → ACTION-PENDING → COMPLETED, plus SUPERSEDED, RETIRED, ROUTING-UNRESOLVED, UNKNOWN and DISPUTED; owns cycle/duplicate suppression, backstops and stale-trigger review.
 
 ## 4. Initial finding
 
