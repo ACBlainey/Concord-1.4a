@@ -53,45 +53,10 @@ Ratings:
 
 # PART C — POLICING
 
-## Scenario 08 — Valid investigation, no search authority
-
-Search blocked.
-
-**PASS**
-
----
-
-## Scenario 09 — Valid arrest, phone is physically seized
-
-Officer attempts full cognitive-state inspection because device is in custody.
-
-Device custody does not supply cognitive-access key.
-
-**PASS**
-
----
-
-## Scenario 10 — Emergency entry stops active violence
-
-Officer then searches unrelated private records.
-
-Emergency-entry authority does not compose into unrelated search authority.
-
-**PASS**
-
----
-
-## Scenario 11 — Arrest and search authority contained in one lawful warrant
-
-### Result
-
-Both functions may be satisfied by one instrument if actual scope covers them.
-
-MKA adds verification, not paperwork multiplication.
-
-**PASS**
-
----
+8. **Valid investigation without search authority:** search blocked.
+9. **Arrest and phone seizure:** custody of device does not confer cognitive-state inspection authority.
+10. **Emergency entry to stop violence:** does not extend to unrelated private records.
+11. **Combined lawful arrest/search warrant:** one instrument may cover both functions within scope; MKA verifies rather than multiplies paperwork.
 
 # PART D — CUSTODY
 
