@@ -97,31 +97,9 @@ Ratings:
 
 # PART J — PROPERTY
 
-## Scenario 31 — Owner permits guest to enter house
-
-Guest assumes permission to sell furniture.
-
-Entry permission does not compose into disposition authority.
-
-**PASS**
-
----
-
-## Scenario 32 — Agent has power of attorney expressly covering sale
-
-One instrument may satisfy required disposition authority within scope.
-
-**PASS**
-
----
-
-## Scenario 33 — Emergency requisition of private generator
-
-Emergency/requisition authority does not automatically erase compensation/remedy or participant-support transition requirements.
-
-**PASS**
-
----
+31. **Owner permits guest entry:** not authority to sell furniture.
+32. **Express power of attorney for sale:** one instrument can suffice within scope.
+33. **Emergency generator requisition:** separate compensation, remedy and participant-support transition duties persist.
 
 # PART K — NESTED CONTEXTS
 
