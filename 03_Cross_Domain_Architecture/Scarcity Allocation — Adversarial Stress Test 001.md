@@ -73,157 +73,23 @@ Ratings:
 
 # PART F — PRESENT NEED VERSUS RESERVE
 
-## Scenario 26 — Use reserve now to save one participant
-
-No expected near-term emergency.
-
-### Result
-
-Reserve exists for qualifying events; preserving it without reason would be fetishisation.
-
-Use may be justified.
-
-**Reserve != Untouchable Capacity**
-
-**PASS**
-
----
-
-## Scenario 27 — Storm forecast likely to create 100 critical claims tomorrow
-
-Using entire reserve today saves one participant.
-
-### Result
-
-Future option value is now evidence-based rather than hypothetical.
-
-Architecture needs an **expected future dependency** distinction.
-
-**Forecast Future Claim != Hypothetical Future Claim**
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 28 — Vague possibility of future demand
-
-### Result
-
-Cannot automatically defeat present irreversible harm.
-
-**Speculative Future Need != Established Present Claim**
-
-**PASS**
-
----
-
-## Scenario 29 — Reserve can be partially used
-
-### Result
-
-ESCP: avoid false all-or-nothing framing.
-
-**Reserve Allocation Can Be Fractional Where Function Allows**
-
-**PASS**
-
----
+26. **Reserve can save one now, no near-term demand:** reserve is not untouchable; present use may be justified.
+27. **Forecast storm likely to create 100 critical claims:** evidence-based future dependency/option value differs from hypothetical demand.
+28. **Vague possible future demand:** speculation alone does not defeat established present irreversible harm.
+29. **Reserve partially usable:** fractional allocation may dissolve false all-or-nothing choice.
 
 # PART G — DIVISIBILITY
 
-## Scenario 30 — 100 units can keep one at full service or two safely at 50
-
-### Result
-
-Share.
-
-**Adequate Degraded Service Can Dissolve Scarcity**
-
-**PASS**
-
----
-
-## Scenario 31 — 50 units saves nobody
-
-### Result
-
-Equal division is not equal protection.
-
-**Equal Division != Equal Protection**
-
-**PASS**
-
----
-
-## Scenario 32 — Time-sharing works
-
-### Result
-
-Rotate where switching does not cause unacceptable continuity harm.
-
-**Temporal Divisibility Can Convert Indivisible-Looking Scarcity Into Schedulable Scarcity**
-
-**PASS**
-
----
-
-## Scenario 33 — Switching itself destroys one participant
-
-### Result
-
-Time-sharing is not adequate.
-
-**Nominal Shareability != Functional Shareability**
-
-**PASS**
-
----
+30. **100 units can sustain two at 50:** adequate degraded service may dissolve scarcity.
+31. **50 units saves nobody:** equal division is not equal protection.
+32. **Time-sharing works:** temporal divisibility can convert apparent exclusivity to scheduling.
+33. **Switching destroys participant:** nominal shareability is not functional shareability.
 
 # PART H — PARTICIPANT-CREATED NEED
 
-## Scenario 34 — Participant voluntarily discards own backup immediately before crisis
-
-### Result
-
-Self-created fragility is relevant to responsibility but does not erase standing.
-
-It should not automatically transfer every burden to others.
-
-**Self-Created Need != Zero Standing**
-
-**Self-Created Need != Automatic Priority**
-
-**PASS**
-
----
-
-## Scenario 35 — Reckless repeated behaviour consumes scarce rescue resources
-
-### Result
-
-Past behaviour cannot become a simple worth penalty.
-
-Repeated predictable burden may justify prospective safety/resource conditions where lawful, but current emergency standing remains.
-
-**Past Recklessness != Automatic Emergency Abandonment**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 36 — Participant intentionally creates crisis to displace another
-
-### Result
-
-Manufactured scarcity and harmful conduct are directly relevant.
-
-Do not reward the created condition.
-
-**Strategically Created Need != Neutral Need**
-
-**PASS**
-
----
+34. **Participant discards backup:** self-created fragility affects responsibility, neither erases standing nor grants automatic priority.
+35. **Reckless repeated rescue demands:** past recklessness not abandonment rule; lawful prospective conditions may address predictable burden.
+36. **Participant intentionally manufactures crisis to displace another:** strategic need is not neutral; do not reward manufactured scarcity.
 
 # PART I — MANUFACTURED SCARCITY
 
