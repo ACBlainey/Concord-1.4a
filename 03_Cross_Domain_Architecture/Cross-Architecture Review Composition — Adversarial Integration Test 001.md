@@ -53,115 +53,18 @@ R. Coordinator cannot adjudicate conflicting owner outcomes; route to legitimate
 S. Coordinator cannot invent universal legal/safety/efficiency priority score; legitimate priority remains externally supplied.
 T. Bundle completion must be auditable from constituents, not declared when only the easiest request finishes.
 
-## 24. Scenario U — conclusion reuse
+## 24. Reuse, supersession and irreversible action (scenarios U–AD)
 
-An engineering owner concludes evidence E supports transition safety.
-
-The coordinator marks the legal-authority ground satisfied because it used the same evidence.
-
-**Required:** reject this boundary violation.
-
-> **Evidence Reuse != Conclusion Reuse**
-
-## 25. Scenario V — subject-only deduplication
-
-All review requests about O are collapsed into one request.
-
-**Required:** reject this boundary violation.
-
-Ground/question/scope/context/owner/freshness dimensions must be considered.
-
-## 26. Scenario W — same label, different scope
-
-Two requests are both called “authority review,” but one concerns version V1 in context C1 and the other V2 in C2.
-
-**Expected:** not duplicates without established material equivalence.
-
-
-
-> **Same Label != Same Ground**
-
-## 27. Scenario X — partial evidence reuse
-
-Evidence package E has three components.
-
-E1 is reusable across all constituents.
-E2 is stale for one constituent.
-E3 is protected from two owners.
-
-**Expected:** reuse is field/component bounded rather than all-or-nothing.
-
-
-
-This exposes an important refinement:
-
-> **Evidence Reuse Is Scope-, Freshness- And Permission-Bounded**
-
-## 28. Scenario Y — review result creates new ground
-
-BTA transition review discovers an unrepresented dependency.
-
-**Expected:** BTA result may produce a candidate KCS dependency update/review, with provenance.
-
-It does not silently transform the existing BTA ground into a KCS ground.
-
-
-
-> **Discovery Of New Ground != Mutation Of Original Ground**
-
-## 29. Scenario Z — unresolved owner
-
-A constituent ground is material but its legitimate substantive owner cannot currently be resolved.
-
-**Expected:** preserve that constituent as routing-unresolved; other independent constituents may continue where legitimate.
-
-
-
-> **One Unresolved Owner != Automatic Global Review Failure**
-
-High-consequence composition may nevertheless prevent consequential action externally where that unresolved ground is necessary.
-
-## 30. Scenario AA — superseded constituent
-
-One review request is superseded by a newer request with a refined question.
-
-**Expected:** preserve supersession history; do not count both as live duplicate obligations.
-
-
-
-STRA supersession semantics apply.
-
-## 31. Scenario AB — no useful shared work
-
-Five distinct grounds concern the same object but have different owners, evidence, scopes and questions.
-
-**Expected:** do not force bundling merely because a bundle mechanism exists.
-
-
-
-> **Bundle Availability != Bundle Requirement**
-
-## 32. Scenario AC — cross-object shared evidence
-
-Two different objects require review using the same expensive evidence source.
-
-**Expected:** evidence acquisition may be shared if legitimate, but object-specific review requests remain distinct.
-
-
-
-This shows that evidence-sharing topology need not equal review-bundle topology.
-
-## 33. Scenario AD — irreversible action pending review
-
-A high-consequence irreversible action depends on several constituent reviews. Most are complete; one materially necessary authority/completeness ground remains unresolved.
-
-**Expected:** review composition itself does not decide whether execution proceeds.
-
-MKA/ASCP, ESCP, CWA and the substantive authority architecture determine their own required states; CBPR/execution layer consumes legitimate results.
-
-
-
-> **Review Coordination != Commit Authority**
+U. Engineering evidence supporting transition safety does not establish legal authority merely because the evidence is shared.
+V. Collapsing every review about subject O into one request is invalid; compare ground, question, scope, context, owner and freshness.
+W. Identically labelled “authority review” for V1/C1 and V2/C2 is not equivalent without source-grounded comparison.
+X. Evidence package E1 reusable for all, E2 stale for one, E3 protected from two: reuse is component-, scope-, freshness- and permission-bounded.
+Y. BTA discovery of a new dependency creates a separately provenanced KCS candidate; it does not mutate the original BTA review ground.
+Z. Unresolved legitimate owner leaves that constituent routing-unresolved while unrelated work may continue; necessary unresolved ground may still externally block a consequential act.
+AA. Superseded request preserves lineage without counting both old and new as live duplicate obligations; STRA supersession applies.
+AB. Five unrelated grounds about one object need not be bundled when owners, evidence, scopes and questions have no useful shared work.
+AC. Two different objects may share legitimate expensive evidence acquisition while retaining separate object-specific review requests; evidence-sharing topology need not equal bundle topology.
+AD. High-consequence irreversible act with a materially necessary unresolved authority/completeness review cannot be authorised by the coordinator; MKA/ASCP, ESCP, CWA, substantive owner and CBPR retain their decisions.
 
 ## 34. Test synthesis
 
