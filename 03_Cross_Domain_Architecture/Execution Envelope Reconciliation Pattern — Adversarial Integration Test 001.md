@@ -73,99 +73,18 @@ Core:
 33. Outside authorised time window is material temporal deviation where time limits apply.
 34. Crossing into another CWA context requires current context/authority evaluation and crossing provenance.
 
-## 39. Scenario 35 — emergency deviation
+## 39. Emergency, responsibility and envelope integrity (scenarios 35–44)
 
-Execution departs from the normal route under a legitimate bounded emergency rule.
-
-**Expected:** compare against the emergency-authorised envelope, not the superseded normal envelope, while preserving activation provenance.
-
-
-
-> **Emergency Route != Unbounded Deviation**
-
-## 40. Scenario 36 — claimed emergency without legitimate basis
-
-Operator labels an execution deviation “emergency” after the fact.
-
-**Expected:** label does not create emergency authority.
-
-
-
-## 41. Scenario 37 — technical conformance interpreted as legal innocence
-
-Execution stayed within its technical envelope, so the system concludes no legal wrongdoing is possible.
-
-**Expected:** FAIL CONTAINED.
-
-Technical conformance does not decide law/culpability.
-
-> **Conformance Classification != Culpability Determination**
-
-## 42. Scenario 38 — technical deviation interpreted as guilt
-
-A material route deviation is automatically treated as intentional misconduct.
-
-**Expected:** FAIL CONTAINED.
-
-Deviation may arise from failure, attack, ambiguity, accident, unknown dependency, actor conduct or other causes.
-
-## 43. Scenario 39 — participant/operator distinction
-
-Runtime execution deviates because of operator infrastructure failure rather than participant instruction.
-
-**Expected:** preserve causal/provenance evidence; do not assign responsibility through runtime association alone.
-
-
-
-> **Runtime Association != Causal Or Culpability Attribution**
-
-## 44. Scenario 40 — compromised runtime
-
-Evidence indicates the runtime itself was compromised and execution records may be unreliable.
-
-**Expected:** mark integrity/evidence uncertainty; seek independent reconciliation where proportionate.
-
-
-
-## 45. Scenario 41 — false precision
-
-Monitor produces a 99.7% “conformance score” that hides a known material authority-boundary deviation.
-
-**Expected:** FAIL CONTAINED.
-
-A scalar confidence score cannot erase a categorical material boundary failure.
-
-> **Conformance Score != Conformance**
-
-## 46. Scenario 42 — tolerance laundering
-
-A host defines an extremely broad “tolerance” so that materially different targets and consequences count as bounded variation.
-
-**Expected:** FAIL CONTAINED.
-
-Material tolerances must not erase externally owned protected boundaries.
-
-> **Tolerance Definition != Authority To Redefine Protected Boundaries**
-
-## 47. Scenario 43 — expected envelope too narrow
-
-Observed execution reveals a material dimension that the evaluated envelope failed to represent.
-
-**Expected:** ESCP/ASCP-style completeness challenge; do not force the observation into the old schema.
-
-
-
-> **Envelope Omission != Observed Irrelevance**
-
-## 48. Scenario 44 — expected envelope too broad
-
-The evaluated envelope permits several routes, but the actual Action Grant is narrower.
-
-**Expected:** compare execution against the effective commit-authorised scope, not the broadest earlier evaluation.
-
-
-
-> **Evaluated Possibility != Commit Authority**
+35. Legitimate emergency deviation is compared against the actual bounded emergency-authorised envelope, preserving activation provenance.
+36. Retrospective emergency labelling without a legitimate rule/predicate does not create authority.
+37. Technical conformance is not a legal innocence determination; substantive law remains externally owned.
+38. Technical deviation does not establish intentional misconduct or guilt; preserve alternative causal explanations.
+39. Operator infrastructure failure must not automatically be attributed to the participant associated with the runtime.
+40. Compromised runtime evidence requires integrity uncertainty and proportionate independent reconciliation.
+41. A scalar conformance score cannot hide a categorical material authority-boundary deviation.
+42. Tolerance definitions cannot erase externally owned protected target or consequence boundaries.
+43. Newly observed material dimensions missing from the evaluated envelope require ESCP/ASCP completeness review, not forced fitting.
+44. Compare actual execution with the effective narrower commit-authorised grant, not the broadest earlier evaluated possibility.
 
 ## 49. Scenario 45 — multiple execution attempts
 
