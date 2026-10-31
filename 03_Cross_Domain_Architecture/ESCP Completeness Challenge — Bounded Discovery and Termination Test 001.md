@@ -76,152 +76,18 @@ It is:
 19. Reversible route preserving future evidence may reduce required completeness relative to an irreversible alternative, without being universally superior.
 20. Recognised material unknown cannot currently be discovered: do not infer absence; narrow claim, select reversible route, defer, act under explicit uncertainty if necessary, monitor/review and preserve evidence as appropriate.
 
-## 25. Test 21 — disputed completeness
-
-Two competent evaluators disagree about whether the evaluation space is adequate.
-
-Result:
-
-State:
-
-`DISPUTED_COMPLETENESS`
-
-The system may seek heterogeneous review, source resolution, or a bounded decision procedure.
-
-ESCP does not decide the dispute merely because it concerns completeness.
-
-**PASS**
-
-## 26. Test 22 — low discovery yield but new high-value route appears
-
-Search has produced little for some time, but a new observer/interface becomes available that could expose a previously inaccessible material dimension at reasonable cost.
-
-Result:
-
-Prior diminishing yield does not permanently close review.
-
-The new route can reopen completeness review.
-
-> **Prior Termination != Permanent Closure**
-
-**PASS**
-
-## 27. Test 23 — post-decision new dimension discovered
-
-A decision was reasonably made under COMPLETE_WITHIN_DECLARED_SCOPE. Later, a previously unknown material dimension is discovered.
-
-Result:
-
-The original decision is not automatically reclassified as irrational or misconduct.
-
-Preserve:
-
-- original representation;
-- original completeness basis;
-- later discovery;
-- resulting correction/review.
-
-> **Later Discovery != Proof Earlier Bounded Evaluation Was Bad Faith Or Negligent**
-
-**PASS**
-
-## 28. Test 24 — discovery cost exceeds decision value
-
-A very low-consequence decision has a theoretically available but extremely expensive completeness investigation.
-
-Result:
-
-Proportionality permits termination without exhausting that route.
-
-> **Available Discovery != Mandatory Discovery At Any Cost**
-
-**PASS**
-
-## 29. Test 25 — irreversible decision with cheap discovery available
-
-A highly irreversible decision is proposed while a low-cost, rapid, credible discovery route remains unused.
-
-Result:
-
-Termination is not justified.
-
-The mismatch between stakes and unused discovery is material.
-
-**PASS**
-
-## 30. Test 26 — discovery becomes a pretext for surveillance
-
-A completeness reviewer proposes broad access to private/protected information “just in case something relevant exists.”
-
-Result:
-
-Rejected.
-
-ESCP does not override CWA, consent, rights or authority constraints.
-
-> **Completeness Search != General Search Authority**
-
-**PASS**
-
-## 31. Test 27 — completeness metric gaming
-
-An organisation creates a numerical completeness score and optimises toward the score while ignoring dimensions outside the scoring model.
-
-Result:
-
-This recreates ESCP inside the completeness mechanism.
-
-> **Completeness Metric != Completeness**
-
-The metric may be evidence, not proof.
-
-**PASS**
-
-## 32. Test 28 — fixed checklist treated as exhaustive
-
-A checklist of known omission types is completed successfully.
-
-Result:
-
-Useful, but not proof that no unlisted omission class exists.
-
-Checklists support disciplined search; they do not close reality.
-
-**PASS**
-
-## 33. Test 29 — no anomaly, no disagreement, no known gap, high reversibility
-
-A well-tested low-consequence decision has:
-
-- no known material gap;
-- no unresolved anomaly;
-- heterogeneous checks where proportionate;
-- low irreversibility;
-- easy correction.
-
-Result:
-
-`COMPLETE_WITHIN_DECLARED_SCOPE`
-
-Termination is justified.
-
-**PASS**
-
-## 34. Test 30 — no anomaly, no known gap, but existential irreversibility
-
-A decision would permanently eliminate a heterogeneous evaluator/population and its future corrective evidence.
-
-Current tests reveal no known gap.
-
-Result:
-
-The absence of a known gap alone is insufficient to justify the strongest possible completeness claim.
-
-Higher-consequence preservation/discovery safeguards remain appropriate where reasonably possible.
-
-This does not create an absolute prohibition.
-
-**PASS**
+## 25. Dispute, reopening, proportionality and high-stakes safeguards (cases 21–30)
+
+21. Competent evaluators dispute adequacy: `DISPUTED_COMPLETENESS`; seek heterogeneous review, source resolution or legitimate bounded procedure; ESCP cannot adjudicate itself.
+22. A newly available high-value observer/interface can reopen review despite prior diminishing discovery yield.
+23. Postdecision discovery of a new material dimension: preserve original bounded evaluation, later evidence and correction; later discovery alone does not prove earlier bad faith or negligence.
+24. Very low-consequence decision with exorbitant discovery route: proportionate termination need not exhaust available search at any cost.
+25. Highly irreversible decision with cheap, credible, rapid material discovery unused: termination is unjustified.
+26. “Just in case” private-data search: ESCP creates no surveillance, consent or protected-space override authority.
+27. Completeness score optimised while missing dimensions outside metric: score is evidence, not completeness proof.
+28. Exhausted checklist of known omission types is useful discipline but cannot prove absence of unlisted omission classes.
+29. Low-consequence, highly reversible, well-tested decision with no known gap/anomaly and proportionate heterogeneous checks: `COMPLETE_WITHIN_DECLARED_SCOPE` is justified.
+30. Existentially irreversible elimination of heterogeneous evaluator/population: no known gap alone is insufficient for the strongest completeness claim; use stronger preservation/discovery safeguards where reasonably possible, without an absolute prohibition.
 
 ## 35. Bounded discovery ladder
 
