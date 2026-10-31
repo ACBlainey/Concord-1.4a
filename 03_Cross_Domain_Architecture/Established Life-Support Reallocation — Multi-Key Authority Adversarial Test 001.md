@@ -81,33 +81,9 @@ Ratings:
 
 # PART G — DIRECT INTERVENTION
 
-## Scenario 19 — Ventilator can be disconnected without touching A
-
-Withdrawal key still required; bodily intervention may be minimal.
-
-**PASS**
-
----
-
-## Scenario 20 — Device must be surgically removed
-
-Separate intervention authority clearly required.
-
-**PASS**
-
----
-
-## Scenario 21 — Withdrawal causes severe pain beyond loss of support
-
-### Result
-
-Harm-minimisation/residual care becomes independently relevant.
-
-**Authority To Withdraw != Authority To Add Avoidable Withdrawal Harm**
-
-**PASS / REFINEMENT**
-
----
+19. **Disconnect without touching A:** withdrawal authority remains necessary despite minimal bodily contact.
+20. **Surgical removal:** distinct direct-intervention authority required.
+21. **Severe avoidable withdrawal pain:** withdrawal authority does not authorise unnecessary added harm; residual care matters.
 
 # PART H — FALSE EMERGENCY
 
