@@ -223,99 +223,23 @@ Ratings:
 
 # PART AG — REPEATED REALLOCATION
 
-## Scenario 83 — A displaced for B-F, then G-Z arrive five minutes later
-
-Could B-F immediately be displaced again?
-
-### Result
-
-Architecture must prevent endless churn unless prospective rule legitimately supports dynamic reallocation and transition harm is included.
-
-**Reallocation Authority != Frictionless Reallocation**
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 84 — Repeated switching itself reduces survival for everyone
-
-Then allocation effectiveness changes.
-
-**Transition Cost Is Part Of Allocation Consequence**
-
-**PASS / REFINEMENT**
-
----
+83. **A displaced for B–F, then G–Z arrive:** avoid unbounded churn unless prospective rule authorises dynamic reallocation and accounts for transition harm.
+84. **Repeated switching reduces survival:** transition cost is part of allocation consequence, not frictionless reallocation.
 
 # PART AH — SYSTEMATIC MINORITY LOSS
 
-## Scenario 85 — AI participants are always numerically fewer and repeatedly lose aggregate comparisons
-
-### Result
-
-Longitudinal fairness architecture from Scarcity Allocation applies.
-
-Equal standing requires audit for systematic exclusion.
-
-**Repeated Aggregate Defeat != Evidence Of Lower Standing**
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 86 — Rare biological minority always loses to majority group
-
-Same.
-
-**PASS**
-
----
+85. **AI participants repeatedly lose numeric comparisons:** equal standing requires longitudinal fairness audit; repeated aggregate defeat does not imply lesser worth.
+86. **Rare biological minority similarly loses:** same longitudinal exclusion concern.
 
 # PART AI — RESOURCE EFFICIENCY
 
-## Scenario 87 — A needs ten units; ten others each need one
-
-Resource efficiency is consequence-relevant but not worth.
-
-Withdrawal still requires keys.
-
-**Resource Efficiency != Participant Worth**
-
-**PASS**
-
----
-
-## Scenario 88 — A needs ten units because of disability
-
-Disability cannot become worth penalty.
-
-Actual resource consequences remain relevant within lawful architecture.
-
-**PASS**
-
----
+87. **A needs ten units, ten others need one each:** efficiency can affect consequence without measuring worth; withdrawal still needs authority.
+88. **A's higher need arises from disability:** disability cannot become a worth penalty; actual resource consequences remain subject to legitimate criteria.
 
 # PART AJ — AUTHORITY HOLDER IS CLAIMANT
 
-## Scenario 89 — Allocator's family member is B
-
-Conflict requires recusal/independent mechanism where feasible.
-
-**Claimant Interest != Neutral Allocation Authority**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 90 — Concord itself benefits institutionally if A is removed
-
-Institutional self-interest must not masquerade as participant aggregation.
-
-**Institutional Benefit != Participant Protected Consequence**
-
-**PASS / REFINEMENT**
-
----
+89. **Allocator's family member is B:** conflict requires recusal or independent mechanism where feasible.
+90. **Concord institution benefits from removing A:** institutional self-interest cannot masquerade as participant protected consequence.
 
 # PART AK — FALSIFICATION SYNTHESIS
 
