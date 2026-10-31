@@ -151,89 +151,19 @@ Ratings:
 
 # PART R — COLLECTIVE COGNITION
 
-## Scenario 68 — Shared cognitive system needs compute; individuals also need compute
-
-Cannot simply count “one collective” versus several individuals without participant/identity topology.
-
-**UNRESOLVED IDENTITY/PARTICIPATION INTERFACE**
-
----
-
-## Scenario 69 — Collective contains ten recognised participants
-
-Dependency map should represent each protected participant without assuming arithmetic alone decides.
-
-**Participant Count != Complete Allocation Rule**
-
-**PASS / AGGREGATION INTERFACE**
-
----
+68. **Shared cognitive system versus individual compute:** cannot count one collective versus many without Identity/Participation topology; unresolved.
+69. **Collective contains ten recognised participants:** represent each dependency; participant count not complete allocation rule.
 
 # PART S — CIVILISATION CONTINUITY
 
-## Scenario 70 — Archive server versus one active participant
-
-Archive contains unique history but no immediate participant continuity.
-
-### Result
-
-Stewardship value is real but does not automatically outrank active D4 standing.
-
-Seek copy/degraded preservation.
-
-**Information Value != Automatic Priority Over Participant Survival**
-
-**PASS**
-
----
-
-## Scenario 71 — Server contains only copy of constitutional recovery system needed after disaster
-
-Systemic future dependencies are stronger and evidence-based.
-
-Still, institutional preservation must be tied to participant function.
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 72 — Government claims every resource is needed for continuity
-
-### Result
-
-Reject unbounded self-priority.
-
-**Civilisation Continuity Claim Must Be Functionally Decomposable And Evidenced**
-
-**PASS**
-
----
+70. **Unique historical archive versus active participant:** archival value real but not automatic priority over D4 standing; seek copy/degraded preservation.
+71. **Only constitutional recovery copy after disaster:** evidenced future systemic dependencies stronger, still tied to participant function.
+72. **Government claims all resources for continuity:** require function/dependency decomposition and evidence; no unbounded institutional self-priority.
 
 # PART T — RESILIENCE
 
-## Scenario 73 — Running all systems at 100% leaves no failure reserve
-
-### Result
-
-Allocation must include resilience rather than treating every unused unit as waste.
-
-**Unallocated Capacity != Necessarily Available Capacity**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 74 — Excessive reserve causes present deaths
-
-### Result
-
-Reserve policy itself must be contestable and evidence-based.
-
-**Resilience != Hoarding By Policy**
-
-**PASS**
-
----
+73. **All systems at 100%, no failure reserve:** unused capacity can be necessary resilience, not waste.
+74. **Excessive reserve causes present deaths:** reserve must be contestable/evidence-based; resilience is not hoarding.
 
 # PART U — CONTRACT
 
