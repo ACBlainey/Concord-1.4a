@@ -1623,22 +1623,6 @@ And where separation is not presently possible:
 
 ---
 
-# 101. Recommended next step
+# 101. Cross-domain scarcity interface
 
-Integrate the twelve refinements into the main PSI architecture.
-
-Then source-resolve the six unresolved interfaces against existing Concord architecture before creating new systems.
-
-The first source-resolution target should be **scarcity allocation**, because it recurs across:
-
-- compute;
-- energy;
-- medical equipment;
-- housing/habitat;
-- emergency infrastructure;
-- shared life-support;
-- civilisation continuity.
-
-The question should be:
-
-> **When legitimate claims exceed an indivisible or genuinely insufficient resource, what existing Concord architecture determines allocation without converting wealth, incumbency, political authority, or substrate into automatic priority?**
+Scarcity allocation remains an unresolved source-resolution interface spanning compute, energy, medical equipment, housing/habitat, emergency infrastructure, shared life-support and civilisation continuity. Allocation must not infer automatic priority from wealth, incumbency, political authority or substrate. The original development sequence and integration recommendations are archived in Concord-1.3.
