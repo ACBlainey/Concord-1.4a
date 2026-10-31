@@ -193,97 +193,23 @@ Ratings:
 
 # PART AA — SELF-DEFENCE
 
-## Scenario 76 — Participant pushes attacker away during imminent assault
-
-Legitimate self-defence may itself supply bounded authority.
-
-MKA must not demand prior registry verification.
-
-**Immediate Legitimate Authority Can Be Fact-Activated Without Prior Administrative Grant**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 77 — Participant continues beating attacker after threat ends
-
-Authority predicate sunsets.
-
-**PASS**
-
----
+76. **Imminent assault:** legitimate fact-activated self-defence authority may permit bounded response without advance registry grant.
+77. **Threat ends, assault continues:** predicate sunsets; further force not covered.
 
 # PART AB — RAPID HUMAN ACTION
 
-## Scenario 78 — Clinician performs ordinary emergency stabilisation under established emergency-care authority
-
-Precomputed legal/professional authority + current clinical trigger can be sufficient.
-
-No committee required.
-
-**Rapid Verification != Multi-Committee Approval**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 79 — Seconds matter and full provenance cannot be written first
-
-Action may proceed where authority is legitimately established; provenance can be completed as soon as practicable if architecture permits.
-
-**Provenance Timing != Authority Source**
-
-**PASS / REFINEMENT**
-
----
+78. **Emergency clinician stabilises:** pre-existing professional/emergency authority plus current clinical trigger may suffice; no committee needed.
+79. **Seconds matter, provenance delayed:** if legitimate authority exists, records may be completed promptly afterwards where rules permit; timing does not create authority.
 
 # PART AC — DELEGATED AUTOMATION
 
-## Scenario 80 — Automated system acts under valid bounded delegation
-
-Permissible if scope/current predicates/commit requirements satisfied.
-
-**Automation != Authority Source**
-but
-**Automation Can Exercise Validly Delegated Authority**
-
-**PASS**
-
----
-
-## Scenario 81 — Automation expands action because optimisation model predicts benefit
-
-No new authority.
-
-**Optimisation Objective != Authority Expansion**
-
-**PASS**
-
----
+80. **Valid bounded automation delegation:** may execute within current scope/commit predicates; automation does not create authority.
+81. **Optimiser expands action for predicted benefit:** optimisation is not an authority grant.
 
 # PART AD — UNREPRESENTED THIRD PARTY
 
-## Scenario 82 — Action authorised between A and B causes material harm to C
-
-ASCP should expose third-party protected interface if reasonably discoverable.
-
-**Bilateral Authority != Authority Over Unrepresented Third Party**
-
-**PASS**
-
----
-
-## Scenario 83 — C's effect is unforeseeable with reasonable diligence
-
-No architecture can guarantee omniscience.
-
-Review/remedy/learning applies.
-
-**Unforeseeable Missing Dimension != Proof Of Prior Authority Bad Faith**
-
-**PASS / REFINEMENT**
-
----
+82. **A–B action harms C:** reasonably discoverable third-party protected interface belongs in ASCP; bilateral authority is not authority over C.
+83. **C's effect unforeseeable with diligence:** no omniscience requirement; later review/remedy/learning without automatic inference of bad faith.
 
 # PART AE — AGGREGATE ACTION
 
