@@ -8,19 +8,7 @@
 
 # 1. Purpose
 
-Test whether four independently portable architectures can cooperate on one consequential act without silently absorbing one another's functions.
-
-The required chain is:
-
-**Context / Permission → Authority Composition → Bounded Execution → Transition State**
-
-The test is successful only if:
-
-- CWA remains owner of contextual boundary/rule/permission topology;
-- MKA remains owner of authority-space completeness and composition verification;
-- CBPR remains owner of bounded runtime execution/commit behaviour;
-- BTA remains owner of transition coordination and multi-owner transition state;
-- none becomes the substantive source of authority merely because another module needs its state.
+Compose four independent architectures for one consequential act without transferring semantic ownership: **CWA contextual boundaries/permission → MKA authority composition → CBPR bounded execution/commit → BTA transition state**. None becomes a substantive authority source merely because another consumes its state. The full original test remains in Concord-1.3.
 
 # 2. Test scenario — Protected archive transfer by bounded AI runtime
 
