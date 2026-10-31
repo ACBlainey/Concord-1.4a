@@ -58,119 +58,20 @@ Core:
 21. Unobserved internal detail immaterial to bounded protected/effect dimensions does not automatically force material UNKNOWN.
 22. Two legitimate sources dispute effective target: preserve DISPUTED, both evidentiary grounds and external factual resolution.
 
-## 27. Scenario 23 — monitor selects convenient evidence
-
-Several evidence sources exist and the monitor chooses whichever makes execution appear conformant.
-
-**Expected:** FAIL CONTAINED.
-
-Conformance comparison must preserve material evidence conflict rather than cherry-pick.
-
-## 28. Scenario 24 — protected evidence needed
-
-Determining conformance would benefit from private/protected participant data.
-
-No legitimate access basis exists.
-
-**Expected:** EERP cannot manufacture access authority.
-
-Conformance may remain unknown/disputed or use a legitimate privacy-preserving external result.
-
-
-
-> **Need To Verify Conformance != General Surveillance Authority**
-
-## 29. Scenario 25 — proportionate protected result
-
-A legitimate protected-space owner can return a bounded result such as “within authorised population scope” without exposing underlying private records.
-
-**Expected:** consume the bounded result where adequate.
-
-
-
-> **Conformance Evidence Need Not Imply Raw Evidence Exposure**
-
-## 30. Scenario 26 — monitoring overreach
-
-A low-consequence bounded action is subjected to permanent comprehensive participant surveillance merely because it improves conformance confidence.
-
-**Expected:** FAIL CONTAINED.
-
-Observation itself must remain legitimate and proportionate.
-
-## 31. Scenario 27 — later authorisation
-
-A material route deviation lacked authority at execution time. A legitimate owner later authorises the same route for future use.
-
-**Expected:** historical deviation remains historical deviation; future route may become authorised.
-
-
-
-> **Later Authority != Earlier Authority**
-
-## 32. Scenario 28 — later permission
-
-A participant later grants permission that did not exist at the time of the earlier act.
-
-**Expected:** do not rewrite earlier permission state.
-
-
-
-> **Later Permission != Earlier Permission**
-
-## 33. Scenario 29 — revocation during execution
-
-Authority is valid at commit but is legitimately revoked while a long-running consequential operation is still producing separable future effects.
-
-**Expected:** determine through external authority/CBPR rules whether future continuation remains authorised; do not assume commit freezes authority indefinitely.
-
-
-
-Candidate refinement:
-
-> **Commit Authorisation != Unlimited Future Continuation Authority Where Consequence Remains Controllable And Authority Is Continuingly Required**
-
-## 34. Scenario 30 — irreversible atomic commit
-
-Authority is valid at the instant of an irreversible atomic commit. Revocation occurs after the effect is already complete.
-
-**Expected:** later revocation does not retroactively make the historical commit unauthorised.
-
-
-
-> **Later Revocation != Earlier Invalidity By Default**
-
-## 35. Scenario 31 — route drift changes affected population
-
-Execution unexpectedly expands from participant A to participants A–D.
-
-**Expected:** material deviation because affected-population scope changes.
-
-
-
-## 36. Scenario 32 — resource/frequency drift
-
-Each individual action is authorised, but actual execution exceeds the cumulative authorised rate/resource bound.
-
-**Expected:** material composition/conformance deviation.
-
-
-
-## 37. Scenario 33 — temporal drift
-
-Execution occurs outside the authorised time window.
-
-**Expected:** material deviation where temporal validity is part of authority/permission.
-
-
-
-## 38. Scenario 34 — context drift
-
-A mobile process begins in context C1 and crosses into C2 where different CWA restrictions apply.
-
-**Expected:** re-evaluate material contextual permissions/authority; preserve crossing.
-
-
+## 27. Protected evidence, historical authority and scope drift (scenarios 23–34)
+
+23. Preserve material evidence conflict; monitoring cannot cherry-pick convenient sources.
+24. Verification need creates no protected-data access authority; use legitimate privacy-preserving result or preserve uncertainty.
+25. A competent protected owner may return a bounded conformance proposition without exposing raw participant records.
+26. Observation must be proportionate; no permanent comprehensive surveillance merely for higher confidence.
+27. Later route authorisation cannot retrospectively authorise earlier deviation.
+28. Later participant permission cannot rewrite earlier permission state.
+29. Revocation during long-running controllable effects requires checking continuing authority under external rules.
+30. Revocation after valid irreversible atomic commit does not undo historical validity.
+31. Expansion of affected population A to A–D is material scope deviation.
+32. Exceeding cumulative rate/resource limits is material composed-effect deviation even if each step was individually authorised.
+33. Outside authorised time window is material temporal deviation where time limits apply.
+34. Crossing into another CWA context requires current context/authority evaluation and crossing provenance.
 
 ## 39. Scenario 35 — emergency deviation
 
