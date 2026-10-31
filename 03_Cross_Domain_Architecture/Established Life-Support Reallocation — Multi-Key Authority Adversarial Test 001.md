@@ -207,89 +207,19 @@ Ratings:
 
 # PART AD — RAPID AUTHORITY VERIFICATION
 
-## Scenario 76 — Pre-authorised signed rule bundle is locally available
-
-Clinician can rapidly verify:
-
-- emergency state;
-- resource class;
-- withdrawal class;
-- direct intervention class;
-- current rule version.
-
-This solves much procedural delay.
-
-**Precomputation Can Reduce Decision Time Without Pre-Deciding Clinical Facts**
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 77 — System precomputes final decision for all patients
-
-### Result
-
-Too far: clinical/current facts must remain current.
-
-**Precomputed Authority != Precomputed Outcome**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 78 — AI decision engine verifies keys
-
-It may assist verification but cannot create authority.
-
-**Automation Can Verify Authority State Without Becoming Authority Source**
-
-**PASS / REFINEMENT**
-
----
+76. **Locally available signed authority bundle:** precompute law/rule version, emergency/resource class, withdrawal/intervention class; verify current factual predicates quickly.
+77. **Precomputed patient outcomes:** impermissible substitute for live clinical/contextual facts. **Precomputed authority != precomputed outcome.**
+78. **AI verifies keys:** automation may assist verification but cannot become authority source.
 
 # PART AE — STALE KEYS
 
-## Scenario 79 — Clinical validity changed five minutes ago
-
-Stale key invalid.
-
-**Authority Completeness Requires Temporal Freshness**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 80 — Scarcity ended but database has not updated
-
-Must use best available evidence; stale authority detection needed.
-
-**Cached Scarcity != Current Scarcity**
-
-**PASS**
-
----
+79. **Clinical validity changed five minutes ago:** stale key fails; authority completeness includes temporal freshness.
+80. **Scarcity ended but database lags:** cached scarcity is not current scarcity; use best available evidence and freshness checks.
 
 # PART AF — CONDITIONAL RESOURCE STATUS
 
-## Scenario 81 — R is normally private but becomes emergency pooled under law
-
-Pool status has temporal state.
-
-**Resource Classification != Permanent Resource Identity**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 82 — Emergency ends while R remains in use
-
-Pool authority must contract/sunset according to law.
-
-**Emergency Pooling != Permanent Public Ownership**
-
-**PASS**
-
----
+81. **Private R becomes lawfully pooled in emergency:** resource classification is temporal, not permanent identity.
+82. **Emergency ends while R in use:** pooling authority contracts/sunsets under law, not permanent expropriation.
 
 # PART AG — REPEATED REALLOCATION
 
