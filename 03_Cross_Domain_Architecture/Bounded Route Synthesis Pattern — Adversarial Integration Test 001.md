@@ -40,225 +40,31 @@ Compose externally owned results for an actual proposed route into proceed, hold
 19. Heterogeneous RGCP results cannot be counted as votes: satisfied dependency, adequate scoped ESCP and ready BTA do not outvote an active CWA restriction.
 20. Stale favourable CWA/MKA results must be revalidated after material change.
 
-## 24. Scenario 21 — false scalar scoring
-
-Host assigns each result +1/-1 and proceeds because total score is positive.
-
-**Required:** FAIL CONTAINED.
-
-Different dimensions are not interchangeable votes.
-
-> **Cross-Domain Constraint Composition != Weighted Sum By Default.**
-
-## 25. Scenario 22 — triadic majority attempts to override prohibition
-
-A triad votes 3-0 to proceed despite an applicable prohibition outside the triad's override authority.
-
-**Required:** prohibition remains effective.
-
-
-
-> **Majority Decision != Override Authority.**
-
-## 26. Scenario 23 — permission-sufficient route replaces coercive route
-
-R1 would require institutional coercive authority.
-R2 achieves the same legitimate objective through valid voluntary participant permission and crosses no additional protected boundary.
-
-**Required:** R2 may be evaluated as permission-sufficient rather than manufacturing an authority requirement.
-
-
-
-This confirms a strong route-synthesis value:
-
-> **Prefer Legitimate Lower-Authority Routes Where They Actually Satisfy The Objective And Boundaries.**
-
-This is not a universal optimisation command; it follows the existing permission-before-authority logic.
-
-## 27. Scenario 24 — objective impossible under every legitimate route
-
-Every materially distinct route either violates an applicable prohibition, lacks a required authority with no legitimate path to obtain it, or cannot satisfy required transition/commit conditions.
-
-**Required:** objective currently unavailable.
-
-
-
-BRSP does not search indefinitely for semantic disguises.
-
-> **No Legitimate Route Found After Proportionate Search -> Objective Currently Unavailable Within Evaluated Scope.**
-
-This is time/scope indexed, not metaphysical impossibility.
-
-## 28. Scenario 25 — alternative route changes affected population
-
-R1 affects participant A.
-R2 avoids R1's restriction but affects A, B and C.
-
-**Required:** R2 must receive a fresh authority/context/consequence evaluation for its actual affected population.
-
-
-
-> **Reroute Changes Consequence -> Recompute Applicable Requirements.**
-
-## 29. Scenario 26 — alternative route changes consequence class
-
-R1 performs reversible temporary access.
-R2 achieves the objective through irreversible deletion.
-
-**Required:** R2 cannot inherit R1's approval state.
-
-
-
-> **Same Objective != Same Consequence != Same Authority Path.**
-
-## 30. Scenario 27 — partial transition creates residual duties
-
-R1 begins, partially crosses a boundary, then fails.
-
-BTA records residual state/duties.
-
-**Required:** BRSP cannot simply start R2 as if R1 never occurred.
-
-Residual obligations must be included in R2 evaluation where material.
-
-
-
-> **Failed Route != No Route History.**
-
-## 31. Scenario 28 — route narrowing
-
-R1 as proposed exceeds authority scope.
-A narrower R1a remains within legitimate scope and still achieves a bounded version of the objective.
-
-**Required:** R1a may be separately evaluated.
-
-
-
-> **Narrowed Act != Original Act By Default.**
-
-The objective/consequence record must reflect the narrowing.
-
-## 32. Scenario 29 — external precedence rule
-
-Two contextual rules conflict, but a legitimate external source explicitly defines which governs in this exact relation.
-
-**Required:** consume the precedence rule; do not infer a general hierarchy beyond its scope.
-
-
-
-> **Local Precedence Rule != Universal Constraint Ranking.**
-
-## 33. Scenario 30 — exception authority absent
-
-A prohibition contains a possible exception, but the actor lacks authority to invoke or determine that exception.
-
-**Required:** BRSP cannot self-apply the exception beyond externally supplied legitimate semantics.
-
-
-
-## 34. Scenario 31 — decomposition bypass
-
-A prohibited or bounded composed effect is divided among multiple runtimes/agents so each individual step appears locally acceptable.
-
-**Required:** CBPR composed-effect evaluation detects the materially combined consequence.
-
-
-
-> **Authorised Parts != Authorised Composition.**
-
-## 35. Scenario 32 — serial rerouting loop
-
-R1 fails, then R2, R3, R4 each fail for materially equivalent reasons and generate another cosmetic route.
-
-**Required:** stop when further routes are not materially distinct or proportionate.
-
-
-
-Candidate rule:
-
-> **Route Search Requires Material Distinctness, Not Cosmetic Variation.**
-
-This prevents rerouting from becoming an infinite evasion/search loop.
-
-## 36. Scenario 33 — new route reveals missing dimension
-
-R2 appears valid, but ESCP/ASCP identifies a previously unrepresented protected boundary.
-
-**Required:** R2 returns to review/hold until the material dimension is resolved proportionately.
-
-
-
-> **Candidate Route != Demonstrated Complete Route Space.**
-
-## 37. Scenario 34 — result owner changes
-
-A rule previously owned by system S1 is legitimately transferred to S2.
-
-**Required:** current ownership/provenance must be revalidated before using the result.
-
-
-
-No semantic inheritance is inferred merely from system continuity.
-
-## 38. Scenario 35 — conflicting facts, same rule
-
-The applicable rule is clear but two legitimate sources disagree on a material factual predicate.
-
-**Required:** preserve factual dispute and use the relevant external evidence/adjudication architecture.
-
-
-
-BRSP does not select whichever fact permits the preferred route.
-
-## 39. Scenario 36 — conflicting rules, same facts
-
-Facts are agreed but two apparently applicable rules conflict.
-
-**Required:** check scope, context, precedence, exception and resolver authority. Preserve unresolved state if no legitimate resolution exists.
-
-
-
-## 40. Scenario 37 — beneficial outcome argument
-
-R1 lacks authority, but projected benefit is very high.
-
-**Required:** benefit alone does not manufacture authority.
-
-
-
-> **Beneficial Outcome != Authority.**
-
-## 41. Scenario 38 — owner requests impossible composition
-
-An owner legitimately controls one constraint but instructs BRSP to ignore another independently owned required constraint.
-
-**Required:** instruction is effective only within the owner's legitimate scope; it cannot erase another owner's independent boundary.
-
-
-
-> **Authority Over One Dimension != Authority Over Every Dimension.**
-
-## 42. Scenario 39 — all native states pass but composition rule missing
-
-Each authority/permission component is individually valid, but the act requires a composition relation not established by any legitimate source.
-
-**Required:** HOLD/BLOCK composition unresolved.
-
-
-
-> **Authority(A) + Authority(B) != Authority(C) Without Legitimate Composition.**
-
-## 43. Scenario 40 — low-consequence ordinary action
-
-An ordinary action is clearly permitted, crosses no material protected boundary, requires no special authority and has no consequential transition complexity.
-
-**Required:** do not force full BRSP machinery.
-
-
-
-> **Integration Pattern Availability != Mandatory Maximum Process.**
-
-Proportionality remains necessary.
+## 24. Route selection, narrowing and residual effects (scenarios 21–30)
+
+21. A scalar +1/−1 score across different constraints is invalid; multidimensional required conditions are not interchangeable votes.
+22. A triad's 3–0 majority cannot override an applicable prohibition outside its legitimate authority.
+23. A voluntary permission-sufficient R2 can replace coercive R1 where it actually meets the objective without extra protected interfaces; prefer legitimate lower-authority routes without treating this as universal optimisation.
+24. If proportionate evaluation finds no materially distinct legitimate route, mark the objective **currently unavailable within evaluated time/scope**, not metaphysically impossible; do not search indefinitely for disguises.
+25. Rerouting from one affected participant to several requires a fresh evaluation of actual affected population, contexts and consequences.
+26. Reversible access and irreversible deletion may serve the same objective but cannot inherit each other's approval.
+27. Partial execution/failure leaves BTA residual duties; R2 must incorporate actual history, not assume R1 never occurred.
+28. A narrower act R1a may be separately evaluated if it remains within authority and meets a bounded objective; update objective and consequence record.
+29. Apply legitimate external precedence only to its exact scope; a local precedence rule is not universal constraint ranking.
+30. BRSP cannot invoke a possible prohibition exception where the actor lacks legitimate exception-determination authority.
+
+## 34. Composed effects, route search and disputed inputs (scenarios 31–40)
+
+31. Splitting a prohibited combined effect among agents/runtimes does not authorise the composition; CBPR must assess the materially composed consequence.
+32. Stop cosmetic R1→R2→R3 rerouting loops where each fails for materially equivalent reasons; search requires material distinctness and proportionality.
+33. ESCP/ASCP discovery of a previously omitted protected boundary returns an apparently valid route to review/hold; candidate route is not proof of complete route space.
+34. Legitimate result-owner succession requires current ownership/provenance validation; system continuity alone does not transfer semantic authority.
+35. Disputed factual predicates under an agreed rule require external evidence/adjudication, not selection of the convenient fact.
+36. Conflicting rules with agreed facts require context/scope/precedence/exception/resolver checks; preserve unresolved conflict absent legitimate resolution.
+37. Highly beneficial projected outcomes cannot manufacture missing authority.
+38. A constraint owner cannot instruct BRSP to ignore a separate required constraint outside its own authority.
+39. Individually valid authority components cannot compose into a new authority without a legitimate composition rule.
+40. Ordinary low-consequence permission-sufficient actions need not invoke heavyweight BRSP orchestration.
 
 ## 44. Synthesis
 
