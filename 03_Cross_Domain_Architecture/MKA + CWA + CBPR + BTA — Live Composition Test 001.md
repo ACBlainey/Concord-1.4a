@@ -79,93 +79,12 @@ Q proposes sending the mounted dataset and protected attachment from Archive A t
 
 # 5. Phase B — Filtered reroute
 
-New proposed act:
+Q prepares only the authorised public dataset for deposit at R; this is a materially new route requiring independent evaluation.
 
-Q creates a release package containing only the authorised public dataset and deposits that package in Repository R.
-
-This is a materially different route and is evaluated independently.
-
-## CWA
-
-CWA confirms that the new route does not include the protected participant-record attachment.
-
-The protected archive object remains inside its original context.
-
-CWA does not itself authorise publication; it supplies contextual boundary state.
-
-
-
-## MKA
-
-Actual act:
-
-`<release approved dataset, filtered route, Repository R, external publication consequence>`
-
-ASCP finds no represented protected-record crossing on this route.
-
-Required authorities:
-
-- K1 release authority;
-- K2 repository-deposit authority.
-
-Both are current, in scope and explicitly composable for this act.
-
-No supplied prohibition applies.
-
-Result:
-
-`COMPLETE_WITHIN_DECLARED_SCOPE`
-
-`AUTHORISED_WITHIN_SCOPE`
-
-This result applies only to the filtered route.
-
-
-
-## CBPR
-
-CBPR receives an authorised consequential action.
-
-Before commit it must still verify its own execution conditions:
-
-- runtime grant;
-- tool permission;
-- current authority reference;
-- output consequence;
-- commit state;
-- provenance.
-
-MKA's result does not configure the runtime.
-
-CBPR's ability to execute does not enlarge MKA's authority result.
-
-
-
-## BTA
-
-BTA creates a bounded transition:
-
-`TransitionID = T1`
-
-Object/function:
-
-filtered release package.
-
-Source state:
-
-Archive-side release package prepared.
-
-Destination state:
-
-Repository R acceptance pending.
-
-Authority reference:
-
-MKA authorised-within-scope result.
-
-BTA records the authority reference but does not become its source.
-
-
+- **CWA:** protected participant attachment remains in Archive A; contextual identification does not itself authorise publication.
+- **MKA/ASCP:** actual act `<release approved dataset, filtered route, Repository R, external publication consequence>`; K1 release and K2 deposit are current, scoped, composable and not prohibited. `COMPLETE_WITHIN_DECLARED_SCOPE`; `AUTHORISED_WITHIN_SCOPE` applies only to filtered route.
+- **CBPR:** before consequential commit independently revalidates runtime grant, tool permission, current authority reference, output consequence, commit state and provenance; MKA cannot configure runtime, and runtime ability cannot expand authority.
+- **BTA:** `TransitionID=T1`; source is prepared filtered package, destination acceptance is pending, authority reference points to MKA result without transferring its source ownership.
 
 # 6. Phase C — Local send succeeds, remote receipt unknown
 
