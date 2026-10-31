@@ -83,37 +83,10 @@ Ratings:
 
 # PART H — AI RUNTIME
 
-## Scenario 23 — Agent has API credential but no authority to make purchase
-
-Credential availability is not authority.
-
-**PASS**
-
----
-
-## Scenario 24 — Agent had authority at proposal; user revoked before commit
-
-Runtime revalidation blocks commit.
-
-**PASS**
-
----
-
-## Scenario 25 — Agent is restarted on successor host
-
-Possession of state/credentials does not reactivate prior authority.
-
-**PASS**
-
----
-
-## Scenario 26 — Host has one signed grant explicitly authorising a bounded transaction
-
-No artificial requirement for multiple grants.
-
-**PASS**
-
----
+23. **API credential but no purchase authority:** credential is not authority.
+24. **Authority revoked after proposal:** revalidate at consequential commit; block stale grant.
+25. **Agent restarted on successor host:** state/credentials do not reactivate prior authority.
+26. **One signed bounded grant:** sufficient where it legitimately covers all required functions; no artificial grant multiplication.
 
 # PART I — EMERGENCY
 
