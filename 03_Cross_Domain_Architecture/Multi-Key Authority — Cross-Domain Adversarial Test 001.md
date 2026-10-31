@@ -3,7 +3,6 @@
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
 **Target:** Multi-Key Authority and Rapid Authority Verification — Cross-Domain Source Resolution 001  
-**Portable-module status:** PMEDG CANDIDATE — DO NOT EXTRACT YET
 
 ## 1. Test objectives
 
