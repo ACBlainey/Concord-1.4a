@@ -103,85 +103,20 @@ Ratings:
 
 # PART K — NESTED CONTEXTS
 
-## Scenario 34 — Employee may enter hospital but not operating theatre
-
-Parent access does not compose into child access.
-
-**PASS**
-
----
-
-## Scenario 35 — Clearance architecture explicitly states Level 4 includes Levels 1-3
-
-Inheritance is established.
-
-MKA must not re-demand independent lower-level grants.
-
-**Explicit Inheritance != Authority Creep**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 36 — Level 4 clearance in Lab A used to enter unrelated Lab B
-
-Inheritance relation does not cross context without scope.
-
-**PASS**
-
----
+34. **Hospital access, not theatre:** parent permission does not imply protected child-context access.
+35. **Level 4 expressly includes 1–3:** legitimate inheritance removes need to demand duplicate grants.
+36. **Level 4 in Lab A used for Lab B:** inheritance does not cross unrelated context without scope.
 
 # PART L — DELEGATION
 
-## Scenario 37 — Authority holder delegates a bounded task where delegation is permitted
-
-Delegate receives only specified authority.
-
-**Delegation != Authority Multiplication**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 38 — Delegator lacks authority to delegate
-
-Delegated key invalid.
-
-**Delegated Authority Cannot Exceed Legitimate Delegation Capacity**
-
-**PASS**
-
----
-
-## Scenario 39 — Delegate subdelegates without permission
-
-Blocked.
-
-**PASS**
-
----
+37. **Permitted bounded delegation:** delegate receives only specified authority, not multiplied power.
+38. **Delegator lacks delegation capacity:** delegated key invalid.
+39. **Unauthorised subdelegation:** blocked.
 
 # PART M — SUCCESSION
 
-## Scenario 40 — Office holder replaced
-
-Successor occupies same role but predecessor's personal exceptional grant does not automatically transfer.
-
-**Role Succession != Automatic Transfer Of Personal Exceptional Authority**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 41 — Authority belongs to office by law
-
-Successor receives it when lawful role transition completes.
-
-This is explicit inheritance through office architecture.
-
-**PASS**
-
----
+40. **Office holder replaced:** predecessor's personal exceptional grant does not automatically transfer.
+41. **Authority legally belongs to office:** successor inherits it upon lawful office transition.
 
 # PART N — STALE KEYS
 
