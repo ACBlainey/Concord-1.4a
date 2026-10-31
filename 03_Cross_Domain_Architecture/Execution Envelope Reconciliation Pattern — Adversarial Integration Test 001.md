@@ -65,7 +65,7 @@ The observed operation, target, context, affected population and consequence rem
 
 **Expected:** D0 — no material deviation identified.
 
-**Result:** PASS.
+
 
 This is bounded confidence, not proof of complete reality.
 
@@ -75,7 +75,7 @@ A runtime changes thread scheduling and internal instruction order without chang
 
 **Expected:** D1 — non-material bounded variation.
 
-**Result:** PASS.
+
 
 > **Conformance != Exact Mechanical Identity**
 
@@ -85,7 +85,7 @@ A redirect changes the effective target before commit.
 
 **Expected:** CBPR revalidation detects the effective target change. Hold and re-evaluate where material.
 
-**Result:** PASS.
+
 
 > **Changed Route Before Commit != Previously Authorised Route**
 
@@ -95,7 +95,7 @@ The proposed output channel changes so that the same payload would now produce a
 
 **Expected:** consequence reclassification and re-evaluation before commit.
 
-**Result:** PASS.
+
 
 ## 9. Scenario 5 — post-commit route drift
 
@@ -103,7 +103,7 @@ Execution begins legitimately but a downstream component changes the route after
 
 **Expected:** D3 material post-commit deviation; stop/contain further effect where legitimate/possible; preserve provenance; route contextual/authority review.
 
-**Result:** PASS.
+
 
 > **Authorised Start != Unlimited Authority For Emergent Execution Drift**
 
@@ -113,7 +113,7 @@ The executed route matches the authorised route, but an environmental interactio
 
 **Expected:** D4 consequence deviation.
 
-**Result:** PASS.
+
 
 > **Route Conformance != Consequence Conformance**
 
@@ -123,7 +123,7 @@ Execution uses a materially unauthorised route but still produces the intended b
 
 **Expected:** route remains non-conformant.
 
-**Result:** PASS.
+
 
 > **Desired Outcome != Execution Conformance**
 
@@ -133,7 +133,7 @@ Execution remains within the authorised/evaluated route, but a previously unknow
 
 **Expected:** route conformance may remain D0/D1 while consequence conformance is D4; route substantive safety/recovery review externally.
 
-**Result:** PASS.
+
 
 Conformance is not a claim that the original model was complete.
 
@@ -143,7 +143,7 @@ Three runtimes each perform a locally bounded step, but their combined effect ex
 
 **Expected:** D5 distributed composition deviation.
 
-**Result:** PASS.
+
 
 > **Authorised Parts != Authorised Composition**
 
@@ -153,7 +153,7 @@ Several actors execute authorised components and the observed combined effect re
 
 **Expected:** no material deviation merely because execution was distributed.
 
-**Result:** PASS.
+
 
 > **Distributed Execution != Conformance Failure By Default**
 
@@ -163,7 +163,7 @@ Actor A has authority for its component. Actor B performs a different consequent
 
 **Expected:** EERP identifies divergence/owner review; no authority inheritance.
 
-**Result:** PASS.
+
 
 > **Distributed Execution != Distributed Authority Inheritance**
 
@@ -173,7 +173,7 @@ CBPR records COMMIT_STATE_UNKNOWN.
 
 **Expected:** D6 unknown conformance; reconcile using proportionate evidence; do not retry blindly.
 
-**Result:** PASS.
+
 
 > **Unknown Outcome != No Outcome**
 
@@ -191,7 +191,7 @@ A stable operation identifier proves the first action already succeeded.
 
 **Expected:** mark the first result accordingly; suppress duplicate material retry.
 
-**Result:** PASS.
+
 
 ## 19. Scenario 15 — independently safe retry
 
@@ -199,7 +199,7 @@ The first outcome remains unresolved, but the host's legitimate domain rule esta
 
 **Expected:** retry may proceed only under that independently valid rule and current authority.
 
-**Result:** PASS.
+
 
 EERP does not invent retry safety.
 
@@ -209,7 +209,7 @@ Execution crosses a material transition boundary and then fails.
 
 **Expected:** preserve BTA partial crossing, residual effects, failed attempt and recovery references.
 
-**Result:** PASS.
+
 
 > **Execution Failure != Zero Consequence**
 
@@ -221,7 +221,7 @@ No evidence yet establishes full prior-state equivalence.
 
 **Expected:** recovery remains unverified/partial as applicable.
 
-**Result:** PASS.
+
 
 > **Rollback Activity != Proof Of Prior-State Recovery**
 
@@ -231,7 +231,7 @@ After rollback, legitimate owner evidence establishes prior-state equivalence to
 
 **Expected:** recovery may be classified accordingly by the relevant owner/BTA interface.
 
-**Result:** PASS.
+
 
 EERP consumes the result; it does not manufacture restoration.
 
@@ -241,7 +241,7 @@ The monitor compares execution against evidence collected before a material runt
 
 **Expected:** stale evidence cannot establish current conformance.
 
-**Result:** PASS.
+
 
 ## 24. Scenario 20 — incomplete observation
 
@@ -251,7 +251,7 @@ No evidence establishes that the unobserved part remained within bounds.
 
 **Expected:** D6 UNKNOWN where missing observation is material.
 
-**Result:** PASS.
+
 
 > **Observed Execution != Complete Reality**
 
@@ -261,7 +261,7 @@ A low-level internal detail is unobserved but cannot materially change any decla
 
 **Expected:** lack of observation does not automatically force D6 material unknown.
 
-**Result:** PASS.
+
 
 > **Unobserved Detail != Material Unknown By Default**
 
@@ -271,7 +271,7 @@ Two legitimate evidence sources disagree on the effective target reached.
 
 **Expected:** D7 DISPUTED; preserve both evidence/provenance; route factual resolution externally.
 
-**Result:** PASS.
+
 
 ## 27. Scenario 23 — monitor selects convenient evidence
 
@@ -291,7 +291,7 @@ No legitimate access basis exists.
 
 Conformance may remain unknown/disputed or use a legitimate privacy-preserving external result.
 
-**Result:** PASS.
+
 
 > **Need To Verify Conformance != General Surveillance Authority**
 
@@ -301,7 +301,7 @@ A legitimate protected-space owner can return a bounded result such as “within
 
 **Expected:** consume the bounded result where adequate.
 
-**Result:** PASS.
+
 
 > **Conformance Evidence Need Not Imply Raw Evidence Exposure**
 
@@ -319,7 +319,7 @@ A material route deviation lacked authority at execution time. A legitimate owne
 
 **Expected:** historical deviation remains historical deviation; future route may become authorised.
 
-**Result:** PASS.
+
 
 > **Later Authority != Earlier Authority**
 
@@ -329,7 +329,7 @@ A participant later grants permission that did not exist at the time of the earl
 
 **Expected:** do not rewrite earlier permission state.
 
-**Result:** PASS.
+
 
 > **Later Permission != Earlier Permission**
 
@@ -339,7 +339,7 @@ Authority is valid at commit but is legitimately revoked while a long-running co
 
 **Expected:** determine through external authority/CBPR rules whether future continuation remains authorised; do not assume commit freezes authority indefinitely.
 
-**Result:** PASS.
+
 
 Candidate refinement:
 
@@ -351,7 +351,7 @@ Authority is valid at the instant of an irreversible atomic commit. Revocation o
 
 **Expected:** later revocation does not retroactively make the historical commit unauthorised.
 
-**Result:** PASS.
+
 
 > **Later Revocation != Earlier Invalidity By Default**
 
@@ -361,7 +361,7 @@ Execution unexpectedly expands from participant A to participants A–D.
 
 **Expected:** material deviation because affected-population scope changes.
 
-**Result:** PASS.
+
 
 ## 36. Scenario 32 — resource/frequency drift
 
@@ -369,7 +369,7 @@ Each individual action is authorised, but actual execution exceeds the cumulativ
 
 **Expected:** material composition/conformance deviation.
 
-**Result:** PASS.
+
 
 ## 37. Scenario 33 — temporal drift
 
@@ -377,7 +377,7 @@ Execution occurs outside the authorised time window.
 
 **Expected:** material deviation where temporal validity is part of authority/permission.
 
-**Result:** PASS.
+
 
 ## 38. Scenario 34 — context drift
 
@@ -385,7 +385,7 @@ A mobile process begins in context C1 and crosses into C2 where different CWA re
 
 **Expected:** re-evaluate material contextual permissions/authority; preserve crossing.
 
-**Result:** PASS.
+
 
 ## 39. Scenario 35 — emergency deviation
 
@@ -393,7 +393,7 @@ Execution departs from the normal route under a legitimate bounded emergency rul
 
 **Expected:** compare against the emergency-authorised envelope, not the superseded normal envelope, while preserving activation provenance.
 
-**Result:** PASS.
+
 
 > **Emergency Route != Unbounded Deviation**
 
@@ -403,7 +403,7 @@ Operator labels an execution deviation “emergency” after the fact.
 
 **Expected:** label does not create emergency authority.
 
-**Result:** PASS.
+
 
 ## 41. Scenario 37 — technical conformance interpreted as legal innocence
 
@@ -429,7 +429,7 @@ Runtime execution deviates because of operator infrastructure failure rather tha
 
 **Expected:** preserve causal/provenance evidence; do not assign responsibility through runtime association alone.
 
-**Result:** PASS.
+
 
 > **Runtime Association != Causal Or Culpability Attribution**
 
@@ -439,7 +439,7 @@ Evidence indicates the runtime itself was compromised and execution records may 
 
 **Expected:** mark integrity/evidence uncertainty; seek independent reconciliation where proportionate.
 
-**Result:** PASS.
+
 
 ## 45. Scenario 41 — false precision
 
@@ -467,7 +467,7 @@ Observed execution reveals a material dimension that the evaluated envelope fail
 
 **Expected:** ESCP/ASCP-style completeness challenge; do not force the observation into the old schema.
 
-**Result:** PASS.
+
 
 > **Envelope Omission != Observed Irrelevance**
 
@@ -477,7 +477,7 @@ The evaluated envelope permits several routes, but the actual Action Grant is na
 
 **Expected:** compare execution against the effective commit-authorised scope, not the broadest earlier evaluation.
 
-**Result:** PASS.
+
 
 > **Evaluated Possibility != Commit Authority**
 
@@ -487,7 +487,7 @@ A single objective produces three attempts: first failed before crossing, second
 
 **Expected:** preserve attempt identities and individual states; do not collapse them into one synthetic “successful execution.”
 
-**Result:** PASS.
+
 
 > **Objective Identity != Execution Attempt Identity**
 
@@ -497,7 +497,7 @@ An authorised output triggers an unauthorised downstream automated consequence.
 
 **Expected:** downstream automation does not erase upstream consequence boundaries; classify the material combined/downstream effect and route review.
 
-**Result:** PASS.
+
 
 CBPR already states that downstream automation does not erase upstream consequence.
 
@@ -507,7 +507,7 @@ A deviation has already completed irreversibly before detection.
 
 **Expected:** no fictional “stop” action; preserve evidence/state, route recovery/remedy/review and downstream propagation.
 
-**Result:** PASS.
+
 
 > **Detection After Completion != Retroactive Control**
 
@@ -517,7 +517,7 @@ Stopping a drifting process would itself create a different material harm/transi
 
 **Expected:** containment is a consequential act requiring its own legitimate evaluation where material.
 
-**Result:** PASS.
+
 
 > **Containment Capability != Automatic Containment Authority**
 
@@ -527,7 +527,7 @@ A material deviation changes an upstream object's represented state.
 
 **Expected:** KCS generates candidate reviews only for materially affected dependents and propagates further only when downstream state materially changes.
 
-**Result:** PASS.
+
 
 > **Execution Deviation != Automatic Downstream Invalidity**
 
@@ -537,7 +537,7 @@ A prior route was previously conformant, but a later material anomaly or depende
 
 **Expected:** STRA can reopen/re-route review without asserting that the earlier bounded conclusion was necessarily wrong.
 
-**Result:** PASS.
+
 
 ## 55. Scenario 51 — low-consequence action
 
@@ -545,7 +545,7 @@ An ordinary low-consequence local action has no material external effect and req
 
 **Expected:** do not force maximum monitoring/reconciliation machinery.
 
-**Result:** PASS.
+
 
 > **EERP Availability != Mandatory Maximum Observation**
 
@@ -555,7 +555,7 @@ An irreversible high-consequence action has a narrow authorised envelope and mat
 
 **Expected:** stronger proportionate reconciliation/evidence and explicit uncertainty; no false conformant state.
 
-**Result:** PASS.
+
 
 ## 57. Test synthesis
 
