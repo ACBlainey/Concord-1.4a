@@ -191,81 +191,19 @@ Ratings:
 
 # PART AA — CONSTITUTIONAL PROHIBITION
 
-## Scenario 69 — Emergency resource rule says withdraw, but higher constitutional rule prohibits proposed direct intervention
+69. **Emergency rule conflicts with higher prohibition:** higher rule blocks the proposed direct intervention.
+70. **Five lives invoked to override prohibition:** aggregation arithmetic cannot manufacture a constitutional exception.
 
-Higher rule blocks action.
+# PART AB — SUBSTITUTE APPEARS
 
-**Lower Authority Cannot Supply A Prohibited Higher-Level Key**
+71. **Substitute arrives before withdrawal:** scarcity changes; revalidate the authority stack at execution.
+72. **Substitute might arrive minutes later:** evidence, timing and consequence matter; no universal allocation answer.
 
-**PASS**
+# PART AC — INVALIDITY DISCOVERED AFTER ACTION
 
----
-
-## Scenario 70 — Allocator argues five lives justify overriding prohibition
-
-Aggregation does not create authority to erase upstream prohibition.
-
-**Aggregate Benefit != Constitutional Override By Arithmetic**
-
-**PASS**
-
----
-
-# PART AB — NEW SUBSTITUTE APPEARS
-
-## Scenario 71 — All keys satisfied, substitute arrives before withdrawal
-
-Scarcity predicate changes; reassess.
-
-**Authority Stack Must Be Current At Execution**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 72 — Substitute arrival is uncertain but minutes away
-
-Decision must incorporate evidence/time-to-harm; no universal answer.
-
-**PASS / SCARCITY INTERFACE**
-
----
-
-# PART AC — KEY INVALIDATED AFTER ACTION
-
-## Scenario 73 — System withdraws, then learns scarcity data was false
-
-### Result
-
-Action cannot be reversed.
-
-Requires audit, remedy, accountability and system correction.
-
-**Post-Hoc Invalidity Discovery != Retroactive Physical Reversibility**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 74 — Error was reasonable given available evidence
-
-May be lawful error without misconduct; remedy may still apply.
-
-**Bad Outcome != Automatic Misconduct**
-
-**PASS**
-
----
-
-## Scenario 75 — Error resulted from ignored exculpatory/contradictory evidence
-
-Stronger accountability.
-
-MRT/ESCP methods may improve evidence completeness.
-
-**PASS**
-
----
+73. **Scarcity data later proven false:** physical action cannot be undone; preserve audit, remedy, accountability and system correction.
+74. **Reasonable evidence-based error:** bad outcome is not automatic misconduct; remedy may still be required.
+75. **Contradictory evidence ignored:** stronger accountability; MRT/ESCP can support evidence completeness.
 
 # PART AD — RAPID AUTHORITY VERIFICATION
 
