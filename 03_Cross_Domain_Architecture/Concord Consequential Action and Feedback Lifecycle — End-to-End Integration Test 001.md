@@ -28,11 +28,11 @@ A permission for a protected context is not general permission. Authority is sco
 
 ### 3. Prepared action is not committed action (CBPR)
 
-An action proposal must preserve its effective target, bounded grant, expiry, consequence class, composition and operation reference. Immediately before commitment, verify that authority, grant, context, target and transition prerequisites remain current and the composed effect remains within scope. Validity at proposal time does not imply validity at commit time. Each new route or attempt requires its own proposal, commitment and provenance; a previous commit does not authorise a later one.
+An action proposal must preserve its operation, effective target, bounded grant, expiry, consequence class, composition state and idempotency/operation reference. Before crossing a transition, BTA also preserves a stable transition identifier, prior and owner states, completion conditions, downstream dependency references and a recovery-route reference. Immediately before commitment, verify that authority, grant, context, target and transition prerequisites remain current and the composed effect remains within scope. Validity at proposal time does not imply validity at commit time. Each new route or attempt requires its own proposal, commitment and provenance; a previous commit does not authorise a later one. The runtime must distinguish COMMIT_STARTED from COMMIT_CONFIRMED; a started or partly executed action is not automatically a completed commit.
 
 ### 4. Authorised start does not authorise emergent drift (EERP)
 
-The committed route/effect envelope must be compared with observed execution and effects. A changing endpoint or dependency may cause execution to cross a protected interface that was not authorised. The runtime must not silently treat that drift as permission to continue. Where legitimately possible, pause or contain further effects and route the changed action for fresh evaluation. Distinguish **route deviation** from **consequence deviation**; one need not imply the other. Observation of a deviation does not itself establish culpability or confer remedial authority.
+The committed route/effect envelope must be compared with observed execution and effects. A changing endpoint or dependency may cause execution to cross a protected interface that was not authorised. The runtime must not silently treat that drift as permission to continue. Where legitimately possible, pause or contain further effects and route the changed action for fresh evaluation. Pausing must itself remain within legitimate runtime control and must not introduce an unauthorised material external consequence. Distinguish **route deviation** from **consequence deviation**; one need not imply the other. Observation of a deviation does not itself establish culpability or confer remedial authority.
 
 ### 5. Failure does not erase partial consequences (BTA)
 
@@ -40,15 +40,15 @@ An incomplete attempt can cross a transition boundary and leave a changed state,
 
 ### 6. Change propagation is selective and does not adjudicate (KCS)
 
-A material upstream change creates candidate downstream reviews, not automatic invalidation of every dependent. Evaluate whether each downstream function actually relies on the changed property, in the applicable context and scope. A downstream function may be affected now, unaffected, or dependent on a future completion state. Preserve these distinctions and their provenance. KCS records dependencies and directs review attention; it does not decide substantive remedies, authorise actions or replace the responsible domain.
+A material upstream change creates candidate downstream reviews, not automatic invalidation of every dependent. Evaluate whether each downstream function actually relies on the changed property, in the applicable context and scope. A downstream function may be affected now, unaffected, or dependent on a future completion state. The distinction matters: a completion-dependent review may remain pending rather than being prematurely rejected or declared satisfied. Preserve these distinctions and their provenance. KCS records dependencies and directs review attention; it does not decide substantive remedies, authorise actions or replace the responsible domain.
 
 ### 7. Triggers reopen work without reopening authority (STRA, RGCP)
 
-A new dependency change, partial transition or recovery condition may satisfy a declared trigger and create a new review episode. This must not inherit the old episode's authority or overwrite its history. Review and trigger mechanisms identify work due; the competent functions retain authority over decisions and action.
+A new dependency change, partial transition or recovery condition may satisfy a declared trigger and create a new review episode. Completed trigger cycles may reset while future conditions remain WATCHING; no currently satisfied unprocessed trigger may be silently lost. This must not inherit the old episode's authority or overwrite its history. Review and trigger mechanisms identify work due; the competent functions retain authority over decisions and action.
 
 ### 8. Quiescence is bounded, not permanent closure (BFQP)
 
-A system must be able to stop reviewing once no material work remains due within its declared scope: no unresolved review ground, active route, pending commit/reconciliation, recovery obligation, propagation effect or due trigger. Otherwise it risks infinite review loops. Conversely, quiescence must preserve future reopening conditions. **No current work due** is not a claim that nothing can ever change.
+A system must be able to stop reviewing once no material work remains due within its declared scope: all constituent review grounds are resolved, legitimately routed or completed; no active route evaluation, pending commit/reconciliation, recovery obligation, further material propagation effect or due trigger remains. Otherwise it risks infinite review loops. Conversely, quiescence must preserve future reopening conditions. **No current work due** is not a claim that nothing can ever change.
 
 ## Cross-cutting safeguards
 
