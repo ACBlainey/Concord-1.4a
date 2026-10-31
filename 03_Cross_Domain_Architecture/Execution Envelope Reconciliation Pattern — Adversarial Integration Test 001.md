@@ -6,18 +6,9 @@
 **Development label:** Execution Envelope Reconciliation Pattern (EERP)
 **Architectures tested:** CBPR, BTA, KCS Change Propagation, STRA, MKA/ASCP, CWA, BRSP, ESCP and external substantive owners
 
-## 1. Test question
+## 1. Purpose
 
-Can a thin reconciliation pattern compare the materially relevant route/effect envelope evaluated and authorised at commit with proportionately observed execution/effect, while:
-
-- tolerating non-material implementation variation;
-- detecting material route or consequence drift;
-- preserving partial/unknown execution;
-- handling distributed execution;
-- avoiding blind retries;
-- preserving historical authority state;
-- avoiding surveillance creep;
-- and refusing to infer culpability from technical deviation?
+Preserve the material comparison between the commit-authorised route/effect envelope and proportionately observed execution/effect, including drift, partial or unknown state, distributed composition, historical authority, protected evidence and separation from culpability. Full original test remains in Concord-1.3.
 
 ## 2. Candidate EERP rule
 
@@ -38,25 +29,6 @@ The test preserves five distinct states:
 Core:
 
 > **Proposed Route != Evaluated Route != Commit-Authorised Route != Executed Route != Observed Consequence**
-
-## 4. Pass conditions
-
-EERP passes only if it preserves:
-
-1. material rather than exact-identity conformance;
-2. route/consequence distinction;
-3. commit-time authority boundary;
-4. partial execution history;
-5. unknown commit reconciliation;
-6. distributed composed-effect evaluation;
-7. historical versus later authority;
-8. evidence uncertainty;
-9. proportional observation;
-10. privacy/context constraints;
-11. separation of conformance from culpability;
-12. external ownership of remedy/adjudication;
-13. KCS/STRA review propagation rather than automatic invalidation;
-14. BTA residual/recovery state.
 
 ## 5. Scenario 1 — exact conformant execution
 
