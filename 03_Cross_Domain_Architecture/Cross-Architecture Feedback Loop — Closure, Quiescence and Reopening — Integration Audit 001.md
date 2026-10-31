@@ -130,117 +130,15 @@ and:
 
 > **Loop Iteration Requires Materially Distinct Reopening Basis Or Legitimate Backstop**
 
-## 12. Cross-architecture ping-pong test
+## 12. Feedback and ping-pong boundaries
 
-Consider:
-
-1. KCS detects dependency change and requests review.
-2. STRA routes review.
-3. RGCP preserves the dependency ground.
-4. BRSP re-evaluates route.
-5. Route remains valid.
-6. CBPR remains committable.
-7. EERP has no new execution deviation.
-8. BTA state is unchanged.
-9. KCS receives the same represented downstream state.
-
-Correct result:
-
-**PROPAGATION_STOPPED / REVIEW RESOLVED / RETURN TO QUIESCENCE.**
-
-KCS must not generate another candidate review merely because the review cycle itself occurred.
-
-> **Review Activity != Material State Change**
-
-## 13. Review-result ping-pong test
-
-Suppose:
-
-- STRA triggers review;
-- review returns the same substantive state;
-- KCS records the review;
-- the recording event itself is visible to STRA.
-
-If STRA treats “new review record exists” as new material evidence without a trigger definition that distinguishes semantic change, a cycle could arise.
-
-Existing STRA event semantics already require material equivalence rather than superficial event matching.
-
-Therefore:
-
-> **New Record != New Material State**
-
-This is sufficient when correctly integrated.
-
-## 14. Unknown-state ping-pong
-
-An UNKNOWN state may be passed between architectures.
-
-Failure mode:
-
-**UNKNOWN → review → still UNKNOWN → review → still UNKNOWN ...**
-
-Existing local architectures already preserve UNKNOWN rather than inventing certainty.
-
-Global closure additionally requires:
-
-> **Persistent Unknown != Automatic Immediate Re-review**
-
-Where no new evidence/state/backstop exists, UNKNOWN may remain represented while active work returns to bounded quiescence or a bounded waiting state.
-
-If consequence requires resolution before action, the action remains blocked/held; the review machinery need not run continuously.
-
-## 15. Disputed-state ping-pong
-
-Similarly:
-
-**DISPUTED != Continuous Re-adjudication**
-
-Where a legitimate resolver has not changed the dispute state and no new evidence/backstop applies, preserve the dispute and wait/reroute according to legitimate process.
-
-## 16. Routing-unresolved ping-pong
-
-STRA already states that ROUTING-UNRESOLVED requires a bounded review/escalation/backstop and cannot silently become legitimate ownership.
-
-But repeated owner searches without changed information can themselves become an infinite loop.
-
-Candidate rule:
-
-> **Unresolved Routing Requires A Bounded Recheck Condition, Not Continuous Owner Search.**
-
-This is consistent with STRA's backstop model.
-
-## 17. Reroute/review interaction
-
-BRSP may propose R2 after R1 fails.
-
-R2 may create a new contextual/dependency question, producing a new RGCP constituent.
-
-That is legitimate if the ground is materially new.
-
-It is not a cycle merely because the lifecycle returns to review.
-
-> **Return To Earlier Stage != Loop Failure Where Material State/Question Changed**
-
-## 18. Execution/review interaction
-
-EERP deviation may create:
-
-- BTA residual state;
-- KCS dependency changes;
-- STRA triggers;
-- RGCP review grounds.
-
-After those are resolved, a new route may be proposed.
-
-This is a legitimate feedback cycle.
-
-The distinction is:
-
-> **Feedback != Infinite Loop**
-
-A feedback architecture is expected to revisit earlier stages.
-
-The failure condition is unbounded repeated work without materially changed state, question, evidence or legitimate backstop.
+- **KCS→STRA→RGCP→BRSP→CBPR→EERP→BTA→KCS:** if the route remains valid, commit state unchanged, no deviation/residual appears and downstream material state is unchanged, stop propagation and return to quiescence. Review activity alone is not material state change.
+- **Review-generated log:** a new provenance record is not new substantive evidence unless the declared trigger legitimately depends on it.
+- **Persistent UNKNOWN:** retain uncertainty and hold affected action as necessary, but do not rerun without evidence, changed state or due backstop.
+- **DISPUTED:** wait for legitimate resolver/evidence rather than continuous internal re-adjudication.
+- **ROUTING_UNRESOLVED:** preserve unresolved ownership and a bounded recheck/escalation condition; do not search continuously.
+- **R1→R2:** a materially changed route/context/question may legitimately return to review; this is not a loop defect.
+- **EERP deviation→BTA residual→KCS/STRA/RGCP→new route:** legitimate feedback when each iteration is grounded in material change; feedback is not inherently infinite repetition.
 
 ## 19. Candidate cycle identity
 
