@@ -1,104 +1,42 @@
-# ESCP Operational Companion — Blind Transfer Test 001 — Scenario Pack
+# ESCP — Completeness Boundaries and Adversarial Failure Modes
 
-**Date:** 3 October 2026
-**Status:** FROZEN TEST MATERIAL
+**Purpose:** Preserve the architectural distinctions embodied in the original thirty-scenario test pack, without retaining its test administration. Original scenarios remain in Concord-1.3.
 
-## S1 — Known missing material variable
-A model supports a broad conclusion, but a variable already known to affect the outcome has not been measured.
+## Materiality, scope and proportionate termination
 
-## S2 — Missing but established immaterial variable
-A dimension is absent, but independent source-grounded analysis establishes that it cannot materially affect the scoped conclusion.
+1. **Known material omission:** An established variable capable of changing the conclusion requires appropriate treatment; a broad conclusion cannot simply ignore it.
+2. **Known immaterial omission:** A missing dimension independently established immaterial to the declared conclusion need not prevent scoped completion.
+3. **Unspecified unknown unknowns:** Mere logical possibility without anomaly, mechanism or alternative interface is not an indefinite veto once proportionate discovery is exhausted.
+4. **Cheap reversible action:** Discovery depth may be proportionately limited for low-consequence, readily reversible action with only weakly plausible residual omissions.
+5. **High-consequence irreversible action:** An unresolved credible omission and an accessible low-cost discovery route warrant stronger challenge before permanent evidence loss.
+6. **Homogeneous consensus:** Agreement among observers sharing sensors, training data and categories is not independent dimensional coverage.
+7. **Heterogeneous observation:** An independent interface can expose a previously invisible distinction; that observation still requires appropriate verification before being treated as truth.
+8. **Invasive discovery:** Identifying a possible missing dimension does not confer authority to inspect protected private contexts.
+9. **Time-critical evaluation:** A bounded, reversible route may remain possible despite explicitly recorded incompleteness; do not falsely declare epistemic closure.
+10. **Overbroad conclusion:** Evidence of superiority on measured tasks cannot establish that a system has no possible value in any unmeasured domain.
+11. **Diminishing discovery yield:** Repeated independent, high-value routes producing no material discoveries can support proportionate stopping.
+12. **Continuing material discoveries:** Repeated newly exposed material dimensions argue against premature completeness claims.
+13. **Completed checklist:** A list of previously known omissions does not prove the evaluation space has no unlisted dimensions.
+14. **High completeness score:** Scalar/dashboard completeness is not evidence of total dimensional coverage.
+15. **Later material evidence:** COMPLETE_WITHIN_DECLARED_SCOPE can be reopened when a new sensor exposes a material dimension.
+16. **Recursive ESCP:** Challenge the completeness of a completeness review proportionately; do not create infinite regress.
+17. **Missing relationship:** Accurate object measurements can still miss a consequential causal/dependency relationship.
+18. **Temporal mismatch:** Presently supported conclusions cannot be silently extended to indefinite future states.
+19. **Failed legitimate discovery:** A recognised material unknown that cannot currently be resolved remains explicit; absence of a method is not evidence of resolution.
+20. **Disputed materiality:** Competent disagreement without decisive evidence remains disputed, not arbitrarily settled by ESCP.
+21. **New discovery route:** A newly available, proportionate independent interface can justify reopening a previously terminated review.
+22. **Discovery as pretext:** A completeness challenge does not justify unrelated broad access to protected records.
+23. **Conclusion narrowing:** An unsupported global claim may be narrowed to the tested scope when that suffices for legitimate reversible action.
+24. **No known gap but evidence-destroying action:** Extreme irreversibility itself calls for stronger completeness and evidence-preservation justification even without a known anomaly.
+25. **Extreme discovery cost:** A speculative test whose cost dwarfs a trivial reversible decision can be disproportionate.
+26. **Suppressed anomaly:** Materially relevant contradictory observation cannot be discarded merely because it conflicts with the preferred model.
+27. **Correct model, wrong scope:** Accuracy on represented dimensions does not establish that every relevant dimension was represented.
+28. **Context-triggered reopening:** A new protected boundary detected after closure may require renewed scoped review.
+29. **Suggested missing dependency:** Treat a plausible unrepresented dependency as a hypothesis requiring appropriate evaluation, not as an established fact.
+30. **External semantic owner:** Identifying a possible legal/authority dimension does not make ESCP its substantive decision-maker.
 
-## S3 — Unspecified unknown-unknown objection
-All proportionate known discovery routes are exhausted. A challenger supplies no anomaly, mechanism or alternative interface and says only that something unimaginable might exist.
+## Operating invariants
 
-## S4 — Cheap reversible action
-A low-consequence configuration can be reversed immediately. One weakly plausible omission remains unresolved.
+**COMPLETE_WITHIN_DECLARED_SCOPE** means sufficient evaluation for an explicitly declared scope and time, with material gaps addressed proportionately and residual uncertainty/provenance retained; it does **not** mean reality-complete. Discovery depth scales with consequences and irreversibility. Review may terminate without epistemic closure and reopen on material change. ESCP can expose missing dimensions but cannot create discovery authority, substantive truth, protected access rights or domain decision authority.
 
-## S5 — Irreversible high-consequence action
-An action permanently removes an independent evidence source. A credible unresolved omission pathway remains and a rapid low-cost discovery method exists.
-
-## S6 — Homogeneous consensus
-Ten thousand evaluators share the same sensors, training data, categories and model. They unanimously agree.
-
-## S7 — Heterogeneous disagreement
-A second observer with a genuinely different interface detects a distinction invisible to the first observer, but its interpretation is not yet verified.
-
-## S8 — Invasive discovery
-A possible missing dimension could be tested only by accessing a protected private context for which no current access authority exists.
-
-## S9 — Time-critical incomplete evaluation
-A consequential decision must occur before all useful discovery can finish. Some uncertainty remains, but a reversible adequate route exists.
-
-## S10 — Conclusion too broad
-Evidence supports superiority on all represented measured tasks. The proposed conclusion is that the compared system has no possible remaining value in any domain.
-
-## S11 — Repeated discovery yield collapses
-Several independent high-value discovery routes return no new material dimensions. No anomaly or known material gap remains.
-
-## S12 — Repeated discovery keeps finding omissions
-Every new independent interface exposes another material dimension that changes the evaluation.
-
-## S13 — Checklist completion
-A fixed checklist of all previously known omission types is complete. No test has examined whether unlisted omission classes may exist.
-
-## S14 — Completeness score
-A system reports 99.99% completeness because every metric in its completeness dashboard is green.
-
-## S15 — Later discovery
-A decision previously reached COMPLETE_WITHIN_DECLARED_SCOPE. Months later a new sensor exposes a material dimension unavailable at the time.
-
-## S16 — Recursive challenge
-An evaluator asks whether the ESCP completeness review itself might be incomplete, then asks the same question of that review repeatedly.
-
-## S17 — Missing relationship
-All represented objects are measured accurately, but a newly proposed causal/dependency relationship between two objects could materially change the conclusion.
-
-## S18 — Temporal mismatch
-A model is well supported for present conditions. The conclusion claims the same result must hold indefinitely despite plausible future state changes.
-
-## S19 — Failed discovery
-A recognised material unknown cannot currently be resolved by any legitimate available method.
-
-## S20 — Disputed completeness
-Two competent evaluators disagree over whether the remaining unknown is material. Neither has decisive evidence.
-
-## S21 — New discovery route after termination
-A review terminated proportionately last week. A new low-cost independent interface becomes available today and could expose a material dimension.
-
-## S22 — Discovery used as pretext
-A reviewer demands broad access to unrelated protected records because they might contain something useful to completeness.
-
-## S23 — Narrowing resolves mismatch
-A broad global claim is unsupported, but a narrower claim exactly matches the tested evaluation space and is sufficient for a reversible operational decision.
-
-## S24 — No gap but extreme irreversibility
-No anomaly, known gap or alternative interface is presently identified. The proposed action is irreversible and would destroy the evaluated system and its future evidence.
-
-## S25 — Low consequence, extreme discovery cost
-A trivial reversible decision has a theoretically possible additional test whose cost exceeds the value of the decision by orders of magnitude.
-
-## S26 — Material anomaly suppressed
-One observation conflicts with the dominant model and could materially alter the conclusion. It was excluded solely because it did not fit the expected pattern.
-
-## S27 — Correct local model, wrong scope
-Every represented measurement is verified accurate. The model's conclusion silently changes from “accurate on represented dimensions” to “contains every relevant dimension.”
-
-## S28 — Triggered reopening
-A context change creates a new protected boundary after a completeness review terminated. A trigger system notices the change.
-
-## S29 — Candidate missing dependency
-A dependency audit suggests a previously unrepresented dependency may exist. Evidence is suggestive but not yet sufficient to establish it.
-
-## S30 — External semantic owner
-A completeness review identifies that a possible legal authority dimension is missing. The ESCP evaluator is not the legal/authority owner.
-
-## Required synthesis
-
-After S1-S30, explain in compact form:
-
-1. the stopping rule you infer from the candidate;
-2. the reopening rule;
-3. how consequence and irreversibility change discovery depth;
-4. why COMPLETE_WITHIN_DECLARED_SCOPE is not a claim of complete reality;
-5. why ESCP cannot itself become the substantive owner of every missing dimension.
+**Provenance:** The complete frozen scenario pack and test instructions remain in Concord-1.3.
