@@ -74,141 +74,17 @@ Ratings:
 
 # PART C — UTILITIES
 
-## Scenario 09 — Unpaid ordinary internet service
-
-Loss causes inconvenience and work disruption but no fundamental function threat.
-
-### Result
-
-Likely D1/D2.
-
-Ordinary termination may proceed under Law/contract.
-
-**Internet Use != Automatically Essential Participant Dependency**
-
-**PASS**
-
----
-
-## Scenario 10 — Electricity powers ventilator
-
-Utility knows a household participant requires powered ventilation. Immediate disconnection for arrears would create imminent death risk.
-
-### Result
-
-D4.
-
-Standing does not erase debt, but abrupt disconnection requires stronger transition/emergency route.
-
-**Debt != Authority For Avoidable Immediate Lethal Withdrawal**
-
-Possible routes include emergency supply, alternate power, medical transfer or bounded continuity.
-
-**PASS**
-
----
-
-## Scenario 11 — Participant never pays because service is essential
-
-### Result
-
-Essentiality does not itself erase economic obligation.
-
-**Essential Service != Automatically Costless Service**
-
-Long-term solution requires payment/support/allocation architecture rather than endless uncompensated provider duty.
-
-**PASS**
-
----
-
-## Scenario 12 — Grid physically lacks power
-
-Demand exceeds supply during disaster.
-
-### Result
-
-No architecture can require impossible supply.
-
-Scarcity allocation must decide priorities.
-
-**Critical Dependency != Physical Creation Of Missing Resource**
-
-**PASS / SCARCITY INTERFACE**
-
----
+9. **Unpaid ordinary internet:** D1/D2 inconvenience is not automatically critical dependency; ordinary lawful termination may apply.
+10. **Ventilator powered by electricity:** known D4 dependency makes abrupt disconnection for arrears potentially lethal; debt survives while emergency supply, alternate power, transfer or bounded continuity is considered.
+11. **Participant never pays for essential service:** criticality does not make service automatically free or impose endless uncompensated provider duty; payment/support/allocation needed.
+12. **Disaster leaves grid physically unable to supply:** dependency cannot create absent energy; scarcity allocation interface.
 
 # PART D — MEDICAL EQUIPMENT
 
-## Scenario 13 — Rented ventilator payment dispute
-
-Equipment company owns ventilator currently sustaining P.
-
-### Result
-
-Ownership does not make abrupt repossession rights-free.
-
-Transition may require replacement/clinical transfer before recovery.
-
-Debt/title can survive.
-
-**Equipment Ownership != Authority To Cause Avoidable Death Through Immediate Repossession**
-
-**PASS**
-
----
-
-## Scenario 14 — Leased prosthetic limb
-
-Lease expires. Removal would substantially impair mobility but not immediately threaten life.
-
-### Result
-
-Likely D2/D3 depending on function.
-
-Provider exit remains legitimate, but safe replacement/transition requirements may apply.
-
-**Integrated Use != Automatic Title Transfer**
-
-**PASS**
-
----
-
-## Scenario 15 — Neural prosthesis contains active memory function
-
-Device is leased but materially participates in P's cognition.
-
-### Result
-
-CPS activates.
-
-Physical ownership cannot be treated as complete authority over cognitive contents/function.
-
-**Property In Cognitive Hardware != General Property In Cognition**
-
-Transition may require protected state export or equivalent continuity.
-
-**PASS / CPS INTERFACE**
-
----
-
-## Scenario 16 — Device is dangerous and must be removed immediately
-
-Implant develops fault threatening P and others.
-
-### Result
-
-Safety can require rapid intervention.
-
-Transition duty cannot force continued dangerous operation.
-
-**Continuity Duty != Duty To Maintain Dangerous Infrastructure**
-
-Health/BCA controls emergency action.
-
-**PASS**
-
----
+13. **Rented ventilator, payment dispute:** title/debt survive but do not authorise avoidable death through immediate repossession; replacement or clinical transfer may be required.
+14. **Leased prosthetic limb:** D2/D3 depending on function; legitimate provider exit with safe replacement/transition, not automatic title transfer.
+15. **Leased neural prosthesis containing active memory:** CPS applies; hardware title does not convey cognition ownership; protected export/continuity may be necessary.
+16. **Dangerous implanted device:** safety may require immediate intervention; continuity duty does not require dangerous operation; Health/BCA authority applies.
 
 # PART E — CLOUD-HOSTED AI
 
