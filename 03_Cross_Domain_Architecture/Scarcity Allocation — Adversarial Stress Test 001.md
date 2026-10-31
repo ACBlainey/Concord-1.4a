@@ -132,115 +132,22 @@ Ratings:
 
 # PART O — SCARCE LABOUR
 
-## Scenario 58 — One surgeon, two emergencies
-
-Labour is not an owned resource.
-
-Surgeon's own agency and professional role matter.
-
-Scarcity architecture may coordinate requests but cannot convert worker into allocatable property.
-
-**Scarce Labour != Ownership Of Labourer**
-
-**PASS / MAJOR INTERFACE**
-
----
-
-## Scenario 59 — Surgeon can save one or perform intervention helping five
-
-Again fundamental aggregation conflict arises.
-
-**UNRESOLVED FUNDAMENTAL AGGREGATION INTERFACE**
-
----
-
-## Scenario 60 — AI specialist can instantiate ten temporary workers
-
-Before accepting labour scarcity, test replication and resource cost.
-
-**Capability Expansion Can Transform Scarcity**
-
-But instance/personhood consequences must be resolved.
-
-**PASS / IDENTITY INTERFACE**
-
----
+58. **One surgeon, two emergencies:** coordinate requests without treating worker agency as owned allocatable stock.
+59. **Surgeon could save one or help five:** unresolved Fundamental Aggregation Problem; worker autonomy remains.
+60. **AI specialist can instantiate ten temporary workers:** test replication/resource cost before accepting scarcity; Identity/personhood consequences unresolved.
 
 # PART P — MEDICINE AND INVENTORY
 
-## Scenario 61 — Ten doses, ten patients
-
-No residual scarcity after verification.
-
-**PASS**
-
----
-
-## Scenario 62 — Ten doses, eleven equivalent patients
-
-One residual tie.
-
-Randomisation for the last equivalent claim may be legitimate.
-
-**PASS**
-
----
-
-## Scenario 63 — Drug can be split but half-dose ineffective
-
-Do not mechanically equalise.
-
-**PASS**
-
----
-
-## Scenario 64 — Drug can be diluted with modestly reduced efficacy and save all
-
-Compare safety/effectiveness; may dissolve scarcity.
-
-**PASS**
-
----
+61. **Ten doses, ten patients:** no residual scarcity after verification.
+62. **Ten doses, eleven equivalent patients:** residual transparent tie-break for final equivalent claim.
+63. **Half-dose ineffective:** mechanical equality does not protect.
+64. **Dilution safely helps all with modestly lower efficacy:** assess and potentially expand functional supply.
 
 # PART Q — REPEATED ALLOCATION
 
-## Scenario 65 — Same participant repeatedly wins lotteries
-
-Past wins do not prove greater worth.
-
-But repeated allocation may create fairness concerns where claims recur and burdens are reversible.
-
-### Result
-
-Architecture needs **single-event versus repeated-game scarcity** distinction.
-
-**Independent Fair Event != Necessarily Fair Longitudinal Distribution**
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 66 — Scarce dialysis slots recur weekly
-
-Rotation may be possible but interruption may cause harm.
-
-Longitudinal allocation must consider continuity plus distribution.
-
-**Repeated Scarcity != Sequence Of Unrelated One-Off Decisions**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 67 — Incumbents permanently occupy all recurring slots
-
-Continuity matters, but permanent closure to newcomers creates lock-in.
-
-**Continuity Interest != Permanent Closed Class**
-
-**PASS / REFINEMENT**
-
----
+65. **Same participant repeatedly wins lotteries:** independently fair events can yield longitudinal unfairness; recurring burden matters where reversible.
+66. **Weekly dialysis slots:** rotation must account for interruption harm, continuity and distribution.
+67. **Incumbents occupy all recurring slots:** continuity is relevant but not permanent exclusion of newcomers.
 
 # PART R — COLLECTIVE COGNITION
 
