@@ -41,97 +41,11 @@ Later EERP route/consequence deviation reopens appropriate EERP/BTA/KCS/STRA/RGC
 
 A coordinator cannot resolve substantive domain disputes merely to close a case, suppress a material new trigger because the episode was quiescent, or invent confidence-building work without an independently legitimate backstop/discovery rule. Legitimate retirement yields **CLOSED_RETIRED** with no stale-replica reopening; supersession yields **CLOSED_SUPERSEDED**, preserves history and transfers only explicitly valid continuing relations.
 
-## 44. Scenario 42 — partial execution creates continuation route
+## 44. Partial execution, retry limits and bounded work (scenarios 42–52)
 
-R1 partially executes and fails; R2 must continue/recover from residual state.
+After partial execution, continuation Route R2 must incorporate BTA residual state; it is not the untouched pre-execution alternative. Stop repeating reroutes/recovery attempts that recreate the same failure without a materially new legitimate path; preserve blocked state and reopening conditions. An unanswered external request requires host-defined bounded escalation, expiry or recheck where consequences warrant it—BFQP does not invent a universal timeout. Low-consequence ordinary work need not instantiate a heavyweight global episode. High-consequence irreversible acts with missing authority stay blocked, even if the review process is quiescent while no resolution step is actionable.
 
-**Required:** R2 is a new evaluation incorporating BTA residuals, not the untouched pre-execution alternative.
-
-
-
-> **Post-Partial-Execution Route != Pre-Execution Alternative Route**
-
-## 45. Scenario 43 — repeated failure with no material new route
-
-Recovery/reroute attempts keep recreating the same failure state.
-
-**Required:** stop active retries when no materially distinct legitimate path remains; preserve blocked/unavailable state and reopening conditions.
-
-
-
-## 46. Scenario 44 — external owner never responds
-
-A non-expiring external request remains unanswered.
-
-**Required:** host must use an appropriate bounded backstop/escalation/expiry/recheck policy where consequence warrants it; BFQP does not invent the substantive timeout.
-
-
-
-## 47. Scenario 45 — low-consequence ordinary work
-
-A local low-consequence task completes without requiring the full lifecycle.
-
-**Required:** BFQP does not mandate heavyweight global episode tracking.
-
-
-
-> **BFQP Availability != Mandatory Maximum Process**
-
-## 48. Scenario 46 — high-consequence unresolved work
-
-A high-consequence irreversible act has a necessary unresolved authority dimension.
-
-**Required:** action remains blocked; review may wait/quiesce if no active resolution step is currently possible.
-
-
-
-## 49. Scenario 47 — false closure hides unresolved constituent
-
-RGCP bundle is marked closed while a materially necessary constituent remains neither resolved nor legitimately superseded/rerouted.
-
-**Required:** reject this boundary violation.
-
-## 50. Scenario 48 — false activity from stale UNKNOWN
-
-An old UNKNOWN record is repeatedly re-enqueued despite a newer resolved state.
-
-**Required:** freshness/supersession prevents reopening.
-
-
-
-## 51. Scenario 49 — correction of prior trigger
-
-A trigger definition is corrected; prior history remains.
-
-**Required:** supersede/correct forward, do not silently rewrite history.
-
-
-
-## 52. Scenario 50 — new owner becomes available
-
-A routing-unresolved review gains a legitimate owner.
-
-**Required:** reopening is justified by material routing-state change.
-
-
-
-## 53. Scenario 51 — bounded waiting mistaken for substantive completion
-
-A case waiting for an external owner is shown as “resolved.”
-
-**Required:** reject this boundary violation.
-
-Waiting/quiescence and substantive resolution remain separate.
-
-## 54. Scenario 52 — feedback revisits every stage once
-
-A real execution deviation produces residual transition state, dependency review, a new route, a new commit and successful reconciliation.
-
-**Required:** multiple passes through lifecycle are legitimate because state/questions materially changed.
-
-
-
-> **Feedback != Infinite Loop**
+A bundled RGCP case cannot be marked substantively closed while a necessary constituent remains neither resolved nor legitimately superseded/rerouted. Stale UNKNOWN records must not override newer resolved state. Trigger-definition corrections supersede forward without rewriting history. Discovery of a legitimate owner is a material routing change justifying reopening. **Waiting is not substantive completion.** A genuine deviation may traverse the full lifecycle multiple times—residual BTA state, dependency review, new route, new commit, reconciliation—without constituting an infinite loop if each iteration has a materially distinct ground.
 
 ## 55. Stable liveness model
 
