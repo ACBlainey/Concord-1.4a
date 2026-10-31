@@ -198,147 +198,22 @@ Ratings:
 
 # PART V — CONTINUITY VERSUS IDENTITY
 
-## Scenario 76 — Migration produces two active instances
-
-### Result
-
-PSI cannot decide whether this is duplication, branching or continuity.
-
-Identity architecture required.
-
-**Migration Mechanism != Identity Determination**
-
-**UNRESOLVED INTERFACE**
-
----
-
-## Scenario 77 — Migration requires temporary suspension
-
-### Result
-
-Suspension is not automatically death/standing loss.
-
-Identity/Continuity determines acceptable process.
-
-**Operational Pause != Automatic Participant Termination**
-
-**PASS / INTERFACE**
-
----
-
-## Scenario 78 — Provider offers “backup” instead of continuity
-
-Backup cannot be assumed equivalent to live participant continuation.
-
-**Stored Recovery Object != Proven Continuity Substitute**
-
-**PASS**
-
----
+76. **Migration produces two active instances:** PSI cannot classify branching, duplication or continuity; Identity architecture must resolve.
+77. **Migration requires temporary suspension:** pause is not automatically participant termination; Identity/Continuity defines acceptable process.
+78. **Provider offers backup instead of continuity:** stored recovery object is not proven live continuity substitute.
 
 # PART W — PROPERTY TRANSFER
 
-## Scenario 79 — Server sold to new owner
-
-New owner acquires hardware containing hosted participant.
-
-### Result
-
-Hardware transfer does not transfer ownership of participant.
-
-Existing service/transition obligations require legal resolution.
-
-**Sale Of Supporting Asset != Sale Of Participant**
-
-**PASS**
-
----
-
-## Scenario 80 — Buyer did not know participant was hosted
-
-### Result
-
-Provenance failure creates complex responsibility but not participant property status.
-
-Safe resolution required.
-
-**Ignorance Of Dependency != Conversion Of Participant Into Asset Contents**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 81 — Asset inheritance
-
-Same result.
-
-**Inheritance Of Infrastructure != Inheritance Of Participant Ownership**
-
-**PASS**
-
----
+79. **Server sold with participant hosted:** hardware sale does not sell participant; existing service/transition obligations require Law resolution.
+80. **Buyer unaware of participant:** provenance failure complicates responsibility but does not make participant asset contents.
+81. **Asset inherited:** infrastructure inheritance does not imply participant ownership.
 
 # PART X — EXTREME EDGE CASES
 
-## Scenario 82 — Participant permanently inseparable from privately owned asset
-
-No known migration technology exists.
-
-### Result
-
-This is a true rights/property conflict.
-
-Standing blocks simple treatment of participant as property; property claim blocks simple expropriation.
-
-Long-term stewardship, compensation, purchase, public acquisition, shared title/use or other legal mechanisms may be needed.
-
-PSI correctly exposes but cannot alone resolve it.
-
-**UNRESOLVED PROPERTY/LAW INTERFACE**
-
----
-
-## Scenario 83 — Owner needs the same asset to survive
-
-Owner and dependent participant both require one indivisible life-support asset.
-
-### Result
-
-Equal-standing scarcity conflict.
-
-No ownership-only or dependency-only rule is sufficient.
-
-**Ownership Is Relevant But Not Complete Allocation Rule In Fundamental Standing Conflict**
-
-**UNRESOLVED**
-
----
-
-## Scenario 84 — Participant's continued operation consumes all community energy
-
-### Result
-
-Standing does not create unlimited resource priority.
-
-Scarcity/proportionality/allocation architecture required.
-
-**Participant Continuity != Unlimited Priority Over Civilisation Continuity**
-
-**PASS / INTERFACE**
-
----
-
-## Scenario 85 — Transition can preserve participant only at enormous harm to thousands
-
-### Result
-
-PSI does not mandate transition regardless of consequence.
-
-**Transition Duty != Unlimited Harm Transfer To Others**
-
-**PASS**
-
----
+82. **Participant permanently inseparable from privately owned asset:** genuine property/standing conflict unresolved; possible stewardship, compensation, purchase, public acquisition or shared use/title require Law design.
+83. **Owner and participant both need indivisible life-support asset:** equal-standing scarcity conflict; neither title nor dependency alone decides allocation.
+84. **Participant consumes all community energy:** standing does not grant unlimited resource priority; scarcity/civilisation continuity interface.
+85. **Safe transition would massively harm thousands:** transition duty is bounded by consequences; not unlimited harm transfer.
 
 # 86. Cross-test result
 
