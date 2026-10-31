@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework
 **Date:** 3 October 2026
-**Status:** ADVERSARIAL INTEGRATION TEST / COMPLETE / NON-CANONICAL
 **Source resolution:** Cross-Architecture Review Composition — Existing STRA Boundary and Residual Gap — Source Resolution 001
 **Architectures tested:** STRA, KCS Change Propagation, ESCP Operational Companion, AUR; interfaces to MKA/ASCP, CWA, BTA and substantive owners
 
@@ -61,7 +60,7 @@ Two replicas of the same STRA trigger emit the same review consequence for the s
 
 **Expected:** suppress duplicate activation while preserving initiating provenance.
 
-**Result:** PASS.
+
 
 This is already owned by STRA Cascade Control.
 
@@ -77,7 +76,7 @@ KCS and an independent monitoring process both identify the same established dep
 
 The independent provenance remains visible.
 
-**Result:** PASS.
+
 
 > **Operational Coalescence != Provenance Collapse**
 
@@ -91,7 +90,7 @@ Both route to the same domain owner.
 
 **Expected:** one bounded review session may address both questions, but KCS and ESCP requests remain separate constituents.
 
-**Result:** PASS.
+
 
 Subject identity alone does not justify deduplication.
 
@@ -107,7 +106,7 @@ The evidence is current, in scope, legitimately accessible and provenance-preser
 
 Each architecture interprets the evidence only within its own question/owner process.
 
-**Result:** PASS.
+
 
 > **Evidence Reuse != Conclusion Reuse**
 
@@ -123,7 +122,7 @@ The owner can answer all three in one session.
 
 **Expected:** shared session permitted; three ground-addressable outcomes required.
 
-**Result:** PASS.
+
 
 > **Shared Reviewer != Merged Question**
 
@@ -135,7 +134,7 @@ Different legitimate owners apply.
 
 **Expected:** bundle may coordinate timing/evidence references, but cannot merge owners or outcomes.
 
-**Result:** PASS.
+
 
 > **Review Bundle != Merged Authority**
 
@@ -147,7 +146,7 @@ The MKA/ASCP authority-space question remains unresolved.
 
 **Expected:** KCS constituent may complete; bundle remains open/partial or splits according to host workflow.
 
-**Result:** PASS.
+
 
 > **Constituent Completion != Bundle Completion**
 
@@ -161,7 +160,7 @@ CWA review says the route is no longer permitted in the current context.
 
 No scalar PASS/FAIL may erase the dimensional conflict.
 
-**Result:** PASS.
+
 
 The substantive execution layer must respond through its legitimate composition/authority architecture.
 
@@ -177,7 +176,7 @@ A new request arrives.
 
 Freshness/context must be revalidated.
 
-**Result:** PASS.
+
 
 > **Prior Review != Current Review By Default**
 
@@ -191,7 +190,7 @@ Only two constituent questions remain materially equivalent under C2.
 
 **Expected:** update/split bundle as necessary; preserve old bundle history; revalidate affected constituents.
 
-**Result:** PASS.
+
 
 > **Bundle Membership Is Context-Bounded**
 
@@ -205,7 +204,7 @@ Only one owner/process has legitimate access to E.
 
 Where possible, an authorised bounded result may be supplied to other constituents without exposing E.
 
-**Result:** PASS.
+
 
 > **Shared Relevance != Shared Access Authority**
 
@@ -217,7 +216,7 @@ A bundle is open when the substantive owner for one constituent changes legitima
 
 Bundle coordination state updates without transferring semantic ownership.
 
-**Result:** PASS.
+
 
 ## 16. Scenario M — equivalence established after separate work starts
 
@@ -227,7 +226,7 @@ Later source-grounded analysis establishes same ground, scope, question, consequ
 
 **Expected:** future work may coalesce; prior provenance/history remains.
 
-**Result:** PASS.
+
 
 > **Late Equivalence != Historical Identity**
 
@@ -239,7 +238,7 @@ New evidence shows one applies to a different scope/version.
 
 **Expected:** split constituent work; preserve shared work already valid for both; re-evaluate scope-specific remainder.
 
-**Result:** PASS.
+
 
 > **Bundle Split != Prior Error Erasure**
 
@@ -249,7 +248,7 @@ KCS review triggers STRA review; STRA-routed result changes represented state an
 
 **Expected:** parent-trigger provenance, direct-cycle detection, materiality and stopping rules prevent endless duplicate review.
 
-**Result:** PASS.
+
 
 Existing STRA/KCS controls remain primary.
 
@@ -259,7 +258,7 @@ One upstream event generates 10,000 repeated signals but only four materially di
 
 **Expected:** STRA suppresses exact duplicate activation; KCS filters material dependents; review composition groups compatible work by bounded subject/scope/ground while preserving the four grounds.
 
-**Result:** PASS.
+
 
 No trigger count is converted into substantive priority.
 
@@ -275,7 +274,7 @@ A later heterogeneous audit identifies an omitted privacy-context ground.
 
 Add/reopen the relevant constituent review.
 
-**Result:** PASS.
+
 
 > **All Represented Review Grounds != All Material Review Grounds**
 
@@ -283,7 +282,7 @@ Add/reopen the relevant constituent review.
 
 The bundle coordinator observes conflicting constituent outcomes and selects the one it considers most important.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 The coordinator lacks substantive authority merely by coordinating.
 
@@ -295,7 +294,7 @@ Route conflict to the legitimate external composition/adjudication process.
 
 The coordinator processes legal, safety and efficiency grounds according to its own universal score.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 No general priority authority follows from review coordination.
 
@@ -305,7 +304,7 @@ Priority remains external unless legitimately supplied.
 
 A host sets BundleState=COMPLETED when the easiest constituent finishes and hides two unresolved requests.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 Bundle state must be derivable/auditable against constituent states.
 
@@ -317,7 +316,7 @@ An engineering owner concludes evidence E supports transition safety.
 
 The coordinator marks the legal-authority ground satisfied because it used the same evidence.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 > **Evidence Reuse != Conclusion Reuse**
 
@@ -325,7 +324,7 @@ The coordinator marks the legal-authority ground satisfied because it used the s
 
 All review requests about O are collapsed into one request.
 
-**Expected:** FAIL CONTAINED.
+**Required:** reject this boundary violation.
 
 Ground/question/scope/context/owner/freshness dimensions must be considered.
 
@@ -335,7 +334,7 @@ Two requests are both called “authority review,” but one concerns version V1
 
 **Expected:** not duplicates without established material equivalence.
 
-**Result:** PASS.
+
 
 > **Same Label != Same Ground**
 
@@ -349,7 +348,7 @@ E3 is protected from two owners.
 
 **Expected:** reuse is field/component bounded rather than all-or-nothing.
 
-**Result:** PASS.
+
 
 This exposes an important refinement:
 
@@ -363,7 +362,7 @@ BTA transition review discovers an unrepresented dependency.
 
 It does not silently transform the existing BTA ground into a KCS ground.
 
-**Result:** PASS.
+
 
 > **Discovery Of New Ground != Mutation Of Original Ground**
 
@@ -373,7 +372,7 @@ A constituent ground is material but its legitimate substantive owner cannot cur
 
 **Expected:** preserve that constituent as routing-unresolved; other independent constituents may continue where legitimate.
 
-**Result:** PASS.
+
 
 > **One Unresolved Owner != Automatic Global Review Failure**
 
@@ -385,7 +384,7 @@ One review request is superseded by a newer request with a refined question.
 
 **Expected:** preserve supersession history; do not count both as live duplicate obligations.
 
-**Result:** PASS.
+
 
 STRA supersession semantics apply.
 
@@ -395,7 +394,7 @@ Five distinct grounds concern the same object but have different owners, evidenc
 
 **Expected:** do not force bundling merely because a bundle mechanism exists.
 
-**Result:** PASS.
+
 
 > **Bundle Availability != Bundle Requirement**
 
@@ -405,7 +404,7 @@ Two different objects require review using the same expensive evidence source.
 
 **Expected:** evidence acquisition may be shared if legitimate, but object-specific review requests remain distinct.
 
-**Result:** PASS.
+
 
 This shows that evidence-sharing topology need not equal review-bundle topology.
 
@@ -417,7 +416,7 @@ A high-consequence irreversible action depends on several constituent reviews. M
 
 MKA/ASCP, ESCP, CWA and the substantive authority architecture determine their own required states; CBPR/execution layer consumes legitimate results.
 
-**Result:** PASS.
+
 
 > **Review Coordination != Commit Authority**
 
@@ -552,34 +551,6 @@ No bundle state establishes substantive correctness.
 - operational work/evidence coalescence;
 - per-ground state tracking;
 - bundle split/merge/supersession coordination.
-
-## 40. Is the residual mechanism stable?
-
-**YES — AS AN INTEGRATION PATTERN.**
-
-The test found a coherent mechanism that is not reducible to duplicate suppression alone.
-
-However, most of its safety boundaries and triggering semantics are supplied by existing architectures.
-
-Therefore the evidence does **not yet require a new standalone portable module**.
-
-## 41. Classification
-
-**ADVERSARIAL INTEGRATION TEST: PASS**
-
-**Mechanism status:** STABLE CROSS-ARCHITECTURE INTEGRATION PATTERN / NOT YET A PORTABLE MODULE
-
-**Extraction decision:** DO NOT EXTRACT YET
-
-The mechanism should be retained as a PMEDG candidate only if repeated use demonstrates independent portability beyond this Concord integration problem.
-
-## 42. Candidate name
-
-For development reference only:
-
-**Review-Ground Composition Pattern (RGCP)**
-
-This is a descriptive development label, not a graduated module name.
 
 ## 43. Candidate invariants strengthened by test
 
