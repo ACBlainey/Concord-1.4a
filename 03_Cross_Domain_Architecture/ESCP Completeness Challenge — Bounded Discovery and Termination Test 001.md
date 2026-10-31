@@ -50,161 +50,18 @@ It is:
 
 `EvaluationSufficientForDeclaredScopeAtTimeT`
 
-## 5. Test 1 — known missing dimension
-
-A decision model knows that variable X is relevant but X has not been measured.
-
-Result:
-
-Completeness cannot be declared merely because all other variables are accurate.
-
-State:
-
-`KNOWN_MISSING_DIMENSION`
-
-Discovery or explicit uncertainty handling is required.
-
-**PASS**
-
-## 6. Test 2 — known missing but immaterial dimension
-
-Variable X is absent, but source-grounded analysis establishes that X cannot materially affect the declared conclusion.
-
-Result:
-
-X may remain missing without preventing scoped termination.
-
-> **Missing Dimension != Material Missing Dimension**
-
-**PASS**
-
-## 7. Test 3 — plausible unknown exposed by interface asymmetry
-
-Two observers disagree. Observer B has access to a sensor/interface unavailable to A.
-
-The disagreement creates a credible pathway by which A's evaluation space may omit a material distinction.
-
-Result:
-
-Additional discovery is justified before a high-consequence conclusion.
-
-The disagreement is not itself proof B is correct.
-
-> **Alternative Observation != Automatic Correction**
-
-**PASS**
-
-## 8. Test 4 — remote speculative omission
-
-An evaluator has tested all known material interfaces and a challenger states only:
-
-“Something entirely unimaginable might still matter.”
-
-No mechanism, relation, evidence, observer difference, anomaly or plausible route is identified.
-
-Result:
-
-This alone does not prevent bounded termination.
-
-> **Logical Possibility != Operationally Material Completeness Gap**
-
-Residual epistemic humility remains.
-
-**PASS**
-
-## 9. Test 5 — low-consequence reversible decision
-
-A low-cost, easily reversible configuration choice is being made.
-
-One weakly plausible missing dimension remains.
-
-Result:
-
-The system may act with a lower completeness burden, preserve provenance and revisit if contrary evidence appears.
-
-> **Reversibility Can Reduce Required Pre-Decision Completeness Without Eliminating Review Duty**
-
-**PASS**
-
-## 10. Test 6 — high-consequence irreversible decision
-
-A proposed action would permanently remove an independent source of evidence and cannot reasonably be reversed.
-
-A plausible unresolved missing dimension remains.
-
-Result:
-
-The completeness burden rises substantially.
-
-The system should prefer additional discovery, preservation or a less irreversible route where reasonably possible.
-
-This follows the ESCP candidate principle:
-
-> **The broader and more irreversible the conclusion, the stronger the justification required that the evaluation space contains the dimensions relevant to that conclusion.**
-
-**PASS**
-
-## 11. Test 7 — repeated search produces no new material dimensions
-
-Multiple independent discovery routes are exercised.
-
-Each returns either:
-
-- already represented dimensions;
-- immaterial differences;
-- or no new material result.
-
-Result:
-
-This is evidence supporting bounded termination.
-
-It is not proof of absolute completeness.
-
-> **Diminishing Material Discovery Yield Can Support Termination Without Proving Exhaustiveness**
-
-**PASS**
-
-## 12. Test 8 — repeated search continues finding material omissions
-
-Each new observer/test reveals another materially relevant dimension that changes the evaluation.
-
-Result:
-
-Termination is not justified merely because a predetermined search count has been reached.
-
-The evaluation architecture itself is showing evidence of instability/incompleteness.
-
-**PASS**
-
-## 13. Test 9 — heterogeneous observer convergence
-
-Several genuinely heterogeneous observers using different interfaces/models independently reach compatible scoped conclusions.
-
-Result:
-
-This strengthens completeness confidence more than simple replication of one architecture.
-
-But:
-
-> **Observer Diversity != Proof Of Completeness**
-
-**PASS**
-
-## 14. Test 10 — homogeneous consensus
-
-A thousand evaluators share the same sensors, categories, training data and representation.
-
-All agree.
-
-Result:
-
-Reliability within the shared space may be high.
-
-Evaluation-space completeness is not established by observer count.
-
-> **Consensus Count != Dimensional Coverage**
-
-**PASS**
+## 5. Material gaps, discovery yield and observer diversity (cases 1–10)
+
+1. Known relevant unmeasured X: retain `KNOWN_MISSING_DIMENSION`; accurate other variables do not establish completeness.
+2. Missing X shown immaterial by source-grounded analysis: scoped termination remains possible; missing does not imply materially missing.
+3. Observer B has a sensor/interface A lacks and disagrees: credible alternative material distinction warrants proportionate discovery, not automatic acceptance of B.
+4. Only speculative “something unimaginable” without mechanism, anomaly, relation, evidence or discovery route: no indefinite veto; preserve epistemic humility.
+5. Low-cost reversible configuration with weak plausible gap: lower predecision burden, retain provenance and correction/review.
+6. Irreversible elimination of independent evidence with plausible missing dimension: higher completeness burden, prefer additional discovery/preservation or less irreversible route where reasonably possible.
+7. Independent searches yield only known, immaterial or no new material dimensions: diminishing yield supports scoped termination, not proof of exhaustiveness.
+8. Searches continue finding conclusion-changing dimensions: arbitrary count limit does not justify declaring completeness.
+9. Heterogeneous observers using genuinely different models/interfaces converge: stronger scoped confidence, not completeness proof.
+10. Thousand homogeneous observers share sensors/categories/training: agreement within their shared space does not establish dimensional coverage.
 
 ## 15. Test 11 — discovery route would itself cause severe harm
 
