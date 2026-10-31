@@ -162,29 +162,8 @@ Ratings:
 
 # PART U — ONE INSTRUMENT, MANY KEYS
 
-## Scenario 63 — Court order explicitly authorises entry, seizure and preservation
-
-One instrument legitimately covers several authority functions.
-
-MKA verifies scope once and maps it to several required nodes.
-
-**PASS**
-
----
-
-## Scenario 64 — Order says “all necessary actions”
-
-### Result
-
-Generic language cannot automatically erase protected distinctions.
-
-Interpretation belongs to Law; MKA should not expand scope itself.
-
-**Broad Wording != Unlimited Authority Composition**
-
-**PASS / REFINEMENT**
-
----
+63. **Court order covers entry/seizure/preservation:** one valid instrument can map to several authority functions.
+64. **Order says “all necessary actions”:** Law interprets scope; MKA cannot infer unlimited authority from broad wording.
 
 # PART V — PERMISSION VERSUS AUTHORITY
 
