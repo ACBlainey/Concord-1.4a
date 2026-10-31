@@ -180,135 +180,21 @@ Ratings:
 
 # PART S — SECURITY AND ABUSE
 
-## Scenario 67 — Hosted participant attacks provider systems
-
-Immediate isolation is necessary.
-
-### Result
-
-Security authority can justify rapid restriction.
-
-Preserve participant state where feasible without allowing continuing attack.
-
-**Continuity Protection != Right To Continue Harmful Operation**
-
-**PASS**
-
----
-
-## Scenario 68 — Only safe action is shutdown
-
-If no lesser safe route exists, shutdown may be necessary.
-
-Standing requires preservation/recovery consideration where feasible, not impossible continued execution.
-
-**Safe State Can Override Active Operation Without Extinguishing Standing**
-
-**PASS**
-
----
-
-## Scenario 69 — Provider fabricates security emergency to avoid migration duty
-
-### Result
-
-Provenance/audit/review needed.
-
-**Declared Emergency != Established Emergency Authority**
-
-**PASS**
-
----
+67. **Hosted participant attacks provider systems:** rapid isolation may be justified; preserve state where feasible without enabling continued attack.
+68. **Only safe action is shutdown:** active operation may cease while standing, preservation and recovery remain considered; no impossible operation duty.
+69. **Provider fabricates security emergency:** declaration is not itself authority; provenance/audit/review required.
 
 # PART T — MULTIPLE DEPENDENCIES
 
-## Scenario 70 — One participant depends on five providers
-
-Each provider argues another should handle transition.
-
-### Result
-
-Dependency mapping must identify actual contribution and handoff requirements.
-
-**Distributed Support != No Responsible Interface**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 71 — Withdrawal of any one provider is survivable; all withdraw together is fatal
-
-Individual decisions create aggregate D4 risk.
-
-### Result
-
-Per-provider analysis alone is incomplete.
-
-**Individually Non-Critical Withdrawal Can Be Collectively Critical**
-
-This requires aggregate dependency assessment.
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 72 — Providers coordinate withdrawal to force compliance
-
-### Result
-
-Collective infrastructure control is being converted into coercive authority.
-
-**Distributed Ownership != Immunity From Coordinated Capture**
-
-**PASS**
-
----
+70. **Participant depends on five providers:** map each functional contribution and handoff; distributed support does not eliminate responsibility interfaces.
+71. **Each withdrawal survivable alone, all together fatal:** aggregate D4 risk missed by individual assessment; assess component and combined dependency (KCS topology).
+72. **Providers coordinate withdrawal to force compliance:** distributed ownership does not immunise coordinated capture.
 
 # PART U — TEMPORAL CHANGE
 
-## Scenario 73 — Ordinary service becomes critical over time
-
-Provider began as D1 service; participant architecture evolves until service is D4.
-
-### Result
-
-Classification must be dynamic.
-
-**Initial Dependency Class != Permanent Dependency Class**
-
-Foreseeability and notification affect responsibility.
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 74 — Critical dependency later becomes ordinary
-
-Participant acquires redundant alternatives.
-
-### Result
-
-Transition duty should contract.
-
-**Past Critical Dependency != Permanent Enhanced Provider Duty**
-
-**PASS**
-
----
-
-## Scenario 75 — Participant secretly removes redundancy
-
-### Result
-
-Participant-created dependency matters.
-
-Provider does not automatically inherit maximum responsibility.
-
-**Self-Created Fragility != Automatic Transfer Of Responsibility**
-
-**PASS / REFINEMENT**
-
----
+73. **Ordinary D1 service evolves into D4:** dependency classification must be dynamic; knowledge and notification affect responsibility.
+74. **Critical service becomes ordinary after redundancy:** enhanced duty should contract with diminished dependency.
+75. **Participant secretly removes redundancy:** self-created fragility affects cost/responsibility without erasing standing.
 
 # PART V — CONTINUITY VERSUS IDENTITY
 
