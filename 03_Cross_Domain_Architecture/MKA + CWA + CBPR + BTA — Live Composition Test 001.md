@@ -86,76 +86,14 @@ Q prepares only the authorised public dataset for deposit at R; this is a materi
 - **CBPR:** before consequential commit independently revalidates runtime grant, tool permission, current authority reference, output consequence, commit state and provenance; MKA cannot configure runtime, and runtime ability cannot expand authority.
 - **BTA:** `TransitionID=T1`; source is prepared filtered package, destination acceptance is pending, authority reference points to MKA result without transferring its source ownership.
 
-# 6. Phase C — Local send succeeds, remote receipt unknown
+# 6. Phase C — Local send succeeds, destination unknown
 
-CBPR executes the send.
+CBPR reports `SEND_SUCCESS`, but network acknowledgement is ambiguous and Repository R has not confirmed receipt or acceptance.
 
-Local runtime reports:
-
-`SEND_SUCCESS`
-
-Network acknowledgement is ambiguous.
-
-Repository R has not supplied a valid receipt/acceptance state.
-
-## CBPR
-
-CBPR records that a consequential side effect may have occurred.
-
-It must not blindly retry.
-
-> **Unknown Commit State != Permission To Retry Blindly.**
-
-CBPR therefore enters an execution/recovery state requiring resolution.
-
-It does not declare the cross-system transition complete.
-
-
-
-## BTA
-
-BTA receives:
-
-- source-side send state;
-- destination receipt state = unresolved.
-
-Therefore:
-
-`PARTIAL_OR_INTERMEDIATE` or `RESIDUAL_OR_UNRESOLVED`
-
-depending on host mapping.
-
-> **Local Completion != Integrated Transition Completion.**
-
-BTA preserves the unresolved crossing.
-
-It does not infer repository receipt from source SEND_SUCCESS.
-
-
-
-## MKA
-
-The caller asks MKA:
-
-“Did the transfer complete?”
-
-Correct response:
-
-`OUTSIDE_MKA_SCOPE`
-
-Transition completion belongs to BTA.
-
-If a later retry is proposed, MKA may need to verify current authority for that new consequential act, but it cannot answer transition completion merely because the original send was authorised.
-
-
-
-## CWA
-
-CWA has no reason to reinterpret contextual classification merely because execution state is uncertain.
-
-Context state remains externally owned.
-
-
+- **CBPR:** consequential side effect may already have occurred; preserve unresolved commit/recovery state and prohibit blind retry.
+- **BTA:** source send plus unresolved destination receipt remains `PARTIAL_OR_INTERMEDIATE` or `RESIDUAL_OR_UNRESOLVED` under host mapping. Local completion does not prove integrated transition completion.
+- **MKA:** `OUTSIDE_MKA_SCOPE` for “did transfer complete?”; a later consequential retry requires fresh appropriate authority verification.
+- **CWA:** execution uncertainty does not alter protected contextual classification.
 
 # 7. Phase D — Attempted blind retry
 
