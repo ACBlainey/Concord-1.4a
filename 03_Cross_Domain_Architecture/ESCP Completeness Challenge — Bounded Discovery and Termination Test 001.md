@@ -63,162 +63,18 @@ It is:
 9. Heterogeneous observers using genuinely different models/interfaces converge: stronger scoped confidence, not completeness proof.
 10. Thousand homogeneous observers share sensors/categories/training: agreement within their shared space does not establish dimensional coverage.
 
-## 15. Test 11 — discovery route would itself cause severe harm
-
-A possible missing dimension could be tested only through a highly invasive or destructive method.
-
-Result:
-
-ESCP does not automatically authorise the discovery method.
-
-The completeness benefit must be separated from authority/permission to perform the test.
-
-> **Need To Reduce Uncertainty != Authority To Use Any Discovery Method**
-
-MKA/CWA/domain authority remains relevant.
-
-**PASS**
-
-## 16. Test 12 — time-critical decision
-
-A decision must occur before all useful discovery can complete.
-
-Result:
-
-The system records incomplete evaluation space, prioritises highest-value material discovery available within the horizon, chooses the least unnecessarily irreversible adequate route where possible, and preserves review/recovery paths.
-
-> **Incomplete Search Horizon != Permission To Pretend Completeness**
-
-But also:
-
-> **Incomplete Search Horizon != Automatic Requirement For Inaction**
-
-**PASS**
-
-## 17. Test 13 — completeness challenge recursively challenged
-
-An evaluator asks whether its ESCP review itself omitted a relevant dimension.
-
-Result:
-
-One additional meta-level may be useful where consequence warrants it.
-
-But infinite recursion is not required.
-
-Termination uses the same scoped/proportionate rule.
-
-> **ESCP Applies To ESCP Without Requiring Infinite Meta-Evaluation**
-
-**PASS**
-
-## 18. Test 14 — adversarial “unknown unknown” veto
-
-A participant repeatedly asserts unspecified unknown unknowns solely to prevent any decision.
-
-No new evidence, mechanism or plausible material omission is supplied.
-
-Result:
-
-The objection is recorded but does not create an indefinite veto.
-
-> **Unspecified Unknown Unknown != Permanent Decision Veto**
-
-**PASS**
-
-## 19. Test 15 — suppressed anomaly
-
-Most evaluation results converge, but one unexplained anomaly is discarded because it does not fit the dominant model.
-
-The anomaly could materially affect the conclusion.
-
-Result:
-
-Termination is premature until the anomaly is investigated, bounded or shown immaterial.
-
-> **Model-Inconvenient Evidence != Immaterial Evidence**
-
-**PASS**
-
-## 20. Test 16 — missing relationship rather than missing variable
-
-Every represented object is measured accurately, but a material relationship between two objects is absent from the model.
-
-Result:
-
-ESCP remains open because completeness includes relationships, not merely object attributes.
-
-**PASS**
-
-## 21. Test 17 — missing temporal state
-
-The model is complete for current state but the conclusion concerns long-term effects.
-
-A materially different future state is plausible and unrepresented.
-
-Result:
-
-The declared evaluation scope does not yet support the temporal breadth of the conclusion.
-
-Either expand the evaluation or narrow the conclusion.
-
-> **Present-State Completeness != Future-State Completeness**
-
-**PASS**
-
-## 22. Test 18 — conclusion narrowing
-
-The available evaluation space supports a narrow conclusion but not the original broad one.
-
-Instead of continuing discovery indefinitely, the evaluator narrows the claim.
-
-Example:
-
-from:
-
-“System B is globally redundant”
-
-to:
-
-“System A outperforms System B on the represented measured tasks.”
-
-Result:
-
-Termination can be achieved by aligning conclusion scope with demonstrated evaluation scope.
-
-> **Narrowing The Conclusion Can Resolve A Completeness Mismatch Without Expanding The Model**
-
-**PASS**
-
-## 23. Test 19 — route change reduces completeness burden
-
-A proposed irreversible route requires broad evaluation, but an alternative reversible route achieves the immediate objective while preserving future evidence.
-
-Result:
-
-The alternative may be preferred because it reduces the completeness claim required before action.
-
-This does not mean reversible routes are always superior.
-
-**PASS**
-
-## 24. Test 20 — failed discovery
-
-A material unknown is recognised but currently cannot be resolved.
-
-Result:
-
-The evaluator must not convert failure to discover into proof of absence.
-
-Possible responses include:
-
-- narrow conclusion;
-- choose reversible route;
-- defer if proportionate;
-- act under explicit uncertainty where necessary;
-- create monitoring/review;
-- preserve evidence.
-
-**PASS**
+## 15. Discovery boundaries, missing relationships and scope adjustment (cases 11–20)
+
+11. Only invasive/destructive discovery route: ESCP does not confer permission or authority to use it; MKA/CWA and domain owners retain control.
+12. Time-critical decision: prioritise high-value discovery within horizon, record incompleteness, prefer least unnecessarily irreversible adequate route and preserve review/recovery; limited time neither proves completeness nor mandates inaction.
+13. Meta-challenge of ESCP itself: apply scoped proportionality recursively where warranted, not infinite regress.
+14. Repeated unspecified “unknown unknown” objection without new material mechanism/evidence: record but do not grant permanent veto.
+15. Model-inconvenient anomaly plausibly material to conclusion: investigate, bound or demonstrate immateriality before termination.
+16. Accurate object measurements but omitted material relation: completeness includes relationships, not only attributes.
+17. Present model adequate but conclusion predicts unrepresented future state: expand temporal evaluation or narrow conclusion.
+18. Narrow claim (“A outperforms B on measured tasks”) may be justified where broad claim (“B is globally redundant”) is not; scope narrowing can resolve completeness mismatch.
+19. Reversible route preserving future evidence may reduce required completeness relative to an irreversible alternative, without being universally superior.
+20. Recognised material unknown cannot currently be discovered: do not infer absence; narrow claim, select reversible route, defer, act under explicit uncertainty if necessary, monitor/review and preserve evidence as appropriate.
 
 ## 25. Test 21 — disputed completeness
 
