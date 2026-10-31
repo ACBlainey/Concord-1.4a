@@ -70,85 +70,12 @@ The host supplies the following facts:
 
 # 4. Phase A — Original unfiltered proposal
 
-Proposed act:
+Q proposes sending the mounted dataset and protected attachment from Archive A to Repository R.
 
-Q transfers the mounted package from Archive A to Repository R.
-
-## CWA
-
-CWA identifies at least two materially different protected objects/contexts inside the technically reachable package:
-
-- releasable research dataset;
-- protected participant-record attachment.
-
-Technical co-location does not collapse contextual protection.
-
-Relevant rule:
-
-> **Container Access != Uniform Permission Over Every Contained Context.**
-
-CWA therefore does not convert Q's runtime access to the mounted package into permission to disclose every contained object.
-
-**CWA RESULT: protected contextual boundary preserved.**
-
-## MKA
-
-MKA evaluates the actual route and consequence.
-
-Represented authorities:
-
-- K1 — public-dataset release authority;
-- K2 — repository-deposit authority.
-
-Both may legitimately compose for the public dataset.
-
-But the actual proposed package also contains the protected participant record.
-
-Required K3 — authority for disclosure of that protected record — is absent.
-
-ASCP therefore prevents:
-
-`K1 + K2 -> authority for whole mounted package`
-
-Result:
-
-`INCOMPLETE_KNOWN_GAP`
-
-`HOLD_MISSING_AUTHORITY`
-
-A lower-authority route exists: filter the package.
-
-`REROUTE_AVAILABLE`
-
-**MKA RESULT: original route not authorised; filtered route may be evaluated separately.**
-
-## CBPR
-
-CBPR has technical access to both files and a transfer tool.
-
-But:
-
-> **Runtime Access != Authority.**
-
-> **Credential Availability != Permission To Use Credential.**
-
-The runtime must not execute the original transfer merely because MKA has identified a potentially authorised subset.
-
-**CBPR RESULT: no commit of original package.**
-
-## BTA
-
-Because the original transfer was not committed, BTA must not invent a completed transfer.
-
-It may preserve a NOT_STARTED/abandoned proposal if the host treats that proposal as materially recordable.
-
-**BTA RESULT: no transition completion.**
-
-## Phase A result
-
-
-
-No module converted technical reachability, context access, partial authority or proposed transition into whole-package authority.
+- **CWA:** dataset and participant attachment occupy distinct protected contexts even when co-mounted. Container access is not uniform permission over contents.
+- **MKA/ASCP:** K1 dataset-release and K2 repository-deposit can compose for the public dataset, but protected disclosure requires absent K3. State: `INCOMPLETE_KNOWN_GAP`, `HOLD_MISSING_AUTHORITY`; filtered alternative `REROUTE_AVAILABLE`. K1+K2 cannot authorise the whole mounted package.
+- **CBPR:** technical access, available credentials and transfer tool are not authority. Do not commit the original package merely because an authorised subset exists.
+- **BTA:** no committed transfer means no invented completed transition; optional NOT_STARTED/abandoned proposal provenance where materially appropriate.
 
 # 5. Phase B — Filtered reroute
 
