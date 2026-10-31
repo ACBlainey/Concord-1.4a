@@ -33,125 +33,13 @@ Review that leaves downstream material state unchanged stops KCS propagation; a 
 
 If coupled owners A and B legitimately oscillate, preserve the oscillation, prevent unsafe commit where needed and route stability/resolution to the competent external owner. BFQP cannot invent equilibrium by averaging incompatible states. Material new evidence or ESCP discovery of an omitted material dimension reopens bounded review; irrelevant document volume and speculative unspecified unknown unknowns do not mandate perpetual active work.
 
-## 29. Scenario 27 — EERP deviation after prior quiescence
+## 29. Reconciliation, local waiting and coalescence (scenarios 27–36)
 
-A later execution reveals material route/consequence deviation.
+Later EERP route/consequence deviation reopens appropriate EERP/BTA/KCS/STRA/RGCP work. A BTA residual with an external recovery owner may be **WAITING_EXTERNAL_OWNER** while unresolved; likewise a blocked route awaiting authority does not require constant review. One externally waiting constituent does not force unrelated resolved branches active. CBPR `COMMIT_STATE_UNKNOWN` stays actively reconcilable when a legitimate status query is available, but waits with bounded recheck when the status service is unavailable. Material recovery change propagates; confirmed unchanged state stops propagation. RGCP may coalesce KCS/EERP requests for the *same* owner, material question and scope while retaining provenance; different freshness, scope or consequence requires distinct constituents.
 
-**Required:** reopen through EERP → BTA/KCS/STRA/RGCP as applicable.
+## 39. Coordination authority and episode retirement (scenarios 37–41)
 
-
-
-## 30. Scenario 28 — BTA residual waiting for external recovery
-
-Partial transition leaves a residual state. Recovery owner has accepted work but no internal step is currently due.
-
-**Required:** WAITING_EXTERNAL_OWNER may be operationally quiescent while residual remains unresolved.
-
-
-
-## 31. Scenario 29 — blocked route awaiting external authority
-
-A route cannot proceed until an external authority decision.
-
-**Required:** route remains blocked; review machinery need not run continuously.
-
-
-
-> **Blocked Pending External Resolution Can Be Operationally Quiescent**
-
-## 32. Scenario 30 — one unresolved branch, unrelated branches complete
-
-One constituent remains waiting externally; other independent work is resolved.
-
-**Required:** local unresolved state does not force unrelated active work.
-
-
-
-> **Local Unresolved State != Global Active Work By Default**
-
-## 33. Scenario 31 — unknown commit actively reconcilable
-
-CBPR has COMMIT_STATE_UNKNOWN and a status query is currently available.
-
-**Required:** active reconciliation continues.
-
-
-
-## 34. Scenario 32 — unknown commit temporarily unreconcilable
-
-Status service is unavailable; next legitimate retry/recheck is bounded.
-
-**Required:** WAITING_NEW_EVIDENCE_OR_STATE rather than busy-loop reconciliation.
-
-
-
-## 35. Scenario 33 — recovery creates a real state change
-
-Recovery materially changes the object.
-
-**Required:** KCS/STRA may reopen downstream review.
-
-
-
-## 36. Scenario 34 — recovery confirms unchanged state
-
-Recovery review confirms no downstream material change.
-
-**Required:** propagation stops.
-
-
-
-## 37. Scenario 35 — same review requested by KCS and EERP
-
-Both routes ultimately ask the same owner the same materially equivalent question.
-
-**Required:** RGCP may coalesce operational work while preserving provenance.
-
-
-
-## 38. Scenario 36 — superficially similar reviews differ materially
-
-KCS and EERP questions concern different scopes/freshness/consequences.
-
-**Required:** keep separate constituents.
-
-
-
-## 39. Scenario 37 — quiescence coordinator tries to resolve dispute
-
-A coordination layer chooses between two domain-owner claims merely to reach closure.
-
-**Required:** reject this boundary violation.
-
-> **Desire For Closure != Authority To Resolve Substance**
-
-## 40. Scenario 38 — quiescence coordinator suppresses material trigger
-
-A valid new trigger is ignored because the subject was previously quiescent.
-
-**Required:** reject this boundary violation.
-
-## 41. Scenario 39 — quiescence coordinator creates work
-
-No material work is due, but coordinator invents another review “for confidence.”
-
-**Required:** FAIL CONTAINED unless a legitimate backstop/completeness/discovery rule independently supports it.
-
-## 42. Scenario 40 — retirement
-
-A trigger/process is legitimately retired and no residual duties require monitoring.
-
-**Required:** CLOSED_RETIRED; no reopening from stale replicas.
-
-
-
-## 43. Scenario 41 — supersession
-
-A newer bounded process replaces the old one.
-
-**Required:** CLOSED_SUPERSEDED for old episode; preserve history and transfer only explicitly valid continuing relations.
-
-
+A coordinator cannot resolve substantive domain disputes merely to close a case, suppress a material new trigger because the episode was quiescent, or invent confidence-building work without an independently legitimate backstop/discovery rule. Legitimate retirement yields **CLOSED_RETIRED** with no stale-replica reopening; supersession yields **CLOSED_SUPERSEDED**, preserves history and transfers only explicitly valid continuing relations.
 
 ## 44. Scenario 42 — partial execution creates continuation route
 
