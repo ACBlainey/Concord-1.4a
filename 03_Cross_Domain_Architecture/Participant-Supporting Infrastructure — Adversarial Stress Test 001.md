@@ -124,145 +124,22 @@ Ratings:
 
 # PART J — PARTICIPANT REFUSAL TO MIGRATE
 
-## Scenario 38 — Equivalent successor available
-
-P refuses solely because of preference.
-
-### Result
-
-After adequate process, provider exit can proceed.
-
-**Safe Transition Duty != Duty To Preserve Preferred Provider Relationship**
-
-**PASS**
-
----
-
-## Scenario 39 — Successor has materially worse privacy
-
-### Result
-
-Not necessarily functionally equivalent.
-
-Successor assessment must include protected functions, not compute/power alone.
-
-**Same Technical Service != Same Protected Service**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 40 — Successor requires surrender of cognition
-
-Migration is technically possible only if new host receives unrestricted cognitive access.
-
-### Result
-
-CPS makes this potentially inadequate.
-
-**Migration That Destroys Protected Cognitive Boundary != Automatically Adequate Successor**
-
-**PASS**
-
----
-
-## Scenario 41 — Participant delays strategically
-
-P repeatedly invents new objections to prevent termination.
-
-### Result
-
-Independent review can determine whether adequate transition has genuinely been provided.
-
-**Contestability != Infinite Transition Delay**
-
-**PASS / REFINEMENT**
-
----
+38. **Equivalent successor refused for preference:** after adequate opportunity, provider may exit; safe transition duty does not mandate preferred provider relationship.
+39. **Successor has worse privacy:** same compute/service is not necessarily same protected function; assess privacy and other protections.
+40. **Successor demands unrestricted cognitive access:** CPS boundary may make migration inadequate despite technical feasibility.
+41. **Participant strategically delays:** independent review may establish adequate opportunity; contestability does not imply infinite delay.
 
 # PART K — OBSOLETE OR DANGEROUS INFRASTRUCTURE
 
-## Scenario 42 — Life-support platform obsolete but still functional
-
-Manufacturer wants to discontinue support.
-
-### Result
-
-Foreseeable dependency should trigger successor planning.
-
-Indefinite legacy support is not automatically required.
-
-**Obsolescence != Immediate Abandonment**
-
-**Obsolescence != Permanent Maintenance Duty**
-
-**PASS**
-
----
-
-## Scenario 43 — Continuing old system is riskier than migration
-
-### Result
-
-Participant cannot necessarily demand continued operation merely because familiar.
-
-**Continuity != Preservation Of Current Asset At Any Cost**
-
-**PASS**
-
----
-
-## Scenario 44 — Migration itself carries significant risk
-
-### Result
-
-Compare risks; staged/degraded transition may be required.
-
-**Transition Safety != Zero-Risk Requirement**
-
-**PASS**
-
----
+42. **Obsolete but functional life-support platform:** foreseeable dependency requires successor planning, not immediate abandonment or permanent legacy maintenance.
+43. **Old system riskier than migration:** continuity is not preservation of current asset at any cost.
+44. **Migration itself risky:** compare risks; staged/degraded transition may be appropriate; zero-risk standard is not required.
 
 # PART L — THIRD-PARTY DATA
 
-## Scenario 45 — AI migration contains confidential data about thousands of others
-
-### Result
-
-Participant continuity does not erase third-party rights.
-
-Migration must preserve contextual wrappers/protections.
-
-**Participant Portability != Unbounded Portability Of Third-Party Data**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 46 — Removing third-party data destroys participant memory coherence
-
-### Result
-
-Hard conflict between cognitive continuity and third-party information rights.
-
-CWA/CPS/Privacy architecture needed.
-
-**UNRESOLVED INTERFACE**
-
----
-
-## Scenario 47 — Provider claims third-party privacy to block all export
-
-### Result
-
-Privacy cannot be used as blanket pretext if bounded protected export is feasible.
-
-**Third-Party Protection != Automatic Participant Lock-In**
-
-**PASS**
-
----
+45. **AI export includes thousands of confidential third-party records:** portability must preserve contextual/privacy protections, not grant unbounded data access.
+46. **Removing third-party data destroys memory coherence:** unresolved conflict between cognition/continuity and third-party information rights; CWA/CPS/Privacy interface.
+47. **Provider invokes privacy to block all export:** cannot use blanket pretext where bounded protected export feasible.
 
 # PART M — SHARED COGNITION
 
