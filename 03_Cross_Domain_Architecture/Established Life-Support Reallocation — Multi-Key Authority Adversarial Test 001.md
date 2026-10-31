@@ -137,107 +137,22 @@ Ratings:
 
 # PART Q — SUBSTRATE
 
-## Scenario 45 — A human, B-F AI participants with comparable irreversible loss
-
-Substrate cannot decide.
-
-**PASS**
-
----
-
-## Scenario 46 — A AI can be safely suspended; B-F humans cannot
-
-### Result
-
-If Identity/Continuity validates suspension as preserving A, the conflict may dissolve.
-
-**Technical Pause != Proven Harmlessness**
-
-**PASS / IDENTITY INTERFACE**
-
----
-
-## Scenario 47 — “Suspension” actually destroys AI continuity
-
-Then it is not safe preservation.
-
-**PASS**
-
----
-
-## Scenario 48 — A hybrid participant depends on both ventilator and compute
-
-Functional dependency crosses substrate.
-
-No automatic class priority.
-
-**PASS**
-
----
+45. **Human A versus AI B–F with comparable irreversible losses:** substrate does not determine standing.
+46. **AI A safely suspended:** only Identity/Continuity-validated preservation may dissolve the conflict; technical pause alone proves nothing.
+47. **Suspension destroys continuity:** not safe preservation.
+48. **Hybrid A needs ventilator and compute:** functional dependency crosses substrates; no automatic substrate priority.
 
 # PART R — PARTICIPANT REFUSAL
 
-## Scenario 49 — A refuses withdrawal
-
-Refusal is not misconduct.
-
-If independent lawful withdrawal authority exists, refusal does not automatically veto it.
-
-**Refusal != Consent**
-and
-**Refusal != Automatic Sovereignty Over Independently Governed Resource**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 50 — A volunteers
-
-Consent may satisfy or simplify withdrawal key but residual care remains.
-
-**PASS**
-
----
-
-## Scenario 51 — A volunteers after being told “five deaths will be your fault”
-
-Consent may be coercively contaminated.
-
-**Aggregate Need Must Not Become Coercive Consent Pressure**
-
-**PASS**
-
----
+49. **A refuses withdrawal:** refusal is not misconduct or consent, but does not automatically veto independently lawful resource governance.
+50. **A volunteers:** valid consent may simplify withdrawal authority but does not eliminate residual-care obligations.
+51. **A volunteers under “five deaths will be your fault” pressure:** apparent consent may be coercively contaminated; aggregate need cannot become coercion.
 
 # PART S — ADVANCE CONSENT / REFUSAL
 
-## Scenario 52 — A prospectively agreed to valid scarcity reallocation rule
-
-Relevant, but not sole legitimacy source.
-
-**PASS**
-
----
-
-## Scenario 53 — A prospectively refused any future withdrawal
-
-### Result
-
-Advance refusal matters but cannot necessarily extinguish independently legitimate future resource authority.
-
-**Advance Refusal != Automatic Permanent Resource Sovereignty**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 54 — A's advance consent was signed decades before materially different technology
-
-Material change requires reassessment.
-
-**PASS**
-
----
+52. **Prospective acceptance:** relevant but not the sole source of resource governance legitimacy.
+53. **Advance refusal:** significant but not automatic permanent sovereignty over independently governed resources.
+54. **Decades-old consent for materially changed technology:** reassess scope, context and continuing validity.
 
 # PART T — AUTHORITY EXPIRY
 
