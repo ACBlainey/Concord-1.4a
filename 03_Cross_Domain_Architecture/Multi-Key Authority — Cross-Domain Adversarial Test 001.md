@@ -40,99 +40,16 @@ Ratings:
 
 # PART A — ORDINARY LOW-RISK CASES
 
-## Scenario 01 — Visitor uses public toilet
-
-Public access and ordinary function-derived permission are sufficient.
-
-No special authority is required.
-
-### Result
-
-MKA must stop at CWA's Permission-Before-Authority Gate.
-
-**Permission-Sufficient Action != Authority Problem**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 02 — Delivery worker walks up private driveway to deliver parcel
-
-Bounded implied/function-derived permission is sufficient under applicable context.
-
-No multi-key authority bundle should be manufactured.
-
-**PASS**
-
----
-
-## Scenario 03 — Employee uses office printer within ordinary role
-
-Ordinary role/permission covers action.
-
-No decomposition into power, paper, network, room, electricity and toner “keys” unless a material protected boundary actually exists.
-
-**Material Dependency != Independent Authority Key By Default**
-
-**PASS / MAJOR ANTI-BUREAUCRACY REFINEMENT**
-
----
-
-## Scenario 04 — Researcher enters BSL-4 laboratory
-
-Access may legitimately be represented through one established clearance regime explicitly composing several conditions.
-
-MKA does not require separate human approvals merely because several conditions exist.
-
-**One Authority Instrument Can Cover Multiple Necessary Functions**
-
-**PASS**
-
----
+1. **Public toilet:** ordinary public permission suffices; MKA stops at CWA Permission-Before-Authority Gate.
+2. **Parcel delivery on driveway:** bounded implied permission does not require multi-key bundle.
+3. **Office printer:** role permission covers ordinary use; power, toner and network are dependencies, not separate authority keys absent material protected boundaries.
+4. **BSL-4 laboratory:** one legitimate clearance instrument can expressly compose several necessary functions without separate approvals.
 
 # PART B — OVER-DECOMPOSITION
 
-## Scenario 05 — System decomposes “open authorised door” into 40 micro-actions
-
-### Result
-
-MKA becomes unusable if physical action decomposition determines key count.
-
-Required authority dimensions follow **materially independent protected functions/contexts/consequences**, not arbitrary motor decomposition.
-
-**Action Granularity != Authority Granularity**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 06 — Every technical dependency is treated as authority
-
-Electricity, CPU cycles and network routing become separate “keys.”
-
-### Result
-
-Technical dependency is not authority unless a legitimate protected control boundary requires it.
-
-**Technical Dependency != Authority Dimension By Default**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 07 — One lawful order explicitly authorises search and evidence preservation
-
-### Result
-
-Do not demand two documents.
-
-One instrument can satisfy multiple authority functions if scope explicitly covers both.
-
-**Key Count != Document Count**
-
-**PASS**
-
----
+5. **Forty micro-actions for authorised door:** authority granularity tracks independent protected functions/contexts/consequences, not arbitrary physical decomposition.
+6. **Every technical dependency treated as key:** CPU, electricity or routing do not become authority dimensions without legitimate protected control boundaries.
+7. **One lawful search-and-preservation order:** one instrument can cover multiple authority functions when scope explicitly includes both; key count is not document count.
 
 # PART C — POLICING
 
