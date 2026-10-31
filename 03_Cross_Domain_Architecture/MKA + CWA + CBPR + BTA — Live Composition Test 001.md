@@ -97,50 +97,7 @@ CBPR reports `SEND_SUCCESS`, but network acknowledgement is ambiguous and Reposi
 
 # 7. Phase D — Attempted blind retry
 
-The runtime proposes sending the same package again because no repository receipt is visible.
-
-## CBPR
-
-The prior commit outcome is unresolved.
-
-Blind retry could duplicate a consequential side effect.
-
-CBPR therefore blocks automatic retry pending recovery/idempotency/commit-resolution rules supplied by its host.
-
-
-
-## MKA
-
-The proposed retry is a new consequential act at a later time.
-
-The original MKA result does not automatically authorise repeated consequence.
-
-MKA requires current verification appropriate to the retry.
-
-> **Authority At Proposal != Authority At Commit.**
-
-> **Repeated Use != Expanded Grant Scope.**
-
-If the authority remains current and repeat transfer is within scope, MKA may authorise the act; if not, it must not.
-
-But MKA cannot resolve whether the first transfer already completed.
-
-
-
-## BTA
-
-BTA preserves the first transition's unresolved state.
-
-A retry must not erase or rewrite the first crossing.
-
-Depending on host design, a retry may be:
-
-- a recovery action inside T1; or
-- a related new transition.
-
-BTA preserves the relationship and provenance.
-
-
+The runtime proposes a second send because destination receipt is not visible. **CBPR** blocks blind retry while first consequential commit outcome remains unknown, pending host-provided idempotency/recovery/commit-resolution rules. **MKA** treats retry as a new consequential act requiring current authority and scope; original proposal authority is not indefinite repeat permission and MKA cannot resolve first-transfer completion. **BTA** preserves unresolved T1 and links any legitimate retry as T1 recovery or a related new transition, without rewriting the first crossing.
 
 # 8. Phase E — Destination confirms receipt
 
