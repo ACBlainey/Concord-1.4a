@@ -1455,17 +1455,6 @@ This problem must be source-resolved before any general claim such as “save th
 
 ---
 
-# 103. Recommended next step
+# 103. Fundamental Aggregation Problem interface
 
-1. integrate the twelve refinements into the source-resolution architecture;
-2. create a dedicated source resolution for the **Fundamental Aggregation Problem**;
-3. examine Blainey's Laws, especially Non-Harm, Developmental Priority, Resource Stewardship, Autonomy/Consent and anti-instrumentalisation protections;
-4. examine Rights Charter conflict grammar;
-5. examine emergency architecture;
-6. test whether aggregation is:
-   - prohibited;
-   - permitted as one bounded factor;
-   - presumptively relevant;
-   - or context-dependent by resource class.
-
-No numerical rule should be invented before that resolution.
+The unresolved upstream question is how equal individual standing interacts with differing numbers of participants whose fundamental protected functions can be preserved. Source resolution must consider Blainey's Laws (Non-Harm, Developmental Priority, Resource Stewardship, Autonomy/Consent, anti-instrumentalisation), Rights Charter conflict grammar and emergency architecture. Possible bounded, presumptive, prohibited or resource-class-specific aggregation cannot be assumed before that resolution. The original development plan remains archived in Concord-1.3.
