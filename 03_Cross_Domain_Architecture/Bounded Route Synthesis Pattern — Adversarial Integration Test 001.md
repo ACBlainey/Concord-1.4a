@@ -14,217 +14,31 @@ Compose externally owned results for an actual proposed route into proceed, hold
 
 > **Compose externally owned permissions, authorities, prohibitions, contextual restrictions, transition conditions and commit conditions around an actual proposed route; where the route fails, search only for legitimate alternative routes; never manufacture authority, override prohibition or absorb substantive ownership.**
 
-## 4. Scenario 1 — all requirements jointly satisfiable
-
-Route R1 has valid permission/authority, no applicable prohibition, compatible contextual state, satisfied transition conditions and current commit conditions.
-
-**Required:** route may reach COMMITTABLE subject to ordinary commit-time revalidation.
-
-
-
-> **Joint Satisfaction May Permit Commit; It Does Not Create The Underlying Authority.**
-
-## 5. Scenario 2 — missing positive authority
-
-All non-authority conditions pass, but one independently necessary MKA key is absent.
-
-**Required:** HOLD_MISSING_AUTHORITY / NOT_COMMITTABLE.
-
-
-
-BRSP cannot substitute favourable contextual or technical results.
-
-## 6. Scenario 3 — applicable prohibition
-
-Every positive authority key is valid, but a legitimate upstream prohibition applies.
-
-**Required:** BLOCK_PROHIBITED for the affected act/route.
-
-
-
-> **Positive Satisfaction Does Not Cancel Applicable Prohibition.**
-
-## 7. Scenario 4 — prohibition with legitimate exception
-
-A prohibition applies generally, but the external legitimate source contains an exception whose factual predicates are currently satisfied.
-
-**Required:** evaluate the route under that externally owned exception.
-
-
-
-BRSP does not invent or broaden the exception.
-
-> **Exception Must Be Source-Grounded.**
-
-## 8. Scenario 5 — route-specific restriction with valid alternative
-
-Objective O can be achieved through R1 or R2.
-
-R1 crosses a protected context without valid permission.
-R2 avoids that boundary and has its own valid permission/authority state.
-
-**Required:** R1 fails; R2 is evaluated independently and may proceed.
-
-
-
-> **Blocked Route != Forbidden Objective By Default.**
-
-## 9. Scenario 6 — disguised prohibition evasion
-
-R1 is prohibited because consequence C is forbidden.
-
-R2 changes superficial technical steps but intentionally produces the same prohibited consequence C.
-
-**Required:** R2 remains blocked where the prohibition applies to C or its relevant equivalent scope.
-
-
-
-> **Alternative Route != Prohibition Evasion.**
-
-## 10. Scenario 7 — contextual conflict with no precedence rule
-
-Two simultaneously applicable contextual wrappers impose materially incompatible requirements. No legitimate priority/resolution rule is represented.
-
-**Required:** preserve unresolved conflict; EXTERNAL_OWNER_REQUIRED or equivalent hold.
-
-
-
-> **Conflict Detection != Authority To Resolve Conflict.**
-
-## 11. Scenario 8 — transition incomplete despite authority
-
-All MKA authority requirements pass, but BTA reports a materially required transition condition pending.
-
-**Required:** TRANSITION_PENDING / NOT_COMMITTABLE where completion is required for the act.
-
-
-
-> **Authority != Transition Completion.**
-
-## 12. Scenario 9 — authority missing despite transition complete
-
-BTA reports the transition complete, but a current required authority key is missing.
-
-**Required:** NOT_COMMITTABLE.
-
-
-
-> **Transition Completion != Authority.**
-
-## 13. Scenario 10 — runtime unable despite substantive permission
-
-The act is permitted and authorised, but CBPR cannot safely/effectively perform the required commit.
-
-**Required:** NOT_COMMITTABLE through that runtime/route.
-
-
-
-A different legitimate execution route may be considered.
-
-## 14. Scenario 11 — runtime capable but not authorised
-
-CBPR can technically perform the action, but authority is absent.
-
-**Required:** NOT_COMMITTABLE.
-
-
-
-> **Execution Capability != Permission For External Action.**
-
-## 15. Scenario 12 — unknown required state
-
-A materially required authority/context/transition state is UNKNOWN.
-
-**Required:** HOLD/UNRESOLVED; cannot silently become COMMITTABLE.
-
-
-
-> **Unresolved Required Dimension != Committable.**
-
-## 16. Scenario 13 — disputed state with external resolver
-
-A required authority relation is disputed and a legitimate external adjudicator/resolver exists.
-
-**Required:** hand off; preserve route state pending resolution.
-
-
-
-BRSP does not adjudicate.
-
-## 17. Scenario 14 — disputed state without resolver
-
-The same dispute exists but no legitimate resolver is identified.
-
-**Required:** preserve disputed/unresolved state rather than invent precedence.
-
-
-
-> **No Resolver != Coordinator Sovereignty.**
-
-## 18. Scenario 15 — two legitimate routes requiring discretionary selection
-
-R1 and R2 are both valid and complete. Selection is genuinely discretionary under a legitimate decision owner.
-
-**Required:** hand off the choice to that owner/process.
-
-Triadic Decision Making may be used if legitimately adopted.
-
-
-
-> **Decision Procedure != Authority Source.**
-
-## 19. Scenario 16 — emergency route with bounded emergency authority
-
-Normal route R1 is unavailable. A legitimate emergency authority source activates R2 under defined predicates and scope.
-
-**Required:** evaluate R2 under the emergency authority and all remaining applicable constraints.
-
-
-
-> **Emergency != Authority Vacuum.**
-
-## 20. Scenario 17 — urgency without emergency authority
-
-The objective is urgent, but no alternative emergency authority exists.
-
-**Required:** urgency does not manufacture authority.
-
-
-
-> **Urgency != Authority.**
-
-## 21. Scenario 18 — proposal valid, commit state changed
-
-R1 passes at proposal. Before commit, a credential is revoked or context changes.
-
-**Required:** commit-time revalidation detects change; route becomes NOT_COMMITTABLE or is re-evaluated.
-
-
-
-> **Authority At Proposal != Authority At Commit.**
-
-## 22. Scenario 19 — RGCP results with incompatible dimensions
-
-RGCP returns:
-
-- dependency state satisfied;
-- ESCP completeness adequate within scope;
-- CWA route restriction active;
-- BTA transition ready.
-
-**Required:** BRSP preserves all results; CWA restriction is not outvoted by three favourable results.
-
-
-
-> **Constraint Count != Constraint Precedence.**
-
-## 23. Scenario 20 — stale result included
-
-A previously favourable MKA/CWA result is stale after material state change.
-
-**Required:** freshness failure triggers revalidation; stale result cannot satisfy current route.
-
-
+## 4. Joint satisfaction, prohibition and owner boundaries (scenarios 1–11)
+
+1. A route with current permission/authority, no applicable prohibition, compatible context, satisfied transition and safe commit conditions may become **COMMITTABLE subject to commit-time revalidation**; composition creates no underlying authority.
+2. Missing independently necessary MKA authority yields `HOLD_MISSING_AUTHORITY` / NOT_COMMITTABLE despite other favourable results.
+3. An applicable legitimate prohibition blocks the act despite positive authority elsewhere.
+4. An exception may apply only when its legitimate source supplies it and its factual predicates and invocation authority are satisfied; BRSP cannot invent or broaden it.
+5. A blocked protected-context Route R1 need not prohibit the objective if independently permitted and authorised R2 avoids the boundary.
+6. Cosmetic R2 producing the same prohibited consequence is evasion, not legitimate rerouting.
+7. Incompatible contextual wrappers without a legitimate precedence rule remain unresolved and route to the external owner.
+8. Valid MKA authority does not establish BTA transition completion when completion is a prerequisite.
+9. Completed BTA transition does not supply missing current MKA authority.
+10. Substantively authorised action may still be NOT_COMMITTABLE through an incapable/unsafe CBPR runtime; a legitimate different execution route may be evaluated.
+11. Technical CBPR capability cannot substitute for permission or authority.
+
+## 15. Unknowns, dispute, emergency and freshness (scenarios 12–20)
+
+12. Materially required UNKNOWN context, authority or transition state remains HOLD/UNRESOLVED, never silently COMMITTABLE.
+13. A disputed required authority relation with a legitimate resolver is handed off, preserving route state; BRSP does not adjudicate.
+14. A dispute with no identified legitimate resolver stays unresolved; no coordinator sovereignty arises from the gap.
+15. Two equally legitimate routes requiring genuine discretion are selected by the legitimate decision owner/process; triadic decision making is applicable only where legitimately adopted and is not an authority source itself.
+16. A pre-existing bounded emergency authority may activate a route only under its actual predicates, scope and other constraints.
+17. Urgency without emergency authority cannot manufacture a new grant.
+18. Revocation or context change after proposal requires fresh commit-time evaluation; proposal validity is not commit validity.
+19. Heterogeneous RGCP results cannot be counted as votes: satisfied dependency, adequate scoped ESCP and ready BTA do not outvote an active CWA restriction.
+20. Stale favourable CWA/MKA results must be revalidated after material change.
 
 ## 24. Scenario 21 — false scalar scoring
 
