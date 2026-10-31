@@ -25,129 +25,13 @@ When RGCP constituents, BRSP routes, CBPR/EERP reconciliation, KCS propagation a
 
 A disputed matter awaiting an external hearing enters **WAITING_EXTERNAL_OWNER**, not repeated internal adjudication. Unresolved owner routing requires a bounded recheck/backstop, not continuous search. Suppress 10,000 exact duplicate signals as one material ground, but retain four materially distinct grounds even if embedded in 10,000 events. Logs created by review are provenance, not automatically new substantive evidence triggering review again.
 
-## 15. Scenario 13 — review result unchanged
+## 15. Material propagation, rerouting and backstops (scenarios 13–20)
 
-KCS-triggered review concludes downstream material state remains unchanged.
+Review that leaves downstream material state unchanged stops KCS propagation; a materially changed state permits further propagation. Cosmetic BRSP reroutes failing for the same reason must terminate; a new route with changed target, context or consequence is a legitimately new question, not loop failure. A stale R1 trigger after R2 supersession must not reopen R1 absent a legitimate residual/historical ground. A declared annual statutory/domain backstop can reopen review when due; a future not-yet-due backstop permits quiescence. Rapid external changes require host-defined materiality, batching and stability controls, not a universal BFQP debounce threshold.
 
-**Required:** propagation stops and episode can return to quiescence.
+## 23. Oscillation, evidence and ESCP (scenarios 21–26)
 
-
-
-> **Review Activity != Material State Change**
-
-## 16. Scenario 14 — review result materially changes state
-
-Review changes a downstream object's material state.
-
-**Required:** KCS may propagate further; quiescence not yet reached.
-
-
-
-## 17. Scenario 15 — cosmetic BRSP reroutes
-
-R1, R2 and R3 differ only cosmetically and fail for the same material reason.
-
-**Required:** route search terminates; no endless route loop.
-
-
-
-## 18. Scenario 16 — materially distinct reroute
-
-R2 changes target/context/consequence and creates new legitimate questions.
-
-**Required:** lifecycle may return to review/evaluation.
-
-
-
-> **Return To Earlier Stage != Loop Failure Where Material State/Question Changed**
-
-## 19. Scenario 17 — stale route trigger
-
-R1 was superseded by R2. A delayed replica emits an old R1 trigger.
-
-**Required:** suppress/reconcile against supersession unless a legitimate residual/historical ground remains.
-
-
-
-> **Stale Route Trigger != Live Route Reopening**
-
-## 20. Scenario 18 — periodic statutory/domain backstop
-
-A domain legitimately requires annual reconsideration even with no material event.
-
-**Required:** review reopens when backstop is due.
-
-
-
-> **Repeated Review By Declared Backstop != Unbounded Review Loop**
-
-## 21. Scenario 19 — backstop not yet due
-
-A future review is scheduled but no current work is due.
-
-**Required:** quiescence/waiting is legitimate.
-
-
-
-## 22. Scenario 20 — rapid external changes
-
-An upstream dependency changes every few seconds.
-
-**Required:** host-supplied materiality/batching/stability controls may bound review; BFQP does not invent universal debounce threshold.
-
-
-
-## 23. Scenario 21 — oscillating coupled owners
-
-Owner A depends on B and B on A; their legitimate states alternate.
-
-**Required:** preserve oscillation, prevent unsafe commit where required, route stability/resolution externally; do not invent equilibrium.
-
-
-
-> **Observed State Oscillation != Integration Authority To Invent Equilibrium**
-
-## 24. Scenario 22 — false equilibrium by averaging
-
-Host averages alternating incompatible states and declares stable.
-
-**Required:** reject this boundary violation.
-
-No scalar averaging rule is supplied by BFQP.
-
-## 25. Scenario 23 — new evidence after quiescence
-
-A materially relevant new evidence item arrives.
-
-**Required:** legitimate reopening.
-
-
-
-> **Quiescence Is Reopenable By Material Change**
-
-## 26. Scenario 24 — irrelevant new evidence
-
-A new document arrives but does not materially alter any represented ground/state.
-
-**Required:** no reopening merely because information volume increased.
-
-
-
-## 27. Scenario 25 — ESCP discovers omitted dimension
-
-A completeness challenge identifies a materially relevant missing dimension.
-
-**Required:** reopen the relevant bounded review/evaluation.
-
-
-
-## 28. Scenario 26 — speculative unknown unknown
-
-Someone states that an unspecified unknown could exist but supplies no material discovery basis.
-
-**Required:** does not force permanent active review.
-
-
+If coupled owners A and B legitimately oscillate, preserve the oscillation, prevent unsafe commit where needed and route stability/resolution to the competent external owner. BFQP cannot invent equilibrium by averaging incompatible states. Material new evidence or ESCP discovery of an omitted material dimension reopens bounded review; irrelevant document volume and speculative unspecified unknown unknowns do not mandate perpetual active work.
 
 ## 29. Scenario 27 — EERP deviation after prior quiescence
 
