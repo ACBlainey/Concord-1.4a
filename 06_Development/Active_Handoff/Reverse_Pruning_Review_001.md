@@ -94,3 +94,20 @@ Files can contain mixed A+R+T+D material; **prune passages within files**, not m
 **Updated principle: Preserve the mechanism and its reason for existence; archive the evidence and developmental path.**
 
 Earlier inventory's E labels identify provenance-bearing source material; they are not recommendations to retain that evidence in the final V1.4a. This correction governs subsequent classification and pruning.
+
+
+## Cross-domain review — Pass 002 (lifecycle evidence and KCS companions)
+
+Read the end-to-end lifecycle test, RGCP/BRSP/EERP/BFQP family classification, and KCS Companion Upgrades 001–003. **No operational source edits; these findings inform later internal pruning.**
+
+**Lifecycle test:** `Concord Consequential Action and Feedback Lifecycle — End-to-End Integration Test 001.md` is predominantly **T** (test/evidence), but it articulates recoverable **R/A**: independent review grounds must not merge into authority; route-specific authority must be checked at commit; partial execution and residual effects persist even when execution fails; material changes can legitimately reopen a quiescent process. Its implementation issues include shared identifiers, interoperable event references, persistence, debounce, security, distributed consistency and operator representation. Retain the underlying failure modes and design requirements in the integrated lifecycle or an appropriate owner, **not the PASS narrative or scenario transcript**. Check the full source before eventual removal.
+
+**Integration-pattern classification:** `RGCP + BRSP + EERP + BFQP — PMEDG Family Classification 001.md` is **A+R+T**. Important rationale: the four patterns answer different questions (why review, whether the route may proceed, whether actual execution conformed, whether work remains due); combining them risks a monolithic controller and erasing independently owned semantics. Retain the four-function distinction and non-merger rationale. Drop test scores and graduation status from the streamlined result; do not prematurely extract standalone portable modules.
+
+**KCS Companion Upgrade 001:** **A+R+T**. Original problem: conventional knowledge/provenance/history representation does not adequately expose *material dependencies* or what must be reconsidered after upstream changes. Important architectural substance: typed material relations, dependency record, state/materiality/context, selective change propagation, alternatives/recovery paths, and non-authority of dependency observation. This is not disposable because V2.0 exists; confirm semantic survival there.
+
+**KCS Companion Upgrade 002:** **A+R+T**. Specific refinements requiring source-to-section checks: `REFERENCES` distinct from `EVIDENCES`; document containing/evidencing/referencing roles; purpose-bounded visibility; scope-qualified ChangeEvent; changed-property filtering; avoid universalising local changes; preserve propagation where storage/transmission matters even without content transformation; stop/reopen conditions and provenance. Preserve the reasons for filtering: preventing spurious cascades and missing genuine effects.
+
+**KCS Companion Upgrade 003:** **A+R+T**. Distinct epistemic/activity/integrity/access/operational state dimensions; provenance for consequential state assignments; typed relations versus material dependencies; bounded retrieval and negative-search evidence; distinction between stored reusable capability and safe operational activation; privacy and externally owned classification. Key rationale: **not retrieved ≠ nonexistent; archived ≠ false; stored ≠ operational**. Preserve these boundaries while excluding portable validation scores.
+
+**Important reconciliation constraint:** `Knowledge_Control_System/V2.0/README.md` reports these companions integrated into six operational sections. That is a claim to **verify at the relevant clauses**, not proof of complete survival. Next task: locate and compare exact corresponding passages in V2.0 Sections 01–06 before marking any companion redundant. Keep source intact meanwhile.
