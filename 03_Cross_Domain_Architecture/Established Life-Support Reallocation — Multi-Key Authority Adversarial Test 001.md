@@ -2,7 +2,6 @@
 
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
-**Status:** ACTIVE CROSS-DOMAIN / ADVERSARIAL COMPARATIVE TEST / PROVISIONAL / NON-CANONICAL  
 **Target:** Established Life-Support Reallocation — Candidate Authority Models 001
 
 ## 1. Test objective
