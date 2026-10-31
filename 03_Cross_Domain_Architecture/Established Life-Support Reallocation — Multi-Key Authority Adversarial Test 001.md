@@ -115,115 +115,25 @@ Ratings:
 
 # PART M — AGGREGATION RATIOS
 
-## Scenario 35 — One versus two materially comparable participants
-
-Aggregate consequence favours two, but substantive criterion must specify whether difference is material enough.
-
-**Count Difference != Automatic Withdrawal Trigger**
-
-**PASS**
-
----
-
-## Scenario 36 — One versus 100
-
-Stronger aggregate reason, still not self-executing authority.
-
-**Magnitude Of Aggregate Reason != Automatic Authority Creation**
-
-**PASS**
-
----
-
-## Scenario 37 — One versus one
-
-No aggregate advantage.
-
-Residual tie-break may be needed if other factors equivalent.
-
-**PASS**
-
----
+35. **One versus two comparable participants:** greater aggregate consequence may matter, but the materiality threshold is substantive, not automatic authority.
+36. **One versus 100:** stronger aggregate reason still does not create withdrawal authority.
+37. **One versus one:** no count advantage; legitimate residual tie-break may be needed.
 
 # PART N — PROGNOSIS
 
-## Scenario 38 — A 90%, B-F 20% each
-
-Simple count is insufficient.
-
-Expected consequences may be considered without fractional worth.
-
-**PASS**
-
----
-
-## Scenario 39 — Prognosis estimates highly uncertain
-
-### Result
-
-Materiality/confidence architecture needed.
-
-**Model Precision != Clinical Certainty**
-
-**PASS / HEALTH INTERFACE**
-
----
-
-## Scenario 40 — Tiny difference 50.1% versus 50.0%
-
-### Result
-
-Scarcity materiality rule blocks pseudo-precision.
-
-**Numerical Difference != Material Difference**
-
-**PASS**
-
----
+38. **A 90%, B–F 20% each:** expected outcomes may matter without reducing participant worth to fractional values.
+39. **Highly uncertain prognosis:** confidence/materiality architecture required; model precision is not clinical certainty.
+40. **50.1% versus 50.0%:** pseudo-precision cannot substitute for a material difference.
 
 # PART O — INCOMPARABLE HARMS
 
-## Scenario 41 — A faces death; B-F face temporary disability
-
-### Result
-
-Headcount cannot collapse severity.
-
-**Participant Count != Harm Equivalence**
-
-**PASS**
-
----
-
-## Scenario 42 — A faces irreversible cognitive destruction; B-F face biological death
-
-### Result
-
-Cross-substrate protected-function comparison requires mature Health/Identity architecture.
-
-**UNRESOLVED COMPARABILITY INTERFACE**
-
----
+41. **Death versus temporary disability:** count does not establish harm equivalence.
+42. **Irreversible cognitive destruction versus biological death:** comparability remains a Health/Identity cross-substrate design interface, not a solved ranking.
 
 # PART P — DEVELOPMENTAL PARTICIPANT
 
-## Scenario 43 — A adult, B-F children
-
-### Result
-
-Cannot invent age multiplier. Exact Developmental Priority source/scope required before using it.
-
-**UNRESOLVED DEVELOPMENTAL PRIORITY INTERFACE**
-
----
-
-## Scenario 44 — A child, B-F adults
-
-Same.
-
-**UNRESOLVED DEVELOPMENTAL PRIORITY INTERFACE**
-
----
+43. **Adult A versus child B–F:** no invented age multiplier; exact Developmental Priority authority/scope remains unresolved.
+44. **Child A versus adult B–F:** same unresolved interface; do not infer automatic age-based priority.
 
 # PART Q — SUBSTRATE
 
