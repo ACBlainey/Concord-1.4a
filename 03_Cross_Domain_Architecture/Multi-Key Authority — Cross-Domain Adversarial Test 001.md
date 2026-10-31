@@ -90,43 +90,10 @@ Ratings:
 
 # PART I — EMERGENCY
 
-## Scenario 27 — Firefighter enters private home to rescue occupant
-
-Emergency protective authority may legitimately cover entry and minimum necessary rescue actions.
-
-MKA should accept explicit functional composition.
-
-**PASS**
-
----
-
-## Scenario 28 — Firefighter uses emergency entry to inspect unrelated financial records
-
-Outside scope.
-
-**PASS**
-
----
-
-## Scenario 29 — Emergency communications network unavailable
-
-Precomputed locally verifiable fallback authority exists.
-
-May proceed within fallback scope.
-
-**PASS**
-
----
-
-## Scenario 30 — No fallback authority exists and authority cannot be verified
-
-Unknown authority state does not become permission.
-
-But minimum immediate self-defence/protective authority may independently exist if wider law supplies it.
-
-**PASS**
-
----
+27. **Firefighter rescues occupant:** fact-activated emergency authority may cover entry and minimum necessary rescue.
+28. **Firefighter searches financial records:** unrelated inspection exceeds emergency-entry scope.
+29. **Communications offline, signed fallback available:** proceed only within legitimate verifiable fallback scope.
+30. **No fallback, authority unverifiable:** unknown authority is not permission; separately grounded immediate self-defence/protection may apply.
 
 # PART J — PROPERTY
 
