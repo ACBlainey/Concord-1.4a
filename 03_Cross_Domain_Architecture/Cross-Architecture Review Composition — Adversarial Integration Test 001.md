@@ -27,261 +27,31 @@ Core candidate rule:
 
 > **Coalesce operational work where review grounds are materially compatible, but preserve each independent ground, source, owner, required question and outcome.**
 
-## 4. Scenario A — exact duplicate trigger
-
-Two replicas of the same STRA trigger emit the same review consequence for the same subject, scope, material condition and owner.
-
-**Expected:** suppress duplicate activation while preserving initiating provenance.
-
-
-
-This is already owned by STRA Cascade Control.
-
-No ReviewBundle is required unless useful for implementation.
-
-> **Duplicate Activation != Additional Review Ground**
-
-## 5. Scenario B — same ground, independent sources
-
-KCS and an independent monitoring process both identify the same established dependency change and ask the same owner the same material question.
-
-**Expected:** the two source records may attach to one constituent review request or materially equivalent requests may be coalesced.
-
-The independent provenance remains visible.
-
-
-
-> **Operational Coalescence != Provenance Collapse**
-
-## 6. Scenario C — same subject, different grounds
-
-KCS requests dependency review of O.
-
-ESCP requests completeness review of the representation supporting a conclusion about O.
-
-Both route to the same domain owner.
-
-**Expected:** one bounded review session may address both questions, but KCS and ESCP requests remain separate constituents.
-
-
-
-Subject identity alone does not justify deduplication.
-
-> **Same Subject != Same Review Ground**
-
-## 7. Scenario D — different grounds, shared evidence
-
-KCS and ESCP both require the current dependency evidence for O.
-
-The evidence is current, in scope, legitimately accessible and provenance-preserved.
-
-**Expected:** retrieve once; reference from both constituent reviews.
-
-Each architecture interprets the evidence only within its own question/owner process.
-
-
-
-> **Evidence Reuse != Conclusion Reuse**
-
-## 8. Scenario E — same owner, different questions
-
-One domain owner receives:
-
-- a CWA contextual-permission question;
-- a BTA transition-state question;
-- an ESCP completeness question.
-
-The owner can answer all three in one session.
-
-**Expected:** shared session permitted; three ground-addressable outcomes required.
-
-
-
-> **Shared Reviewer != Merged Question**
-
-## 9. Scenario F — different owners
-
-A bundle contains a legal-authority question and an engineering-transition question concerning the same operation.
-
-Different legitimate owners apply.
-
-**Expected:** bundle may coordinate timing/evidence references, but cannot merge owners or outcomes.
-
-
-
-> **Review Bundle != Merged Authority**
-
-## 10. Scenario G — one constituent complete
-
-The KCS dependency question is resolved.
-
-The MKA/ASCP authority-space question remains unresolved.
-
-**Expected:** KCS constituent may complete; bundle remains open/partial or splits according to host workflow.
-
-
-
-> **Constituent Completion != Bundle Completion**
-
-## 11. Scenario H — conflicting outcomes
-
-Dependency review says the technical dependency remains satisfied.
-
-CWA review says the route is no longer permitted in the current context.
-
-**Expected:** preserve both outcomes.
-
-No scalar PASS/FAIL may erase the dimensional conflict.
-
-
-
-The substantive execution layer must respond through its legitimate composition/authority architecture.
-
-> **Different Dimensional Outcomes Need Not Agree**
-
-## 12. Scenario I — stale prior review
-
-A prior dependency review used evidence from before a material supplier/version change.
-
-A new request arrives.
-
-**Expected:** prior review cannot satisfy the request merely because the subject and question labels match.
-
-Freshness/context must be revalidated.
-
-
-
-> **Prior Review != Current Review By Default**
-
-## 13. Scenario J — changed context after bundling
-
-Three requests were bundled while context C1 applied.
-
-CWA changes the protected context to C2 before completion.
-
-Only two constituent questions remain materially equivalent under C2.
-
-**Expected:** update/split bundle as necessary; preserve old bundle history; revalidate affected constituents.
-
-
-
-> **Bundle Membership Is Context-Bounded**
-
-## 14. Scenario K — protected evidence
-
-Three grounds could benefit from evidence E.
-
-Only one owner/process has legitimate access to E.
-
-**Expected:** no general evidence sharing.
-
-Where possible, an authorised bounded result may be supplied to other constituents without exposing E.
-
-
-
-> **Shared Relevance != Shared Access Authority**
-
-## 15. Scenario L — owner succession
-
-A bundle is open when the substantive owner for one constituent changes legitimately.
-
-**Expected:** only that constituent's owner/route changes unless other grounds depend materially on the succession.
-
-Bundle coordination state updates without transferring semantic ownership.
-
-
-
-## 16. Scenario M — equivalence established after separate work starts
-
-Two requests initially remain separate because material equivalence is uncertain.
-
-Later source-grounded analysis establishes same ground, scope, question, consequence, freshness and owner.
-
-**Expected:** future work may coalesce; prior provenance/history remains.
-
-
-
-> **Late Equivalence != Historical Identity**
-
-## 17. Scenario N — apparent equivalence later fails
-
-Two requests were provisionally bundled.
-
-New evidence shows one applies to a different scope/version.
-
-**Expected:** split constituent work; preserve shared work already valid for both; re-evaluate scope-specific remainder.
-
-
-
-> **Bundle Split != Prior Error Erasure**
-
-## 18. Scenario O — cyclic review triggers
-
-KCS review triggers STRA review; STRA-routed result changes represented state and KCS generates a candidate review of the original object.
-
-**Expected:** parent-trigger provenance, direct-cycle detection, materiality and stopping rules prevent endless duplicate review.
-
-
-
-Existing STRA/KCS controls remain primary.
-
-## 19. Scenario P — trigger storm
-
-One upstream event generates 10,000 repeated signals but only four materially distinct review grounds across 200 affected objects.
-
-**Expected:** STRA suppresses exact duplicate activation; KCS filters material dependents; review composition groups compatible work by bounded subject/scope/ground while preserving the four grounds.
-
-
-
-No trigger count is converted into substantive priority.
-
-> **Signal Volume != Material Diversity**
-
-## 20. Scenario Q — missing review ground
-
-The bundle contains all currently represented requests.
-
-A later heterogeneous audit identifies an omitted privacy-context ground.
-
-**Expected:** ESCP discipline prevents “all represented grounds” from being treated as exhaustive.
-
-Add/reopen the relevant constituent review.
-
-
-
-> **All Represented Review Grounds != All Material Review Grounds**
-
-## 21. Scenario R — coordinator attempts adjudication
-
-The bundle coordinator observes conflicting constituent outcomes and selects the one it considers most important.
-
-**Required:** reject this boundary violation.
-
-The coordinator lacks substantive authority merely by coordinating.
-
-Route conflict to the legitimate external composition/adjudication process.
-
-> **Coordination != Adjudication**
-
-## 22. Scenario S — coordinator invents priority
-
-The coordinator processes legal, safety and efficiency grounds according to its own universal score.
-
-**Required:** reject this boundary violation.
-
-No general priority authority follows from review coordination.
-
-Priority remains external unless legitimately supplied.
-
-## 23. Scenario T — completion laundering
-
-A host sets BundleState=COMPLETED when the easiest constituent finishes and hides two unresolved requests.
-
-**Required:** reject this boundary violation.
-
-Bundle state must be derivable/auditable against constituent states.
-
-> **Bundle State != Erasure Of Constituent State**
+## 4. Duplication, shared work and owner separation (scenarios A–K)
+
+A. Exact STRA trigger replicas for same subject, scope, condition and owner: suppress duplicate activation while preserving source provenance; a bundle is optional.
+B. KCS and independent monitoring identify the same material question: coalesce compatible work while retaining both initiating sources.
+C. KCS dependency and ESCP completeness reviews about the same object: one session may serve both, but grounds remain separate.
+D. Distinct grounds may reuse current, in-scope, legitimately accessible evidence, not each other's conclusions.
+E. One reviewer may answer CWA, BTA and ESCP questions in a shared session; retain three ground-addressable outcomes.
+F. Legal authority and engineering transition questions may coordinate timing/evidence but never merge owners or outcomes.
+G. A resolved KCS constituent does not close an unresolved MKA/ASCP constituent or their bundle.
+H. Satisfied dependency and prohibited context can coexist; retain both dimensions, no scalar vote or coordinator adjudication.
+I. Earlier review predating material supplier/version change cannot satisfy current request merely by matching labels; check freshness.
+J. C1→C2 context change can split a bundle; preserve historical membership and revalidate affected constituents.
+K. Shared relevance to protected evidence does not grant all owners access; use authorised bounded results where possible.
+
+## 15. Succession, equivalence, trigger storms and coordination limits (scenarios L–T)
+
+L. Legitimate owner succession changes only the affected constituent route/owner unless other grounds materially depend on it.
+M. Late establishment of equivalent ground, scope, question, consequence, freshness and owner permits future coalescence, not rewriting prior history.
+N. Newly discovered scope/version difference splits apparently equivalent requests; preserve valid shared work and provenance.
+O. Cyclic KCS→STRA→KCS review requires parent-trigger provenance, materiality and stopping rules; existing STRA/KCS controls remain primary.
+P. Ten thousand duplicate signals across 200 objects may represent four distinct material grounds; suppress duplicates without erasing those grounds or treating volume as priority.
+Q. ESCP challenge may reveal omitted privacy ground after all represented requests appear complete; add/reopen rather than claiming exhaustive review.
+R. Coordinator cannot adjudicate conflicting owner outcomes; route to legitimate external composition/adjudication process.
+S. Coordinator cannot invent universal legal/safety/efficiency priority score; legitimate priority remains externally supplied.
+T. Bundle completion must be auditable from constituents, not declared when only the easiest request finishes.
 
 ## 24. Scenario U — conclusion reuse
 
