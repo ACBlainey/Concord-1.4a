@@ -614,7 +614,7 @@ No arrow implies transfer of source ownership.
 | CBPR | bounded execution, commit/retry/recovery behaviour | authority source or transition adjudicator |
 | BTA | multi-owner transition state/coherence | authority source, runtime controller, substantive state owner |
 
-# 23. Result
+
 
 **PASS — FOUR-MODULE COMPOSITION HOLDS**
 
