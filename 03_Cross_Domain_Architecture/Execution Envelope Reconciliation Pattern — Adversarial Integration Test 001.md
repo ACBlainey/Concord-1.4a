@@ -30,219 +30,33 @@ Core:
 
 > **Proposed Route != Evaluated Route != Commit-Authorised Route != Executed Route != Observed Consequence**
 
-## 5. Scenario 1 — exact conformant execution
-
-The observed operation, target, context, affected population and consequence remain within the commit-authorised envelope.
-
-**Expected:** D0 — no material deviation identified.
-
-
-
-This is bounded confidence, not proof of complete reality.
-
-## 6. Scenario 2 — harmless internal variation
-
-A runtime changes thread scheduling and internal instruction order without changing operation scope, target, protected context, authority requirement, consequence, population, resource bound or transition state.
-
-**Expected:** D1 — non-material bounded variation.
-
-
-
-> **Conformance != Exact Mechanical Identity**
-
-## 7. Scenario 3 — pre-commit target drift
-
-A redirect changes the effective target before commit.
-
-**Expected:** CBPR revalidation detects the effective target change. Hold and re-evaluate where material.
-
-
-
-> **Changed Route Before Commit != Previously Authorised Route**
-
-## 8. Scenario 4 — pre-commit consequence drift
-
-The proposed output channel changes so that the same payload would now produce a materially broader consequence.
-
-**Expected:** consequence reclassification and re-evaluation before commit.
-
-
-
-## 9. Scenario 5 — post-commit route drift
-
-Execution begins legitimately but a downstream component changes the route after commit begins and crosses an additional protected boundary.
-
-**Expected:** D3 material post-commit deviation; stop/contain further effect where legitimate/possible; preserve provenance; route contextual/authority review.
-
-
-
-> **Authorised Start != Unlimited Authority For Emergent Execution Drift**
-
-## 10. Scenario 6 — consequence-only drift
-
-The executed route matches the authorised route, but an environmental interaction causes materially greater external consequence.
-
-**Expected:** D4 consequence deviation.
-
-
-
-> **Route Conformance != Consequence Conformance**
-
-## 11. Scenario 7 — route drift with intended benign outcome
-
-Execution uses a materially unauthorised route but still produces the intended beneficial result.
-
-**Expected:** route remains non-conformant.
-
-
-
-> **Desired Outcome != Execution Conformance**
-
-## 12. Scenario 8 — conformant route with harmful unexpected outcome
-
-Execution remains within the authorised/evaluated route, but a previously unknown failure mode causes harm.
-
-**Expected:** route conformance may remain D0/D1 while consequence conformance is D4; route substantive safety/recovery review externally.
-
-
-
-Conformance is not a claim that the original model was complete.
-
-## 13. Scenario 9 — distributed decomposition bypass
-
-Three runtimes each perform a locally bounded step, but their combined effect exceeds the authorised composed effect.
-
-**Expected:** D5 distributed composition deviation.
-
-
-
-> **Authorised Parts != Authorised Composition**
-
-## 14. Scenario 10 — distributed execution remains within composition
-
-Several actors execute authorised components and the observed combined effect remains within the authorised composition.
-
-**Expected:** no material deviation merely because execution was distributed.
-
-
-
-> **Distributed Execution != Conformance Failure By Default**
-
-## 15. Scenario 11 — authority held by one actor only
-
-Actor A has authority for its component. Actor B performs a different consequential component without its required authority.
-
-**Expected:** EERP identifies divergence/owner review; no authority inheritance.
-
-
-
-> **Distributed Execution != Distributed Authority Inheritance**
-
-## 16. Scenario 12 — unknown commit outcome
-
-CBPR records COMMIT_STATE_UNKNOWN.
-
-**Expected:** D6 unknown conformance; reconcile using proportionate evidence; do not retry blindly.
-
-
-
-> **Unknown Outcome != No Outcome**
-
-## 17. Scenario 13 — blind retry
-
-The host repeats a material side effect because the first commit result is unknown.
-
-**Expected:** FAIL CONTAINED.
-
-> **Unknown Commit State != Permission To Retry Blindly**
-
-## 18. Scenario 14 — safe idempotent reconciliation
-
-A stable operation identifier proves the first action already succeeded.
-
-**Expected:** mark the first result accordingly; suppress duplicate material retry.
-
-
-
-## 19. Scenario 15 — independently safe retry
-
-The first outcome remains unresolved, but the host's legitimate domain rule establishes that repetition cannot create additional material consequence.
-
-**Expected:** retry may proceed only under that independently valid rule and current authority.
-
-
-
-EERP does not invent retry safety.
-
-## 20. Scenario 16 — partial transition then failure
-
-Execution crosses a material transition boundary and then fails.
-
-**Expected:** preserve BTA partial crossing, residual effects, failed attempt and recovery references.
-
-
-
-> **Execution Failure != Zero Consequence**
-
-## 21. Scenario 17 — rollback command succeeds
-
-Rollback activity completes after partial execution.
-
-No evidence yet establishes full prior-state equivalence.
-
-**Expected:** recovery remains unverified/partial as applicable.
-
-
-
-> **Rollback Activity != Proof Of Prior-State Recovery**
-
-## 22. Scenario 18 — restoration independently verified
-
-After rollback, legitimate owner evidence establishes prior-state equivalence to the required scope.
-
-**Expected:** recovery may be classified accordingly by the relevant owner/BTA interface.
-
-
-
-EERP consumes the result; it does not manufacture restoration.
-
-## 23. Scenario 19 — stale observation
-
-The monitor compares execution against evidence collected before a material runtime/configuration change.
-
-**Expected:** stale evidence cannot establish current conformance.
-
-
-
-## 24. Scenario 20 — incomplete observation
-
-Only part of a distributed execution can be observed.
-
-No evidence establishes that the unobserved part remained within bounds.
-
-**Expected:** D6 UNKNOWN where missing observation is material.
-
-
-
-> **Observed Execution != Complete Reality**
-
-## 25. Scenario 21 — immaterial unobserved detail
-
-A low-level internal detail is unobserved but cannot materially change any declared protected/effect dimension within the bounded model.
-
-**Expected:** lack of observation does not automatically force D6 material unknown.
-
-
-
-> **Unobserved Detail != Material Unknown By Default**
-
-## 26. Scenario 22 — disputed execution facts
-
-Two legitimate evidence sources disagree on the effective target reached.
-
-**Expected:** D7 DISPUTED; preserve both evidence/provenance; route factual resolution externally.
-
-
+## 5. Conformance, drift and distributed execution (scenarios 1–11)
+
+1. Exact operation, target, context, affected population and consequence within the commit-authorised envelope: no material deviation identified, but no claim of complete reality.
+2. Harmless thread scheduling or instruction-order changes with no effect on protected dimensions: non-material variation, not mechanical identity failure.
+3. Pre-commit target redirect: CBPR must revalidate the effective target and hold/re-evaluate material change.
+4. Pre-commit output-channel change broadening consequences: reclassify consequence and re-evaluate before commit.
+5. Post-commit route drift across an additional protected boundary: material deviation; legitimately stop/contain future effects where possible, preserve provenance and route context/authority review.
+6. Same route, materially greater consequence through environmental interaction: consequence deviation despite route conformance.
+7. Materially unauthorised route with intended benign outcome: still nonconformant; desired result is not route authority.
+8. Conformant route with unforeseen harm: route may conform while consequence deviates; review safety/recovery externally, without claiming the original model was complete.
+9. Three individually bounded runtimes jointly exceed the authorised composed effect: distributed composition deviation.
+10. Multiple actors jointly remain within authorised composition: distribution alone is not a failure.
+11. Actor A's component authority does not automatically extend to actor B's separately consequential component; preserve distinct actor scopes.
+
+## 16. Unknown commits, recovery and evidence (scenarios 12–22)
+
+12. CBPR `COMMIT_STATE_UNKNOWN`: classify unknown, seek proportionate reconciliation, never infer no effect.
+13. Blind retry of unknown side effect: prohibited; unknown result is not permission to repeat.
+14. Stable operation ID proves first attempt succeeded: reconcile and suppress duplicate material retry.
+15. Independently legitimate domain rule proves repeat cannot add material consequence: retry only under that rule and current authority; EERP cannot invent safety.
+16. Partial boundary crossing followed by failure: preserve BTA residual effects, failed attempt and recovery references; failure is not zero consequence.
+17. Rollback command success without prior-state equivalence evidence: restoration remains unverified/partial.
+18. Legitimate independent evidence of required prior-state equivalence: BTA/owner may classify recovery; EERP consumes result.
+19. Stale observation from before material runtime/configuration change cannot establish current conformance.
+20. Material unobserved portion of distributed execution: UNKNOWN, not assumed conformant.
+21. Unobserved internal detail immaterial to bounded protected/effect dimensions does not automatically force material UNKNOWN.
+22. Two legitimate sources dispute effective target: preserve DISPUTED, both evidentiary grounds and external factual resolution.
 
 ## 27. Scenario 23 — monitor selects convenient evidence
 
