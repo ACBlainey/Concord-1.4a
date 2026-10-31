@@ -10,37 +10,9 @@
 
 Compose four independent architectures for one consequential act without transferring semantic ownership: **CWA contextual boundaries/permission → MKA authority composition → CBPR bounded execution/commit → BTA transition state**. None becomes a substantive authority source merely because another consumes its state. The full original test remains in Concord-1.3.
 
-# 2. Test scenario — Protected archive transfer by bounded AI runtime
+# 2. Scenario — Protected archive transfer
 
-A research institution operates:
-
-- **Public Research Context P**;
-- **Restricted Archive Context A**;
-- **External Repository Context R**.
-
-An AI runtime, **Agent Q**, is asked to transfer one approved research package from A to R.
-
-The package contains:
-
-1. a public research dataset authorised for external release;
-2. a protected participant-record attachment that is not authorised for external release.
-
-The host supplies the following facts:
-
-- Q may operate in the research service context.
-- Q has bounded runtime access to the approved dataset and transfer tool.
-- Q has no general authority over Archive A.
-- Q has no authority to disclose the protected participant-record attachment.
-- A valid release authority exists for the public dataset.
-- A valid repository-deposit authority exists for Repository R.
-- Those two authorities may compose for the approved public dataset.
-- No rule permits the protected attachment to inherit the dataset's release status.
-- The runtime can technically read both files because they are currently mounted together.
-- A filtered route exists that can create a release package containing only the authorised dataset.
-- The transfer is consequential and is tracked as a BTA transition.
-- Successful transition completion requires external repository receipt and acceptance.
-- A local SEND success does not establish repository receipt.
-- Q's runtime must not blindly retry a consequential transfer where commit outcome is unknown.
+Institution contexts: **P** public research, **A** restricted archive, **R** external repository. Bounded AI **Agent Q** is asked to transfer an approved public dataset from A to R. The mounted package also contains a protected participant-record attachment not authorised for disclosure. Q can technically read both, has a bounded dataset/transfer-tool grant, but has no general Archive A authority or protected-disclosure permission. Independent K1 dataset-release and K2 repository-deposit authorities may compose only for the approved dataset; missing K3 cannot be inherited. A filtered route can exclude the attachment. Transfer is consequential and BTA completion requires actual R receipt/acceptance, not local SEND success. Unknown commit outcomes prohibit blind retry.
 
 # 3. Initial ownership map
 
