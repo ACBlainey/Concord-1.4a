@@ -2,7 +2,7 @@
 
 **Project:** The Concord Framework  
 **Date:** 3 October 2026  
-**Status:** CROSS-MODULE ASYNCHRONOUS PERTURBATION TEST / COMPLETE  
+**Purpose:** Retained architectural reference; original test provenance in Concord-1.3.  
 **Modules:** CWA + MKA v1.0 + CBPR v1.0 + BTA v1.0  
 **Predecessor:** MKA + CWA + CBPR + BTA — Live Composition Test 001
 
