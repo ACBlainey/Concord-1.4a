@@ -151,3 +151,19 @@ Created `06_Development/Active_Handoff/KCS_Companion_002_Clause_Crosswalk_001.md
 ## Completed direct-pruning work
 
 - **2026-10-31 — DONE:** `03_Cross_Domain_Architecture/Concord Consequential Action and Feedback Lifecycle — End-to-End Integration Test 001.md` pruned **16,213 → 8,189 characters** in V1.4a, replacing repetitive test phases/PASS claims with source-grounded architectural rationale, owner boundaries, failure modes, implementation questions and provenance pointer to untouched V1.3. Commit `894546c388f141c58bcbc36d0b571c66e350f8c4`. No further audit required for this file unless later integration identifies a concrete conflict. **New method:** finish/prune/commit each file directly; record only concise completion or genuine unresolved issues; companion files require particular care.
+
+
+## Mandatory direct-pruning methodology — authorial confirmation (2026-10-31)
+
+Process each file **to completion**, rather than accumulating audit documents:
+
+1. Read the complete original source in untouched Concord-1.3 (and current V1.4a working version).
+2. Identify and retain all useful architecture, essential rationale, exceptions, state transitions, failure modes, bounded authority, cross-domain interfaces and implementation-critical distinctions. Remove repetitive tests, PASS claims, exploratory history and obsolete discussion where they contribute no unique A/R.
+3. Edit the **V1.4a file itself** and commit the cleaned version.
+4. **MANDATORY AFTER-CHECK, BEFORE MARKING COMPLETE:** re-read the original alongside the pruned version and explicitly check that no useful architectural detail or rationale was lost or weakened. Pay special attention to exception conditions, identifiers/state semantics, partial execution, trigger/reset behavior, authority limits, dependency and recovery paths, and completion criteria.
+5. If the after-check finds a loss, **restore the missing semantics directly into the pruned V1.4a file**, then recheck the affected clauses. Do not mark complete until corrected.
+6. Record a concise completion entry (file, reduction, commit, any genuine unresolved matter), then move to the next file. Do **not** create sprawling audit or reconciliation backlogs.
+7. **Companion files require heightened protection**: do not prune on the assumption that the main document already incorporates their material; verify each unique mechanism and rationale and preserve the companion if unresolved.
+8. Preserve V1.3 untouched for full provenance and historical testing. No word-count target justifies architectural loss.
+
+**Example and lesson:** Lifecycle end-to-end test pruned from 16,213 to 8,189 characters, then mandatory original comparison exposed six weakened/omitted operational distinctions. These were restored in commit `851fdd089c852f4af39677c2e858d2f2e9446809`, yielding 9,052 characters (~44.2% reduction) while preserving the essential design. This demonstrates why the after-check is mandatory.
