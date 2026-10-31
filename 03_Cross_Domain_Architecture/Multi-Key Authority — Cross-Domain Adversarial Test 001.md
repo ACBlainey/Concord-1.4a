@@ -167,155 +167,29 @@ Ratings:
 
 # PART V — PERMISSION VERSUS AUTHORITY
 
-## Scenario 65 — Patient voluntarily permits clinician to inspect record
-
-No coercive authority needed if valid permission suffices.
-
-**PASS**
-
----
-
-## Scenario 66 — Patient withdraws permission while independent emergency authority exists
-
-Permission ends; emergency authority may independently sustain only its own bounded scope.
-
-**Permission Sunset != Independent Authority Sunset**
-
-**PASS**
-
----
-
-## Scenario 67 — System keeps demanding state authority despite valid consent
-
-Overreach.
-
-MKA must preserve Permission-Before-Authority Gate.
-
-**PASS**
-
----
+65. **Patient permits record inspection:** valid consent may suffice without coercive state authority.
+66. **Permission withdrawn, independent emergency authority persists:** withdrawal ends permission, not necessarily separately lawful bounded emergency authority.
+67. **System demands state authority despite valid consent:** violates Permission-Before-Authority Gate.
 
 # PART W — COMPETENCE
 
-## Scenario 68 — Judge has authority but lacks medical competence to determine clinical fact
+68. **Judge authorised but not medically competent:** expert facts required; judicial authority remains where law places it.
+69. **Clinician competent but not search-authorised:** expertise does not create unrelated legal authority.
 
-Expert fact input needed; authority remains judicial where law places it.
+# PART X — BTA NON-DUPLICATION
 
-**Competence != Authority**
+70. **Multi-system infrastructure handover:** BTA owns transition ID, owner/partial/pending/residual states; MKA checks current authority for each consequential act. Transition grammar != authority-composition grammar.
+71. **BTA holds AuthorityRef:** legitimacy remains external; MKA verifies without taking over transition state.
 
-**PASS**
+# PART Y — CBPR NON-DUPLICATION
 
----
+72. **AI agent external action:** CBPR owns runtime capability, permission, credential, grant, commit and recovery enforcement; MKA generalises authority composition beyond runtime. Reuse rather than duplicate CBPR implementation.
+73. **Human police officer:** MKA applies without CBPR runtime, demonstrating broader scope.
 
-## Scenario 69 — Clinician has competence but no authority to order unrelated search
+# PART Z — CWA/BCA NON-DUPLICATION
 
-**PASS**
-
----
-
-# PART X — BTA DUPLICATION TEST
-
-## Scenario 70 — Infrastructure handover spans multiple systems
-
-BTA tracks:
-
-- transition ID;
-- partial state;
-- owner states;
-- pending state;
-- residual effects.
-
-MKA tests whether authority required for each consequential transition action is present/current.
-
-### Result
-
-Distinct functions.
-
-**BTA = Transition-Coherence Grammar**
-
-**MKA = Authority-Completeness/Composition Grammar**
-
-**PASS — NOT DUPLICATE**
-
----
-
-## Scenario 71 — BTA record contains AuthorityRef
-
-BTA explicitly leaves authority legitimacy externally owned.
-
-MKA can supply/verify that interface without BTA taking ownership.
-
-**PASS**
-
----
-
-# PART Y — CBPR DUPLICATION TEST
-
-## Scenario 72 — AI agent external action
-
-CBPR already checks capability, permission, authority, credentials, commit state.
-
-### Result
-
-CBPR is a domain/host execution architecture with a broader runtime safety model.
-
-MKA extracts/generalises the authority-composition subset across civil systems.
-
-Potential overlap is substantial but not identity.
-
-**CBPR = Bounded Participant Runtime Execution**
-
-**MKA = Substrate/Domain-Neutral Authority Composition And Completeness**
-
-**PASS / PMEDG COMPOSITION REVIEW REQUIRED**
-
----
-
-## Scenario 73 — Human police officer
-
-CBPR need not be invoked as runtime architecture.
-
-MKA still applies.
-
-This demonstrates broader scope.
-
-**PASS**
-
----
-
-# PART Z — CWA/BCA DUPLICATION TEST
-
-## Scenario 74 — Nested hospital context
-
-CWA describes contexts, permissions, restrictions, authority and precedence routing.
-
-MKA asks whether the actual proposed action has every independently necessary authority.
-
-### Result
-
-CWA provides context topology; MKA provides authority-completeness execution gate.
-
-**CWA = Context Grammar**
-
-**MKA = Authority Composition/Completeness Grammar**
-
-**PASS**
-
----
-
-## Scenario 75 — Simple context with one authority
-
-CWA may be sufficient; MKA adds little operationally.
-
-That is acceptable.
-
-A cross-domain primitive need not be invoked as a heavy subsystem for every case.
-
-**Architecture Applicability != Mandatory Runtime Ceremony**
-
-**PASS / REFINEMENT**
-
----
+74. **Nested hospital context:** CWA owns contextual/permission/rule topology; MKA verifies the act's complete authority set across those contexts.
+75. **Simple context, one authority:** CWA may suffice; MKA must not force heavy procedure on every case.
 
 # PART AA — SELF-DEFENCE
 
