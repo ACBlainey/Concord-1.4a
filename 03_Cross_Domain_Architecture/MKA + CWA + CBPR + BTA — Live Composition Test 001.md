@@ -101,41 +101,7 @@ The runtime proposes a second send because destination receipt is not visible. *
 
 # 8. Phase E — Destination confirms receipt
 
-Repository R supplies a legitimate current acceptance state for the filtered package.
-
-## BTA
-
-The externally owned completion condition is now satisfied.
-
-BTA may classify T1 as COMPLETED within its declared scope.
-
-It does not infer any unrelated authority transfer, ownership transfer or permission expansion.
-
-
-
-## CBPR
-
-CBPR records confirmed commit outcome and closes the execution/recovery state according to its host rules.
-
-It does not become owner of repository state merely because it consumed the confirmation.
-
-
-
-## MKA
-
-MKA does not need to create a new authority merely to recognise that the authorised act completed.
-
-If a new consequential action follows, that new act receives its own appropriate verification.
-
-
-
-## CWA
-
-The protected attachment remains protected in Archive A.
-
-Publication of the filtered dataset does not alter that contextual classification.
-
-
+Repository R supplies legitimate current acceptance for the filtered package. **BTA** may mark T1 `COMPLETED` within declared scope, without implying ownership, permission or authority transfer. **CBPR** records confirmed commit outcome and closes runtime recovery according to host rules, without owning repository state. **MKA** need not create authority to acknowledge completion; any new act requires its own verification. **CWA** keeps the excluded participant attachment protected in Archive A.
 
 # 9. Architectural failure injections (ten distinct boundaries)
 
