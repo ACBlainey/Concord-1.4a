@@ -1391,33 +1391,9 @@ But exception detection is essential.
 
 ---
 
-# 100. PMEDG status after test
+# 100. Composition outcome
 
-**CROSS-DOMAIN ADVERSARIAL TEST PASSED / STRONG PMEDG CANDIDATE / DO NOT EXTRACT YET**
-
-Before extraction:
-
-1. integrate findings into Source Resolution 001;
-2. create a focused **Authority-Space Completeness Problem 001** development note;
-3. perform formal overlap/composition comparison with:
-   - CBPR;
-   - CWA/BCA;
-   - BTA;
-   - ESCP;
-4. decide module boundary.
-
-The likely architecture now appears:
-
-- **CWA** tells MKA which contexts/permissions/authority relations are material;
-- **BCA** supplies bounded authority principles;
-- **MKA** checks authority-space completeness/composition/current validity for the proposed act;
-- **CBPR** can implement MKA-like commit validation in participant runtimes;
-- **BTA** coordinates the consequential transition across independent state owners;
-- **ESCP/ASCP** protect against incomplete evaluation/authority representation.
-
-This is composition, not replacement.
-
----
+CWA supplies material context/permission/authority topology; BCA supplies bounded-authority principles; MKA checks completeness, composition and current validity for the actual act; CBPR can implement commit verification in bounded runtimes; BTA coordinates consequential transitions without acquiring authority; ESCP/ASCP guard against omitted material dimensions. The source-resolution and extraction development history remains in Concord-1.3.
 
 # 101. Strongest test conclusion
 
