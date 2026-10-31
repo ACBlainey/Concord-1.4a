@@ -8,18 +8,7 @@
 
 ## 1. Purpose
 
-Test whether an ESCP-aware system can search for materially missing dimensions without falling into either:
-
-1. premature closure; or
-2. infinite completeness review.
-
-The test does not attempt to prove absolute completeness.
-
-It asks whether a bounded evaluator can reach:
-
-> **Complete Within Declared Scope**
-
-with a justified stopping condition proportionate to the decision.
+ESCP bounded discovery must avoid premature closure and infinite completeness review. The operational goal is **COMPLETE_WITHIN_DECLARED_SCOPE** with a consequence-proportionate stopping condition, never a claim of absolute completeness. The full original test remains in Concord-1.3.
 
 ## 2. Core problem
 
