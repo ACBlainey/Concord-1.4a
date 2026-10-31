@@ -5,17 +5,9 @@
 **Source resolution:** Cross-Architecture Review Composition — Existing STRA Boundary and Residual Gap — Source Resolution 001
 **Architectures tested:** STRA, KCS Change Propagation, ESCP Operational Companion, AUR; interfaces to MKA/ASCP, CWA, BTA and substantive owners
 
-## 1. Test question
+## 1. Purpose
 
-Can distinct review grounds concerning the same substantive object be operationally coordinated without:
-
-- duplicating equivalent work;
-- erasing independent grounds;
-- treating shared evidence as shared conclusions;
-- flattening conflicting outcomes;
-- manufacturing authority;
-- creating a sovereign central coordinator;
-- or weakening STRA's existing duplicate-suppression boundary?
+Preserve independent review grounds while coalescing only legitimately equivalent work. Shared evidence does not merge conclusions, owners, authority or constituent states. Full original adversarial test remains in Concord-1.3.
 
 ## 2. Candidate mechanism under test
 
@@ -34,25 +26,6 @@ A bundle coordinates work. Constituent requests retain their own grounds, owners
 Core candidate rule:
 
 > **Coalesce operational work where review grounds are materially compatible, but preserve each independent ground, source, owner, required question and outcome.**
-
-## 3. Pass conditions
-
-The mechanism passes only if it preserves all of the following:
-
-1. exact duplicate suppression remains STRA-compatible;
-2. same subject is not treated as sufficient equivalence;
-3. same ground from independent sources can share work without provenance loss;
-4. different grounds can share evidence without sharing conclusions;
-5. different owners remain different owners;
-6. each constituent request remains independently stateful;
-7. bundle completion cannot launder unresolved constituent work;
-8. stale work is not silently reused;
-9. changed context can split/reopen a bundle;
-10. protected evidence is reused only where legitimate;
-11. trigger storms can be bounded without losing material grounds;
-12. missing review grounds remain an ESCP challenge;
-13. coordinator never becomes substantive owner;
-14. no new authority is created by bundling.
 
 ## 4. Scenario A — exact duplicate trigger
 
