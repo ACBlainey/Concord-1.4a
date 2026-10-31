@@ -169,58 +169,11 @@ These are integration/liveness states only.
 
 They do not replace native states.
 
-## 21. Quiescence conditions
+## 21. Quiescence conditions and unresolved work
 
-A feedback episode may enter BOUNDED_QUIESCENCE when, within declared scope:
+Within declared scope, BOUNDED_QUIESCENCE requires: no RGCP material constituent or BRSP route evaluation currently actionable; no CBPR unknown-commit or EERP reconciliation step currently actionable; no due BTA transition/recovery action; no KCS material propagation candidate awaiting active review; no STRA satisfied unprocessed trigger; and every unresolved/unknown/disputed state either legitimately routed, confined to the affected blocked action or waiting under explicit recheck/backstop. Preserve material future reopening conditions.
 
-1. no represented material RGCP constituent requires active work;
-2. no active route evaluation requires further internal processing;
-3. no unresolved commit reconciliation requires active evidence collection;
-4. no material EERP reconciliation step remains active;
-5. no required BTA transition/recovery action is actively due within the integration layer;
-6. KCS has no further material propagation candidate requiring active review;
-7. STRA has no currently satisfied unprocessed trigger;
-8. unresolved/unknown/disputed states are either:
-   - legitimately routed;
-   - blocking only the relevant action;
-   - or waiting under an explicit recheck/backstop condition;
-9. future reopening conditions remain represented where material.
-
-## 22. Quiescence does not require every object to be resolved
-
-An important result:
-
-> **Local Unresolved State != Global Active Work By Default**
-
-For example:
-
-- one authority dispute may remain unresolved;
-- the affected route remains blocked;
-- no new evidence is expected until an external hearing;
-- unrelated work can be quiescent.
-
-Thus:
-
-> **Blocked Pending External Resolution Can Be Operationally Quiescent**
-
-without pretending the substantive dispute is resolved.
-
-## 23. Closure versus waiting
-
-A useful distinction is:
-
-### Resolved closure
-
-Current bounded questions are resolved/superseded/retired.
-
-### Waiting quiescence
-
-A material unresolved state persists, but no legitimate active work is currently due until a represented external event/evidence/backstop.
-
-This avoids two errors:
-
-- endless active review;
-- false declaration of substantive completion.
+An unresolved external authority dispute can coexist with quiescence for unrelated work: **Local Unresolved State != Global Active Work By Default.** Waiting for external resolution is not substantive completion. A bounded episode may close when current questions are resolved, superseded or retired, while unresolved matters remain accurately labelled as waiting.
 
 ## 24. Adversarial liveness cases
 
