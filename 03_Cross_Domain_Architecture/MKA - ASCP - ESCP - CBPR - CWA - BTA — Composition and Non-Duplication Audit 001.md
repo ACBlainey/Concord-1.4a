@@ -7,32 +7,7 @@
 
 ## 1. Purpose
 
-This audit tests whether Multi-Key Authority (MKA) and Authority-Space Completeness Problem (ASCP) duplicate existing Concord architectures or occupy a distinct necessary role.
-
-Architectures examined:
-
-1. Evaluation-Space Completeness Problem (ESCP)
-2. Contextual Wrapper Architecture (CWA)
-3. Multi-Key Authority (MKA)
-4. Authority-Space Completeness Problem (ASCP)
-5. Concord Bounded Participant Runtime (CBPR)
-6. Bounded Transition Architecture (BTA)
-
-The audit asks for each:
-
-- problem owned;
-- state owned;
-- authority owned;
-- inputs;
-- outputs;
-- trigger;
-- termination;
-- forbidden inference;
-- overlap;
-- composition;
-- removal consequence.
-
-The objective is architectural economy.
+Establish whether ESCP, CWA, MKA, ASCP, CBPR and BTA each own a necessary distinct problem, state and boundary. Compare inputs, outputs, triggers, termination, prohibited inference, composition and removal consequence. Preserve source ownership rather than building an omnibus authority system. The complete original audit is retained in Concord-1.3.
 
 ---
 
