@@ -1,160 +1,46 @@
-# RGCP + BRSP + EERP + BFQP — PMEDG Family Classification 001
+# Consequential-Action Integration Pattern Family — Distinct Functions and Extraction Boundaries
 
-**Project:** The Concord Framework
-**Date:** 3 October 2026
-**Status:** PMEDG FAMILY CLASSIFICATION / COMPLETE / NON-CANONICAL
+**Purpose:** Preserve the architectural distinctions and reasons for retaining RGCP, BRSP, EERP and BFQP as four thin cross-domain integration patterns. Original development classifications, tests and results remain in Concord-1.3 at this file path.
 
-## 1. Question
+**Integration reference:** `Concord Consequential Action and Feedback Lifecycle — Integrated Architecture 001.md`.
 
-After source resolution, adversarial integration testing and a successful end-to-end lifecycle test, should RGCP, BRSP, EERP and BFQP now be extracted as standalone portable modules?
+## Why four patterns are retained
 
-## 2. Result
+These patterns answer separate questions and must not be merged merely because they participate in one consequential-action lifecycle:
 
-**NO — NOT YET.**
+| Pattern | Distinct question | Function and owner boundary |
+|---|---|---|
+| **RGCP** | Why are we reviewing? | Preserves independently legitimate review grounds while allowing bounded coalescence of equivalent operational work or evidence. It does not own the substantive answers. |
+| **BRSP** | Can this route legitimately proceed? | Composes externally owned route constraints and distinguishes satisfaction, block, narrowing, legitimate rerouting, external resolution and discretionary selection. It does not manufacture authority. |
+| **EERP** | Did execution and its effects remain within the authorised envelope? | Compares the commit-authorised route/effect envelope against observed execution/effect. Route conformance and consequence conformance are separate dimensions. It does not decide culpability or remedies. |
+| **BFQP** | Is material work still due, and what can reopen it? | Distinguishes active work, bounded waiting, bounded quiescence, supersession/retirement, legitimate reopening and pathological repetition without material change. It does not acquire control over constituent functions. |
 
-All four are stable enough to retain as explicit cross-architecture integration patterns.
+**Rationale:** Combining these questions into a single controller would obscure who owns review grounds, route permission, execution reconciliation and closure. Coordinating the results must not turn integration into substantive governance or domain authority. **An integration family is not a monolithic controller.**
 
-None currently demonstrates sufficient independence from the surrounding Concord architecture to justify immediate standalone portable-module extraction.
+## Dependencies and separation of responsibilities
 
-**RETAIN AS A TESTED INTEGRATION-PATTERN FAMILY / DEFER EXTRACTION / PRESERVE PMEDG CANDIDACY**
+- **RGCP** depends on STRA trigger/cycle semantics, KCS change propagation, independently competent substantive reviewers and relevant ESCP/MKA/CWA/BTA results.
+- **BRSP** consumes MKA/ASCP authority, CWA context, BTA transition, CBPR runtime/commit, external prohibition/exception semantics and RGCP results. A jointly satisfiable route does not create any of these permissions.
+- **EERP** uses CBPR and BTA execution/transition records, KCS/STRA change signals, MKA/CWA/BRSP route boundaries and independently owned evidence, culpability and remedy processes.
+- **BFQP** uses the local closure and pending-work semantics of RGCP, BRSP, CBPR, EERP, BTA, KCS and STRA. It does not replace those owners or declare substantive decisions resolved on their behalf.
 
-## 3. RGCP
+Each pattern is deliberately thin. It should reference mature owner architectures rather than copying their rules into a parallel, potentially conflicting specification. **Distinct integration function does not automatically justify a standalone portable module.**
 
-Independent contribution: preserves multiple distinct review grounds while permitting bounded operational coalescence of equivalent work/evidence.
+## When standalone portable extraction would be justified
 
-Dependencies: STRA trigger/cycle semantics, KCS propagation, external substantive owners, and results from ESCP/MKA/CWA/BTA.
+Do not extract or merge patterns merely because they are reusable within Concord. For each proposed portable extraction, require:
 
-Test: adversarial integration PASS.
+1. A frozen candidate specification with an independently describable kernel.
+2. Explicit dependencies, interfaces and semantic ownership boundaries.
+3. A duplication check against existing portable modules.
+4. Defined transfer criteria and a clean blind transfer outside the Concord integration stack.
+5. A materially different external-domain application.
+6. A PMEDG graduation assessment and post-extraction regression against the integrated Concord lifecycle.
 
-Classification:
+The purpose of these conditions is to prevent an apparently portable abstraction from silently relying on Concord-specific owners or duplicating their authority and mechanisms. Further implementation work may include shared machine-readable reference schemas, distributed/asynchronous behavior, prototypes and operator-facing use, but such work does not itself confer authority.
 
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
+## Retention and relationship
 
-## 4. BRSP
+Keep the four patterns as **distinct cross-domain integration functions** connected by the consequential-action lifecycle, unless later development demonstrates a genuinely independent portable kernel. Do not erase a pattern because it is thin or dependent; its integration boundary may be the essential contribution.
 
-Independent contribution: composes heterogeneous externally owned route constraints and distinguishes route satisfaction, block, narrowing, legitimate reroute, external resolution and discretionary selection.
-
-Dependencies: MKA/ASCP, CWA, BTA, CBPR, externally owned prohibition/exception semantics and RGCP results.
-
-Test: adversarial integration PASS.
-
-Classification:
-
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-## 5. EERP
-
-Independent contribution: explicitly compares the commit-authorised route/effect envelope with observed execution/effect, preserving route and consequence conformance as distinct dimensions.
-
-Dependencies: CBPR, BTA, KCS/STRA, MKA/CWA/BRSP and external evidence/culpability/remedy owners.
-
-Test: adversarial integration PASS — 52 scenarios.
-
-Classification:
-
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-## 6. BFQP
-
-Independent contribution: distinguishes active work, bounded waiting, bounded quiescence, supersession/retirement, legitimate reopening and pathological repeated work without material change.
-
-Dependencies: local closure semantics from RGCP, BRSP, CBPR, EERP, BTA, KCS and STRA.
-
-Test: adversarial integration PASS — 52 scenarios.
-
-Classification:
-
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-## 7. Should they become one module?
-
-**NO CURRENT BASIS TO MERGE THEM INTO ONE PORTABLE MODULE.**
-
-They answer different questions:
-
-- RGCP — Why are we reviewing?
-- BRSP — Can this route legitimately proceed?
-- EERP — Did execution/effect remain within the authorised envelope?
-- BFQP — Is any current material work still due, and what can legitimately reopen it?
-
-Combining them would risk creating a large central workflow architecture and obscure existing semantic ownership.
-
-**Integration Family != Monolithic Controller**
-
-## 8. Are they duplicates?
-
-**NO.**
-
-Their boundaries remain materially distinct.
-
-Each is intentionally thin and derives safeguards from mature existing modules. That supports deferring extraction rather than erasing the patterns.
-
-## 9. Recommended family structure
-
-Retain all four under Cross-Domain Architecture development as an explicit integration family linked by:
-
-**Concord Consequential Action and Feedback Lifecycle — Integrated Architecture 001.md**
-
-Do not copy mature module semantics into the patterns; reference the owner architecture.
-
-## 10. Graduation prerequisites
-
-Before any pattern graduates as a portable module, require:
-
-1. frozen candidate specification;
-2. explicit independent kernel;
-3. dependency/interface declaration;
-4. proof that extraction does not duplicate an existing portable module;
-5. clean blind transfer outside the Concord integration stack;
-6. materially different external-domain test;
-7. frozen transfer criteria;
-8. PMEDG graduation assessment;
-9. post-graduation regression against the Concord lifecycle.
-
-## 11. Further validation that remains useful
-
-Without blocking conceptual branch closure:
-
-- another end-to-end scenario from a materially different domain;
-- implementation prototype;
-- machine-readable shared reference schema;
-- distributed/asynchronous implementation test;
-- live operator/audit test.
-
-## 12. Branch closure decision
-
-The conceptual integration branch has completed:
-
-- source resolution;
-- adversarial testing;
-- full lifecycle testing;
-- bounded-authorisation source resolution;
-- liveness/quiescence audit;
-- integrated synthesis;
-- PMEDG family classification.
-
-No currently identified conceptual gap requires another architecture before this branch can close.
-
-## 13. Final classification
-
-### RGCP
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-### BRSP
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-### EERP
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-### BFQP
-**TESTED STABLE INTEGRATION PATTERN / PMEDG CANDIDATE / EXTRACTION DEFERRED**
-
-Family:
-
-**CONSEQUENTIAL-ACTION FEEDBACK INTEGRATION PATTERN FAMILY — CONCEPTUALLY STABILISED / NON-CANONICAL / IMPLEMENTATION VALIDATION OUTSTANDING**
-
-## 14. Result
-
-**PMEDG FAMILY CLASSIFICATION: PASS FOR RETENTION; NOT YET FOR PORTABLE EXTRACTION.**
-
-The appropriate next step is to close this development branch and return to the wider Concord V1.3 architecture/domain backlog, unless implementation work is deliberately prioritised.
+The source's test counts, PASS outcomes, branch-closure chronology and historical status labels are omitted here because they are preserved in Concord-1.3 and are not required to understand why these architectural distinctions exist.
