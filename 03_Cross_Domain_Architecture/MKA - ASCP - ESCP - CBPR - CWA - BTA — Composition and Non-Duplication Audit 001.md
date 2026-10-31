@@ -821,80 +821,17 @@ No two architectures own the same primary state.
 
 ---
 
-# 57. Canonical composition path
+# 57–61. Composition paths by consequence and execution mode
 
-A high-consequence cross-domain action can use:
+**High-consequence cross-domain act (57):** Objective → CWA contextual/protected boundaries → Permission-Before-Authority Gate → actual route → ESCP completeness discipline → ASCP required authority-space mapping → external domain/BCA AuthorityBasis → MKA scope/composition/inheritance/independence/freshness/predicate/prohibition/commit verification → CBPR if bounded runtime executes → BTA if consequential multi-owner transition → substantive domain owners → review/remedy/learning; ESCP/ASCP reopen on newly discovered dimensions. Not every act requires every layer.
 
-**Objective**
-→ **CWA: identify active/protected contexts and permission possibilities**
-→ **Permission-Before-Authority Gate**
-→ **Route identified**
-→ **ESCP discipline: do not assume represented evaluation space is complete**
-→ **ASCP: test whether materially required authority dimensions are represented**
-→ **Relevant domain/BCA sources: establish legitimate AuthorityBasis for each required function**
-→ **MKA: validate scope, composition, inheritance, freshness, prohibitions and current predicates**
-→ **CBPR where automated/runtime execution is used: enforce runtime capability/permission/authority separation and commit check**
-→ **BTA where action causes a consequential multi-owner transition: coordinate transition state**
-→ **Domain systems: own substantive outcomes**
-→ **Review / remedy / learning**
-→ **ESCP/ASCP reopen if new dimensions are discovered**
+**Ordinary low-risk permission-sufficient act (58):** Context → CWA/ordinary social permission → action. Avoid heavy MKA/ASCP/CBPR/BTA ceremony where not material.
 
-Not every action requires every architecture.
+**Human institutional search (59):** CWA search context → ASCP distinguishes device search from cognitive access → legal authority sources → MKA verifies each required key and composition → human/tool action → BTA only for material multi-owner transition. CBPR not inherently required.
 
----
+**Automated external transaction (60):** CWA service boundary → ASCP authority dimensions → MKA current composition → CBPR grant, credential, network and commit enforcement → BTA only if consequential multi-system transition.
 
-# 58. Lightweight composition path
-
-Ordinary low-risk action:
-
-**Context**
-→ **CWA/ordinary social rule**
-→ **Permission sufficient**
-→ **Action**
-
-MKA/ASCP/CBPR/BTA need not be invoked as heavy procedures.
-
----
-
-# 59. Human institutional path
-
-Example: police search of digital system.
-
-**CWA/domain context**
-→ search context identified
-→ **ASCP** identifies device-search + possible cognitive-access dimensions
-→ Law supplies legitimate authority sources
-→ **MKA** verifies each required authority and composition
-→ officer/tool executes
-→ **BTA** only if a material multi-owner state transition requires coordination.
-
-CBPR is not required merely because MKA is used.
-
----
-
-# 60. Automated path
-
-Example: AI agent performs authorised external transaction.
-
-**CWA** identifies relevant service/context boundaries
-→ **ASCP** checks authority dimensions
-→ **MKA** validates authority composition/current state
-→ **CBPR** enforces runtime grant/credential/network/commit
-→ **BTA** if transaction initiates consequential multi-system transition.
-
----
-
-# 61. Transition path
-
-Example: participant-supporting infrastructure migration.
-
-**CWA** maps protected contexts
-→ **ASCP** maps authority dimensions
-→ **MKA** verifies migration/withdrawal/resource/intervention authorities
-→ **BTA** coordinates handover and partial states
-→ **CBPR** only where participant-associated runtime executes part of transition.
-
----
+**Participant-support infrastructure migration (61):** CWA protected contexts → ASCP migration/withdrawal/resource/intervention keys → MKA verification → BTA handover and partial state → CBPR only for participant-associated runtime execution.
 
 # PART VIII — NON-DUPLICATION TESTS
 
