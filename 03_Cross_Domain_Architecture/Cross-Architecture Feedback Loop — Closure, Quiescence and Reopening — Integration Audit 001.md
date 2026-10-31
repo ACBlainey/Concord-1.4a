@@ -234,32 +234,11 @@ This avoids two errors:
 8. **KCS/EERP equivalent review:** RGCP may coalesce materially equivalent owner questions, preserving distinct initiating provenance.
 9. **Oscillating coupled owners:** retain actual oscillation/history, bound frequency, invoke legitimate stability/resolution owner and prevent unsafe commits; coordination cannot invent equilibrium.
 
-## 33. Global ownership
+## 33. Distributed ownership and liveness
 
-No architecture should own “truth of the whole loop.”
+RGCP owns review-ground preservation/coalescence; BRSP owns thin route-result synthesis; MKA owns authority composition; CWA owns contextual permissions; CBPR owns runtime/commit; EERP owns execution-envelope comparison; BTA owns transition/residual history; KCS owns dependency propagation; STRA owns trigger/review routing; external domain owners retain substantive conclusions. There is no global “truth of the loop” owner.
 
-Instead:
-
-- RGCP owns review-ground preservation/coalescence;
-- BRSP owns thin route-result synthesis;
-- MKA owns authority completeness/composition;
-- CWA owns contextual topology/permission state;
-- CBPR owns runtime/commit boundaries;
-- EERP owns thin execution-envelope comparison;
-- BTA owns transition interoperability/history;
-- KCS owns dependency change propagation;
-- STRA owns trigger state/review candidacy;
-- external/domain owners own substantive conclusions.
-
-Global closure is therefore a coordination property, not a new substantive authority.
-
-## 34. Candidate shared liveness rule
-
-The strongest cross-architecture rule exposed by the audit is:
-
-> **Continue active feedback only while there is a materially distinct unresolved work item, a material state/evidence change, an unprocessed legitimate trigger, an active reconciliation/transition step, or a due bounded backstop. Otherwise enter bounded quiescence while preserving reopening conditions.**
-
-This rule does not determine substantive outcomes.
+**Continue active feedback only while there is a materially distinct unresolved work item, a material state/evidence change, an unprocessed legitimate trigger, an active reconciliation/transition step or a due bounded backstop. Otherwise enter bounded quiescence while preserving reopening conditions.**
 
 ## 35. Candidate invariants
 
