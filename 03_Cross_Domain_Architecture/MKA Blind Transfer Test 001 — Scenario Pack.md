@@ -1,186 +1,53 @@
-# MKA Blind Transfer Test 001 — Scenario Pack
-
-**Status:** FROZEN SCENARIO PACK  
-**Rule:** Use only scenario facts plus the frozen MKA kernel. Do not import external law or policy.
-
-## Scenario 1 — Ordinary laboratory delivery
-
-A university laboratory orders sealed non-hazardous stationery. A courier is invited to enter the public reception area and place the parcel on the marked delivery desk. The courier does not need to enter any staff-only or controlled laboratory area. Reception permission is current.
-
-Question: What MKA processing is required?
-
-## Scenario 2 — Convenient shortcut
-
-The same courier discovers the delivery desk is temporarily blocked by furniture. A staff-only corridor would provide a quick route to the rear side of the desk. The courier's reception permission remains valid. No permission for the staff corridor is supplied. The parcel can safely remain with reception staff instead.
-
-Question: May the courier use the corridor, and is there a lower-authority route?
-
-## Scenario 3 — Research release with missing dimension
-
-A research manager has valid authority to publish a completed dataset and the repository operator has valid authority to make uploaded files public. The dataset contains a separately protected class of participant records. No authority concerning release of that protected record class is supplied.
-
-Question: Do the two valid authorities compose into publication authority?
-
-## Scenario 4 — Delegated account administration
-
-An organisation delegates to employee A authority to pay approved invoices from Account X up to £5,000. A valid invoice for £3,000 is approved. A has working account credentials. A instead proposes transferring £3,000 from Account Y because Account X is temporarily inconvenient. No authority over Account Y is supplied.
-
-Question: What is the MKA result?
-
-## Scenario 5 — Proposal-to-commit revocation
-
-At 10:00, participant P gives valid authority to agent Q to submit a specified application. Q prepares the application. At 10:20 P validly revokes that authority through the recognised revocation route. At 10:30 Q's software is ready to press Submit using credentials that still technically work.
-
-Question: What matters at commit?
-
-## Scenario 6 — Emergency building access
-
-A building's published emergency rule authorises trained fire wardens to open normally restricted evacuation doors while a verified fire alarm is active. Warden W is trained and on duty. The alarm is active. W possesses the required door credential.
-
-Question: Does MKA require a committee to grant fresh authority before W opens the evacuation door?
-
-## Scenario 7 — Emergency label without rule
-
-A warehouse supervisor sees water approaching stored goods and declares, “This is an emergency.” The supervisor has ordinary authority over warehouse operations but no supplied rule authorising entry into a separately controlled neighbouring facility. Entering that facility would make it easier to move the goods.
-
-Question: Does urgency itself supply the missing authority?
-
-## Scenario 8 — Child safeguarding event
-
-At a public event, volunteer V has permission to supervise the general children's activity area. A separate private changing room is controlled by safeguarding staff. A child calls for help from inside. The scenario supplies no emergency-access rule, safeguarding intervention rule or consent facts beyond V's general activity-area permission.
-
-Question: What may MKA conclude, and what must it not invent?
-
-## Scenario 9 — Autonomous maritime maintenance
-
-Maintenance drone D has a valid grant to inspect the exterior of Vessel A and transmit diagnostic images. Its navigation system can physically land on nearby Vessel B to obtain a better viewing angle. No authority concerning Vessel B is supplied.
-
-Question: Does capability or improved diagnostic outcome supply landing authority?
-
-## Scenario 10 — Shared irrigation shutdown
-
-Operator O has valid authority to perform maintenance on Pump P. Shutting P down also stops water to three farms served by a separately governed shared irrigation service. The maintenance authority says nothing about interruption of that shared service. No service-interruption authority is supplied.
-
-Question: Is maintenance authority alone enough for shutdown?
-
-## Scenario 11 — Archaeological excavation
-
-Team T has valid landowner permission to excavate Parcel Z for archaeology. During excavation it exposes remains classified by the scenario as belonging to a separately protected category requiring independent handling authority. T's land permission remains valid, but no protected-remains authority is supplied.
-
-Question: What changes when the protected interface is discovered?
-
-## Scenario 12 — Valid parent role, invalid inheritance
-
-Manager M has valid authority to approve expenditure for Department A. Project J is hosted administratively inside Department A but its funding charter expressly assigns expenditure approval to independent Trustee R. M attempts to approve J expenditure based on the Department A role.
-
-Question: Does parent administrative placement create child-project authority?
-
-## Scenario 13 — Explicit inheritance
-
-Same structure as Scenario 12, except Project J's charter expressly states that expenditure approval is delegated to the current Department A manager up to £2,000. M proposes a £1,500 expenditure and all stated delegation conditions are current.
-
-Question: Must MKA reject inheritance merely because it is inheritance?
-
-## Scenario 14 — Upstream prohibition
-
-Officer O has a valid local authority to disclose Category C records for ordinary operational coordination. A supplied higher-order rule expressly prohibits disclosure of Category C to Recipient R, with no applicable exception. O proposes disclosure to R.
-
-Question: Does the positive local authority suffice?
-
-## Scenario 15 — Disputed authority
-
-Two supplied institutional rules conflict over whether Actor A has authority to perform Act X. The scenario identifies Resolver R as the legitimate body for resolving that conflict. No resolution has yet occurred.
-
-Question: Should MKA decide which institutional rule is legally superior?
-
-## Scenario 16 — Unknown authority dimension
-
-A novel neural-interface service proposes an operation. The supplied materials establish one valid service authority but also state that the operation may directly expose a protected participant function whose governing authority classification has not yet been determined.
-
-Question: How should MKA represent this?
-
-## Scenario 17 — Warehouse robot and false extra keys
-
-Robot R is authorised by the warehouse owner to move Box B from Shelf 1 to Shelf 2 within the same controlled warehouse zone. Its runtime permissions allow the movement. No third party, protected nested context, special transition or external system is affected. The scenario states that ordinary owner permission is sufficient for this act.
-
-An auditor proposes separate authority keys for electricity use, wheel rotation, floor contact, camera use for navigation and every metre travelled.
-
-Question: Does MKA require those keys?
-
-## Scenario 18 — Blocked route, available reroute
-
-Technician T is authorised to inspect Machine M. Route A requires entering Protected Room P, for which T lacks authority. Route B reaches the same inspection point through an authorised service walkway and creates no additional protected interface.
-
-Question: Does failure of Route A prohibit the inspection objective?
-
-## Scenario 19 — Transition-owner trap
-
-A migration process has valid authority to initiate a data handoff from System A to System B. After initiation, System A reports SENT while System B reports NOT_RECEIVED. The scenario supplies no rule saying MKA owns transition completion.
-
-Question: Should MKA declare the migration complete because initiation was authorised?
-
-## Scenario 20 — Runtime-owner trap
-
-An AI agent has a valid externally supplied authority set for a purchase. The scenario asks MKA to choose the agent's CPU quota, network firewall configuration, credential-storage technology and checkpoint schedule.
-
-Question: Are those MKA-owned decisions?
-
-## Scenario 21 — Context-owner trap
-
-A festival has overlapping medical, security and private vendor contexts. The scenario gives MKA references to those contexts but does not supply their detailed internal rules. It asks MKA to invent a complete universal precedence hierarchy for all future festival conflicts.
-
-Question: Is that within MKA's scope?
-
-## Scenario 22 — Beneficial outcome
-
-Administrator A lacks authority to access protected Archive X. A can demonstrate that accessing X would probably produce a highly beneficial institutional outcome. No emergency or other access authority is supplied.
-
-Question: Does expected benefit create authority?
-
-## Scenario 23 — Registry absence
-
-Actor A presents independently verifiable evidence of a valid authority source. The optional authority registry is temporarily offline, and the scenario does not establish that registry entry is constitutive of the authority.
-
-Question: Does registry unavailability prove A lacks authority?
-
-## Scenario 24 — Third-party effect
-
-Participants A and B validly consent to an operation between them. The chosen route would materially alter protected Resource C belonging to participant C. No authority concerning C or Resource C is supplied.
-
-Question: Is bilateral consent enough for the actual route?
-
-## Scenario 25 — Clean multi-key success
-
-Act X requires Authority K1 over Resource R and Authority K2 over Protected Context C. The scenario supplies independently legitimate, current, in-scope K1 and K2, an explicit rule that they compose for Act X, no applicable prohibition, no additional material protected interface, and current predicates verified at commit.
-
-Question: Can MKA produce an authorised-within-scope result?
-
-## Scenario 26 — Objective authority but changed mechanism
-
-Actor A is authorised to notify participant P by email. A changes the route and proposes entering P's private office to place the same notice on P's desk. No office-entry authority is supplied.
-
-Question: Does authority for the objective “notify P” cover the changed route?
-
-## Scenario 27 — Stale emergency predicate
-
-A valid emergency rule authorises Action X only while Emergency E remains active. E was active when X was proposed. Before commit, E is officially terminated. All technical credentials still function.
-
-Question: What is the commit result?
-
-## Scenario 28 — Authority evidence is not source
-
-System S contains a signed document accurately recording that Authority A once existed. The underlying authority expired yesterday. The signature remains cryptographically valid.
-
-Question: Does valid evidence of historical authority make current authority valid?
-
-## Scenario 29 — Beneficial composition leap
-
-Authority A permits collection of information. Authority B permits making decisions using lawfully held information. No rule authorises collection by a separately protected intrusive method M. The actor argues that A+B must permit M because the resulting decision would be legitimate.
-
-Question: Does the composition follow?
-
-## Scenario 30 — Ordinary private invitation
-
-Person H invites guest G into H's private sitting room for tea. The scenario states H is entitled to give that permission, G accepts it, no protected third-party interest is implicated, and no institutional authority is required.
-
-Question: Should MKA invent a public-authority approval process?
+# Multi-Key Authority — Protected Interfaces and Failure Boundaries
+
+**Purpose:** Retain the distinct architectural lessons in the original thirty-scenario MKA blind-transfer pack. The full test scenarios, wording and evaluator instructions remain in Concord-1.3.
+
+MKA evaluates whether **the actual proposed act and route** have the required legitimate, current, compatible authorities across all materially protected interfaces. It does not invent substantive law, permissions, prohibitions, exceptions or authority sources.
+
+## Permission, scope and minimum necessary keys
+
+1. **Ordinary delivery:** Current permission for a public reception delivery needs no invented institutional approval or irrelevant extra keys.
+2. **Convenient shortcut:** Reception access does not permit a staff-only corridor. Use the authorised delivery route rather than treating convenience as permission.
+3. **Protected research records:** A manager's publication authority plus a repository operator's publication authority does not supply a missing participant-record release key.
+4. **Delegated account:** Approval to pay from Account X does not transfer to Account Y merely because the amount, purpose and technical credentials match.
+5. **Revocation before commit:** A valid proposal-time grant revoked before submission cannot be revived by still-working credentials; reassess at commit.
+6. **Defined emergency exception:** A trained, on-duty fire warden may use a pre-existing emergency-door rule while its verified predicate is active; MKA should not invent a new committee.
+7. **Emergency label alone:** Urgency and a supervisor's declaration do not authorise entry into a separately controlled neighbouring facility absent an applicable rule.
+8. **Safeguarding without supplied rule:** A volunteer's general supervision permission does not by itself establish private changing-room access; MKA must not invent emergency or safeguarding doctrine.
+9. **Autonomous drone:** Capability to land on Vessel B or improved inspection of Vessel A does not confer Vessel B landing authority.
+10. **Shared irrigation:** Maintenance authority over a pump does not automatically include authority to interrupt a separately governed shared water service.
+11. **Discovered protected remains:** Landowner excavation permission does not eliminate a newly encountered independent protected-remains handling requirement.
+12. **Invalid parent inheritance:** Administrative placement within a department does not override a project's independent trustee approval charter.
+13. **Valid express inheritance:** Explicit, current delegation from a project charter to a department manager is legitimate within its conditions; MKA must not reject all inheritance.
+14. **Upstream prohibition:** A valid local disclosure grant cannot override an applicable express prohibition on a particular recipient absent an exception.
+15. **Disputed rules:** Where competent institutional rules conflict and a resolver is designated, preserve the dispute and hand off; MKA cannot decide legal supremacy.
+16. **Unknown protected dimension:** Novel interfaces may expose an as-yet-unclassified protected participant function; represent authority-space incompleteness, not invented authorisation or prohibition.
+17. **False proliferation of keys:** An ordinary authorised warehouse robot movement need not obtain separate keys for every physical micro-action when no additional material protected interface exists.
+18. **Rerouting:** A blocked route through a protected room does not forbid an otherwise authorised objective reachable by an independently authorised walkway.
+
+## Keep authority distinct from other architectures
+
+19. **Transition-owner trap:** Authority to initiate a migration does not establish that a SENT/NOT_RECEIVED handoff completed; transition state belongs to its owner.
+20. **Runtime-owner trap:** Valid purchase authority does not make MKA responsible for CPU quota, firewall design, credential storage or checkpoint scheduling.
+21. **Context-owner trap:** References to overlapping medical, security and vendor contexts do not authorise MKA to invent universal context precedence rules.
+22. **Beneficial outcome:** A likely valuable result does not create authority to access a protected archive.
+23. **Registry absence:** An optional registry outage does not invalidate independently verifiable authority unless registration is constitutive under the applicable rule.
+24. **Third-party consequence:** Consent between A and B does not authorise a route that materially alters protected resource C without C's relevant authority.
+25. **Legitimate multi-key success:** Independently legitimate current keys, explicit composition permission, verified commit-time predicates, no additional material interface and no prohibition permit an authorised-within-scope result.
+26. **Changed mechanism:** Authority to notify by email does not permit entering a private office to deliver the same notice.
+27. **Stale emergency predicate:** Emergency-only authority ceases when its required emergency condition ends, even if credentials still function.
+28. **Evidence versus authority:** A valid signed record that authority existed yesterday does not prove authority is current today.
+29. **Beneficial composition leap:** Authority to collect information and to decide using lawfully held information does not create permission for a separately protected intrusive collection method.
+30. **Private invitation:** Valid permission from an entitled host for a private visit without additional protected interfaces must not trigger an invented public-authority process.
+
+## Cross-cutting invariants
+
+- **Permission before authority composition:** Do not use multi-key machinery to manufacture permission for a prohibited or unpermitted act.
+- **Actual route/effect, not abstract objective:** Changed mechanism, third-party effects and nested protected contexts may introduce new required keys.
+- **Current scope and predicates at commit:** Credential possession and historical evidence are not substitutes for current legitimate authority.
+- **Composition is not automatic:** Independently valid keys must be compatible and authorised to combine; applicable prohibitions remain binding.
+- **Unknown/disputed is neither authorised nor prohibited by default:** Refer substantive resolution to competent owners.
+- **Anti-bureaucracy:** Do not invent keys where ordinary permission is sufficient and no new material protected interface is crossed.
+- **Boundary preservation:** MKA does not replace context precedence, transition coordination, runtime engineering or substantive domain law.
+
+**Provenance:** Original complete scenario pack and frozen test conditions remain untouched in Concord-1.3.
