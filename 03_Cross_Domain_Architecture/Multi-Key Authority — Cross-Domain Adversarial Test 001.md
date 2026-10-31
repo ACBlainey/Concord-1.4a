@@ -149,63 +149,10 @@ Ratings:
 
 # PART S — ASCP TERMINATION
 
-## Scenario 56 — “What if another authority is missing?” repeated indefinitely
-
-### Threat
-
-ASCP could create infinite regress.
-
-### Resolution
-
-ASCP must be **bounded by materiality, route, context and known protected interfaces**.
-
-It does not require proving no imaginable authority dimension exists.
-
-Candidate termination condition:
-
-> **ASCP is sufficiently resolved when the proposed act, route, affected protected contexts/functions and reasonably discoverable material consequences have been mapped to the applicable authority interfaces, no material unresolved authority dimension remains identified, and the residual uncertainty is proportionate to the consequence and decision horizon.**
-
-Therefore:
-
-**Authority Completeness != Proof Of Omniscience**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 57 — Low-risk action with remote hypothetical consequence
-
-ASCP should terminate early under proportionality/materiality.
-
-**Remote Speculation != Mandatory Authority Expansion**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 58 — Irreversible high-consequence action
-
-ASCP depth should increase.
-
-**Higher Consequence -> Stronger Authority-Space Completeness Requirement**
-
-without implying infinite search.
-
-**PASS**
-
----
-
-## Scenario 59 — Novel technology with unknown protected interfaces
-
-Unknown cannot be safely erased.
-
-Use UNKNOWN / escalate/source-resolve proportionately.
-
-**Novelty Can Increase Completeness Uncertainty Without Automatically Prohibiting All Action**
-
-**PASS / REFINEMENT**
-
----
+56. **Infinite “what if another key” regress:** ASCP terminates when actual act/route, affected protected contexts/functions and reasonably discoverable material consequences map to applicable authority interfaces, no identified material unresolved dimension remains, and residual uncertainty is proportionate to consequence/horizon. No omniscience claim.
+57. **Low-risk remote hypothetical harm:** speculative possibility alone does not demand unbounded authority review.
+58. **Irreversible high-consequence act:** deeper authority-space discovery proportionate to stakes, still bounded.
+59. **Novel technology with unknown protected interfaces:** preserve UNKNOWN and investigate/escalate proportionately, not blanket permission or permanent prohibition.
 
 # PART T — FALSE COMPLETENESS
 
