@@ -39,16 +39,9 @@ This is not a linear pipeline.
 
 It is a feedback loop.
 
-## 2. Audit question
+## 2. Integration question
 
-Can the loop:
-
-- reach legitimate closure;
-- remain dormant without pretending permanent finality;
-- reopen when material state changes;
-- suppress duplicate/cyclic work;
-- preserve unresolved states;
-- and avoid creating a central architecture with authority over every constituent owner?
+The feedback loop must reach bounded closure, reopen on material change, suppress duplicate/cyclic work, preserve unresolved states and avoid centralising authority over its constituent owners. The full original audit remains in Concord-1.3.
 
 ## 3. Existing local closure mechanisms
 
