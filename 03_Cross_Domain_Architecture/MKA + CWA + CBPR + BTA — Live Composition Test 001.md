@@ -654,23 +654,3 @@ None is sufficient alone.
 
 Their composition is stronger precisely because their ownership remains separate.
 
-# 25. Next step
-
-The next useful test is an **integration perturbation test** in which the context, authority, runtime state and transition state change asynchronously during one live process.
-
-Suggested test:
-
-**CWA + MKA + CBPR + BTA — Asynchronous State Perturbation Test 001**
-
-Inject:
-
-- consent/permission revocation;
-- context reclassification;
-- authority expiry;
-- runtime recovery;
-- route change;
-- partial transition;
-- destination-owner change;
-- emergency predicate activation/termination.
-
-The objective is to test whether the four-module stack reopens the correct owner without globally restarting or allowing stale state to propagate.
