@@ -140,3 +140,10 @@ Mandatory handling:
 7. Do not edit operational documents during the present classification/recovery stage. Reconciliation and internal pruning occur only after the preservation/crosswalk is complete.
 
 **Burden of proof:** the proposed removal or consolidation must demonstrate architectural and rationale survival; uncertainty means retain the companion.
+
+
+## KCS Companion 002 — clause-level crosswalk completed (Pass 004)
+
+Created `06_Development/Active_Handoff/KCS_Companion_002_Clause_Crosswalk_001.md` comparing source §§1–18 against actual KCS V2.0 Section 06 (Chapters 31–33), including rationale and authority boundaries. Findings: principal mechanisms represented; **partial survival** for the explicit three-way document-role distinction (§2), alternative-equivalence vocabulary (§7), and scope granularity (§11). Relationship to Companion 001 remains unresolved pending its own complete review. Test/status sections (§§17–18) need not be copied into the streamlined result.
+
+**Disposition: RETAIN Companion 002 intact.** No operational edits or pruning. Continue with Companion 001, Companion 003 and relevant KCS V2.0 sections; verify apparent omissions rather than automatically importing duplicate text.
