@@ -111,3 +111,16 @@ Read the end-to-end lifecycle test, RGCP/BRSP/EERP/BFQP family classification, a
 **KCS Companion Upgrade 003:** **A+R+T**. Distinct epistemic/activity/integrity/access/operational state dimensions; provenance for consequential state assignments; typed relations versus material dependencies; bounded retrieval and negative-search evidence; distinction between stored reusable capability and safe operational activation; privacy and externally owned classification. Key rationale: **not retrieved ≠ nonexistent; archived ≠ false; stored ≠ operational**. Preserve these boundaries while excluding portable validation scores.
 
 **Important reconciliation constraint:** `Knowledge_Control_System/V2.0/README.md` reports these companions integrated into six operational sections. That is a claim to **verify at the relevant clauses**, not proof of complete survival. Next task: locate and compare exact corresponding passages in V2.0 Sections 01–06 before marking any companion redundant. Keep source intact meanwhile.
+
+
+## KCS V2.0 reconciliation — Pass 003 (six-section structural/content spot check)
+
+Fetched all six published KCS V2.0 sections (Chapters 1–33) and inspected chapter/subsection headings and targeted substantive terminology. **Preliminary positive matches, not exhaustive clause-level proof:**
+
+- Section 01, Chapter 3.5: independent state dimensions and assignment provenance (Companion 003).
+- Section 02, Chapters 10.1 and 12: typed knowledge relations and active/dormant capability (Companion 003).
+- Section 03, Chapters 13.1 and 13.2: bounded retrieval, negative search and reusable capability status (Companion 003).
+- Section 04, Chapter 19.2: privacy, retention and redaction (Companion 003).
+- Section 06, Chapters 31–33: material dependency representation, change events, selective propagation, ownership and cross-domain boundaries (Companions 001–002). Text contains `REFERENCES`, `EVIDENCES`, visibility and change-event terminology.
+
+**Assessment:** V2.0 demonstrably contains the principal companion topic areas, reducing the likelihood of total loss. **Do not yet remove companions:** this does not establish survival of every edge condition, exact record field, exception, rationale or failure mode. Next compare fine-grained companion requirements with Sections 01–04 and 06, then mark individual clauses as integrated, missing, altered or intentionally superseded.
