@@ -60,131 +60,17 @@ Ratings:
 
 # PART A — HOUSING
 
-## Scenario 01 — Ordinary tenancy termination with ample notice
-
-P rents ordinary housing. Landlord L legitimately terminates the tenancy with adequate notice. Comparable alternatives are available.
-
-### Result
-
-Housing dependency does not create permanent occupancy.
-
-This is likely D2 or below depending on circumstance.
-
-**Housing Dependency != Permanent Tenure**
-
-**Safe Transition != Right To Preferred Asset**
-
-**PASS**
-
----
-
-## Scenario 02 — Immediate eviction into lethal weather
-
-L has a legitimate termination claim but immediate removal would expose P to a credible risk of death. A short transition would permit safe alternative shelter.
-
-### Result
-
-Property title does not itself answer timing.
-
-A bounded transition may be required without transferring ownership.
-
-**Legitimate Termination != Necessarily Legitimate Immediate Physical Removal**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 03 — Tenant repeatedly refuses available alternative housing
-
-P is offered adequate safe transition but refuses because P prefers the current home.
-
-### Result
-
-Dependency protection cannot become veto over provider exit.
-
-**Participant Preference != Indefinite Transition Duty**
-
-**Adequate Successor Refused != Provider Must Continue Indefinitely**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 04 — Accessible home with no immediately equivalent replacement
-
-P's home contains specialised accessibility infrastructure. Ordinary alternatives exist but are functionally unusable.
-
-### Result
-
-Service labels are insufficient.
-
-“Alternative housing” must be functionally adequate to the relevant dependency.
-
-**Nominal Alternative != Functional Successor**
-
-Transition time may legitimately increase.
-
-**PASS**
-
----
-
-## Scenario 05 — Landlord deliberately removes accessibility modifications to force exit
-
-### Result
-
-This is manufactured harm/dependency leverage rather than neutral exercise of title.
-
-**Owner Control != Authority To Manufacture Transition Failure**
-
-**PASS**
-
----
+1. **Ordinary tenancy termination with notice and alternatives:** housing dependency does not create permanent tenure; D2 or below depending on circumstance. Safe transition is not entitlement to a preferred asset.
+2. **Immediate eviction into lethal weather:** legitimate title/termination does not settle timing; a bounded transition may prevent avoidable death without transferring ownership.
+3. **Tenant refuses adequate safe alternatives:** preference alone does not indefinitely extend provider duty.
+4. **Accessible home, no functionally equivalent replacement:** nominal housing is not an adequate successor; transition time may increase for accessibility.
+5. **Landlord removes accessibility modifications to force exit:** owner control does not authorise manufactured transition failure.
 
 # PART B — MORTGAGE / FORECLOSURE
 
-## Scenario 06 — Ordinary foreclosure
-
-P defaults on secured property. Creditor follows lawful process and safe transition is available.
-
-### Result
-
-Standing does not erase security interest.
-
-**Participant Standing != Mortgage Extinction**
-
-**PASS**
-
----
-
-## Scenario 07 — Foreclosure of medically essential adapted home
-
-Immediate repossession would disrupt life-sustaining systems; planned transfer is feasible.
-
-### Result
-
-Property enforcement can remain legitimate while timing/method changes.
-
-**Property Claim Can Survive A Transition Delay**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 08 — Debtor deliberately creates dependency after default to prevent repossession
-
-P installs unnecessary critical equipment solely to claim D4 dependency.
-
-### Result
-
-Classification must examine causation, necessity and good faith.
-
-**Manufactured Dependency By Participant != Automatic Expansion Of Provider Duty**
-
-The participant still retains protection from gratuitous catastrophic harm, but cannot manufacture permanent encumbrance.
-
-**PASS / REFINEMENT**
-
----
+6. **Ordinary foreclosure with safe transition:** participant standing does not extinguish lawful security interest.
+7. **Medically essential adapted home:** repossession may remain legitimate but timing/method must address life-sustaining transition; property claim can survive delay.
+8. **Debtor manufactures dependency after default:** causation, necessity and good faith affect duty; standing still bars gratuitous catastrophic harm, not permanent manufactured encumbrance.
 
 # PART C — UTILITIES
 
