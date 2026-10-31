@@ -167,3 +167,5 @@ Process each file **to completion**, rather than accumulating audit documents:
 8. Preserve V1.3 untouched for full provenance and historical testing. No word-count target justifies architectural loss.
 
 **Example and lesson:** Lifecycle end-to-end test pruned from 16,213 to 8,189 characters, then mandatory original comparison exposed six weakened/omitted operational distinctions. These were restored in commit `851fdd089c852f4af39677c2e858d2f2e9446809`, yielding 9,052 characters (~44.2% reduction) while preserving the essential design. This demonstrates why the after-check is mandatory.
+
+- **2026-10-31 — DONE, original-versus-pruned after-check passed:** `03_Cross_Domain_Architecture/RGCP + BRSP + EERP + BFQP — PMEDG Family Classification 001.md` pruned **5,635 → 4,772 characters**. Preserved four distinct pattern roles, dependencies, non-merger rationale, ownership/authority limits, portable-extraction prerequisites and implementation boundaries. Removed repeated classification/test outcomes and branch chronology. Compared against complete original V1.3 §§1–14: no unique A/R requirement identified as lost. Commit `284e31053bdeb08c630a7a2b5d8b6b819f5f4b39`.
