@@ -59,3 +59,18 @@ These are **limited reads**. No substantive certification has yet been made for 
 ## Handoff status
 
 Active; baseline verified; inventory completed; bounded source reading started; source classification incomplete. Update this same handoff with completed passes and concrete findings. On task completion, archive this record for provenance.
+
+
+## Cross-domain review — Pass 001 (bounded source assessment)
+
+Read in full or substantial part: `03_Cross_Domain_Architecture/README.md`, `Concord Consequential Action and Feedback Lifecycle — Integrated Architecture 001.md`, and `Knowledge_Control_System/V2.0/README.md`. Inventory lists 146 files in `03_Cross_Domain_Architecture`; the following classifications are **document-level findings for these three sources only**, not blanket classifications of all 146.
+
+| Source | Initial classification | Recovery significance |
+|---|---|---|
+| `03_Cross_Domain_Architecture/README.md` | O+E | Defines legitimate cross-domain functions and explicit non-authority boundary; records lifecycle entry point, source-resolved rediscoveries, and integration-test lineage. Preserve both architecture and provenance. |
+| `03_Cross_Domain_Architecture/Concord Consequential Action and Feedback Lifecycle — Integrated Architecture 001.md` | A+E | Substantial integrated lifecycle: review grounds (RGCP), actual route (BRSP), independently required authority (MKA/ASCP), contextual boundaries (CWA), transitions (BTA), commit revalidation (CBPR), execution-envelope comparison (EERP), change propagation (KCS), review triggering (STRA), and bounded quiescence (BFQP). Includes explicit anti-authority-laundering invariants and residual-state handling. **Do not discard on the basis of the historical “non-canonical” status label.** Reconcile as developed architecture, not a new controller or authority source. |
+| `03_Cross_Domain_Architecture/Knowledge_Control_System/V2.0/README.md` | O+E | Six-section operational KCS structure (Chapters 1–33); companion functions reportedly integrated, with evidence datasets retained separately. Maintains KCS's bounded knowledge-state, provenance, dependency and propagation mandate, without judiciary/governance authority. Completeness assertion requires source-to-section verification, not blind acceptance. |
+
+**Critical survival conditions:** (1) “Cross-Domain Function != Cross-Domain Authority”; (2) knowledge/metrics/observation and review triggers must not become governance or adjudication; (3) authorised proposal, actual commit, actual execution, residual consequences, downstream material-change propagation, and quiescence are distinct states; (4) preserve independently owned semantics and authorisations.
+
+**Next pass:** inspect the lifecycle integration-test evidence and KCS companion/source-to-section mapping; then evaluate the other cross-domain subfamilies (Ratchet V4.3, Civilisational Developmental Topology, Intercivilisational Wrappers, Constitutional Emergency, metrics, private local evaluation, and rights/withdrawal architectures). Do not prune or merge yet.
