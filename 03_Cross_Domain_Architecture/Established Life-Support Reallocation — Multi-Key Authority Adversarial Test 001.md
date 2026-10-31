@@ -1380,27 +1380,6 @@ This is the reconciliation the earlier architectures were missing.
 
 ---
 
-# 102. Development recommendation
+# 102. Cross-domain applicability
 
-Integrate these findings into Candidate Authority Models 001.
-
-Then source-resolve **Rapid Authority Verification and Multi-Key Execution** as a portable cross-domain architecture rather than leaving it Health-specific.
-
-The pattern now appears applicable to:
-
-- policing;
-- custody;
-- emergency authority;
-- cognitive access;
-- evidence access;
-- infrastructure shutdown;
-- scarce-resource allocation;
-- medical intervention;
-- AI hosting;
-- property requisition.
-
-Its general form is:
-
-> **An action may proceed only when every independently required authority for the actual action is present, current, within scope and not blocked by an upstream prohibition.**
-
-This may be a reusable Concord authority primitive.
+The multi-key execution pattern applies beyond Health: policing, custody, emergency authority, cognitive/evidence access, infrastructure shutdown, scarcity allocation, medical intervention, AI hosting and property requisition. **An action may proceed only when every independently required authority for the actual action is present, current, in scope and not blocked by an upstream prohibition.** Development planning and extraction history remain in Concord-1.3.
