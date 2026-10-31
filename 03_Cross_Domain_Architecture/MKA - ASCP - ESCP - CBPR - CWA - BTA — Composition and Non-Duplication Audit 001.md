@@ -1405,28 +1405,9 @@ MKA should reference rather than duplicate them.
 
 ---
 
-# 94. PMEDG recommendation
+# 94. Development provenance
 
-MKA now appears to have passed:
-
-- source resolution;
-- cross-domain recurrence;
-- adversarial testing;
-- initial non-duplication audit.
-
-Before extraction/graduation:
-
-1. integrate this audit into MKA Source Resolution 001;
-2. create **MKA Portable Kernel Candidate — Extraction Boundary 001** in Research development;
-3. freeze the candidate minimum contract;
-4. prepare a clean blind-transfer package containing only the candidate kernel and test brief;
-5. test whether a clean evaluator can correctly apply it to domains not used in the originating life-support problem;
-6. test deliberate confusion with CWA, CBPR and BTA;
-7. only then decide extraction under PMEDG.
-
-**DO NOT EXTRACT YET.**
-
----
+MKA was assessed for source resolution, cross-domain recurrence, adversarial coverage and non-duplication. The original PMEDG extraction and blind-transfer plan is preserved in Concord-1.3.
 
 # 95. Strongest architectural finding
 
