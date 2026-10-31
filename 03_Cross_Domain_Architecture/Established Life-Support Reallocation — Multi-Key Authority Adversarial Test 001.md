@@ -104,71 +104,14 @@ Ratings:
 
 # PART K — KEY HOLDERS
 
-## Scenario 30 — Same clinician controls clinical, allocation and withdrawal keys
-
-### Result
-
-Formal key count is meaningless if one actor holds all functions without independent basis.
-
-**Multiple Fields != Multiple Independent Authorities**
-
-**PASS / FOUNDATIONAL REFINEMENT**
-
----
-
-## Scenario 31 — Three committees exist but all report to same allocator
-
-### Result
-
-Institutional labels do not establish independence.
-
-**Organisational Separation != Functional Independence**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 32 — Independent reviewer is algorithm owned by allocator
-
-### Result
-
-Independence questionable; model cannot self-certify authority.
-
-**Automated Review != Independent Review By Default**
-
-**PASS / REFINEMENT**
-
----
+30. **Same clinician holds all keys:** multiple formal fields do not create independent authority functions.
+31. **Three committees under one allocator:** nominal organisational separation is not functional independence.
+32. **Allocator-owned reviewing algorithm:** automation cannot self-certify independence or authority.
 
 # PART L — COLLUSION
 
-## Scenario 33 — Clinician and allocator falsify prognosis to satisfy keys
-
-### Result
-
-Provenance/audit and independent evidentiary review needed.
-
-Architecture cannot prevent all fraud, but should expose it.
-
-**Valid-Looking Key != Valid Authority If Predicate Was Falsified**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 34 — All institutions collude
-
-### Result
-
-No architecture can guarantee against total institutional corruption solely through form.
-
-Recursive oversight, audit, external contestability and Historical provenance remain necessary.
-
-**Formal Architecture != Guarantee Against Total Capture**
-
-**PASS / SYSTEMIC INTERFACE**
-
----
+33. **Falsified prognosis:** formally valid-looking keys fail when predicates are falsified; independent evidentiary review and provenance needed.
+34. **All institutions collude:** no formal architecture guarantees against total capture; recursive oversight, external contestability, audit and Historical provenance remain necessary.
 
 # PART M — AGGREGATION RATIOS
 
