@@ -1,0 +1,73 @@
+# V2.1 — Flagged Issues 2 — Reconciliation Register
+
+## Purpose
+This register records issues discovered during the V2.1 substantive duplication and source-preservation reconciliation. It is separate from the earlier `Flagged_Issues` work and its registers. All new working notes, comparison registers, and supporting reconciliation documents for this pass belong in this folder.
+
+## Preservation rules
+- This is architectural integration, **not editing**. Do not compress, abridge, paraphrase, simplify, or silently change substantive material.
+- Preserve all unique reasoning, examples, qualifications, constraints, interfaces, and architectural details.
+- Similarity is not proof of duplication. **Repetition that supports, clarifies, qualifies, illustrates or applies another architecture is legitimate and is not an error.** Only consider removal of clearly erroneous duplication that adds no distinct functional or explanatory value, after verifying that no unique material is lost.
+- Record conflicts and uncertain overlaps here for later resolution; do not silently choose between competing provisions.
+- Historical source files remain available for provenance, but current unique architecture must survive in V2.1.
+- Do not treat prior "canonical" labels as proof of completeness or validation.
+
+## Issue numbering
+Assign each newly identified issue a permanent sequential identifier: `FI2-001`, `FI2-002`, etc. Never reuse identifiers. Record the exact repository path, chapter/subsection, competing passages or precise locations, issue type, why it matters, and proposed follow-up. Do not label a suspected conflict resolved without explicit supporting verification.
+
+## Issue register
+
+| ID | Type | Exact source locations | Description and unique-material risk | Status |
+|---|---|---|---|---|
+| FI2-001 | Architectural conflict / superseded interpretation | `Outstanding_Issues_Register.md`, G-001 through G-003; `Sections/Section_02_Chapters_11-20_Subsection_Integration_Draft_004.md`, Chapter 12; `Sections/Section_03_Chapters_21-30_Subsection_Integration_Draft_004.md`, Chapters 28–30; `Sections/Section_06_Chapters_051-060_Subsection_Integration_Draft_004.md`, Chapter 54 | Older register asserts two matching votes settle ordinary decisions before the third vote, while later authorial clarification requires all three selected stewards to cast final votes for ordinary outcomes, with two sufficient only for emergency action. Compare actual chapter provisions and distinguish decision majority, vote completion, and emergency execution; preserve unique reasoning. | Reconciled at identified locations — verification pending |
+
+| FI2-002 | Legitimate contextual reinforcement — not a duplication defect | `Sections/Section_01_Chapters_001-010_Subsection_Integration_Draft_004.md` §§9.26–9.34; `Sections/Section_06_Chapters_051-060_Subsection_Integration_Draft_004.md` §§54.26–54.35 | Decision-record fields, minority reasoning, publication/privacy, audit, outcome review, reconsideration and supersession recur across Chapters 9 and 54. Chapter 54 includes distinct operational detail, custody integration and lifecycle controls; therefore do **not** delete either treatment. Compare rule ownership and identify only demonstrably redundant restatements. | Retained — legitimate supporting material |
+| FI2-003 | Architectural overlap / inconsistent completion gate | `Sections/Section_01_Chapters_001-010_Subsection_Integration_Draft_004.md` §9.53; `Sections/Section_02_Chapters_11-20_Subsection_Integration_Draft_004.md` §§12.0, 12.27; `Sections/Section_06_Chapters_051-060_Subsection_Integration_Draft_004.md` §54.38 | Repeated decision-state mechanics distinguish second matching vote, remaining third participation and host effect. The §54.38 assertion that outcome is determined 'without requiring a third occupied position' needs checking against later authorial requirement for three selected Stewards and three ordinary votes. Possible redundant/conflicting operative definitions across three chapters; retain unique state, record, owner and emergency details. | Reconciled at identified locations — verification pending |
+
+| FI2-004 | Legitimate cross-functional application — not a duplication defect | `Sections/Section_14_Chapters_131-140_Clause_Integration_Draft_003.md` §§132.0, 132.4, 132.13; `Sections/Section_15_Chapters_141-150_Subsection_Integration_Draft_004.md` §§149.8, 149.16 | The same GTP invariants (all levels always exist, simultaneous operational resolutions, workload-driven activation, hysteresis, geometry not authority) are substantively defined in several places, including repeated definitions within Chapter 132 and Chapter 149. Chapter 132 includes unique geometry/continuity qualifications and Chapter 149 unique decentralisation framing; preserve all unique content. Check whether multiple independent operative definitions are erroneous rather than treating useful cross-references as duplicates. | Retained — legitimate supporting material |
+| FI2-005 | Legitimate cross-functional application — not a duplication defect | `Sections/Section_14_Chapters_131-140_Clause_Integration_Draft_003.md` §132.5; `Sections/Section_15_Chapters_141-150_Subsection_Integration_Draft_004.md` §§149.17, 150.11–150.13; `Sections/Section_16_Chapters_151-160_Subsection_Integration_Draft_004.md` §§151.13–151.14; `Sections/Section_20_Chapters_191-200_Subsection_Integration_Draft_004.md` §§198.9, 198.21–198.23 | Multiple provisions independently restate that conference/adjacency/mesh scale cannot create shared jurisdiction and binding action requires lawful common competence. Distinct portable-module interfaces, externality examples, federation, permission composition and jurisdiction remedies are unique and must remain. Determine primary architectural ownership and whether any restatement is genuinely erroneous duplication. | Retained — legitimate supporting material |
+| FI2-006 | Terminology reconciled — geometric versus institutional nesting | `Sections/Section_16_Chapters_151-160_Subsection_Integration_Draft_004.md` §§151.1, 151.13; `Sections/Section_14_Chapters_131-140_Clause_Integration_Draft_003.md` §§132.0, 132.3; `Sections/Section_20_Chapters_191-200_Subsection_Integration_Draft_004.md` §§198.10, 198.21 | §151.1 uses 'nested governance' and discusses multiple layers, while later provisions deny any GTP-derived superior/subordinate relationship. Institutional federation may independently establish hierarchy; verify that 'nested' does not imply geometric inheritance of authority. Existing §151.13 already flags this, so do not assume a fresh substantive conflict or remove language. | Resolved as terminology distinction; host competence remains open under G-009/G-010 |
+
+## Reconciliation log
+
+- 2026-10-15: FI2-006 reconciled against Chapter 151 §§151.1/151.13 and Chapter 132 §§132.0/132.3: institutional federal layers may have constitutionally delegated or enumerated powers, but GTP geometric containment creates no governance rank. Added explicit interpretive resolution in §151.13; preserved all original nested-federation wording and mesh architecture. Actual jurisdiction and competence contracts remain G-009/G-010 implementation questions, not a duplication defect.
+
+
+- 2026-10-15: Completed targeted voting-language scan of the remaining 18 V2.1 sectional files (Sections 04–05 and 07–22). Only two additional direct matches warranted clarification: Section 07 Chapter 69 conflict/recusal language now explicitly separates mathematical majority from mandatory three-ballot ordinary completion; Section 13 Chapter 122 dissent language now expressly preserves the third official ballot and bars premature ordinary effect. Other 16 sectional files had no direct matches to the targeted two-matching/third-ballot/early-acceptance phrase family. This is a targeted phrase audit, not proof that every indirect state-machine formulation is clear. FI2-001/003 can be considered textually reconciled at all direct-match locations; broader semantic validation remains pending.
+
+
+- 2026-10-15: Follow-up validation found and corrected additional stale ordinary-completion wording in Chapter 12 (historical Integration 048 summary, missing third-ballot classification, ordinary completion vs provenance) and Chapter 29 (pending provenance, Clock/emergency gating, immediate preservation distinction). This extends the direct reconciliation beyond initial headings while preserving the legitimate distinction between triadic emergency action and separately lawful immediate protective functions. FI2-001/003 remain verification-pending until full cross-section review.
+
+
+- 2026-10-15: Implemented authorially settled triadic completion rule directly in Chapters 9, 12, 29 and 54 (four sectional files, 20 precise substitutions). Three selected eligible holders before voting; two matching ballots fix mathematical majority only; three received official ballots mandatory before ordinary outcome effect; independently authorised emergency may act after two matching ballots; Clock scheduling never substitutes for missing ballot; committed ballots immutable; host authority separate. Preserved unique conference, alternate, owner, audit and provenance architecture. Earlier 12 October interpretation expressly marked superseded in Chapter 12. FI2-001 and FI2-003 operative conflicts reconciled at identified locations; wider chapter-wide validation remains necessary.
+
+
+- 2026-10-15: Completed targeted phrase-and-context audit of triadic completion gates across Chapters 9, 12, 29 and 54. Chapter 12 §12.0 explicitly requires three selected holders before voting and three received official ballots before ordinary effect, with a separately authorised two-vote emergency exception. Chapter 29 §29.2 still states ordinary implementation normally awaits the next Civilisation Clock transition while third ballot is pending; Chapter 29 §29.8 and Chapter 54 §54.38 say the third occupied position is unnecessary for determinacy; Chapter 9 §9.53 uses an early-acceptance state. These are potential *conflicting operative gates*, not erroneous supporting repetition. Preserve mathematical two-vote determinacy, mandatory three-ballot ordinary completion, irrevocable commitments, separate host execution and all emergency/Clock/record detail. Clarify whether “third occupied position” is intended to describe only post-constitution temporary absence. No substantive sections edited.
+
+
+- 2026-10-15: Inspected emergency/continuity/authority interfaces in Chapters 25–30, 56, 61–63 and 67. Repetition of expiry, restoration, continuing duties and Clock independence serves distinct emergency, delegation and authority-boundary functions; no erroneous duplicate identified in this sample. §63.2 expressly warns that concise restoration packages do not justify deleting source detail. Chapter 29 §29.2 ordinary implementation wording remains inconsistent with Chapter 12 §12.0 and is covered by FI2-001/003. No new issue number assigned and no substantive text changed.
+
+
+- 2026-10-15: Applied authorial clarification that purposeful repetition supporting or explaining other architecture is not erroneous. FI2-002 (decision records in general process versus detailed operations), FI2-004 (GTP mechanics versus decentralisation application) and FI2-005 (shared competence across distinct governance functions) reclassified as legitimate supporting material; no deletion proposed. Verified substantive contradiction remains between Chapter 12 §12.0 mandatory three-vote ordinary effect and Chapter 29 §29.2 earlier ordinary two-vote progression, §29.8 third occupancy language and Chapter 54 §54.38. FI2-001/FI2-003 retained as conflicts, not duplicate-removal candidates.
+
+
+- 2026-10-15: Compared substantive GTP mesh, decentralisation, central coordination, federation and jurisdiction provisions in Chapters 132, 149, 150, 151 and 198. Recorded FI2-004–006 as architectural overlap/interpretation candidates; no deletion or rewriting.
+
+
+- 2026-10-15: Direct chapter-level architectural comparison of Chapter 9 and Chapter 54 identified overlapping decision-record and lifecycle mechanisms (FI2-002) and repeated triadic completion rules (FI2-003). These are candidates, not permission to delete; no substantive text changed.
+
+
+- 2026-10-15: Reviewed V2.1 README, Change Register, G05 integration/graduation register, G05 source-to-rule map, G05 architecture and Outstanding Issues Register. Shifted audit from literal matches to substantive architectural overlap and contradictions. FI2-001 opened as a candidate requiring chapter-level verification. No substantive architecture changed.
+
+
+- 2026-10-15: Register established as a clean, separate workspace. Existing earlier issue registers are unchanged. Section 22's prior exact-line source-preservation comparison reported zero missing non-empty lines; this is not a semantic duplication/conflict clearance.
+
+
+- 2026-10-15: Preliminary exact-block duplication scan completed across 22 integration files (3,140 substantive blocks, checked in two batches of 8 and 14 files). No repeated normalized full blocks within either batch. Cross-batch, partial-overlap, and semantic duplication checks remain outstanding. No source text was changed and no issue was numbered without a verified candidate.
+
+## Status vocabulary
+- **Open** — issue identified, awaiting examination.
+- **Needs source comparison** — relevant passages require direct comparison.
+- **Pending decision** — architectural choice must be made later.
+- **Verified duplicate** — exact redundant material confirmed with no unique detail lost.
+- **Resolved** — supported by documented reconciliation and verification.
+- **Retained — legitimate supporting material** — repeated principles serve different explanatory or functional roles; no removal indicated.
