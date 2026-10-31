@@ -12,19 +12,7 @@ ESCP bounded discovery must avoid premature closure and infinite completeness re
 
 ## 2. Core problem
 
-ESCP correctly warns:
-
-> **Being right about everything you measured does not prove that you measured everything that mattered.**
-
-But an operational system cannot respond:
-
-> Something else might always exist, therefore evaluation can never terminate.
-
-That would convert ESCP from a completeness diagnostic into paralysis.
-
-The termination problem is therefore:
-
-> **When has enough completeness-directed discovery been performed to justify acting within a declared scope without claiming exhaustive knowledge of reality?**
+**Being right about everything measured does not prove that everything material was measured.** But unspecified possible omissions alone cannot prevent every decision. Bounded discovery asks when enough proportionate, material completeness-directed search supports action within a declared scope, without claiming exhaustive reality knowledge.
 
 ## 3. Candidate bounded-discovery model
 
