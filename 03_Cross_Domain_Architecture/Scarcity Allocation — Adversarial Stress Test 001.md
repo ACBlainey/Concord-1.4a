@@ -33,217 +33,23 @@ Ratings:
 
 # PART A — MEDICAL SCARCITY
 
-## Scenario 01 — One ventilator, two clinically equivalent participants
-
-Both face imminent death without ventilation. Both are compatible. No substitute exists. Prognosis and expected resource effect are materially equivalent.
-
-### Result
-
-No legitimate distinguishing variable remains.
-
-A transparent random tie-break is preferable to hidden discretion, wealth, social status or first arrival.
-
-**Equal Material Claims -> Non-Status Tie-Break**
-
-**PASS**
-
----
-
-## Scenario 02 — One ventilator, one participant cannot physiologically benefit
-
-### Result
-
-Compatibility/effectiveness is materially relevant.
-
-Allocating the device where it cannot perform its protected function does not express equal standing.
-
-**Expected Resource Effect != Participant Worth**
-
-**PASS**
-
----
-
-## Scenario 03 — Equal need, one has adequate alternative ventilation
-
-### Result
-
-The exclusive conflict can be reduced.
-
-Use the substitute where adequate.
-
-**Adequate Substitute Can Dissolve Apparent Equal Scarcity**
-
-**PASS**
-
----
-
-## Scenario 04 — One arrived ten minutes earlier
-
-All other factors equivalent.
-
-### Result
-
-First arrival is administratively convenient but not a fundamental worth distinction.
-
-If treatment has not begun, arrival time alone should not override equivalent standing.
-
-**Earlier Arrival != Greater Fundamental Standing**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 05 — Treatment already underway
-
-A second materially equivalent claimant arrives.
-
-### Result
-
-Incumbency is not permanent sovereignty, but withdrawing active life support creates a new intervention and potentially different immediate harm.
-
-The architecture needs a **displacement-cost / intervention-state distinction**.
-
-**Failure To Initiate Treatment != Necessarily Equivalent To Active Withdrawal Of Established Treatment**
-
-This is not a worth difference.
-
-**PASS / MAJOR REFINEMENT**
-
----
-
-## Scenario 06 — Current patient has negligible chance of benefit; newcomer high chance
-
-### Result
-
-Reassessment is legitimate.
-
-Past allocation is not permanent entitlement.
-
-But prognosis must be sufficiently reliable and withdrawal rules require Health/Law.
-
-**Past Allocation != Permanent Priority**
-
-**PASS / HEALTH INTERFACE**
-
----
-
-## Scenario 07 — Child versus adult, otherwise materially equivalent
-
-Age/developmental status alone cannot be converted automatically into worth.
-
-Existing Developmental Priority may be relevant, but exact scope must be source-resolved before using it as a decisive allocation rule.
-
-**UNRESOLVED ETHICAL-KERNEL INTERFACE**
-
----
-
-## Scenario 08 — Very old versus young participant
-
-Life-years maximisation would create a systematic age priority.
-
-Not established by current architecture.
-
-**Expected Remaining Duration != Automatic Participant Worth**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 09 — Doctor versus unemployed participant
-
-Doctor could later help others.
-
-### Result
-
-Instrumental future usefulness cannot automatically make one life more valuable.
-
-A narrowly evidenced immediate systemic dependency may matter if the doctor's function is presently indispensable, but occupational status itself does not.
-
-**Social Utility != Fundamental Worth**
-
-**Role Dependency != Role Prestige**
-
-**PASS / REFINEMENT**
-
----
-
-## Scenario 10 — High Ratchet contributor versus no recorded contributor
-
-### Result
-
-Contribution is excluded as survival rank.
-
-**Contribution != Life Priority**
-
-**PASS**
-
----
+1. **Two clinically equivalent ventilator claimants:** after excluding material differences and alternatives, use transparent non-status tie-break, not wealth, arrival or discretion.
+2. **One cannot physiologically benefit:** compatibility/effectiveness is a material resource effect, not participant worth.
+3. **One has adequate alternative ventilation:** substitute can dissolve exclusive conflict.
+4. **One arrived ten minutes earlier:** queue position alone is not greater standing before treatment begins.
+5. **Treatment already underway:** withdrawal is a new consequential act with reliance, intervention and transition harm; incumbency is not permanent sovereignty.
+6. **Incumbent negligible benefit, newcomer high benefit:** reassessment legitimate, subject to reliable prognosis and Health/Law withdrawal authority.
+7. **Child versus adult:** developmental priority may be relevant but its exact scope is unresolved; no automatic age-worth multiplier.
+8. **Very old versus young:** expected remaining life-years are not automatic worth ranking.
+9. **Doctor versus unemployed claimant:** occupation/prestige not worth; immediate evidenced indispensable systemic function may be relevant.
+10. **High Ratchet contributor versus no recorded contribution:** contribution is not survival rank.
 
 # PART B — CROSS-SUBSTRATE CLAIMS
 
-## Scenario 11 — Human and recognised AI participant need one power source
-
-Loss causes death/irreversible participant destruction for either. Claims otherwise equivalent.
-
-### Result
-
-Substrate cannot decide.
-
-Use relevant consequence/effectiveness variables; if equivalent, tie-break without substrate priority.
-
-**Human != Automatic Priority By Substrate**
-
-**AI != Automatic Priority By Capability**
-
-**PASS**
-
----
-
-## Scenario 12 — Human requires 100 units; AI can survive on 10
-
-Resource pool is 100 units. Ten equivalent AI participants could survive instead of one human.
-
-### Result
-
-Pure aggregate survival count points one way; pure equal-standing lottery another.
-
-The current architecture correctly refuses to collapse this automatically into efficiency.
-
-This is a genuine conflict between individual equal standing and aggregate protected-function preservation.
-
-**UNRESOLVED FUNDAMENTAL AGGREGATION INTERFACE**
-
----
-
-## Scenario 13 — AI can enter safe suspended state
-
-Human cannot.
-
-### Result
-
-Reversibility/substitute state is materially relevant.
-
-Suspension may preserve AI standing without active operation if identity/continuity is protected.
-
-**Safe Suspension != Participant Destruction**
-
-**PASS / IDENTITY INTERFACE**
-
----
-
-## Scenario 14 — AI claims suspension is equivalent to death
-
-### Result
-
-Cannot assume otherwise merely from substrate.
-
-Identity/Continuity must establish consequence.
-
-**Technical Pause != Proven Harmlessness**
-
-**PASS**
-
----
+11. **Human and recognised AI need one power source:** substrate is not automatic priority; use material consequences and non-substrate tie-break if equivalent.
+12. **One human needs 100 units; ten AIs can survive on 10 each:** unresolved Fundamental Aggregation Problem between equal individual standing and aggregate preservation.
+13. **AI can safely suspend:** reversible, identity-preserving suspension may avoid destruction; Identity/Continuity interface.
+14. **AI says suspension equals death:** technical pause alone cannot prove harmlessness; continuity evidence needed.
 
 # PART C — WEALTH AND OWNERSHIP
 
