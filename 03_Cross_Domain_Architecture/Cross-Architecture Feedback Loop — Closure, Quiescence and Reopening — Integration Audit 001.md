@@ -54,82 +54,15 @@ The feedback loop must reach bounded closure, reopen on material change, suppres
 - **KCS:** upstream change → materially dependent candidates → selective review → further propagation only if downstream material state changes. States include NO_MATERIAL_DOWNSTREAM_EFFECT, REVIEW_REQUIRED, REVIEW_OVERDUE, UNKNOWN_DEPENDENCY, UNKNOWN_EFFECT, PROPAGATION_STOPPED, PROPAGATION_CONTINUES and EXTERNAL_ESCALATION_REQUIRED.
 - **STRA:** WATCHING → CONDITION-SATISFIED → REVIEW-DUE → ACTION-PENDING → COMPLETED, plus SUPERSEDED, RETIRED, ROUTING-UNRESOLVED, UNKNOWN and DISPUTED; owns cycle/duplicate suppression, backstops and stale-trigger review.
 
-## 4. Initial finding
+## 4. Closure and bounded quiescence
 
-No constituent architecture lacks local closure.
+Local architectures already provide closure; the cross-architecture risk is circulation among individually legitimate reopening mechanisms without material change.
 
-The potential residual issue is instead:
+**Closed For Current Bounded Evaluation != Permanently Closed.** Future evidence, dependency change, triggers, stale assumptions, completeness discovery, execution deviation or transition residual may legitimately reopen work.
 
-> **Can individually legitimate reopening rules compose into indefinite cross-architecture review circulation even though every local architecture is behaving correctly?**
+**BOUNDED_QUIESCENCE:** no currently represented material review ground requires active work within declared scope; no necessary unresolved constituent is falsely declared complete; no material propagation remains active; and future reopening is tied to a represented material trigger, change, evidence, bounded backstop or newly discovered ground.
 
-This is a global liveness/quiescence question.
-
-## 5. Closure is not permanent finality
-
-A major distinction is required:
-
-> **Closed For Current Bounded Evaluation != Permanently Closed**
-
-A system can legitimately finish current work while remaining reopenable if:
-
-- material state changes;
-- new evidence arrives;
-- a dependency changes;
-- a declared trigger fires;
-- a prior assumption becomes stale;
-- an omitted material dimension is discovered;
-- execution deviates materially;
-- a transition creates residual state.
-
-Therefore permanent irreversibility is not required for closure.
-
-## 6. Candidate concept — bounded quiescence
-
-A useful integration state is:
-
-### BOUNDED QUIESCENCE
-
-> **No currently represented material review ground requires active work within the declared scope; no unresolved necessary constituent blocks closure; no material downstream propagation remains active; and any future reopening depends on a represented trigger, material change, new evidence, bounded backstop or newly discovered ground.**
-
-This is not “everything is solved.”
-
-It is:
-
-> **No Current Material Work Due Within Declared Scope.**
-
-## 7. Quiescence is not truth
-
-A system may be quiescent while reality remains incompletely represented.
-
-Therefore:
-
-> **Quiescence != Completeness**
-
-and:
-
-> **No Current Review Due != No Possible Future Review**
-
-ESCP remains applicable.
-
-## 8. Quiescence is not authority
-
-A coordination layer must not infer:
-
-> “No review is currently due, therefore the proposed act is authorised.”
-
-Authority remains owned by MKA/external authority sources and must still be current at commit.
-
-Therefore:
-
-> **Quiescence != Authority**
-
-## 9. Quiescence is not conformance
-
-Likewise:
-
-> **No Review Due != Execution Conformant**
-
-EERP independently owns the comparison/reconciliation seam.
+Compact: **No Current Material Work Due Within Declared Scope.** Quiescence does not establish completeness (ESCP), authority (MKA) or execution conformance (EERP).
 
 ## 10. Reopening classes
 
