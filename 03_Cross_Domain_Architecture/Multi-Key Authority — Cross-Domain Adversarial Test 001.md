@@ -207,37 +207,11 @@ Use UNKNOWN / escalate/source-resolve proportionately.
 
 ---
 
-# PART T — ASCP FALSE COMPLETENESS
+# PART T — FALSE COMPLETENESS
 
-## Scenario 60 — Checklist contains all known keys but route changed at last second
-
-Re-run route-sensitive completeness check.
-
-**Route Change Can Invalidate Authority Completeness**
-
-**PASS**
-
----
-
-## Scenario 61 — Consequence changes unexpectedly from reversible to irreversible
-
-Reassess required authority dimensions.
-
-**Consequence Change Can Change Required Authority Space**
-
-**PASS**
-
----
-
-## Scenario 62 — System marks “complete” because database has no empty fields
-
-Schema completeness is not authority-space completeness.
-
-**Field Completeness != Authority Completeness**
-
-**PASS / REFINEMENT**
-
----
+60. **Route changes at last second:** rerun route-sensitive completeness check.
+61. **Consequence becomes irreversible:** reassess required authority dimensions.
+62. **Database fields all populated:** schema completeness is not authority-space completeness.
 
 # PART U — ONE INSTRUMENT, MANY KEYS
 
