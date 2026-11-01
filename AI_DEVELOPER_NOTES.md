@@ -74,3 +74,17 @@ Record the active work method and constraints alongside the objective. Examples 
 A useful handover should include: **(a)** repository/version/branch and current source of truth; **(b)** exact objective and scope; **(c)** verified changes and commits; **(d)** key established decisions and 'must-not-break' constraints with source pointers; **(e)** completed/closed/deferred items; **(f)** unresolved conflicts and missing-source status; **(g)** next exact actions; and **(h)** repository-specific working instructions. Keep this concise, link to source files rather than pasting large documents, and update it incrementally at natural milestones.
 
 At startup, compare the handover against the live files and progress journal, reconcile discrepancies, then continue from the last verified point. Ask the author only about genuine ambiguity or architectural choices not resolved by the sources; do not repeatedly ask for rules already recorded. The goal is to **migrate the living result and archive the developmental path**, without publishing raw conversation transcripts.
+
+## Future provenance tooling — two separate development projects (not yet implemented)
+
+These are recorded development intentions, not claims of existing capability. Both support more reliable Concord provenance and cross-instance handovers. Raw conversation captures, Chrome profile copies, transcripts, session caches, authentication artifacts and other personal browser data must remain local/offline and must **not** be committed or uploaded to Concord repositories. Only carefully reviewed, distilled architectural findings, design decisions and development guidance may enter Concord documentation.
+
+### Project A — Continuous ChatGPT session archiver
+
+Develop an opt-in local recorder that operates throughout active ChatGPT sessions rather than attempting recovery after the fact. Aim to capture user inputs, assistant final responses, any intermediate reasoning summaries or progress text actually visible to the user, message ordering, timestamps, conversation and message identifiers when available, and interruptions, retries, edits or branches. Preserve raw observations with provenance and distinguish original content from derived representations. Do not assume access to private internal model reasoning, hidden memory, or server-only events; investigate technical feasibility and platform constraints before selecting an implementation (e.g., browser extension or local browser-side companion). The goal is reliable, minimally intrusive, timestamped local archival and better handover reconstruction.
+
+### Project B — Chrome user-data provenance recovery
+
+Develop a separate, read-only analysis workflow for **offline copies** of Chrome user-data profiles, investigating browser history, sessions, relevant storage and caches for recoverable ChatGPT chat content, identifiers, chronology and supporting provenance. Inventory what is actually present; distinguish verified recovery from conjecture; record original paths and extraction methods; avoid changing the source profile. Treat cookies, credentials and tokens as sensitive: do not export them into reports or repositories. Assess whether findings can help recover missing or branched conversations and cross-check existing JSON/HAR captures.
+
+These projects are independent and may be undertaken later; neither should delay the current conversation-archive validation work.
