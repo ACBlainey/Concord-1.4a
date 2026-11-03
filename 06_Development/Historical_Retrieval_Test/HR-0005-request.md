@@ -1,10 +1,7 @@
 # HR-0005 — Harmless publisher publication test
 
-## Request ID
-HR-0005
-
-## Status
-READY
+Request ID: HR-0005
+Status: READY
 
 ## Purpose
 Authorise preparation and dry-run validation of one harmless, numbered local publisher response. Actual publication requires separate explicit approval.
