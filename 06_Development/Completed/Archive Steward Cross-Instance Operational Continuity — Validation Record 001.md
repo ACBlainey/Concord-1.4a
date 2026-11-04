@@ -29,3 +29,7 @@ This establishes supervised continuity, not fully unattended monitoring, automat
 ## Closure
 
 The continuity objective is achieved. No further retrieval, publication test or architecture development is authorised by this record. Existing operational safeguards remain in force.
+
+## Outstanding future work
+
+Separate Historical capture requirements remain **Outstanding — Future Development**: **HIST-CHAT-001 — Local ChatGPT conversation archive extraction** and **HIST-CHAT-002 — Reliable short ChatGPT conversation capture**. See the [authoritative task record](../../02_Domains/06_Historical/ChatGPT%20Conversation%20Archival%20%E2%80%94%20Outstanding%20Development%20Tasks%20001.md), discoverable through the Historical domain README. These requirements do not reopen this completed continuity validation or authorise investigation, local application-data access or implementation.
