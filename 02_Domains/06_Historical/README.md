@@ -551,3 +551,7 @@ Key distinctions:
 - Correlation Capability != Correlation Authority.
 
 The note identifies relational genetic privacy, future re-identification, derivative data and research-to-clinical boundaries as unresolved high-sensitivity areas.
+
+## Outstanding ChatGPT archival development
+
+[ChatGPT Conversation Archival — Outstanding Development Tasks 001](ChatGPT%20Conversation%20Archival%20%E2%80%94%20Outstanding%20Development%20Tasks%20001.md) records **HIST-CHAT-001** (local Work conversation JSON export) and **HIST-CHAT-002** (reliable short-conversation capture). Both are **Outstanding — Future Development**; recording them authorises no investigation or implementation. They are separate from completed Archive Steward continuity validation.
