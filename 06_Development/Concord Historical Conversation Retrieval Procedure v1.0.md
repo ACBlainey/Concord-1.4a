@@ -54,3 +54,9 @@ These observations validate local execution, targeted retrieval, and a concrete 
 ## Standing developer instruction
 
 When historical context is material but missing or uncertain, request targeted archive retrieval rather than reconstructing prior decisions from memory. **Retrieve historical evidence when needed; reconcile it against current operational authority before acting.**
+
+## Operational update — 4 November 2026 (HR-0011)
+
+The original procedure above records the **3 November baseline**, including the then-manual transfer method. The subsequent operational bridge now uses numbered GitHub READY requests, targeted local Archive Steward retrieval, a local staged response, and an independent publisher with the author's standing on/off authorisation file. HR-0011 demonstrated this complete sequence with a one-shot Windows scheduled publisher under the previously successful `X1\A` context; the result was independently read back byte-for-byte (commit `8e6efaff3c39ce0e7fbcdb253bf176cb56782655`). It does **not** establish fully unattended recurring scheduling.
+
+For current execution instructions, required metadata, response schema, source restrictions, publisher identity and failure handling, use `06_Development/Historical_Retrieval_Test/README.md`. Do not use the older manual-transfer wording above to override the tested exchange contract. The local archive is within Concord Historical's domain; future changes must first be compared with Historical V0.4, Schema Set 002 and Continuity V2.1. No drive-root enumeration, unrelated backup inspection, new indexing or raw-archive publication is authorised.
