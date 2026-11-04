@@ -1,5 +1,6 @@
 # HR-0011 — Standing Authority End-to-End Retrieval Test
 
+Request ID: HR-0011
 **Status: READY**
 
 ## Historical question
