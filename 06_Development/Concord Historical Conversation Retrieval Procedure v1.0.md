@@ -12,9 +12,7 @@ This supplements, rather than replaces, existing handoff and development methodo
 
 ## Local archive and tools
 
-On the author's Windows computer, the tested working directory is:
-
-`J:\CHAT archive\full suite\Both extract\Work`
+On the author's Windows computer, the tested tools are in a specifically authorised working folder on the **Concord Archive Local Drive**. Its exact location is private local configuration and must not be published.
 
 It contains original network-capture JSON files and the established tools:
 
@@ -27,7 +25,7 @@ Read the tools' local instructions before execution. Do not modify working scrip
 
 1. **Developer formulates a specific historical question**, naming the domain, concept, suspected decision, alternative terminology, and desired evidence.
 2. **Transfer to local Work.** If the developer lacks direct archive access, the author copies the request into a ChatGPT Work conversation running on the local computer. This manual bridge is the currently tested workflow; automated inter-instance transfer has not been established.
-3. **Local Work retrieves relevant material** using the existing tools, examining full matching turns and surrounding context as necessary. It may expand searches to related terms and adjacent conversations.
+3. **Local Work retrieves relevant material** using the existing tools, examining full matching turns and surrounding context as necessary. It may expand searches to related terms and adjacent conversations **only within explicitly authorised folders and files**. Never enumerate, scan, index or recursively traverse the drive root, unrelated backups or other Concord materials. If the required location is outside the authorised scope, stop and request explicit scope.
 4. **Work returns a compact evidence report** with original transcript filenames, turn numbers, timestamps, key statements, and the status of each finding: exploratory proposal, explicit author instruction or decision, refinement, superseded position, reported implementation, or unresolved issue. Overlapping and branched captures must not be counted as independent confirmation.
 5. **The developer reconciles the evidence** against current operational repository files and applicable Concord methods before proposing or making edits.
 
