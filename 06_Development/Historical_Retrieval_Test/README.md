@@ -1,6 +1,6 @@
 # Concord Historical Retrieval — Operational Exchange
 
-**Operational baseline:** 4 November 2026, after HR-0012. This directory name is retained for compatibility with the existing independent publisher; it is not a repository for raw archive data or obsolete test runs.
+**Operational baseline:** 4 November 2026, after HR-0013. This directory name is retained for compatibility with the existing independent publisher; it is not a repository for raw archive data or obsolete test runs.
 
 ## Purpose and uses
 
@@ -16,7 +16,7 @@ The local conversation archive is part of Concord Historical. Evolve the bridge 
 4. A Windows Task Scheduler one-shot execution under the existing `X1\A` interactive, limited principal runs the publisher using the existing Python executable and Git Credential Manager context. The publisher performs a create-only GitHub write and exact read-back. It records the result in its local audit log.
 5. The developer independently checks the published response and reconciles its findings against current Concord operational architecture.
 
-**Proven:** HR-0011 completed retrieval, staging, local validation, standing-authority verification, one-shot scheduled publication under `X1\A`, and byte-for-byte GitHub read-back. Publisher reported `CREATED_AND_VERIFIED`; commit `8e6efaff3c39ce0e7fbcdb253bf176cb56782655`. HR-0011's one-shot task was disabled after completion. HR-0012 subsequently independently reproduced the one-shot workflow after bounded recovery (details below). **Not yet proven:** repeatable unattended end-to-end scheduling without a new one-shot setup; an automatically running recurring publisher; strong isolation of the authority file from the Work execution environment.
+**Proven:** HR-0011 completed retrieval, staging, local validation, standing-authority verification, one-shot scheduled publication under `X1\A`, and byte-for-byte GitHub read-back. Publisher reported `CREATED_AND_VERIFIED`; commit `8e6efaff3c39ce0e7fbcdb253bf176cb56782655`. HR-0011's one-shot task was disabled after completion. HR-0012 successfully reproduced the workflow as a successor after documented recovery. HR-0013 then succeeded in a fresh third instance without predecessor consultation or additional author intervention, using the documented approval process (details below). **Supervised cross-instance operational continuity for the Archive Steward role has been demonstrated.** This does not establish universal portability across execution environments. **Not yet proven:** repeatable unattended end-to-end scheduling without a new one-shot setup; an automatically running recurring publisher; strong isolation of the authority file from the Work execution environment.
 
 ## Standing publication authority
 
@@ -32,7 +32,7 @@ Never publish raw captures, whole transcripts, full turns, bulk extracts, assist
 
 ## Request contract
 
-Use monotonically increasing IDs; HR-0001–HR-0010 were retired as tests, and HR-0011 and HR-0012 have completed. **Next prospective ID: HR-0013**, subject to checking repository state before creation. One request per scheduled run; no automatic retries. Required request fields:
+Use monotonically increasing IDs; HR-0001–HR-0010 were retired as tests, and HR-0011–HR-0013 have completed. **Next prospective ID: HR-0014**, subject to checking repository state before creation. One request per scheduled run; no automatic retries. Required request fields:
 
 ```markdown
 # HR-NNNN — Brief question title
@@ -180,7 +180,9 @@ Stop on failures and diagnose at the smallest possible scope. A failed query is 
 - HR-0001–HR-0010 test chronology: `06_Development/Completed/Historical Retrieval Bridge — Test Record HR-0001 to HR-0010.md`. Historical test files remain in Git history.
 - HR-0011 request and published response are in this directory; publication commit: `8e6efaff3c39ce0e7fbcdb253bf176cb56782655`.
 - HR-0012 completed an independent successor-instance retrieval and verified one-shot publication. [Published response](https://github.com/ACBlainey/Concord-1.4a/blob/main/06_Development/Historical_Retrieval_Test/HR-0012-response.md); commit `6bb95d930f195eed7d929c0138c0229d7fc6898a`. Dry-run accepted 2,778 bytes; publisher audit `CREATED_AND_VERIFIED` at 2026-11-04 04:29:49 UTC; task result 0; independent 2,778-byte read-back matched exactly, SHA-256 `c8e3f3f79bfe4e6fd05b7ef20aebb202224f006cfd39eedd5e34df540ba8bd59`. Task disabled after completion. This demonstrates supervised recovery and a manually established one-shot workflow, not unattended recurrence.
-- HR-0013 is prospective only; check current repository state before use. Do not edit completed HR-0011/HR-0012 request or response files.
+- HR-0013 completed independently in a fresh third instance without predecessor consultation or additional author intervention. [Published response](HR-0013-response.md); publication commit `a3a1e1e96cc6b02c10edf7638c43eb10e0d08076`. Ten turns were retrieved within the authorised twenty-turn budget. Dry-run accepted 3,836 bytes; publisher audit `CREATED_AND_VERIFIED` at 2026-11-04 04:56:17 UTC; one-shot task result 0; independent 3,836-byte publication match, SHA-256 `0408dbfff2f26a86c6534c21e9220ca5b6ae3d199cc6cc437761b65e5871f2ce`. Task disabled after completion.
+- **Supervised cross-instance operational continuity for the Archive Steward role has been demonstrated.** The validation is closed; it does not establish fully unattended operation, hardened authority isolation, universal execution-environment portability or validation of other specialist roles. [Completed validation record](../Completed/Archive%20Steward%20Cross-Instance%20Operational%20Continuity%20%E2%80%94%20Validation%20Record%20001.md).
+- HR-0014 is prospective only; check current repository state before use. Do not edit completed HR-0011–HR-0013 request or response files.
 - Local publisher was recorded as having 17 passing offline tests, including standing-authority acceptance, denial and revocation-before-create checks. Offline tests do not replace live end-to-end verification.
 - Deferred: repeatable unattended scheduling under the proven principal, stronger switch isolation, per-operation bounded authority and provenance records, and a source-grounded mapping to Historical V0.4 / Schema Set 002 / Continuity V2.1. These are **not prerequisites for the already-proven one-shot workflow**.
 - Prior design records remain as development provenance. Where an older document requires approval for every response or says the standing switch is unimplemented, **this operational README reflects the later author decision and HR-0011 evidence**.
