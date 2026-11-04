@@ -6,18 +6,18 @@ This folder retains its established path for compatibility with the existing ind
 
 ## Purpose and authority
 
-A Concord development instance may submit a narrowly scoped historical evidence request here. Archive Steward, a separate local Work instance, may read the READY request and the private local chat archive, then stage a concise response in the approved persistent local outbox. **Archive Steward must not write to GitHub.** The independent local publisher is the only authorised response writer and only after a separate, explicit human publication approval. READY authorises retrieval, **not publication**. No authority transfers by participation or by completion of a scheduled task.
+A Concord development instance may submit a narrowly scoped historical evidence request here. Archive Steward, a separate local Work instance, may read the READY request and the private local chat archive, then stage a concise response in the approved persistent local outbox. **Archive Steward must not write to GitHub.** The independent local publisher is the only authorised response writer and only while a separately enforced, author-controlled standing publication switch is valid (not yet implemented). Until implemented, require explicit human approval for each publication. READY authorises retrieval, **not publication**. No authority transfers by participation or by completion of a scheduled task.
 
 ## Source and privacy boundary
 
-The original local archive and tools remain under `J:\CHAT archive\full suite\Both extract\Work`. Treat originals and scripts as read-only. Use existing retrieval tools without rebuilding indexes unless separately authorised. Never publish raw captures, complete conversations, full turns, bulk extracts, local indexes, assistant-operation transcripts, personal or confidential incidental content. Use only brief, necessary quotations and precise provenance. Overlapping branches are not independent corroboration. Report assistant claims of repository edits as claims unless independently verified.
+The original local archive and tools are held on the **Concord Archive Local Drive**. Exact drive letters and absolute local paths are private operational configuration and must not appear in GitHub. Treat originals and scripts as read-only. Access only the exact authorised archive subfolder or named files specified in the retrieval request. Never enumerate the drive root, discover folders across the drive, scan unrelated backups, recursively index the drive, or broaden source scope without explicit authorisation. Use existing retrieval tools without rebuilding indexes unless separately authorised. Never publish raw captures, complete conversations, full turns, bulk extracts, local indexes, assistant-operation transcripts, personal or confidential incidental content. Use only brief, necessary quotations and precise provenance. Overlapping branches are not independent corroboration. Report assistant claims of repository edits as claims unless independently verified.
 
 ## Request protocol
 
 - Create one new `HR-NNNN-request.md` per retrieval, increasing IDs monotonically. Only requests explicitly marked `Status: READY` are executable. One request per scheduled run; no automatic retries or recursive work.
 - Each request must state the question, bounded source scope, output length, allowed operations, privacy constraints, and expected local staging filename.
 - Archive Steward reads the request and relevant source material, but makes no GitHub changes. Use Python `-X utf8 -B` for local transcript reading and direct `Test-Path -LiteralPath` for staging checks. Do not edit originals, scripts, or global settings.
-- Stage only `HR-NNNN-response.md` in `C:\Users\A\Documents\Codex\Concord-Outbox`. If an existing response is present, stop rather than overwrite. If a run fails, report BLOCKED; issue a new ID for any retry.
+- Stage only `HR-NNNN-response.md` in the **approved local Concord Outbox** (absolute path kept outside GitHub). If an existing response is present, stop rather than overwrite. If a run fails, report BLOCKED; issue a new ID for any retry.
 
 ## Required response schema
 
