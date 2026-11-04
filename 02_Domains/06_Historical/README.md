@@ -555,3 +555,7 @@ The note identifies relational genetic privacy, future re-identification, deriva
 ## Outstanding ChatGPT archival development
 
 [ChatGPT Conversation Archival — Outstanding Development Tasks 001](ChatGPT%20Conversation%20Archival%20%E2%80%94%20Outstanding%20Development%20Tasks%20001.md) records **HIST-CHAT-001** (local Work conversation JSON export) and **HIST-CHAT-002** (reliable short-conversation capture). Both are **Outstanding — Future Development**; recording them authorises no investigation or implementation. They are separate from completed Archive Steward continuity validation.
+
+## Outstanding Concord archive infrastructure development
+
+[Concord Archive Infrastructure — Known-Good Reference and Migration Tasks 001](Concord%20Archive%20Infrastructure%20%E2%80%94%20Known-Good%20Reference%20and%20Migration%20Tasks%20001.md) records **HIST-INFRA-001** (future migration to a dedicated Concord computer) and **HIST-INFRA-002** (inventory of the current working software, hardware and dependencies). Both are **Outstanding — Future Development**. The current PC, dedicated 4 TB archive drive and supervised Archive Steward workflow are a **Known-Good Reference Environment**, not a permanent infrastructure specification. Preserve, reproduce and verify the existing capability before streamlining or replacing it. Recording these tasks does not authorise system changes or migration.
