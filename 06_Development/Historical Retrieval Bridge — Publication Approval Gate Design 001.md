@@ -1,3 +1,5 @@
+> **Historical design record — superseded for current publication operations.** This 3 November proposal required individual approval manifests. On 4 November the author instead chose a standing on/off authority file, implemented and live-tested in HR-0011. Do not follow this document as an active publication runbook. Current procedure: `06_Development/Historical_Retrieval_Test/README.md`. Its stronger per-operation controls remain future design ideas for Historical alignment.
+
 # Historical Retrieval Bridge — Publication Approval Gate Design 001
 
 **Status:** Design for review; not implemented. 2026-11-03.
