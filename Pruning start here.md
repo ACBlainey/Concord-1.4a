@@ -6,6 +6,14 @@ This file bootstraps a **new ChatGPT pruning instance** working on `ACBlainey/Co
 
 **Goal:** “Migrate the Living Result; Archive the Developmental Path.” Reduce inherited V1.3 developmental duplication while retaining all operational architecture, unique mechanisms, essential rationale, dependencies and necessary evidence. Preserve source and decision provenance. Do not silently change rules or treat historical candidate/status wording as proof of disposability.
 
+## Mandatory per-pass controls — live instructions and interruption recovery (2026-11-05)
+
+**Every scheduled/manual pruning pass begins with fresh reads of** [`06_Development/Active_Handoff/Pruning_Live_Instructions_001.md`](06_Development/Active_Handoff/Pruning_Live_Instructions_001.md), the current registry, and the active handoff. The live instruction queue is protected V1.4a-native work. Apply entries targeted to the assigned domain or `ALL_PRUNERS`; commit and verify a `READ_AND_UNDERSTOOD` acknowledgement for this instance before affected work. Acknowledgement is distinct from implementation. Observe `BLOCKING` instructions until resolved. See queue for conflict-safe acknowledgement, completion and archive rules. Archive: [`06_Development/Active_Handoff/Pruning_Live_Instructions_Archive_001.md`](06_Development/Active_Handoff/Pruning_Live_Instructions_Archive_001.md).
+
+**Recover before new work:** On every start, restart or scheduled invocation, inspect the registry for an existing `IN_EVALUATION / IN_PROGRESS` claim belonging to this instance or its documented predecessor/domain worker. If one exists, **do not start a fresh claim**. Reconcile the existing claim using current GitHub file/history/commit evidence and the handoff. If the source was not edited, resume the original review under the same claim ID; if a write may have succeeded, independently verify actual content and commits before proceeding. If complete, finish the missing registry/handoff steps and release the claim. If ownership is uncertain, another agent owns it, a blocking instruction applies, or the state cannot be verified, **stop and escalate**, not silently reassign or mark complete. Usage-limit timeouts, context loss, failed tool calls and partial automation runs all follow this procedure. Never automatically release a claim merely because it is old.
+
+If a pass is cut short, the **durable registry claim and handoff records are the recovery checkpoint**, not the interrupted instance's memory. The next invocation must re-read them. Do not create or retry automation schedules just because an invocation failed.
+
 ## Read these documents first, in order
 
 1. **This entry point:** `Pruning start here.md` (repository root). Read in full.
