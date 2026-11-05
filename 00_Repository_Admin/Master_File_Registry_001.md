@@ -12,6 +12,8 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 **Current counts (verified 2026-11-05):** 1,617 live files; 52 KEEP; 1,565 UNREVIEWED; 121 source-absent REMOVED tombstones (including seven author-presumed pre-handoff pruning removals, not individually attributed). This file itself is included. The registry should be kept current with every pruning review.
 
+**Concurrent-write rule:** This registry is shared by multiple domain agents. Every claim, completion and count refresh must use a freshly fetched blob SHA; on HTTP 409/SHA conflict, re-fetch, verify the exact full-path row and its owner, and reapply only the intended row change. Never replay a stale full-file snapshot or overwrite another claim. Re-read successful writes. Summary counts are derived from live rows, including active `IN_EVALUATION` claims, and must be recalculated after concurrent changes. For full steps, see `06_Development/Active_Handoff/Reverse_Pruning_Review_001.md` → **Shared registry concurrency and write-conflict procedure — 2026-11-05**.
+
 | File | Status | Migration | Agent / claim | Evidence / notes |
 |---|---|---|---|---|
 
