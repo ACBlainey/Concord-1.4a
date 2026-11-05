@@ -1165,8 +1165,8 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Authority_Commit_Revocation_Race_Source_Resolution_102.md` | KEEP | COMPLETED | — | Handoff line 304 — retention; check source record for scope |
 | `Bounded_Voting_Context_Portable_Module_Candidate_015.md` | UNREVIEWED | PENDING | — | Live Git blob c92f08b25e7a; no final review disposition matched |
 | `Bounded_Voting_Context_Portable_Module_Candidate_016.md` | UNREVIEWED | PENDING | — | Live Git blob 9b2c40fde3ff; no final review disposition matched |
-| `Cause_Specific_Abstention_and_Vertex_Substitution_023.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 144063dd8071; exact deletion/migration commit and pruning rationale still to verify |
-| `Chapter 132 — GTP Mesh and Authority Separation Patch 006.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 9c43bb32af5f; exact deletion/migration commit and pruning rationale still to verify |
+| `Cause_Specific_Abstention_and_Vertex_Substitution_023.md` | REMOVED | COMPLETED | — | Deletion commit `5a5ba9d5` independently verified; Absent from live V1.4a, V1.3 original blob 144063dd8071; exact deletion/migration commit and pruning rationale still to verify |
+| `Chapter 132 — GTP Mesh and Authority Separation Patch 006.md` | REMOVED | COMPLETED | — | Deletion commit `3290722a` independently verified; Absent from live V1.4a, V1.3 original blob 9c43bb32af5f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_100_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 9325ff562e0f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_100_Parallel_Stewardship_and_Authorised_Substitution_Interface_001.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob afce49953d02; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_12_Expanded_Triads_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob df14139b81b7; exact deletion/migration commit and pruning rationale still to verify |
@@ -1196,7 +1196,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Chapter_132_GTP_Reconciled_Candidate_014.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 0485f3396a0f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_132_Sections_132_1_to_132_5_Integration_003.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob fe282133f396; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_149_Governance_and_Decentralisation_V21_Interface_001.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 356c5cf4561e; exact deletion/migration commit and pruning rationale still to verify |
-| `Chapter_149_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 4681ef8c2ba9; exact deletion/migration commit and pruning rationale still to verify |
+| `Chapter_149_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Deletion commit `526ee48d` independently verified; Absent from live V1.4a, V1.3 original blob 4681ef8c2ba9; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_150_Governance_and_Central_Coordination_V21_Interface_001.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 86d60a20532f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_150_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob b47fa9b0066f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_151_Governance_and_Federation_V21_Interface_001.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob cea1a485ea79; exact deletion/migration commit and pruning rationale still to verify |
@@ -1236,44 +1236,44 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `G05_Chapter_12_132_Candidate_Alignment_Review_015.md` | UNREVIEWED | PENDING | — | Live Git blob cb3429967888; no final review disposition matched |
 | `G05_Constitutional_Emergency_GTP_Mesh_and_Civilisational_Clock_Crosswalk_058.md` | UNREVIEWED | PENDING | — | Live Git blob 1b164cfcef3f; no final review disposition matched |
 | `G05_Constitutional_Emergency_V2_and_Governance_Interface_Recovery_057.md` | KEEP | COMPLETED | — | Handoff line 427 — retention; check source record for scope |
-| `G05_Existing_State_Machine_BTA_Clock_Emergency_Interface_060.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 87097fed9f9b; exact deletion/migration commit and pruning rationale still to verify |
-| `G05_KCS_Dependency_Propagation_and_BTA_Emergency_Interface_063.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob d23d5b6a9e3a; exact deletion/migration commit and pruning rationale still to verify |
-| `G05_Variable_Civilisational_Clock_and_Independent_Emergency_Operational_Time_059.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 0f9606971b8f; exact deletion/migration commit and pruning rationale still to verify |
+| `G05_Existing_State_Machine_BTA_Clock_Emergency_Interface_060.md` | REMOVED | COMPLETED | — | Deletion commit `62d9e889` independently verified; Absent from live V1.4a, V1.3 original blob 87097fed9f9b; exact deletion/migration commit and pruning rationale still to verify |
+| `G05_KCS_Dependency_Propagation_and_BTA_Emergency_Interface_063.md` | REMOVED | COMPLETED | — | Deletion commit `1943f597` independently verified; Absent from live V1.4a, V1.3 original blob d23d5b6a9e3a; exact deletion/migration commit and pruning rationale still to verify |
+| `G05_Variable_Civilisational_Clock_and_Independent_Emergency_Operational_Time_059.md` | REMOVED | COMPLETED | — | Deletion commit `880d0195` independently verified; Absent from live V1.4a, V1.3 original blob 0f9606971b8f; exact deletion/migration commit and pruning rationale still to verify |
 | `Glass_Hammer_Architecture_Consolidation_and_Analogy_Boundary_121.md` | UNREVIEWED | PENDING | — | Live Git blob 221c9754d584; no final review disposition matched |
-| `Glass_Hammer_Atomic_Contextual_Acceptance_112.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob c1d3f2ac181b; exact deletion/migration commit and pruning rationale still to verify |
-| `Glass_Hammer_CIBB_Owner_Checked_Projection_118.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 0b08b3242132; exact deletion/migration commit and pruning rationale still to verify |
+| `Glass_Hammer_Atomic_Contextual_Acceptance_112.md` | REMOVED | COMPLETED | — | Deletion commit `2cabf15b` independently verified; Absent from live V1.4a, V1.3 original blob c1d3f2ac181b; exact deletion/migration commit and pruning rationale still to verify |
+| `Glass_Hammer_CIBB_Owner_Checked_Projection_118.md` | REMOVED | COMPLETED | — | Deletion commit `0cd101be` independently verified; Absent from live V1.4a, V1.3 original blob 0b08b3242132; exact deletion/migration commit and pruning rationale still to verify |
 | `Glass_Hammer_Concern_Review_Existing_Domain_Integration_116.md` | KEEP | COMPLETED | — | Handoff line 463 — retention; check source record for scope |
 | `Glass_Hammer_Conference_Expanded_Triad_Interface_123.md` | UNREVIEWED | PENDING | — | Live Git blob 45909dc49a2c; no final review disposition matched |
 | `Glass_Hammer_Context_Evidence_Gate_111.md` | KEEP | COMPLETED | — | Handoff line 452 — retention; check source record for scope |
 | `Glass_Hammer_Contextual_Early_Acceptance_110.md` | KEEP | COMPLETED | — | Handoff line 481 — retention; check source record for scope |
-| `Glass_Hammer_Contextual_Wrapper_Information_Isolation_117.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 6e3bcffe3082; exact deletion/migration commit and pruning rationale still to verify |
+| `Glass_Hammer_Contextual_Wrapper_Information_Isolation_117.md` | REMOVED | COMPLETED | — | Deletion commit `3e75a172` independently verified; Absent from live V1.4a, V1.3 original blob 6e3bcffe3082; exact deletion/migration commit and pruning rationale still to verify |
 | `Glass_Hammer_Default_Isolation_and_Contextual_Conference_Authorial_Resolution_122.md` | UNREVIEWED | PENDING | — | Live Git blob 078d9e33cdf1; no final review disposition matched |
 | `Glass_Hammer_Existing_Owner_Emergency_Source_Reconciliation_114.md` | UNREVIEWED | PENDING | — | Live Git blob ae1851b865ca; no final review disposition matched |
 | `Glass_Hammer_Extended_Visualisation_107.md` | UNREVIEWED | PENDING | — | Live Git blob 8310b811e4fc; no final review disposition matched |
 | `Glass_Hammer_Immutable_Vote_Concern_and_Independent_Review_115.md` | UNREVIEWED | PENDING | — | Live Git blob dd00db06dc8c; no final review disposition matched |
-| `Glass_Hammer_Instantaneous_Authority_Correction_103.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob cd9d28c638cb; exact deletion/migration commit and pruning rationale still to verify |
+| `Glass_Hammer_Instantaneous_Authority_Correction_103.md` | REMOVED | COMPLETED | — | Deletion commit `ae0c8491` independently verified; Absent from live V1.4a, V1.3 original blob cd9d28c638cb; exact deletion/migration commit and pruning rationale still to verify |
 | `Glass_Hammer_Operational_Cross_Boundary_109.md` | KEEP | COMPLETED | — | Handoff line 479 — retention; check source record for scope |
 | `Glass_Hammer_Owner_Transition_Integration_Plan_113.md` | KEEP | COMPLETED | — | Handoff line 483 — retention; check source record for scope |
-| `Glass_Hammer_Seventh_Digit_Anonymous_Commit_Count_119.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob c07f18981504; exact deletion/migration commit and pruning rationale still to verify |
+| `Glass_Hammer_Seventh_Digit_Anonymous_Commit_Count_119.md` | REMOVED | COMPLETED | — | Deletion commit `b5beb429` independently verified; Absent from live V1.4a, V1.3 original blob c07f18981504; exact deletion/migration commit and pruning rationale still to verify |
 | `Glass_Hammer_Seventh_Digit_Operational_Fixture_120.md` | KEEP | COMPLETED | — | Handoff line 472 — retention; check source record for scope |
 | `Glass_Hammer_State_Consumption_Clarification_104.md` | KEEP | COMPLETED | — | Handoff line 512 — retention; check source record for scope |
 | `Glass_Hammer_V12_Primary_Source_Recovery_105.md` | UNREVIEWED | PENDING | — | Live Git blob 225f84e1ac9e; no final review disposition matched |
 | `Glass_Hammer_V12a_Crosscheck_106.md` | UNREVIEWED | PENDING | — | Live Git blob 53ec05339cfc; no final review disposition matched |
-| `Governance_Decision_Validity_Interface_Reconciliation_045.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 1bcfb6b0ec76; exact deletion/migration commit and pruning rationale still to verify |
+| `Governance_Decision_Validity_Interface_Reconciliation_045.md` | REMOVED | COMPLETED | — | Deletion commit `041f6b72` independently verified; Absent from live V1.4a, V1.3 original blob 1bcfb6b0ec76; exact deletion/migration commit and pruning rationale still to verify |
 | `GTP_Node_Centred_Ring_Enumeration_Provisional_Revision_041.md` | KEEP | COMPLETED | — | Handoff line 499 — retention; check source record for scope |
 | `GTP_Node_Ring_Enumeration_Proposed_Implementation_037.md` | KEEP | COMPLETED | — | Handoff line 503 — retention; check source record for scope |
 | `GTP_Node_Ring_Origin_Neutrality_Test_Design_039.md` | KEEP | COMPLETED | — | Handoff line 501 — retention; check source record for scope |
 | `GTP_Node_Terminology_Authorial_Standardisation_035.md` | KEEP | COMPLETED | — | Handoff line 492 — retention; check source record for scope |
 | `GTP_Six_Steward_Vertex_Mapping_Constraints_019.md` | UNREVIEWED | PENDING | — | Live Git blob 9f247a5949af; no final review disposition matched |
 | `GTP_Vertex_Adjacent_Random_Substitute_Authorial_Mechanism_022.md` | UNREVIEWED | PENDING | — | Live Git blob b56a327e9377; no final review disposition matched |
-| `GTP_Vertex_Representation_Authorial_Clarification_020.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob b3b1da7d3803; exact deletion/migration commit and pruning rationale still to verify |
+| `GTP_Vertex_Representation_Authorial_Clarification_020.md` | REMOVED | COMPLETED | — | Deletion commit `2d588d7a` independently verified; Absent from live V1.4a, V1.3 original blob b3b1da7d3803; exact deletion/migration commit and pruning rationale still to verify |
 | `Migration_Aware_Source_Authority_and_Architecture_Recovery_Rule_056.md` | KEEP | COMPLETED | — | Handoff line 537 — retention; check source record for scope |
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 9932000255ef; no final review disposition matched |
 | `Single_Position_Vote_Bounded_Authority_Clarification_013.md` | UNREVIEWED | PENDING | — | Live Git blob b9a13457e175; no final review disposition matched |
 | `Triadic_Decision_Authority_Conservation_Portable_Module_Candidate_007.md` | KEEP | COMPLETED | — | Handoff line 359 — retention; check source record for scope |
 | `Triadic_Module_V11_Source_Comparison_Minimal_Amendment_008.md` | KEEP | COMPLETED | — | Handoff line 359 — retention; check source record for scope |
 | `Vertex_Adjacent_Substitute_Selection_Operational_Candidate_027.md` | UNREVIEWED | PENDING | — | Live Git blob 0537ce97bac0; no final review disposition matched |
-| `Vertex_Substitute_First_Ring_Default_and_Exceptional_Second_Ring_029.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 33c6d38e481a; exact deletion/migration commit and pruning rationale still to verify |
+| `Vertex_Substitute_First_Ring_Default_and_Exceptional_Second_Ring_029.md` | REMOVED | COMPLETED | — | Deletion commit `96f504a9` independently verified; Absent from live V1.4a, V1.3 original blob 33c6d38e481a; exact deletion/migration commit and pruning rationale still to verify |
 | `Voting_as_Abstract_Contextual_Wrapper_Cross_Module_Review_014.md` | UNREVIEWED | PENDING | — | Live Git blob 41feb2bf01ce; no final review disposition matched |
 
 ### `02_Domains/04_Governance/V2.1/Flagged Issues 2`
