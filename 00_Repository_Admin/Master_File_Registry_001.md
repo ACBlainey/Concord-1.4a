@@ -1655,7 +1655,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob dcdd278439e1; no final review disposition matched |
 
 ### `02_Domains/06_Economy_and_Value_Coordination/07_Economic_Rights_Protections_and_Contestability`
-| `README.md` | UNREVIEWED | PENDING | — | Live Git blob b13df8d55f56; no final review disposition matched |
+| `README.md` | IN_EVALUATION | IN_PROGRESS | ECON-20261105-120956 | repository ACBlainey/Concord-1.4a; path `02_Domains/06_Economy_and_Value_Coordination/07_Economic_Rights_Protections_and_Contestability/README.md`; domain `02_Domains/06_Economy_and_Value_Coordination`; agent Codex; UTC 2026-11-05T12:09:56Z; exclusive economic-protection boundary review. |
 
 ### `02_Domains/06_Historical`
 | `00 — The Humanity Machine — A Note at the Door of Historical.md` | UNREVIEWED | PENDING | — | Live Git blob f3a135c11a23; no final review disposition matched |
