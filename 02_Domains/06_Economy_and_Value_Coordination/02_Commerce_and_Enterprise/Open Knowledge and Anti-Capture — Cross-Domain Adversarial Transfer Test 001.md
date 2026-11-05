@@ -2,7 +2,6 @@
 
 **Project:** The Concord
 **Date:** 4 October 2026
-**Status:** DEVELOPMENT TEST / NON-CANONICAL
 **Candidate:** Open Knowledge, Functional Qualification and Anti-Capture Commerce Architecture 001
 **Source case:** Pharmaceuticals
 **Test domains:** vehicle/equipment repair; software interoperability; energy equipment; food production; construction systems; communications infrastructure
@@ -17,15 +16,13 @@ A transfer passes only if it can distinguish legitimate functional restriction f
 
 A manufacturer withholds diagnostic codes, interface specifications, service procedures and component-pairing information so only its authorised network can repair a product.
 
-The candidate successfully separates ownership/use, diagnostic information, repair knowledge, technician competence, safety-critical calibration, replacement-part conformity, warranty/contract and IP.
+Distinguish ownership/use, diagnostic information, repair knowledge, technician competence, safety-critical calibration, replacement-part conformity, warranty/contract and IP.
 
 Safety-critical repairs may require competence and output conformity without requiring manufacturer exclusivity.
 
 > **Safety-Critical Repair != Manufacturer-Exclusive Repair**
 
 Authentication keys, anti-theft secrets and security controls may justify bounded access. They do not justify withholding ordinary repair information.
-
-**Result: PASS WITH BOUNDED SECURITY EXCEPTION**
 
 ## 3. Software interoperability
 
@@ -35,11 +32,7 @@ The architecture supports access to the interface boundary needed for legitimate
 
 > **Interface Knowledge != Source-Code Ownership**
 
-A useful refinement follows:
-
 > **Interoperability Requirement Should Target The Boundary Needed For Interaction, Not Automatically The Whole Implementation**
-
-**Result: PASS**
 
 ## 4. Energy equipment
 
@@ -51,8 +44,6 @@ Civil dependency and continuity support durable access to maintenance specificat
 
 Operational credentials, live topology and security configuration may remain controlled.
 
-**Result: PASS WITH SECURITY/INFRASTRUCTURE WRAPPER**
-
 ## 5. Food production — limiting case
 
 A producer develops a popular food recipe/process and seeks to keep it private. Other producers can supply safe, nutritionally/microbiologically equivalent substitutes.
@@ -62,8 +53,6 @@ Food safety, allergen disclosure and contamination controls are legitimate. But 
 Where interoperability is unnecessary, civil dependency is low, substitutes exist, and no civil-funding condition required openness, private commercial knowledge may remain private.
 
 > **Commercial Value Alone Does Not Create A Duty To Disclose; Exclusion Risk, Civil Dependency, Funding Basis, Interoperability And Functional Necessity Matter**
-
-**Result: PARTIAL PASS / IMPORTANT LIMIT**
 
 The candidate must not become a universal abolition of trade secrecy.
 
@@ -77,8 +66,6 @@ Long-lived consequential products support durable access to structural/performan
 
 Unrelated aesthetic or private design information need not become open where it is unnecessary for safety, maintenance, interoperability, replacement or continuity.
 
-**Result: PASS**
-
 ## 7. Communications infrastructure
 
 An infrastructure provider controls essential network interfaces and device approval.
@@ -91,11 +78,9 @@ Independent conformity testing can replace incumbent permission where it protect
 
 Security-sensitive operational material may remain controlled.
 
-**Result: PASS WITH SECURITY EXCEPTION**
-
 ## 8. Strongly transferable kernel
 
-Across all tests the following survive:
+Preserve these distinctions:
 
 1. distinguish knowledge, competence, safety, authority, output conformity, commercial obligations and IP;
 2. keep licences/approvals bounded to legitimate purpose;
@@ -107,16 +92,6 @@ Across all tests the following survive:
 8. required standards should not be unnecessarily proprietary;
 9. enterprise failure should not automatically destroy essential civil capability;
 10. restrictions require function-specific justification.
-
-## 9. Important limits
-
-The tests reject overbroad interpretations:
-- not all commercially valuable knowledge must be public;
-- not all source code must be open to require interoperability;
-- security secrets need not be public to support repair;
-- private recipes/processes do not automatically create a civil disclosure duty;
-- essential-system openness does not imply public release of live security information;
-- right to repair does not waive competence.
 
 ## 10. Three knowledge states
 
@@ -171,19 +146,15 @@ An apparent multi-gate system may still be captured if one incumbent writes the 
 
 The topology of authority therefore matters as much as the labels.
 
-## 14. Verdict
+## 14. Bounded transfer principle
 
-**TRANSFER RESULT: PASS WITH REFINEMENT**
-
-The architecture is not pharmaceutical-specific, but the transferable kernel is narrower than universal open knowledge:
+The transferable kernel is narrower than universal open knowledge:
 
 > **Open Where Legitimately Required; Bounded-Access Where Functionally Necessary But Sensitive; Private Where No Independent Access Duty Exists**
 
-## 15. PMEDG status
+## 15. Portable-extraction prerequisites
 
-**PMEDG CANDIDATE — DO NOT EXTRACT YET**
-
-Before portable extraction:
+Do not extract yet. Before portable extraction:
 - integrate the three-state knowledge model;
 - integrate dependency/substitutability;
 - integrate independent-gate topology;
