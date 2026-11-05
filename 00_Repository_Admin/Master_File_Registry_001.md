@@ -1272,7 +1272,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `GTP_Node_Ring_Origin_Neutrality_Test_Design_039.md` | KEEP | COMPLETED | — | Handoff line 501 — retention; check source record for scope |
 | `GTP_Node_Terminology_Authorial_Standardisation_035.md` | KEEP | COMPLETED | — | Handoff line 492 — retention; check source record for scope |
 | `GTP_Six_Steward_Vertex_Mapping_Constraints_019.md` | UNREVIEWED | PENDING | — | Live Git blob 9f247a5949af; no final review disposition matched |
-| `GTP_Vertex_Adjacent_Random_Substitute_Authorial_Mechanism_022.md` | UNREVIEWED | PENDING | — | Live Git blob b56a327e9377; no final review disposition matched |
+| `GTP_Vertex_Adjacent_Random_Substitute_Authorial_Mechanism_022.md` | IN_EVALUATION | IN_PROGRESS | Codex-GOV-WM-20261105T111855Z; GOV-WM-022 | repository ACBlainey/Concord-1.4a; path `02_Domains/04_Governance/V2.1/Completed/GTP_Vertex_Adjacent_Random_Substitute_Authorial_Mechanism_022.md`; domain `02_Domains/04_Governance`; UTC 2026-11-05T11:23:00Z; full inherited-source, destination, rationale and dependency review. |
 | `GTP_Vertex_Representation_Authorial_Clarification_020.md` | REMOVED | COMPLETED | — | Deletion commit `2d588d7a` independently verified; Absent from live V1.4a, V1.3 original blob b3b1da7d3803; exact deletion/migration commit and pruning rationale still to verify |
 | `Migration_Aware_Source_Authority_and_Architecture_Recovery_Rule_056.md` | KEEP | COMPLETED | — | Handoff line 537 — retention; check source record for scope |
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 9932000255ef; no final review disposition matched |
