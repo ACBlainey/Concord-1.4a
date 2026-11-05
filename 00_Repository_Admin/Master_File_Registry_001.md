@@ -1164,7 +1164,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 ### `02_Domains/04_Governance/V2.1/Completed`
 | `Authority_Commit_Revocation_Race_Source_Resolution_102.md` | KEEP | COMPLETED | — | Handoff line 304 — retention; check source record for scope |
 | `Bounded_Voting_Context_Portable_Module_Candidate_015.md` | UNREVIEWED | PENDING | — | Live Git blob c92f08b25e7a; no final review disposition matched |
-| `Bounded_Voting_Context_Portable_Module_Candidate_016.md` | UNREVIEWED | PENDING | — | Live Git blob 9b2c40fde3ff; no final review disposition matched |
+| `Bounded_Voting_Context_Portable_Module_Candidate_016.md` | IN_EVALUATION | IN_PROGRESS | Codex-Governance-test-20261105T044856Z; Governance; 2026-11-05 04:48:56 UTC | repository: ACBlainey/Concord-1.4a; path: 02_Domains/04_Governance/V2.1/Completed/Bounded_Voting_Context_Portable_Module_Candidate_016.md; scope: one-file source/destination survival evaluation; user explicitly assigned Governance; exclusive claim |
 | `Cause_Specific_Abstention_and_Vertex_Substitution_023.md` | REMOVED | COMPLETED | — | Deletion commit `5a5ba9d5` independently verified; Absent from live V1.4a, V1.3 original blob 144063dd8071; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter 132 — GTP Mesh and Authority Separation Patch 006.md` | REMOVED | COMPLETED | — | Deletion commit `3290722a` independently verified; Absent from live V1.4a, V1.3 original blob 9c43bb32af5f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_100_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 9325ff562e0f; exact deletion/migration commit and pruning rationale still to verify |
