@@ -3,7 +3,6 @@
 **Author:** Alexander C. Blainey — Independent Researcher  
 **Project:** The Concord Framework  
 **Framework Version:** Concord V1.3  
-**Status:** ACTIVE DEVELOPMENT / CASE TEST / NON-CANONICAL  
 **Date:** September 2026
 
 ---
@@ -32,8 +31,6 @@ A washing machine suffers a failed pump while motor, drum, electronics and struc
 Correct route:
 **repair**, not recycling.
 
-**Result: PASS.**
-
 The hierarchy prevents premature destruction of higher-order value.
 
 ---
@@ -50,8 +47,6 @@ Possible routes:
 
 Data-bearing storage requires separate treatment.
 
-**Result: PASS.**
-
 Important:
 **functional obsolescence to one user != material obsolescence.**
 
@@ -66,15 +61,11 @@ Several components test within specification.
 Route:
 **component harvest → testing/grading → parts market/remanufacturing.**
 
-**Result: PASS.**
-
 ---
 
 # 5. Case D — Mixed-material product impossible to separate
 
 Theoretical material value exists, but adhesives/composites make recovery uneconomic.
-
-**Result: FAILURE DETECTED UPSTREAM.**
 
 The recovery system cannot fix a product whose recoverability was destroyed at design/manufacture.
 
@@ -94,8 +85,6 @@ Recovery capacity is expanded before peak return.
 
 Some batteries enter second-life use; others material recovery.
 
-**Result: PASS IN PRINCIPLE.**
-
 Requires reliable service-life/yield models.
 
 ---
@@ -110,8 +99,6 @@ Other enterprises can acquire machinery/components.
 
 Remaining materials enter recovery.
 
-**Result: STRONG PASS.**
-
 Enterprise retirement becomes a resource forecast rather than a sudden liquidation/waste event.
 
 ---
@@ -124,8 +111,6 @@ Equipment and materials arrive unexpectedly.
 
 Recovery system can still process them but forecasting/capacity is weaker.
 
-**Result: PARTIAL PASS.**
-
 Shows value of planned retirement.
 
 ---
@@ -134,7 +119,7 @@ Shows value of planned retirement.
 
 Resource planners want exact locations and owners of every device to improve forecasts.
 
-**Result: REJECTED.**
+Universal private-possession tracking is rejected as a basis for this forecast.
 
 Product-class/manufacturing/aggregate recovery data can usually forecast flows without universal tracking.
 
@@ -151,8 +136,6 @@ Immediate market would discard/export it.
 Possible route:
 bounded strategic retention, subject to storage cost and review.
 
-**Result: OPEN BUT REPRESENTABLE.**
-
 Requires later value/strategic-resource architecture.
 
 ---
@@ -160,8 +143,6 @@ Requires later value/strategic-resource architecture.
 # 11. Case J — recovered material forecast counted as current supply
 
 Planning model assumes 10,000 tonnes expected over ten years is available for next year's factory.
-
-**Result: MODEL FAILURE DETECTED.**
 
 Future supply must preserve time distribution and uncertainty.
 
@@ -173,8 +154,6 @@ Future supply must preserve time distribution and uncertainty.
 
 Product contains recoverable material but no viable facility exists.
 
-**Result: FAILURE DETECTED.**
-
 Resource model must include recovery-capacity dependencies.
 
 > **Theoretically Recoverable != Operationally Recoverable.**
@@ -184,8 +163,6 @@ Resource model must include recovery-capacity dependencies.
 # 13. Case L — recycling destroys reusable component
 
 Automated plant shreds a working motor because material recovery is easy.
-
-**Result: ROUTING FAILURE.**
 
 Recovery hierarchy must assess higher-order reuse before destructive processing.
 
@@ -197,7 +174,7 @@ Product contains valuable materials but unsafe contamination.
 
 Resource recovery route would expose workers/environment.
 
-**Result: HAZARD OVERRIDES ORDINARY VALUE HIERARCHY.**
+Hazard overrides the ordinary value hierarchy.
 
 Specialist treatment required.
 
@@ -209,8 +186,6 @@ Manufacturer ends remote service; physical product remains functional.
 
 Recovery system receives large premature retirement flow.
 
-**Result: UPSTREAM DESIGN/GOVERNANCE FAILURE DETECTED.**
-
 Product lifecycle architecture needs further development around software-dependent physical products.
 
 ---
@@ -221,8 +196,6 @@ Component is functional but used.
 
 Seller presents it as new.
 
-**Result: COMMERCE/PROVENANCE FAILURE.**
-
 Recovered component markets require honest grading/provenance.
 
 ---
@@ -230,8 +203,6 @@ Recovered component markets require honest grading/provenance.
 # 17. Case P — component reuse has greater value than recycling
 
 Recovered industrial controller contains scarce metals, but another machine needs the exact controller.
-
-**Result: PASS.**
 
 Routing preserves functional value before material value.
 
@@ -245,8 +216,6 @@ Material-flow forecast can anticipate release.
 
 But Infrastructure/Environment/Law determine legitimate decommissioning.
 
-**Result: PASS WITH CROSS-DOMAIN DEPENDENCY.**
-
 ---
 
 # 19. Case R — stockpiling everything
@@ -254,8 +223,6 @@ But Infrastructure/Environment/Law determine legitimate decommissioning.
 Resource Stewardship retains every low-value component because it might someday be useful.
 
 Storage/management cost becomes excessive.
-
-**Result: FAILURE DETECTED.**
 
 > **Recovery Stewardship Includes Knowing When Not to Preserve.**
 
@@ -268,7 +235,7 @@ This strengthens the existing rule:
 
 A low-value material requires extreme transport/energy to recover.
 
-**Result: REQUIRES WHOLE-ROUTE ASSESSMENT.**
+The route requires whole-route resource-cost assessment.
 
 “Recyclable” alone does not establish that a particular recovery route is good stewardship.
 
@@ -282,32 +249,12 @@ Next product generation replaces bonding with separable fastening.
 
 Recovery yield rises.
 
-**Result: STRONG PASS.**
-
 This validates:
 **Product Retirement Can Teach Product Creation.**
 
 ---
 
-# 22. New findings
-
-The test exposes several refinements:
-
-1. **Some Waste Is Designed Years Before It Is Discarded.**
-2. **Future Recoverability != Present Availability.**
-3. **Theoretically Recoverable != Operationally Recoverable.**
-4. **Better Forecasting Does Not Automatically Justify Better Surveillance.**
-5. **Recovery Stewardship Includes Knowing When Not to Preserve.**
-6. Recovery decisions need whole-route resource cost, not a simplistic “recyclable/not recyclable” label.
-7. Software-dependent physical products remain a significant undeveloped interface.
-
----
-
-# 23. Overall result
-
-The lifecycle architecture survives the initial cross-case test.
-
-Its strongest topology is:
+# 22. Resource-loop topology
 
 **Design for Recovery**
 → **Use/Maintain**
