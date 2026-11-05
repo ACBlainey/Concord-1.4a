@@ -10,7 +10,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 **Backfill evidence standard:** Exact or uniquely resolved handoff filename references with explicit RETAIN/preservation or completed source review are marked KEEP. Other live entries remain UNREVIEWED, even if mentioned without a completed decision. Historical source-absent paths are marked REMOVED. The author-approved working count is **121 presumed/recorded pruning removals**, comprising 114 previously reported plus seven presumed earlier removals; individual commit/rationale verification is incomplete and not required to resume normal pruning. All historical tombstones remain available for the final architectural survival audit. Future removals require a full path, successful claim, verified deletion commit and registry update.
 
-**Current counts (verified 2026-11-05):** 1,617 live files; 49 KEEP; 1,568 UNREVIEWED; 121 source-absent REMOVED tombstones (including seven author-presumed pre-handoff pruning removals, not individually attributed). This file itself is included. The registry should be kept current with every pruning review.
+**Current counts (verified 2026-11-05):** 1,617 live files; 50 KEEP; 1,567 UNREVIEWED; 121 source-absent REMOVED tombstones (including seven author-presumed pre-handoff pruning removals, not individually attributed). This file itself is included. The registry should be kept current with every pruning review.
 
 | File | Status | Migration | Agent / claim | Evidence / notes |
 |---|---|---|---|---|
