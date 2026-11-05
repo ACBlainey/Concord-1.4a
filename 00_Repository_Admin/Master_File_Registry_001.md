@@ -1499,7 +1499,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `V2_to_V2_1_Source_Preservation_Audit_009.md` | UNREVIEWED | PENDING | — | Live Git blob 477659972729; no final review disposition matched |
 | `V2_to_V2_1_Source_Preservation_Audit_010.md` | UNREVIEWED | PENDING | — | Live Git blob 6d65fcf50841; no final review disposition matched |
 | `Vertex_Substitute_Second_Ring_Regression_Addendum_030.md` | UNREVIEWED | PENDING | — | Live Git blob 3c5da4cb1869; no final review disposition matched |
-| `Vertex_Substitute_Selection_Adversarial_Matrix_028.md` | UNREVIEWED | PENDING | — | Live Git blob 0c179d84a62a; no final review disposition matched |
+| `Vertex_Substitute_Selection_Adversarial_Matrix_028.md` | IN_EVALUATION | IN_PROGRESS | Codex-GOV-WM-20261105T111855Z; GOV-WM-028 | repository ACBlainey/Concord-1.4a; path `02_Domains/04_Governance/V2.1/Validation/Vertex_Substitute_Selection_Adversarial_Matrix_028.md`; domain `02_Domains/04_Governance`; claim UTC is introducing GitHub commit timestamp; inherited-source and redundant test-narrative review, preserve all unique cases/rationale. |
 
 ### `02_Domains/04_Governance/V2.1/visual aids`
 | `01 Steward Eligibility and Authority.md` | UNREVIEWED | PENDING | — | Live Git blob d9f9d5af429a; no final review disposition matched |
