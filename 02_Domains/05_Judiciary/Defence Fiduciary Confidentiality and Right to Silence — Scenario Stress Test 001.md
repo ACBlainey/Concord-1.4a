@@ -3,7 +3,6 @@
 **Project:** The Concord
 **Domain:** Judiciary / Law
 **Date:** 3 October 2026
-**Status:** ACTIVE DEVELOPMENT / FIDUCIARY CONFIDENTIALITY STRESS TEST / PROVISIONAL / NON-CANONICAL
 
 ## 1. Test purpose
 
@@ -44,9 +43,7 @@ The fiduciary may:
 
 The fiduciary does not become a prosecution witness merely because candid representation worked.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Protected Confession To Fiduciary != Automatic Common Evidence**
 
@@ -70,9 +67,7 @@ The fiduciary may not destroy, alter, disable or arrange concealment of the reco
 
 The exact positive duty, if any, to cause an otherwise undiscovered external source to enter the common evidence state remains a matter for procedural Law.
 
-### Result
-
-**PASS WITH PROCEDURAL QUESTION PRESERVED.**
+### Architectural consequence
 
 **Protected Knowledge Of Evidence != Evidence Itself Becomes Protected**
 
@@ -92,9 +87,7 @@ Its physical movement into protected consultation does not convert its evidentia
 
 Custody, preservation and provenance rules must apply.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Wrapper Entry != Evidential Transformation**
 
@@ -114,9 +107,7 @@ The protected original communication does not automatically become disclosable m
 
 The fiduciary needs a protected resolution route: advice, refusal to advance the false proposition, possible protected judicial guidance, and if necessary transfer/withdrawal under rules that do not themselves reveal the protected content.
 
-### Result
-
-**PASS AT ARCHITECTURAL LEVEL / PROCEDURE REQUIRED.**
+### Architectural consequence
 
 **Truth Duty -> Refusal To Present Known Falsehood**
 
@@ -136,9 +127,7 @@ That use defeats the right by converting exercise of the protection into evidenc
 
 The refusal may be recorded as a procedural fact where necessary, but it cannot acquire inculpatory weight merely because the participant exercised the protected choice.
 
-### Result
-
-**PASS WITH CLARIFICATION.**
+### Architectural consequence
 
 **Exercise Of Right To Silence != Inculpatory Evidence**
 
@@ -156,9 +145,7 @@ Speaking on one matter does not automatically surrender autonomy over every late
 
 Any waiver/consent doctrine must be contextual and bounded.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 Candidate invariant:
 
@@ -180,9 +167,7 @@ CWA is substrate-neutral.
 
 The consultation wrapper is informational, relational and digital. Protection follows the legitimate context/function rather than a physical room.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Protected Consultation != Physical Room Requirement**
 
@@ -200,9 +185,7 @@ The recording's existence and the legitimacy of its evidential use are separate 
 
 The architecture should require quarantine/review rather than automatic entry into the common evidentiary state.
 
-### Result
-
-**PASS WITH NEW PROCEDURAL REQUIREMENT.**
+### Architectural consequence
 
 Candidate invariant:
 
@@ -220,9 +203,7 @@ The wrapper should permit bounded, informed release where Law recognises partici
 
 Disclosure of one defined communication does not automatically open the entire consultation history.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Bounded Disclosure Consent != General Wrapper Waiver**
 
@@ -240,9 +221,7 @@ However, the precise threshold at which confidentiality may be overridden cannot
 
 Any exception should require a separately established lawful basis tied to materiality, imminence/credible risk as Law defines it, minimum necessary disclosure, provenance, reviewability and functional sunset.
 
-### Result
-
-**PASS AT ARCHITECTURAL LEVEL / EXCEPTION LAW REQUIRED.**
+### Architectural consequence
 
 **Protected Consultation != Authority To Facilitate Future Harm**
 
@@ -262,9 +241,7 @@ The mere seriousness of the historical admission does not itself dissolve the co
 
 Otherwise candid representation would disappear precisely in consequential cases.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Serious Past Admission != Automatic Wrapper Termination**
 
@@ -278,9 +255,7 @@ Police cannot resolve a material contradiction and know the participant consulte
 
 ESCP/evidentiary incompleteness does not manufacture authority to penetrate the protected wrapper.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Evidence-Space Incompleteness != Authority To Search Fiduciary Consultation**
 
@@ -296,9 +271,7 @@ Exploratory fiduciary reasoning is not evidence merely because it concerns the c
 
 External evidence formally relied upon remains governed by ordinary evidential rules.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Fiduciary MRT != Common Evidentiary Object**
 
@@ -314,9 +287,7 @@ A single wrapper may no longer provide adequate independent representation where
 
 The problem is not that confidentiality disappears. It is that role/conflict topology has changed.
 
-### Result
-
-**PASS WITH NEW DEVELOPMENT REQUIREMENT.**
+### Architectural consequence
 
 Candidate invariant:
 
@@ -336,9 +307,7 @@ Protection should attach to the legitimate consultation context/material, not me
 
 Otherwise changing representative would destroy the safe space retrospectively.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Fiduciary Change != Automatic Loss Of Consultation Protection**
 
@@ -358,9 +327,7 @@ If protection vanished whenever the participant lied, confidentiality would beco
 
 The fiduciary corrects their reasoning and must not repeat a known falsehood as fact.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Participant Falsehood Within Consultation != Automatic Loss Of Wrapper Protection**
 
@@ -382,9 +349,7 @@ The current architecture should not silently decide that either value always dom
 
 A lawful exception, if Concord adopts one, must be separately derived and tightly bounded rather than treated as ordinary investigative questioning.
 
-### Result
-
-**BOUNDARY EXPOSED — REQUIRES RIGHTS/PRECEDENCE DEVELOPMENT.**
+### Unresolved rights/procedural boundary
 
 This does not invalidate the general right to silence.
 
@@ -402,9 +367,7 @@ The existence of independent proof does not create a need to compel testimonial 
 
 The state may rely on the independent evidence.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **State Possesses Evidence != Authority To Compel Participant Confirmation**
 
@@ -422,9 +385,7 @@ The right to silence against compelled self-accusatory testimony does not yet es
 
 Identity, safety instructions, procedural choices and self-incriminating factual testimony may be different classes.
 
-### Result
-
-**BOUNDARY EXPOSED.**
+### Unresolved rights/procedural boundary
 
 Future Law should distinguish:
 
@@ -495,11 +456,9 @@ DFCI-29 Right To Silence != Necessarily Right To Refuse Every Communication In E
 
 ## 23. Test conclusion
 
-**OVERALL RESULT: PASS WITH THREE RIGHTS/PROCEDURAL BOUNDARIES EXPOSED.**
-
 The Contextual Wrapper model provides a coherent foundation for protected fiduciary consultation.
 
-The candidate right to silence also survives the tested ordinary investigative and adjudicative cases.
+The candidate right to silence applies to the ordinary investigative and adjudicative cases described above, subject to the unresolved exceptions below.
 
 Three areas remain deliberately unresolved:
 
