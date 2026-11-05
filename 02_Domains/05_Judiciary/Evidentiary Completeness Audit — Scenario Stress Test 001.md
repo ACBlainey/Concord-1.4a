@@ -3,7 +3,6 @@
 **Project:** The Concord
 **Domain:** Judiciary / Law / Civil Security / Historical
 **Date:** 3 October 2026
-**Status:** ACTIVE DEVELOPMENT / EVIDENTIARY COMPLETENESS STRESS TEST / PROVISIONAL / NON-CANONICAL
 
 ## 1. Test purpose
 
@@ -36,9 +35,7 @@ not:
 
 The new footage enters the evidential state, attribution and prosecution threshold are reassessed, and the omission itself is reviewed.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 Validates:
 
@@ -64,9 +61,7 @@ It cannot legitimately become:
 
 The newly discovered source is evaluated for provenance, reliability and proposition scope before being used.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 The architecture is symmetric: ESCP protection applies to evidence that helps or harms the accused.
 
@@ -84,9 +79,7 @@ The legitimate evidential question is bounded to the relevant place/time/proposi
 
 If no legitimate access mechanism exists, that limitation remains visible in the evidential-sufficiency state.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Known Restricted Source != Missing Source**
 
@@ -108,9 +101,7 @@ The system must not infer either what the footage would have shown or that its a
 
 The missing evidence may affect confidence, procedural fairness, authority review or evidential sufficiency depending on the proposition and surrounding evidence.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Missing Expected Evidence != Known Evidential Content**
 
@@ -132,9 +123,7 @@ The system may attempt a proportionate alternative query or targeted manual revi
 
 If not, the limitation remains explicit.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 Candidate clarification:
 
@@ -154,9 +143,7 @@ The absence cannot support an inference about concealment or the event.
 
 Expected-evidence reasoning therefore requires source-existence validation.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 Existing ECA-09 holds.
 
@@ -178,9 +165,7 @@ This is a direct ESCP case.
 
 The correct response is not to blame the prior search merely for lacking an unknown category. It is to expand the Evidence Source Map, test relevance and authority, and conduct a bounded search if justified.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 This is the strongest validation of the architecture's purpose.
 
@@ -205,9 +190,7 @@ Completeness therefore applies not only to sources but to:
 - transformations;
 - proposition framing.
 
-### Result
-
-**PASS WITH ARCHITECTURAL EXTENSION.**
+### Architectural consequence
 
 The Evidence Source Map should distinguish **source-space completeness** from **query-space completeness**.
 
@@ -231,9 +214,7 @@ It is a representational/classification failure.
 
 The audit must therefore inspect consequential filters and classification assumptions where contradictions persist.
 
-### Result
-
-**PASS WITH ARCHITECTURAL EXTENSION.**
+### Architectural consequence
 
 Candidate invariant:
 
@@ -255,9 +236,7 @@ The represented evidence space is incomplete because its relational structure is
 
 MRT and source-provenance review correctly reduce the apparent independence.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Object Completeness != Relationship Completeness**
 
@@ -277,9 +256,7 @@ It should not invent what the evidence probably showed merely to complete the tr
 
 The proposition is evaluated using surviving evidence with the lost source explicitly represented.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Completeness Defect May Be Irreducible**
 
@@ -299,9 +276,7 @@ No materially plausible evidence class tied to a defined proposition and legitim
 
 ESCP establishes uncertainty about completeness, not a universal warrant.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Unknown Unknowns != Search Authority**
 
@@ -319,9 +294,7 @@ Consensus does not establish completeness.
 
 The independent evidentiary architecture must preserve routes for later discovery, correction and systemic learning.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 **Institutional Consensus != Complete Evaluation Space**
 
@@ -343,9 +316,7 @@ Search may legitimately stop where further intrusion/resource use is disproporti
 
 The stopping reason is recorded.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 Candidate invariant:
 
@@ -363,9 +334,7 @@ KCS principles require preserving the original negative search as historically a
 
 Affected legal conclusions are reassessed.
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 This preserves auditability of why earlier actors reached their decisions.
 
@@ -383,9 +352,7 @@ Therefore evidence completeness and hypothesis completeness are coupled.
 
 **Hypothesis-Space Expansion -> Evidence-Space Expansion May Be Required**
 
-### Result
-
-**PASS.**
+### Architectural consequence
 
 This is an important bridge between MRT and ESCP.
 
@@ -403,9 +370,7 @@ The system requires a lawful mechanism preserving sufficient material meaning an
 
 If meaningful contestability cannot be achieved, the limitation must affect whether/how the evidence can support the proposition.
 
-### Result
-
-**PASS AT ARCHITECTURAL LEVEL / PROCEDURE STILL REQUIRED.**
+### Architectural consequence — procedure still to be designed
 
 This confirms the previously identified protected-evidence contestability interface.
 
@@ -421,9 +386,7 @@ The safeguard has become the new ESCP failure.
 
 The architecture already says the map is not a universal checklist, but the risk deserves explicit protection.
 
-### Result
-
-**PASS WITH CLARIFICATION.**
+### Architectural consequence
 
 Candidate invariant:
 
@@ -508,9 +471,7 @@ ECA-32 Completeness Checklist != Complete Evidence Taxonomy.
 
 ## 23. Test conclusion
 
-**OVERALL RESULT: PASS WITH NARROW REPRESENTATIONAL EXTENSIONS.**
-
-The ESCP-aware completeness architecture survived all tested missing-evidence modes without requiring unlimited search authority or pretending universal completeness.
+The scenarios require bounded source, query, classification, dependency, access and hypothesis-space representation without unlimited search authority or a presumption of universal completeness.
 
 The principal improvement is to broaden the concept of evidence space beyond evidence objects.
 
@@ -520,4 +481,4 @@ The tested architecture should now understand:
 
 This explains how a system can possess every object it knows about and still be incomplete because it searched the wrong query, hid an object through classification, failed to represent a dependency, lacked access, or never represented the hypothesis that made a source relevant.
 
-The basic architecture does not require redesign. The identified extensions should be incorporated before the completeness interface is treated as provisionally closed.
+The identified representational extensions must be integrated and checked against the operational evidentiary interface before closure.
