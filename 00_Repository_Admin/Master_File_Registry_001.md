@@ -1217,7 +1217,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Chapter_54_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Deletion commit `14e8603` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob 6453d5f1cdbf; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_9_Interface_Reconciled_Candidate_005.md` | REMOVED | COMPLETED | — | Deletion commit `a354d035` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob 66bfd5422776; exact deletion/migration commit and pruning rationale still to verify |
 | `Context_Controlled_Fractal_Substitute_Expansion_Authorial_Resolution_031.md` | KEEP | COMPLETED | — | Handoff line 333 — retention; check source record for scope |
-| `Decision_ACKS_Authority_Source_Interface_097.md` | UNREVIEWED | PENDING | — | Live Git blob 8c0a2f8f623b; no final review disposition matched |
+| `Decision_ACKS_Authority_Source_Interface_097.md` | IN_EVALUATION | IN_PROGRESS | Codex-Governance-20261105T045919Z; Governance; 2026-11-05 04:59:19 UTC | repository: ACBlainey/Concord-1.4a; path: 02_Domains/04_Governance/V2.1/Completed/Decision_ACKS_Authority_Source_Interface_097.md; scope: full owner-interface survival evaluation |
 | `Decision_ACKS_Recovery_Owner_Handoff_098.md` | UNREVIEWED | PENDING | — | Live Git blob 48467fada51a; no final review disposition matched |
 | `Decision_Event_Boundary_Source_Limited_Review_018.md` | UNREVIEWED | PENDING | — | Live Git blob b9e277a2bb37; no final review disposition matched |
 | `Decision_Validity_and_Interface_Gates_006.md` | UNREVIEWED | PENDING | — | Live Git blob 3429375e0b28; no final review disposition matched |
