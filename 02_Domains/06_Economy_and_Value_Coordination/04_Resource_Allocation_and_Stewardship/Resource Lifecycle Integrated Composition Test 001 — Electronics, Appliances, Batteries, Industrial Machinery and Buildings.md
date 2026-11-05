@@ -3,7 +3,6 @@
 **Author:** Alexander C. Blainey — Independent Researcher  
 **Project:** The Concord Framework  
 **Framework Version:** Concord V1.3  
-**Status:** ACTIVE DEVELOPMENT / INTEGRATED COMPOSITION TEST / NON-CANONICAL  
 **Date:** September 2026
 
 ---
@@ -74,7 +73,7 @@ No formal LSR is necessarily required for an ordinary participant replacement.
 
 The participant may simply decide to stop using the device.
 
-**Result:** materiality gate prevents lifecycle bureaucracy.
+The materiality gate prevents lifecycle bureaucracy.
 
 ## Discovery
 
@@ -119,14 +118,6 @@ BTA does not decide whether the phone should be refurbished.
 ## Resource evidence
 
 Actual battery failure age, component survival and recovery yield can inform product-class models and design feedback without requiring a universal private-phone registry.
-
-## Result
-
-**PASS.**
-
-No missing general civil system found.
-
-Key protection:
 
 > **Working Electronics Should Not Be Reduced to Material Value Merely Because Their Current Owner Has Finished With Them.**
 
@@ -185,15 +176,7 @@ Possible future response:
 - replaceable control system;
 - documented interface.
 
-## Result
-
-**STRONG PASS.**
-
-The case demonstrates the full loop:
-
 **Return Evidence → Product Design Improvement.**
-
-It also confirms:
 
 > **A Small Failed Component Should Not Necessarily Retire a Large Surviving Resource Structure.**
 
@@ -265,11 +248,7 @@ Future battery return is not current supply.
 
 Recovery infrastructure can be prepared before the cohort retires.
 
-## Result
-
-**STRONG PASS.**
-
-This case validates the separation:
+Preserve the separation:
 
 **Lifecycle Function State**
 !=
@@ -339,11 +318,7 @@ Planned enterprise closure can expose future machinery/material flows.
 
 But announced future release is not present availability.
 
-## Result
-
-**PASS WITH IMPORTANT CROSS-MODULE DEPENDENCY.**
-
-The case confirms that recovery architecture must respect capability/knowledge value above component/material value.
+Recovery architecture must respect capability/knowledge value above component/material value.
 
 > **Resource Recovery Must Not Destroy a Higher-Order Capability Merely Because Its Physical Components Have Recoverable Value.**
 
@@ -405,10 +380,6 @@ Known redevelopment schedules can signal future material flows.
 Again:
 
 **Expected Demolition Material != Present Material Inventory Available for Use.**
-
-## Result
-
-**PASS.**
 
 The resource loop extends beyond consumer products without requiring the resource architecture to become the building/planning authority.
 
@@ -525,20 +496,9 @@ The general civil machinery around this loop remains externally owned.
 
 ---
 
-# 12. Overall result
+# 12. Composition boundaries
 
-**RESULT: STRONG COMPOSITION PASS / NO NEW MONOLITHIC SYSTEM REQUIRED.**
-
-The architecture transferred across:
-- personal electronics;
-- large household appliances;
-- hazardous high-value components;
-- enterprise industrial assets;
-- building/infrastructure materials.
-
-The cases are materially different enough to expose several owner boundaries.
-
-No tested case required the resource architecture to absorb:
+The resource loop preserves independent ownership of:
 - lifecycle authority;
 - transition sovereignty;
 - civil communication;
@@ -547,9 +507,7 @@ No tested case required the resource architecture to absorb:
 - enterprise governance;
 - infrastructure authority.
 
-The genuinely recurring resource-specific kernel remains visible.
-
-This strengthens—but does not yet prove—the hypothesis that a reusable resource-lifecycle architecture may be extractable.
+A reusable resource-lifecycle architecture remains an extraction hypothesis, not a proven portable mechanism.
 
 ---
 
