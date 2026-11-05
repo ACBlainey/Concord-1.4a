@@ -1265,7 +1265,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Glass_Hammer_Seventh_Digit_Operational_Fixture_120.md` | KEEP | COMPLETED | — | Handoff line 472 — retention; check source record for scope |
 | `Glass_Hammer_State_Consumption_Clarification_104.md` | KEEP | COMPLETED | — | Handoff line 512 — retention; check source record for scope |
 | `Glass_Hammer_V12_Primary_Source_Recovery_105.md` | UNREVIEWED | PENDING | — | Live Git blob 225f84e1ac9e; no final review disposition matched |
-| `Glass_Hammer_V12a_Crosscheck_106.md` | UNREVIEWED | PENDING | — | Live Git blob 53ec05339cfc; no final review disposition matched |
+| `Glass_Hammer_V12a_Crosscheck_106.md` | IN_EVALUATION | IN_PROGRESS | GOV-20261105-120456-106 | repository ACBlainey/Concord-1.4a; path `02_Domains/04_Governance/V2.1/Completed/Glass_Hammer_V12a_Crosscheck_106.md`; domain 02_Domains/04_Governance; agent Codex-Governance; UTC 2026-11-05T12:05:18Z; exclusive prior-retention backfill only. |
 | `Governance_Decision_Validity_Interface_Reconciliation_045.md` | REMOVED | COMPLETED | — | Deletion commit `041f6b72` independently verified; Absent from live V1.4a, V1.3 original blob 1bcfb6b0ec76; exact deletion/migration commit and pruning rationale still to verify |
 | `GTP_Node_Centred_Ring_Enumeration_Provisional_Revision_041.md` | KEEP | COMPLETED | — | Handoff line 499 — retention; check source record for scope |
 | `GTP_Node_Ring_Enumeration_Proposed_Implementation_037.md` | KEEP | COMPLETED | — | Handoff line 503 — retention; check source record for scope |
