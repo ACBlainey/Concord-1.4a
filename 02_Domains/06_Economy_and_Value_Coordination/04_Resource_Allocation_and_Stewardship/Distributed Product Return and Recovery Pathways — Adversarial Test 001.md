@@ -3,7 +3,6 @@
 **Author:** Alexander C. Blainey — Independent Researcher  
 **Project:** The Concord Framework  
 **Framework Version:** Concord V1.3  
-**Status:** ACTIVE DEVELOPMENT / ADVERSARIAL TEST / NON-CANONICAL  
 **Date:** September 2026
 
 ---
@@ -77,8 +76,6 @@ Available routes:
 
 No single route is mandatory.
 
-**Result: STRONG PASS.**
-
 The architecture benefits from parallel routes.
 
 > **Multiple Valid Recovery Paths Need Not Be Collapsed Into One Preferred Path.**
@@ -93,10 +90,6 @@ The retailer aggregates returns and a recovery operator collects them periodical
 
 The retailer does not determine final material disposition.
 
-**Result: PASS.**
-
-Confirms:
-
 > **Collection Interface != Recovery Ownership.**
 
 The participant combines product replacement and product return in one journey.
@@ -108,8 +101,6 @@ The participant combines product replacement and product return in one journey.
 A large appliance is delivered to a participant's home.
 
 The logistics operator removes the replaced appliance on the return journey and transfers it into an appropriate recovery chain.
-
-**Result: STRONG PASS.**
 
 The return route is embedded in an activity already occurring.
 
@@ -127,8 +118,6 @@ Retailer collection is available only in a distant town.
 
 Ordinary scheduled separated collection accepts the product class.
 
-**Result: PASS BECAUSE MULTIPLE PATHS EXIST.**
-
 A centralised drop-off-only model would have failed accessibility.
 
 > **Nominal Availability != Reasonable Accessibility.**
@@ -143,7 +132,7 @@ A civic centre technically accepts it, but only by self-delivery.
 
 Retailer pickup, scheduled collection or manufacturer pickup is required for a practically accessible route.
 
-**Result: CENTRAL DROP-OFF ALONE FAILS.**
+Central drop-off alone does not provide an accessible route for this participant.
 
 This strengthens:
 
@@ -161,8 +150,6 @@ The OEM later fails.
 
 Independent repair, civic recovery, retailer aggregation and specialist recycling remain available.
 
-**Result: DISTRIBUTED MODEL PASS / OEM-ONLY MODEL FAIL.**
-
 > **A Product's Recovery Path Should Not Necessarily Depend on the Continued Existence of Its Manufacturer.**
 
 This is a strong argument for pathway redundancy.
@@ -173,8 +160,6 @@ This is a strong argument for pathway redundancy.
 
 The participant still has civic collection, OEM postal return and independent repair/resale routes.
 
-**Result: PASS.**
-
 Redundancy prevents a local interface failure becoming a lifecycle dead end.
 
 ---
@@ -182,8 +167,6 @@ Redundancy prevents a local interface failure becoming a lifecycle dead end.
 # 10. Case H — All convenient routes disappear
 
 A product is theoretically recyclable, but the only accepting facility is hundreds of kilometres away and no collection service exists.
-
-**Result: PRACTICAL RECOVERABILITY FAILURE.**
 
 > **Theoretically Recoverable != Practically Recoverable.**
 
@@ -201,8 +184,6 @@ A functioning device is surrendered because the participant no longer needs it.
 
 The facility automatically shreds all received devices.
 
-**Result: FAILURE.**
-
 Hand-in must not automatically classify an object as material waste.
 
 > **Hand-In != Waste Declaration.**
@@ -219,7 +200,7 @@ Assessment finds a minor replaceable component failure.
 
 Repair/refurbishment has greater whole-route value than material recovery.
 
-**Result: PASS IF TRIAGE EXISTS / FAIL IF AUTOMATICALLY RECYCLED.**
+Triage is required to distinguish repair/refurbishment from automatic material recycling.
 
 Participant perception of value need not establish actual remaining value.
 
@@ -232,10 +213,6 @@ A durable device is returned to its manufacturer.
 The structure, housing and mechanical system remain sound.
 
 The OEM replaces the control electronics, battery and communications module, tests the product and returns it to the participant.
-
-**Result: STRONG PASS.**
-
-Confirms:
 
 > **New Function Need Not Always Require a New Whole Product.**
 
@@ -251,8 +228,6 @@ Manufacturer claims that because it is responsible for recovery, only authorised
 
 Independent repair is safe, competent and legitimate.
 
-**Result: REJECTED.**
-
 > **OEM Responsibility != OEM Monopoly.**
 
 Resource stewardship does not itself establish exclusive control.
@@ -264,8 +239,6 @@ Resource stewardship does not itself establish exclusive control.
 A manufacturer designed and sold a difficult-to-recover product but offers no return route.
 
 Independent recovery is expensive and civic systems bear the burden.
-
-**Result: RESPONSIBILITY GAP DETECTED.**
 
 The architecture can represent the failure, but the appropriate legal/economic producer-responsibility rule belongs elsewhere.
 
@@ -279,8 +252,6 @@ The original manufacturer has no local recovery infrastructure.
 
 Retailer return, civic collection and independent specialist recovery remain possible.
 
-**Result: DISTRIBUTED MODEL PASS.**
-
 Possible producer/importer responsibility requires later Commerce/Law treatment.
 
 ---
@@ -291,7 +262,7 @@ A product contains a damaged hazardous battery.
 
 Ordinary refuse collection is convenient but unsafe.
 
-**Result: ORDINARY CONVENIENCE OVERRIDDEN.**
+Convenience does not justify ordinary collection of this hazardous product.
 
 > **The Easiest Route Is Not Necessarily a Legitimate Route.**
 
@@ -305,7 +276,7 @@ A participant hands in an old computer through a retailer.
 
 The hardware is suitable for reuse, but storage contains personal data.
 
-**Result: PASS ONLY WITH DATA-CUSTODY/SANITISATION INTERFACE.**
+Reuse requires a data-custody/sanitisation interface.
 
 > **Physical Return != Consent to Transfer Personal Data.**
 
@@ -319,7 +290,7 @@ A large low-value product costs more to transport than the recoverable material 
 
 A distant specialist route exists.
 
-**Result: WHOLE-ROUTE ASSESSMENT REQUIRED.**
+A whole-route assessment is required.
 
 The architecture must not equate recovery with stewardship automatically.
 
@@ -335,8 +306,6 @@ Individual collection trips would be disproportionate.
 
 Participants accumulate suitable items and return them during ordinary shopping or scheduled collection.
 
-**Result: PASS.**
-
 Aggregation can reduce recovery friction and logistics cost.
 
 ---
@@ -346,8 +315,6 @@ Aggregation can reduce recovery friction and logistics cost.
 A product class has a modest return deposit.
 
 Return rates increase.
-
-**Result: REPRESENTABLE / NOT UNIVERSALLY REQUIRED.**
 
 Incentives can lower perceived return friction, but this architecture does not establish a universal deposit regime.
 
@@ -359,8 +326,6 @@ Old product is collected automatically when replacement is delivered.
 
 Participation is high despite no payment.
 
-**Result: STRONG PASS.**
-
 This demonstrates that participant behaviour is influenced by more than monetary incentive.
 
 > **Convenience Can Function as a Recovery Incentive.**
@@ -370,8 +335,6 @@ This demonstrates that participant behaviour is influenced by more than monetary
 # 23. Case U — High reward creates perverse behaviour
 
 A recovery payment exceeds legitimate recovery value and encourages unnecessary product retirement or fraud.
-
-**Result: FAILURE OF INCENTIVE DESIGN.**
 
 > **Recovery Incentive Should Not Become Premature-Retirement Incentive.**
 
@@ -385,7 +348,7 @@ A local reuse organisation can place it with another participant immediately.
 
 Formal recycling would recover only materials.
 
-**Result: REUSE ROUTE PREFERRED WHERE OTHERWISE LEGITIMATE.**
+Prefer the reuse route where otherwise legitimate.
 
 Distributed architecture should preserve non-industrial reuse paths.
 
@@ -399,8 +362,6 @@ OEM and civic facilities become temporarily saturated.
 
 Retailers can still collect but storage capacity is limited.
 
-**Result: PARTIAL FAILURE / RESILIENCE BENEFIT FROM MULTIPLE ROUTES.**
-
 The resource forecast and capacity-planning architecture should detect concentration risk.
 
 Path redundancy helps but does not create infinite capacity.
@@ -412,8 +373,6 @@ Path redundancy helps but does not create infinite capacity.
 Participant receives conflicting instructions from OEM, retailer and civic system.
 
 One says recycle, another says return to manufacturer, another classifies the product as hazardous.
-
-**Result: INTERFACE FAILURE.**
 
 Multiple paths should increase choice without making legitimate routing incomprehensible.
 
@@ -429,8 +388,6 @@ A free local collection service exists, but return information is absent from pr
 
 Product enters general waste.
 
-**Result: ACCESS FAILURE.**
-
 > **An Unknown Recovery Path Is Not Fully Accessible in Practice.**
 
 Accessibility includes discoverability.
@@ -440,8 +397,6 @@ Accessibility includes discoverability.
 # 28. Case Z — Participant deliberately chooses lawful disposal
 
 Several recovery routes exist, but participant chooses an independently lawful disposal route.
-
-**Result: AUTHORITY BOUNDARY.**
 
 This architecture does not itself create power to compel a different choice.
 
@@ -459,8 +414,6 @@ The final owner has no original receipt or manufacturer account.
 
 A recovery route remains available using product class/identity rather than original purchaser identity.
 
-**Result: PASS.**
-
 > **Recovery Eligibility Should Not Unnecessarily Depend on Original-Purchaser Continuity.**
 
 This is particularly important for durable products.
@@ -473,10 +426,6 @@ OEM observes that one inexpensive bonded assembly causes most end-of-life materi
 
 Next generation is redesigned with a replaceable/separable assembly.
 
-**Result: STRONG PASS.**
-
-Confirms:
-
 > **The Returned Product Is Also Evidence About the Product That Was Designed.**
 
 ---
@@ -486,8 +435,6 @@ Confirms:
 Every retailer, manufacturer and municipality uses incompatible categories, labels and handoff records.
 
 Participants have many choices but recovery operators face high interoperability cost.
-
-**Result: FAILURE MODE DETECTED.**
 
 Distributed operation benefits from common interfaces where appropriate.
 
@@ -503,15 +450,13 @@ A central system requires all products to enter one recovery facility.
 
 Direct reuse, repair, OEM upgrade and local refurbishment become impossible or uneconomic.
 
-**Result: REJECTED.**
-
 > **Centralisation Can Destroy Recovery Value as Well as Create Efficiency.**
 
 ---
 
 # 33. Accessibility dimensions
 
-The test shows that recovery accessibility is multidimensional.
+Recovery accessibility is multidimensional.
 
 A route may be technically available but inaccessible because of:
 
@@ -572,7 +517,7 @@ The architecture should seek to reduce unnecessary friction without erasing legi
 
 # 35. Redundancy
 
-The test supports a bounded redundancy principle:
+Preserve a bounded redundancy principle:
 
 > **Recovery-Path Redundancy Can Increase Accessibility and Resilience.**
 
@@ -613,9 +558,9 @@ Multiple downstream operators may also coexist.
 
 ---
 
-# 37. New findings
+# 37. Concise principles
 
-The adversarial test adds or strengthens:
+Concise principles:
 
 1. **Multiple Valid Recovery Paths Need Not Be Collapsed Into One Preferred Path.**
 2. **Nominal Availability != Reasonable Accessibility.**
@@ -637,13 +582,9 @@ The adversarial test adds or strengthens:
 
 ---
 
-# 38. Overall result
+# 38. Practical recoverability and scope
 
-**RESULT: PASS WITH MATERIAL REFINEMENT.**
-
-The distributed-return model survives the adversarial test.
-
-The strongest refinement is that practical recoverability requires more than a technically valid downstream process.
+Practical recoverability requires more than a technically valid downstream process.
 
 A resource can be:
 - theoretically recoverable;
@@ -657,9 +598,7 @@ Therefore the architecture should distinguish:
 → **Participant-Accessible Recoverability**
 → **Actual Recovery**
 
-The test also supports a multi-path model.
-
-No evidence currently justifies one universal return route.
+The multi-path model does not establish a need for one universal return route.
 
 Instead:
 
