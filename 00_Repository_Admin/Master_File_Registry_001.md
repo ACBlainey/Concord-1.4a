@@ -1649,7 +1649,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Resource Recovery and Circulating Resource Forecasting — PMEDG Source-Space Resolution and Extraction Audit 001.md` | UNREVIEWED | PENDING | — | Live Git blob a503ba3e9294; no final review disposition matched |
 
 ### `02_Domains/06_Economy_and_Value_Coordination/05_Public_Finance_and_Civil_Economic_Obligations`
-| `README.md` | UNREVIEWED | PENDING | — | Live Git blob 4fb6cf20fd25; no final review disposition matched |
+| `README.md` | IN_EVALUATION | IN_PROGRESS | ECON-20261105-120456 | repository ACBlainey/Concord-1.4a; path `02_Domains/06_Economy_and_Value_Coordination/05_Public_Finance_and_Civil_Economic_Obligations/README.md`; domain `02_Domains/06_Economy_and_Value_Coordination`; agent Codex; UTC 2026-11-05T12:04:56Z; exclusive public-finance boundary review. |
 
 ### `02_Domains/06_Economy_and_Value_Coordination/06_Markets_Exchange_and_Commercial_Infrastructure`
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob dcdd278439e1; no final review disposition matched |
