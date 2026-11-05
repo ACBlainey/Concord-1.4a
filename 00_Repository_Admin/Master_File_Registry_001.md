@@ -1632,7 +1632,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 07a142a376b1; no final review disposition matched |
 
 ### `02_Domains/06_Economy_and_Value_Coordination/03_Employment_and_Productive_Participation`
-| `README.md` | UNREVIEWED | PENDING | — | Live Git blob 3d0627a85832; no final review disposition matched |
+| `README.md` | IN_EVALUATION | IN_PROGRESS | ECON-20261105-121456 | repository ACBlainey/Concord-1.4a; path `02_Domains/06_Economy_and_Value_Coordination/03_Employment_and_Productive_Participation/README.md`; domain `02_Domains/06_Economy_and_Value_Coordination`; agent Codex; UTC 2026-11-05T12:14:56Z; exclusive employment boundary review. |
 
 ### `02_Domains/06_Economy_and_Value_Coordination/04_Resource_Allocation_and_Stewardship`
 | `Circulating Resource Inventory and Future Material Flow Forecasting 001.md` | UNREVIEWED | PENDING | — | Live Git blob 3aad6ae99653; no final review disposition matched |
