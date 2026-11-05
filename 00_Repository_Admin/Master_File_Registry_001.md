@@ -1153,7 +1153,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `02_Domains/04_Governance`
 | `a_clean_infographic_poster_on_a_white_background_w.png` | UNREVIEWED | PENDING | — | Live Git blob 0da019de09bb; no final review disposition matched |
-| `Development Source Register.md` | UNREVIEWED | PENDING | — | Live Git blob 8077d0d38ac4; no final review disposition matched |
+| `Development Source Register.md` | IN_EVALUATION | IN_PROGRESS | GOV-20261105-123957-REGISTER | repository ACBlainey/Concord-1.4a; path `02_Domains/04_Governance/Development Source Register.md`; domain 02_Domains/04_Governance; agent Codex-Governance; UTC 2026-11-05T12:40:08Z; exclusive source-register dependency/provenance review. |
 | `Expanded Triadic Governance — Reconstruction and Spatial Diagrams 001.md` | UNREVIEWED | PENDING | — | Live Git blob 2a481949d5a3; no final review disposition matched |
 | `Expanded Triadic Governance — Validation and Source Reconciliation 002.md` | UNREVIEWED | PENDING | — | Live Git blob 4559237a1652; no final review disposition matched |
 | `Expanded_Triadic_Governance_and_Continuity_Protocol_Reconstruction_001 (1).md` | UNREVIEWED | PENDING | — | Live Git blob 14b825d3c9a0; no final review disposition matched |
