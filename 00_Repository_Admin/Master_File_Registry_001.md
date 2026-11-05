@@ -1624,7 +1624,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Enterprise Register, Commercial Transparency and Protected Information 001.md` | UNREVIEWED | PENDING | — | Live Git blob ddf2b95a74a9; no final review disposition matched |
 | `Enterprise Wind-Down, Retirement and Orderly Commercial Closure 001.md` | UNREVIEWED | PENDING | — | Live Git blob 58aaa5bf209d; no final review disposition matched |
 | `Open Innovation Development Return — Bounded Automatic Compensation Model 001.md` | UNREVIEWED | PENDING | — | Live Git blob dd04ed9d1829; no final review disposition matched |
-| `Open Knowledge and Anti-Capture — Cross-Domain Adversarial Transfer Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob ac59c48b858f; no final review disposition matched |
+| `Open Knowledge and Anti-Capture — Cross-Domain Adversarial Transfer Test 001.md` | IN_EVALUATION | IN_PROGRESS | ECON-20261105-053543 | path: `02_Domains/06_Economy_and_Value_Coordination/02_Commerce_and_Enterprise/Open Knowledge and Anti-Capture — Cross-Domain Adversarial Transfer Test 001.md`; domain: `02_Domains/06_Economy_and_Value_Coordination`; agent Codex; UTC 2026-11-05T05:35:43Z; exclusive original/source and architecture/rationale review. |
 | `Open Knowledge, Functional Qualification and Anti-Capture Commerce Architecture 001.md` | UNREVIEWED | PENDING | — | Live Git blob fca231beaa03; no final review disposition matched |
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 07a142a376b1; no final review disposition matched |
 
