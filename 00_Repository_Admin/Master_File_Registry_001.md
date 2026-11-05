@@ -108,6 +108,7 @@ Single shared inventory of the live repository tree, with historic confirmed rem
 | `The Concord Design Family — Greenfield Civilisation, Wrappers, Forks and Progressive Adoption.md` | UNREVIEWED | PENDING | — | Blob `8dfd7008d79a`; no completed disposition confidently mapped |
 
 ### `00_Repository_Admin`
+| `Master_File_Registry_001.md` | KEEP | COMPLETED | — | Shared coordination ledger; maintain on every evaluation and repository inventory change |
 | `V1.2 to V1.3 Architectural Survival Register 001.md` | UNREVIEWED | PENDING | — | Blob `491d5554c548`; no completed disposition confidently mapped |
 
 ### `01_Constitutional_Core`
