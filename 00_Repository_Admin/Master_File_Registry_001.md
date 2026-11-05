@@ -1361,7 +1361,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `BVC_Candidate_016_Frozen.md` | UNREVIEWED | PENDING | — | Live Git blob 9b2c40fde3ff; no final review disposition matched |
 | `Chapter_12_Candidate_006_Delta_Review.md` | REMOVED | COMPLETED | — | Deletion commit `c7491b3` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob ba978b528956; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_12_Candidate_008_Change_Integrity_Audit.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 4252d0ab6a58; exact deletion/migration commit and pruning rationale still to verify |
-| `Chapter_12_Source_Reconciliation_Audit_005.md` | UNREVIEWED | PENDING | — | Live Git blob 3d621ec7fa7f; no final review disposition matched |
+| `Chapter_12_Source_Reconciliation_Audit_005.md` | IN_EVALUATION | IN_PROGRESS | GPT-6 / Governance / 2026-11-05 03:10 UTC | Live Git blob 3d621ec7fa7f; no final review disposition matched |
 | `Chapter_132_Candidate_006_Change_Integrity_Audit.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob bf1b215b4e2f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_132_Source_Reconciliation_Audit_005.md` | REMOVED | COMPLETED | — | Deletion commit `e7bbd0f` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob 87914d9fe78c; exact deletion/migration commit and pruning rationale still to verify |
 | `Clause_Preservation_Verification_003.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob e065945d1f43; exact deletion/migration commit and pruning rationale still to verify |
