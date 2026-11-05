@@ -1564,7 +1564,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Defence Fiduciary Confidentiality and Right to Silence — Scenario Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 8625e2ab0ee7; no final review disposition matched |
 | `Development Source Register.md` | UNREVIEWED | PENDING | — | Live Git blob 819217f3909a; no final review disposition matched |
 | `Evidentiary Completeness Audit — ESCP-Aware Judicial Evidence Architecture 001.md` | UNREVIEWED | PENDING | — | Live Git blob 4adbc9a9da23; no final review disposition matched |
-| `Evidentiary Completeness Audit — Scenario Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 95895ca5c044; no final review disposition matched |
+| `Evidentiary Completeness Audit — Scenario Stress Test 001.md` | IN_EVALUATION | IN_PROGRESS | GPT-6-Judiciary-20261105; Judiciary; 2026-11-05 UTC | Live Git blob 95895ca5c044; no final review disposition matched |
 | `Judicial Evidence, Historical Custody and Investigative State — V1.2 Source Recovery 001.md` | UNREVIEWED | PENDING | — | Live Git blob 354b88958bc3; no final review disposition matched |
 | `Judicial Process Architecture — Matter Intake Adjudication Review and Closure 001.md` | UNREVIEWED | PENDING | — | Live Git blob d16349051806; no final review disposition matched |
 | `Judiciary V2 Canonical.md` | UNREVIEWED | PENDING | — | Live Git blob 378d5ae99f0f; no final review disposition matched |
