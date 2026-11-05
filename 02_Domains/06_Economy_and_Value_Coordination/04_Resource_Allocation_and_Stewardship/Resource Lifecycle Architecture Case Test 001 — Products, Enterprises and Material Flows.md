@@ -270,3 +270,15 @@ This validates:
 → **Improved Future Design**
 
 The architecture therefore forms a recursive resource loop rather than a linear waste system.
+
+---
+
+# 23. Concise principles and unresolved interface
+
+1. **Some Waste Is Designed Years Before It Is Discarded.**
+2. **Future Recoverability != Present Availability.**
+3. **Theoretically Recoverable != Operationally Recoverable.**
+4. **Better Forecasting Does Not Automatically Justify Better Surveillance.**
+5. **Recovery Stewardship Includes Knowing When Not to Preserve.**
+6. Recovery decisions need whole-route resource cost, not a simplistic “recyclable/not recyclable” label.
+7. Software-dependent physical products remain a significant undeveloped interface.
