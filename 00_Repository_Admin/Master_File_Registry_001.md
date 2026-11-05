@@ -1160,7 +1160,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Governance Operating Boundary and Authority Lifecycle — Source Resolution 001.md` | UNREVIEWED | PENDING | — | Live Git blob 18849ea2dd20; no final review disposition matched |
 | `Governance V2 Canonical.md` | UNREVIEWED | PENDING | — | Live Git blob c65a269fdc95; no final review disposition matched |
 | `GTP Spatial Triadic Governance — V1.2 Architecture Recovery 001.md` | UNREVIEWED | PENDING | — | Live Git blob ac8b335fd261; no final review disposition matched |
-| `README.md` | UNREVIEWED | PENDING | — | Live Git blob 7760f4469987; no final review disposition matched |
+| `README.md` | IN_EVALUATION | IN_PROGRESS | GOV-20261105-124457-ROOT | repository ACBlainey/Concord-1.4a; path `02_Domains/04_Governance/README.md`; domain 02_Domains/04_Governance; agent Codex-Governance; UTC 2026-11-05T12:45:08Z; exclusive operational entry-point/source-boundary review. |
 | `V1 Governance Component Recovery Map 001.md` | UNREVIEWED | PENDING | — | Live Git blob 7e6d4a7688e2; no final review disposition matched |
 
 ### `02_Domains/04_Governance/V2.1`
