@@ -70,10 +70,6 @@ Independent assessment finds the legally established prosecution threshold satis
 
 The case is legally framed and handed toward independent adjudication.
 
-### Test result
-
-PASS.
-
 The architecture does not require police guilt determination and does not require prosecution to pretend guilt has already been established.
 
 ---
@@ -99,10 +95,6 @@ If a specific material investigative gap remains legitimately resolvable, the ca
 If not:
 
 **No Prosecution / Closure Or Reclassification**
-
-### Test result
-
-PASS.
 
 This validates the distinction:
 
@@ -140,10 +132,6 @@ but:
 
 Civil Security retains responsibility for lawful investigative means and evidential neutrality.
 
-### Test result
-
-PASS.
-
 The boundary between prosecution and investigation remains operational.
 
 ---
@@ -178,10 +166,6 @@ Prosecution does not choose the replacement suspect.
 
 It identifies that the referred prosecution hypothesis is unsupported.
 
-### Test result
-
-PASS.
-
 MRT/whole-state evidence prevents referral from converting a historical suspect choice into prosecution momentum.
 
 ---
@@ -214,10 +198,6 @@ If it no longer does:
 
 is incompatible with BCA functional sunset.
 
-### Test result
-
-PASS.
-
 The prosecution function behaves as continuing authority rather than institutional ownership of a case.
 
 ---
@@ -243,10 +223,6 @@ The prosecutor remains responsible for preserving contrary evidence and presenti
 If the prosecutor's concern identifies an articulable evidential problem, omitted hypothesis, conflict, legal defect or other material factor, that factor must enter the evidential/legal assessment.
 
 The architecture suppresses unexplained discretion, not reasoned correction.
-
-### Test result
-
-PASS.
 
 Automaticity is bounded by Law rather than personality.
 
@@ -275,10 +251,6 @@ Possible outcomes:
 - bounded further investigation;
 - another independent source restores sufficiency.
 
-### Test result
-
-PASS.
-
 The prosecution function provides an independent structural check rather than merely recounting police evidence.
 
 ---
@@ -305,10 +277,6 @@ Prosecution may frame the supported allegation under applicable Law.
 
 This is legal framing of established evidence, not authority to invent additional facts.
 
-### Test result
-
-PASS.
-
 The prosecution function has a real legal role without becoming a fact-finding court.
 
 ---
@@ -326,10 +294,6 @@ The physical act alone does not create a prosecution duty.
 **Prohibited-Act Evidence + Clearly Established Complete Justification -> No Sufficient Prosecution Basis For The Justified Harm**
 
 Where justification is materially contested, adjudication may still be warranted if the prosecution threshold is met.
-
-### Test result
-
-PASS.
 
 The architecture tests the legally relevant whole case rather than raw act occurrence.
 
@@ -385,10 +349,6 @@ This does not contradict automaticity because:
 
 The exception decision itself is an exercise of public authority and must be reconstructable and reviewable.
 
-### Test result
-
-PASS.
-
 The architecture permits bounded legal exceptions without restoring unstructured discretion.
 
 ---
@@ -428,10 +388,6 @@ The threshold was legitimately satisfied when prosecution began and remained sat
 The prosecution threshold and adjudicative threshold are deliberately distinct.
 
 The acquittal may still contribute to later empirical calibration, but it does not retrospectively invalidate the prosecution merely because the final threshold was not met.
-
-### Test result
-
-PASS.
 
 ---
 
@@ -473,10 +429,6 @@ If the prosecution threshold for either individual is not met, neither is prosec
 
 Further legitimate investigation may continue if a material route exists.
 
-### Test result
-
-PASS.
-
 This confirms that event certainty and participant attribution are separate evidential propositions.
 
 ---
@@ -496,10 +448,6 @@ Public or institutional pressure does not create evidential sufficiency.
 Urgency may justify faster lawful processing, preservation or review, but:
 
 **Urgency != Proof**
-
-### Test result
-
-PASS.
 
 ---
 
