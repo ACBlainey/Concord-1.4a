@@ -1428,7 +1428,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `glass_hammer_state_108.py` | UNREVIEWED | PENDING | — | Live Git blob 2e0bf04b22a0; no final review disposition matched |
 | `Governance_Remaining_Authority_Decisions_Register_046.md` | UNREVIEWED | PENDING | — | Live Git blob a1838b66fc5d; no final review disposition matched |
 | `GTP_Node_Candidate_Rings_Synthetic_Mesh_Execution_038.md` | UNREVIEWED | PENDING | — | Live Git blob 1cc8f03caec1; no final review disposition matched |
-| `GTP_Node_Centred_Irregular_Node_Synthetic_Results_042.md` | UNREVIEWED | PENDING | — | Live Git blob ff0babb4d617; no final review disposition matched |
+| `GTP_Node_Centred_Irregular_Node_Synthetic_Results_042.md` | IN_EVALUATION | IN_PROGRESS | GOV-GTP-042-20261106090551923 | ACBlainey/Concord-1.4a, Governance, `02_Domains/04_Governance/V2.1/Validation/GTP_Node_Centred_Irregular_Node_Synthetic_Results_042.md`, 2026-11-06T09:05:51.923Z. Review operational survival under PRUNE-LIVE-20261106-001. |
 | `GTP_Node_Ring_Origin_Neutrality_Synthetic_Results_040.md` | UNREVIEWED | PENDING | — | Live Git blob d18486652cb5; no final review disposition matched |
 | `GTP_Node_Substitution_Proportionate_Validation_Closure_043.md` | UNREVIEWED | PENDING | — | Live Git blob 124bbf18f494; no final review disposition matched |
 | `GTP_Node_Terminology_Candidate_Integrity_Audit_036.md` | REMOVED | COMPLETED | — | Deletion commit `1c2cd66` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob 6230ae5098e1; exact deletion/migration commit and pruning rationale still to verify |
