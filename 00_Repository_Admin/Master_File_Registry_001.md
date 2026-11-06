@@ -1354,7 +1354,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `02_Domains/04_Governance/V2.1/Validation`
 | `authority_commit_race_102.py` | UNREVIEWED | PENDING | — | Live Git blob b5476f7445fe; no final review disposition matched |
-| `Authority_Conserving_Substitution_Test_007.md` | UNREVIEWED | PENDING | — | Live Git blob 708b8a61b1f4; no final review disposition matched |
+| `Authority_Conserving_Substitution_Test_007.md` | IN_EVALUATION | IN_PROGRESS | GOV-007-2026-11-06T01:49:08.046Z | ACBlainey/Concord-1.4a; path `02_Domains/04_Governance/V2.1/Validation/Authority_Conserving_Substitution_Test_007.md`; domain Governance; agent Codex-Governance; UTC 2026-11-06T01:49:08.046Z; prior KEEP reconciliation. |
 | `authority_owner_registry_101.py` | UNREVIEWED | PENDING | — | Live Git blob c90ecd6431f2; no final review disposition matched |
 | `Bounded_Voting_Context_Adversarial_Matrix_015.md` | UNREVIEWED | PENDING | — | Live Git blob 1ed0652aae70; no final review disposition matched |
 | `BVC_Blind_Test_001_Evaluator_Brief.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 91ffe4f71e02; exact deletion/migration commit and pruning rationale still to verify |
