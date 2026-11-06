@@ -1350,7 +1350,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Section_21_Chapters_201-210_Subsection_Integration_Draft_001.md` | UNREVIEWED | PENDING | — | Live Git blob 2056b10f5089; no final review disposition matched |
 | `Section_22_Chapters_211-215_Source_Preserved_001.md` | UNREVIEWED | PENDING | — | Live Git blob 554998f39fac; no final review disposition matched |
 | `Section_22_Chapters_211-215_Subsection_Integration_Draft_001.md` | UNREVIEWED | PENDING | — | Live Git blob cc184605ccbf; no final review disposition matched |
-| `Sectional_Source_Baseline_Manifest_001.md` | UNREVIEWED | PENDING | — | Live Git blob 19f85cc039d0; no final review disposition matched |
+| `Sectional_Source_Baseline_Manifest_001.md` | IN_EVALUATION | IN_PROGRESS | GOV-MANIFEST-20261106005408519 | ACBlainey/Concord-1.4a, Governance, `02_Domains/04_Governance/V2.1/Sections/Sectional_Source_Baseline_Manifest_001.md`, 2026-11-06T00:54:08.519Z. Verify source baseline provenance and dependencies. |
 
 ### `02_Domains/04_Governance/V2.1/Validation`
 | `authority_commit_race_102.py` | UNREVIEWED | PENDING | — | Live Git blob b5476f7445fe; no final review disposition matched |
