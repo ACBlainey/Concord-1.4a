@@ -1769,7 +1769,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Concord Legal Classification Grammar — Illegality Lawfulness Justification and Mitigation 001.md` | UNREVIEWED | PENDING | — | Live Git blob 827096c753f9; no final review disposition matched |
 | `Consent and Withdrawal Classifiers — Scope Capacity Context and Continuing Authorship 001.md` | UNREVIEWED | PENDING | — | Live Git blob ebbce6ee2c4d; no final review disposition matched |
 | `Derived and Inferred Cognitive Privacy — Modelled Mental State and Cognitive-Proxy Protection 001.md` | UNREVIEWED | PENDING | — | Live Git blob 3b88ca6866fe; no final review disposition matched |
-| `Derived and Inferred Cognitive Privacy — Scenario Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 5311553b6fc7; no final review disposition matched |
+| `Derived and Inferred Cognitive Privacy — Scenario Stress Test 001.md` | IN_EVALUATION | IN_PROGRESS | LAW-20261106083505 | repository: ACBlainey/Concord-1.4a; path: `02_Domains/09_Law/Derived and Inferred Cognitive Privacy — Scenario Stress Test 001.md`; domain: `02_Domains/09_Law/`; Law pruning instance; UTC 2026-11-06T08:35:05.117Z; bounded test review |
 | `Development Source Register.md` | UNREVIEWED | PENDING | — | Live Git blob fb6e7c69ccb5; no final review disposition matched |
 | `Endangerment and Culpable Creation of Serious Risk — Imposed Danger Base Offence Architecture 001.md` | UNREVIEWED | PENDING | — | Live Git blob 1bdd8fc63c35; no final review disposition matched |
 | `Entrusted Authority and Fiduciary Integrity — Corruption Bribery and Misuse of Entrusted Function Base Offence Architecture 001.md` | UNREVIEWED | PENDING | — | Live Git blob 350507080922; no final review disposition matched |
