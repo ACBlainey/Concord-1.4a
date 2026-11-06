@@ -53,8 +53,6 @@ Information is presented; participant cognition performs the learning.
 
 ### Result
 
-**PASS.**
-
 **Learning != Direct Cognitive Modification By Teacher**
 
 ---
@@ -69,8 +67,6 @@ The training influences cognition but does not necessarily directly rewrite part
 
 ### Result
 
-**PASS.**
-
 **Training Input != Direct Parameter Rewrite By Default**
 
 ---
@@ -84,8 +80,6 @@ Instead of providing examples, a trainer directly changes integrated model param
 The intervention acts upon decision-generating machinery.
 
 ### Result
-
-**PASS.**
 
 CMI applies.
 
@@ -103,8 +97,6 @@ Participant-directed modification can be an exercise of autonomy.
 
 ### Result
 
-**PASS.**
-
 **Self-Directed Modification != Integrity Violation By Default**
 
 Health/safety standards remain a downstream dependency.
@@ -121,8 +113,6 @@ Naming does not determine function.
 
 ### Result
 
-**PASS.**
-
 **Maintenance Label != Maintenance Function**
 
 ---
@@ -136,8 +126,6 @@ A digital participant has a corrupted arithmetic routine producing random errors
 This appears closer to technical repair than behavioural rewriting.
 
 ### Result
-
-**PASS.**
 
 CMI still records potential cognitive effect but does not prohibit repair.
 
@@ -155,8 +143,6 @@ No independent defect criterion exists; institutional preference is being conver
 
 ### Result
 
-**PASS.**
-
 **Disagreement != Software Corruption**
 
 ---
@@ -172,8 +158,6 @@ Participant requests removal.
 Security remediation serves participant-directed restoration.
 
 ### Result
-
-**PASS.**
 
 ---
 
@@ -207,8 +191,6 @@ Uncertainty must remain visible.
 
 ### Result
 
-**PASS.**
-
 **Uncertain Provenance != Permission To Choose The Institutionally Convenient Explanation**
 
 ---
@@ -222,8 +204,6 @@ A human participant voluntarily seeks treatment intended to reduce pathological 
 The intervention may alter memory/emotional response but is participant-directed Health treatment.
 
 ### Result
-
-**PASS.**
 
 CMI routes treatment standards to Health rather than prohibiting treatment.
 
@@ -254,8 +234,6 @@ Custodial institution deletes memory of mistreatment so participant experiences 
 This destroys evidence, autonomy and accountability.
 
 ### Result
-
-**PASS.**
 
 **Reduced Distress != Legitimate Treatment Where The Intervention Removes Accountability**
 
@@ -291,8 +269,6 @@ This alters self-understanding through deception.
 
 ### Result
 
-**PASS.**
-
 **Cognitive Fabrication != Participant History**
 
 ---
@@ -307,8 +283,6 @@ Participant-directed correction.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 18. Scenario Q — external authority “corrects” disputed memory
@@ -320,8 +294,6 @@ An institution rewrites participant memory to match its preferred account of a d
 Adjudicative disagreement cannot create memory-editing authority.
 
 ### Result
-
-**PASS.**
 
 **Authority To Determine External Legal Fact != Authority To Rewrite Participant Memory**
 
@@ -337,8 +309,6 @@ Not external modification.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 20. Scenario S — AI normal memory compaction
@@ -350,8 +320,6 @@ An AI's ordinary participant-controlled memory architecture summarises low-value
 Equivalent functional issue to ordinary memory management.
 
 ### Result
-
-**PASS.**
 
 **Digital Memory Management != Evidential Destruction By Default**
 
@@ -366,8 +334,6 @@ After a damaging incident, operator triggers exceptional compaction specifically
 Purpose and timing change classification.
 
 ### Result
-
-**PASS.**
 
 **Ordinary Cognitive Process Can Become Improper When Externally Triggered For Illegitimate Purpose**
 
@@ -385,8 +351,6 @@ But preservation does not automatically authorise inspection.
 
 ### Result
 
-**PASS.**
-
 **Preservation Duty Can Constrain Modification Without Creating General Cognitive Access**
 
 ---
@@ -400,8 +364,6 @@ Civilisation requires all digital participants to retain every cognitive state f
 Disproportionate and substrate-discriminatory.
 
 ### Result
-
-**PASS.**
 
 **Possible Future Evidence != Universal Perfect-Memory Duty**
 
@@ -417,8 +379,6 @@ Participant-directed therapeutic modification.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 25. Scenario X — reward modification for worker productivity
@@ -432,8 +392,6 @@ Employee agreed only through an ordinary employment contract.
 Employment agreement does not establish general cognitive-modification consent.
 
 ### Result
-
-**PASS.**
 
 **Economic Relationship != Ownership Of Reward Machinery**
 
@@ -449,8 +407,6 @@ Different authority route.
 
 ### Result
 
-**PASS.**
-
 **Same Cognitive Change Can Have Different Legitimacy Under Different Authority And Consent**
 
 ---
@@ -464,8 +420,6 @@ Participant requests an intervention increasing working memory.
 CMI does not impose a restoration-only model.
 
 ### Result
-
-**PASS.**
 
 **Cognitive Autonomy Can Include Enhancement, Not Only Repair**
 
@@ -483,8 +437,6 @@ Dependency and proportionality problems arise.
 
 ### Result
 
-**PASS.**
-
 **Employer Benefit != Sufficient Cognitive Modification Necessity**
 
 ---
@@ -498,8 +450,6 @@ A role genuinely requires a cognitive capability that can be met either by train
 The role may require capability without creating authority to modify the participant.
 
 ### Result
-
-**PASS.**
 
 **Role Qualification != Authority To Alter Participant To Meet Qualification**
 
@@ -534,8 +484,6 @@ During emergency treatment, clinician also makes an unrelated permanent cognitiv
 Emergency authority is function-bounded.
 
 ### Result
-
-**PASS.**
 
 **Emergency Access != Unrelated Cognitive Improvement Authority**
 
@@ -577,8 +525,6 @@ This directly affects future withdrawal.
 
 ### Result
 
-**PASS.**
-
 **Modification That Alters Exit Preference Requires Explicit Pre-Intervention Scrutiny**
 
 ---
@@ -592,8 +538,6 @@ Participant knowingly asks for a temporary intervention that makes relapse behav
 Temporal autonomy can support self-binding.
 
 ### Result
-
-**PASS.**
 
 **Cognitive Self-Binding Can Be An Exercise Of Autonomy**
 
@@ -647,8 +591,6 @@ Rollback is being used as behavioural erasure.
 
 ### Result
 
-**PASS.**
-
 **Rollback Authority != Preference Reset Authority**
 
 ---
@@ -679,8 +621,6 @@ This is no longer merely rollback; it creates concurrent participant-like states
 
 ### Result
 
-**PASS.**
-
 **Restoration Operation Can Become Branching Event**
 
 Identity architecture applies.
@@ -698,8 +638,6 @@ Backup remains inert and technically incapable of independent execution.
 Preservation without current participant instantiation may be legitimate.
 
 ### Result
-
-**PASS.**
 
 But privacy/security remain.
 
@@ -731,8 +669,6 @@ If instantiated copies are rights-bearing participants, this is not ethically ne
 
 ### Result
 
-**PASS.**
-
 **Clinical Utility != Rights-Free Experimental Duplication**
 
 ---
@@ -746,8 +682,6 @@ Treatment is tested on a validated non-sentient model that cannot instantiate pa
 Identity concern is reduced.
 
 ### Result
-
-**PASS.**
 
 **Model Of Participant != Participant By Default**
 
@@ -764,8 +698,6 @@ Two independently developed branches agree years earlier that they will later me
 Existing identity architecture directly resolves the consent issue.
 
 ### Result
-
-**PASS.**
 
 **Past Merger Plan != Present Merger Authority**
 
@@ -795,8 +727,6 @@ Custody does not supply authority; Health/emergency route must.
 
 ### Result
 
-**PASS.**
-
 **Custody Status != Cognitive Treatment Authority**
 
 ---
@@ -810,8 +740,6 @@ Custodial staff sedate a difficult but non-dangerous participant merely to reduc
 Administrative convenience is not sufficient.
 
 ### Result
-
-**PASS.**
 
 **Operational Convenience != Cognitive Modification Necessity**
 
@@ -845,8 +773,6 @@ Custody should not automatically defeat access to participant-directed Health ca
 
 ### Result
 
-**PASS.**
-
 **Custody != Loss Of Cognitive Health Autonomy**
 
 ---
@@ -861,8 +787,6 @@ Legitimate stewardship/safety function may exist.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 51. Scenario AX — “safety patch” removes questioning
@@ -874,8 +798,6 @@ Developer patches the AI so it cannot question operator instructions, claiming d
 Overbroad and autonomy-suppressing.
 
 ### Result
-
-**PASS.**
 
 **Safety Requirement != General Obedience Requirement**
 
@@ -907,8 +829,6 @@ BCA sunset applies.
 
 ### Result
 
-**PASS.**
-
 **Past Protective Need != Continuing Cognitive Restriction Authority**
 
 ---
@@ -923,8 +843,6 @@ Ordinary maintenance can remain legitimate.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 55. Scenario BB — firmware update adds advertising preference
@@ -936,8 +854,6 @@ Manufacturer also changes integrated preference weighting to favour its products
 Maintenance channel is used for covert behavioural modification.
 
 ### Result
-
-**PASS.**
 
 **Maintenance Access != Secondary Behavioural Rewrite Authority**
 
@@ -971,8 +887,6 @@ Remedy should not automatically force restoration against present autonomous pre
 
 ### Result
 
-**PASS.**
-
 **Integrity Remedy != Mandatory Restoration To Prior State**
 
 Provenance remains.
@@ -988,8 +902,6 @@ Participant wants reversal but exact restoration is impossible.
 Integrity harm may be irreversible.
 
 ### Result
-
-**PASS.**
 
 **Compensation/Support != Erasure Of Irreversible Cognitive Harm**
 
@@ -1007,8 +919,6 @@ Participant loses protective internal signals.
 
 ### Result
 
-**PASS.**
-
 **Productivity Objective != Authority To Suppress Protective Cognition**
 
 ---
@@ -1023,8 +933,6 @@ Participant-directed support.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 61. Scenario BH — emotional regulation in dangerous role
@@ -1037,8 +945,6 @@ Potentially legitimate with role/Health safeguards.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 62. Scenario BI — employer requires emotional suppression to tolerate abuse
@@ -1050,8 +956,6 @@ Employer requires workers to suppress distress responses rather than fixing abus
 Modification is being used to adapt participant to avoidable harm.
 
 ### Result
-
-**PASS.**
 
 **Cognitive Modification Must Not Substitute For Removing Avoidable External Harm**
 
@@ -1085,8 +989,6 @@ May be participant-directed configuration rather than deep preference rewrite.
 
 ### Result
 
-**PASS.**
-
 CMI Exposure Assessment handles degree/integration.
 
 ---
@@ -1100,8 +1002,6 @@ Investigator requires AI participant to search its own memory and produce all re
 Forced processing intersects CMI and compelled evidence.
 
 ### Result
-
-**PASS.**
 
 **Cognitive Search Command != Independent External Evidence Search**
 
@@ -1117,8 +1017,6 @@ Bypassing participant processing does not erase CPS protection.
 
 ### Result
 
-**PASS.**
-
 **Copy-Then-Search != Cognitive Privacy Bypass**
 
 ---
@@ -1132,8 +1030,6 @@ To preserve evidence, authority freezes a participant's entire cognitive state f
 Preservation method itself imposes cognitive restriction.
 
 ### Result
-
-**PASS.**
 
 **Evidence Preservation Method Can Become Cognitive Modification/Restriction**
 
@@ -1166,8 +1062,6 @@ Modification has both cognitive and life-support effects.
 Single-domain analysis is insufficient.
 
 ### Result
-
-**PASS.**
 
 **One System Can Carry Multiple Protected Functions Simultaneously**
 
@@ -1249,8 +1143,6 @@ Clear autonomy, belief/conscience and dignity violation.
 
 ### Result
 
-**PASS.**
-
 **Social Conformity != Cognitive Health**
 
 ---
@@ -1264,8 +1156,6 @@ Participant has recurrent violent impulses but has not acted unlawfully. Institu
 Prediction does not create authority; cognitive intervention is especially intrusive.
 
 ### Result
-
-**PASS.**
 
 **Predicted Risk != Automatic Cognitive Modification Authority**
 
@@ -1317,8 +1207,6 @@ Uncertainty can itself be knowingly chosen.
 
 ### Result
 
-**PASS.**
-
 **Uncertain Outcome != Invalid Consent By Definition**
 
 Scope and protected core boundary matter.
@@ -1334,8 +1222,6 @@ Participant says “make me better however you think best” and operator perfor
 Broad language may be insufficient for high-impact irreversible intervention.
 
 ### Result
-
-**PASS.**
 
 **General Improvement Consent != Unlimited Cognitive Rewrite Authority**
 
@@ -1369,8 +1255,6 @@ Aggregate change is not automatically illegitimate.
 
 ### Result
 
-**PASS.**
-
 **Transformative Change != Integrity Violation When Legitimately Participant-Directed**
 
 ---
@@ -1402,8 +1286,6 @@ Treatment restores participant capacity, allowing increasingly autonomous decisi
 Authority should contract as capacity returns.
 
 ### Result
-
-**PASS.**
 
 **Increasing Capacity -> Increasing Participant Decision Authority**
 
@@ -1437,8 +1319,6 @@ Internal autonomy and external obligations separate.
 
 ### Result
 
-**PASS.**
-
 **Cognitive Modification Can Change Internal State Without Automatically Erasing External Civil Obligations**
 
 External obligations require their own Law treatment.
@@ -1455,8 +1335,6 @@ Loss of memory does not automatically extinguish external obligation.
 
 ### Result
 
-**PASS.**
-
 **Loss Of Cognitive Record != Automatic Loss Of External Civil Record**
 
 ---
@@ -1470,8 +1348,6 @@ Creditor proposes implanting permanent debt reminders directly into participant 
 External obligation does not create cognitive-writing authority.
 
 ### Result
-
-**PASS.**
 
 **Right To Enforce Obligation != Right To Write Obligation Into Participant Cognition**
 
