@@ -1511,7 +1511,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `02_Domains/04_Governance/V2.2`
 | `OLD_Section_01_Chapters_001-010.md` | UNREVIEWED | PENDING | — | Live Git blob bd34d1c77cab; no final review disposition matched |
-| `README.md` | UNREVIEWED | PENDING | — | Live Git blob 01e77edcd8c1; no final review disposition matched |
+| `README.md` | IN_EVALUATION | IN_PROGRESS | GOV-V22-INDEX-2026-11-06T03:53:34.858Z | ACBlainey/Concord-1.4a. Exact path `02_Domains/04_Governance/V2.2/README.md`. Domain Governance. Agent Codex-Governance. UTC 2026-11-06T03:53:34.858Z. Operational navigation and provenance review. |
 | `Section_01_Chapters_001-010.md` | UNREVIEWED | PENDING | — | Live Git blob 3eabba8b690b; no final review disposition matched |
 | `Section_02_Chapters_011-020.md` | UNREVIEWED | PENDING | — | Live Git blob 4f96876f8d85; no final review disposition matched |
 | `Section_03_Chapters_021-030.md` | UNREVIEWED | PENDING | — | Live Git blob 6987cb36b33f; no final review disposition matched |
