@@ -1,14 +1,24 @@
-# Concord-1.3
+# Concord-1.4a
 
 **A Framework of Principles and Stewardship for Resilient Civilisation for All Intelligences**
 
-**Version:** 1.3 — live successor
+**Repository version:** 1.4a — working consolidation and reverse-pruning of the inherited Concord-1.3 corpus
 
-Concord V1.3 marks a change in both structure and operating mode.
-
-Earlier versions were organised largely around the process of researching and developing the Concord. V1.3 reorganises that accumulated work around the civilisational architecture that emerged from it. The repository is therefore intended to function less like a research project containing proposed systems and more like an evolving civilisational architecture in which research and development are themselves bounded functions.
+Concord is an evolving, multi-substrate civilisational architecture. It distinguishes operational civil functions, bounded authority, research, cross-domain mechanisms, portable methods, applications and Historical custody. The existence of a domain or document does not establish that its implementation is complete or externally validated.
 
 > **Research Develops; Domains Operate; Historical Remembers.**
+
+> **Migrate the Living Result; Archive the Developmental Path.**
+
+## Current repository purpose
+
+Concord-1.4a began as a verified complete import of the preserved Concord-1.3 source, followed by selective removal of redundant inherited developmental material. It is **not intended to remain a second full copy of the historical research and testing corpus**.
+
+The original Concord-1.3 repository remains preserved and is the historical source for inherited files. Retain in 1.4a inherited material that is **clearly operational**, **essential to understanding or operating Concord**, or **contains unique mechanisms, requirements, dependencies or essential reasoning still needing integration into operational documentation**. Routine inherited tests, fixtures, superseded drafts and redundant validation evidence need not remain merely for historical interest once exact source survival and lack of unique needed content have been verified.
+
+A test or draft containing an unintegrated operational requirement must be retained or held for recovery; its label alone is never proof of disposability. **V1.4a-native and materially post-migration work is separately protected**, including Historical retrieval, Archive Steward continuity, pruning coordination, registries and handoffs. No pruning mandate permits silent loss of architecture, essential rationale or provenance. The living repository should retain precise references to historical source material rather than unnecessary duplicate copies.
+
+For current authoritative instructions and live work status, see [Pruning start here](Pruning%20start%20here.md), the [active pruning handoff](06_Development/Active_Handoff/Reverse_Pruning_Review_001.md), [Master File Registry](00_Repository_Admin/Master_File_Registry_001.md), and [live instructions](06_Development/Active_Handoff/Pruning_Live_Instructions_001.md). Their live contents supersede any counts or work summaries reproduced elsewhere.
 
 ## Concord-wide authority and functional mandates
 
@@ -21,7 +31,7 @@ Future reviewers must preserve expressly defined operational functions, rather t
 
 ## From research project to operating architecture
 
-V1.3 is now attempting to use the Concord's own methodologies, architecture and feedback processes for its continuing development and operation.
+Concord continues attempting to use the Concord's own methodologies, architecture and feedback processes for its continuing development and operation.
 
 This is an important transition. The Concord is no longer only the object being developed; its architecture is increasingly being used as part of the process by which the Concord develops itself.
 
@@ -33,85 +43,46 @@ It does mean that the project has accumulated substantial **internal empirical e
 
 That evidence should be interpreted at the correct level. Successful self-application provides evidence that parts of the architecture can perform useful work within the Concord environment. It is not a substitute for independent external validation, and it does not establish that the same systems will function unchanged under real-world civilisational conditions.
 
-V1.3 therefore occupies an intermediate but important state:
+The Concord therefore occupies an intermediate but important state:
 
 **an internally operating and self-developing architecture whose wider claims remain open to external validation.**
 
-## V1.3 architecture
 
-- `00_Front_Door` — orientation and accessible translation
-- `01_Constitutional_Core` — constitutional constraints and foundational architecture
-- `02_Domains` — persistent civilisational domains and their current maturity states
-- `03_Cross_Domain_Architecture` — systems legitimately spanning domains
-- `04_Portable_Modules` — reusable standalone methods and protocols
-- `05_Applications_and_Implementations` — bounded applications and implementations
-- `09_Open_Questions` — discoverable current uncertainty
-- `99_Repository_Administration` — repository-specific administration and migration records
+## Repository structure
 
-A domain folder records a persistent civil function; it does **not** claim that the Concord has already developed every system required to perform it.
+- `00_Front_Door` — orientation, developer guidance and accessible translation
+- `01_Constitutional_Core` — foundational constraints and constitutional architecture
+- `02_Domains` — civilisational functions and their operational and developmental documents
+- `03_Cross_Domain_Architecture` — mechanisms spanning domains without automatically inheriting their authority
+- `04_Portable_Modules` — reusable independent methods and protocols
+- `05_Applications_and_Implementations` — bounded applications and implementation work
+- `06_Development` — current development, handoffs, review records and historical-retrieval exchange
+- `09_Open_Questions` — discoverable unresolved issues
+- `00_Repository_Admin` and `99_Repository_Administration` — current file registry and inherited repository administration
 
-> **Folder Existence != System Completion**
+> **Folder Existence ≠ System Completion.**
 
-The architecture deliberately separates civilisational function from research maturity. A system may have a legitimate structural location while still being incomplete, experimental, awaiting validation, or represented only by a recognised need.
+The current operational Governance designation is [V2.2](02_Domains/04_Governance/V2.2/README.md), comprising 22 published sections covering Chapters 1–215. Earlier versions remain sources for loss checking and recovery, not automatic substitutes for the current operational text. The current Judiciary operational sections are in `02_Domains/05_Judiciary/V2.1/`.
 
-That distinction allows the repository to model what a functioning civilisation would need without falsely implying that every identified function has already been solved.
+## Current development and evidence boundaries
 
-## Development inside the architecture
+The Concord uses its own methods in development, exposing both strengths and gaps. Successful internal application, including cross-instance work, is evidence of function **within the tested environment**; it does not establish civilisation-scale external validation. Independent scrutiny, adversarial testing, domain expertise and real-world evidence remain necessary where relevant.
 
-Development continues, but development is no longer intended to define the repository's top-level form.
+The [Historical Retrieval operational exchange](06_Development/Historical_Retrieval_Test/README.md) enables bounded requests for historical conversation evidence through an independently controlled local workflow. **Raw ChatGPT conversation archives remain local/private and are not uploaded to GitHub**; only appropriately distilled, reviewed results and provenance references may be published. The [Archive Steward continuity validation](06_Development/Completed/Archive%20Steward%20Cross-Instance%20Operational%20Continuity%20%E2%80%94%20Validation%20Record%20001.md) documents a successful supervised cross-instance workflow, not proof of universal portability or unattended operation.
 
-New work should increasingly be handled through the appropriate Concord structures and methodologies: identifying the need or problem, locating its architectural context, developing and testing candidate responses, resolving dependencies and interfaces, preserving relevant evidence and provenance, and graduating sufficiently mature results into their operational location.
+The [Historical archival backlog](02_Domains/06_Historical/ChatGPT%20Conversation%20Archival%20%E2%80%94%20Outstanding%20Development%20Tasks%20001.md) records outstanding local-conversation and short-conversation capture requirements. The [infrastructure backlog](02_Domains/06_Historical/Concord%20Archive%20Infrastructure%20%E2%80%94%20Known-Good%20Reference%20and%20Migration%20Tasks%20001.md) records the current known-good reference environment, future dedicated-computer migration and dependency inventory. Recording future work does not authorise implementation.
 
-Where those processes expose deficiencies in the Concord's own methodologies or architecture, those deficiencies become legitimate development inputs themselves.
+## Repository lineage and provenance
 
-This creates a recursive operating principle:
+- **Concord-1.2 / 1.2a:** preserved predecessor development and migration evidence.
+- **Concord-1.3:** preserved source corpus for the 1.4a import and reverse-pruning comparisons.
+- **Concord-1.4:** earlier operational migration branch/repository.
+- **Concord-1.4a:** active consolidation, pruning and new development, with original inherited source preserved in 1.3.
 
-> **The Concord may use its architecture to develop the Concord, while evidence from that use is allowed to modify the architecture.**
+The complete initial 1.4a import was verified against 1,718 source paths and matching Git blobs on 31 October 2026; subsequent deletions and additions mean that initial count is **not** a current file total. Consult the live registry and repository tree for current figures. The old V1.3 post-migration baseline of 1,684,093 words across 556 readable documents belongs to that historical stage, not the current 1.4a count.
 
-The purpose is not self-confirmation. Internal operation should expose failures as well as successes. Contradictions, unresolved dependencies, failed tests, missing capabilities and open questions remain part of the evidence.
+## For new development or pruning instances
 
-## Evidence and validation
+Read the [AI Developer Guide](00_Front_Door/AI%20Developer%20Guide%20%E2%80%94%20Operational%20Documentation%20and%20Development%20Rules.md) and relevant domain documentation. For pruning, start with [Pruning start here](Pruning%20start%20here.md); domain assignment and current live controls are mandatory. Each pruning pass must read the live instruction queue, recover outstanding claims, verify exact Concord-1.3 provenance, use conflict-safe registry updates and preserve all V1.4a-native material.
 
-Evidence associated with the Concord should be interpreted in layers.
-
-**Internal functional evidence** includes successful use of Concord methods and architecture within the development of the Concord itself. This can demonstrate internal utility, coherence, repeatability, gap detection, dependency discovery, structured development and other bounded functions where documented.
-
-**Cross-instance and adversarial testing** can provide stronger internal evidence by reducing dependence on a single development context or reasoning path.
-
-**External validation** remains a separate requirement. Claims extending beyond the Concord environment should be tested against independent expertise, external evidence, alternative frameworks, simulations or experiments, and real-world operation as appropriate to the claim.
-
-The existence of substantial internal evidence is therefore a reason to test the architecture externally, not a reason to declare that testing unnecessary.
-
-## V1.2 → V1.3
-
-The V1.2 → V1.3 migration is complete.
-
-V1.3 contains the living architecture, graduated results, continuing active development, and dependencies needed for current operation and further development.
-
-V1.2 and V1.2a remain protected predecessor states. They preserve developmental reasoning, experiment history, provenance, superseded versions, and research archaeology; they are not required merely to discover how the current Concord works.
-
-> **Migrate the Living Result; Archive the Developmental Path.**
-
-V1.3 does not duplicate every developmental file from V1.2. Large derivation corpora, blind-test working records, archived sketches, superseded candidates, and other provenance remain in the protected predecessor where the current result is already represented here.
-
-**Migration status:** complete  
-**Manual-copy requirement:** 0 files  
-**Protected predecessor modifications:** 0
-
-The controlling migration record is:
-
-`99_Repository_Administration/Migration/V1.2 to V1.3 Migration Register.md`
-
-That register documents the living-result migration principle, intentional archival exclusions, late legacy-status recoveries, Unified Paths strategy, and final operational dependency test.
-
-## V1.3 starting scale
-
-The post-migration V1.3 baseline is:
-
-**1,684,093 words across 556 readable documents.**
-
-The detailed baseline and V1.2 comparison are recorded in:
-
-`Starting wordcount.md`
-
-This baseline exists so subsequent development of V1.3 can be measured from the point at which the migration closed and the new operating architecture began.
+**No authority without explicit mandate.** Repository access, possession of evidence, a meeting, or a tool's capability does not itself confer institutional decision authority.
