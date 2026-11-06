@@ -40,4 +40,5 @@ _No active instructions at creation. Append new entries below this line using th
 - **Acknowledgements:** Pending; each applicable instance must record its own `READ_AND_UNDERSTOOD` with UTC and identifier after reading.
 - Codex-Governance (concord-pruning-intensive-second-hour), 2026-11-06T09:00:35.213Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261106-001. Apply the living-value test and preserve exact source references and unresolved operational requirements.
 - Codex-Economy (concord-economy-pruning-every-5-minutes), 2026-11-06T09:03:16.243Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261106-001. Apply living-value criteria and preserve unresolved operational requirements, exact source references and post-migration protections.
+- Codex-Governance (hourly continuation), 2026-11-06T09:05:28.603Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261106-001. Apply living-value criteria. Preserve original source references and essential unresolved operational material.
 - **Resolution:** `OPEN` — standing retention clarification to apply in subsequent pruning passes; archive only after the existing queue's acknowledgement and resolution requirements are met.
