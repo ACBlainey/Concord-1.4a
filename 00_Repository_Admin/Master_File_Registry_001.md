@@ -1759,7 +1759,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Behavioural Influence and Manipulation — Scenario Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 1713e7d6a50b; no final review disposition matched |
 | `Cognitive Modification and Integrity — Direct Intervention in Participant Cognition 001.md` | UNREVIEWED | PENDING | — | Live Git blob a694a9130037; no final review disposition matched |
 | `Cognitive Modification and Integrity — Scenario Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 09643b6abfc6; no final review disposition matched |
-| `Cognitive Protected Space — Scenario Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 71ec1e2d602c; no final review disposition matched |
+| `Cognitive Protected Space — Scenario Stress Test 001.md` | IN_EVALUATION | IN_PROGRESS | LAW-20261106051933 | Law pruning instance; UTC 2026-11-06T05:19:33.572Z; repository: ACBlainey/Concord-1.4a; path: `02_Domains/09_Law/Cognitive Protected Space — Scenario Stress Test 001.md`; domain: `02_Domains/09_Law/`; survival review |
 | `Cognitive Protected Space — Substrate-Neutral Contextual Wrapper Architecture 001.md` | UNREVIEWED | PENDING | — | Live Git blob 05aef4592682; no final review disposition matched |
 | `Commons and Ecological Integrity — Shared Resource Stewardship and Future Opportunity Base Offence Architecture 001.md` | UNREVIEWED | PENDING | — | Live Git blob 993173f65e7b; no final review disposition matched |
 | `Compact Basic Law Coverage Audit — Protected Interests Compositional Offences and Remaining Derivation Gaps 001.md` | UNREVIEWED | PENDING | — | Live Git blob 88b36f535be4; no final review disposition matched |
