@@ -1484,7 +1484,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `test_glass_hammer_owner_projection_118.py` | UNREVIEWED | PENDING | — | Live Git blob e93f989a3a98; no final review disposition matched |
 | `test_glass_hammer_seventh_digit_120.py` | UNREVIEWED | PENDING | — | Live Git blob 0c5e2cf37592; no final review disposition matched |
 | `test_glass_hammer_state_108.py` | UNREVIEWED | PENDING | — | Live Git blob 1e631138ebe2; no final review disposition matched |
-| `Triadic_Expansion_Mechanism_Separation_Test_011.md` | UNREVIEWED | PENDING | — | Live Git blob d511db6595a8; no final review disposition matched |
+| `Triadic_Expansion_Mechanism_Separation_Test_011.md` | IN_EVALUATION | IN_PROGRESS | GOV-EXPANSION-011-20261106081119242 | ACBlainey/Concord-1.4a, Governance, `02_Domains/04_Governance/V2.1/Validation/Triadic_Expansion_Mechanism_Separation_Test_011.md`, 2026-11-06T08:11:19.242Z. Review mechanism separation test. |
 | `Triadic_Expansion_Source_and_Authority_Reconciliation_011.md` | UNREVIEWED | PENDING | — | Live Git blob 2cff9375ac66; no final review disposition matched |
 | `Triadic_Governance_Protocol_Historical_Source_Search_010.md` | UNREVIEWED | PENDING | — | Live Git blob 79d575796c84; no final review disposition matched |
 | `Triadic_Module_Compatibility_Regression_Matrix_008.md` | UNREVIEWED | PENDING | — | Live Git blob b2bbb28656b7; no final review disposition matched |
