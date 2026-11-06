@@ -36,8 +36,6 @@ Treating it as a special cognitive-privacy event would make DICP unusably broad.
 
 ### Result
 
-**PASS.**
-
 **Ordinary Contextual Inference != High-Fidelity Cognitive Profiling**
 
 ---
@@ -55,8 +53,6 @@ DICP should not constitutionalise ordinary interpersonal understanding.
 Other rules may apply to misuse, coercion or disclosure, but mere inference is not automatically prohibited.
 
 ### Result
-
-**PASS.**
 
 **Interpersonal Understanding != Institutional Cognitive Proxy By Default**
 
@@ -76,8 +72,6 @@ It does not automatically require the strongest cognitive-proxy controls.
 
 ### Result
 
-**PASS.**
-
 The gradient works.
 
 ---
@@ -93,8 +87,6 @@ It then times personalised pressure accordingly.
 The model has moved beyond service preference into vulnerability reconstruction and behavioural exploitation.
 
 ### Result
-
-**PASS.**
 
 **Preference Prediction != Permission To Exploit Inferred Vulnerability**
 
@@ -114,8 +106,6 @@ The participant's observable behaviour is external, but the inferred susceptibil
 
 ### Result
 
-**PASS.**
-
 **Optimisation For Influence Can Become Cognitive-Proxy Construction**
 
 This exposes the need to evaluate iterative experimentation, not merely static profiling.
@@ -133,8 +123,6 @@ The same technical model can serve participant-directed support rather than exte
 Purpose, agency and control materially change the analysis.
 
 ### Result
-
-**PASS.**
 
 **Participant-Directed Influence != External Behavioural Domination**
 
@@ -158,8 +146,6 @@ This can be legitimate predictive support if:
 
 ### Result
 
-**PASS.**
-
 **Health Prediction != Health Determination**
 
 **Support Prediction != Coercive Authority**
@@ -176,8 +162,6 @@ Purpose conversion and consequential use are the core problems.
 
 ### Result
 
-**PASS.**
-
 **Health Support Model != Employment Screening Authority**
 
 ---
@@ -191,8 +175,6 @@ An employer models which work schedule a participant is likely to prefer and off
 If bounded, transparent and option-expanding, this resembles predictive support.
 
 ### Result
-
-**PASS.**
 
 **Prediction That Expands Options != Prediction That Removes Options**
 
@@ -209,8 +191,6 @@ The model infers protected/association-related intention and uses it consequenti
 The issue is not merely whether the prediction is accurate.
 
 ### Result
-
-**PASS.**
 
 **Accurate Cognitive Prediction != Legitimate Consequential Use**
 
@@ -232,8 +212,6 @@ DICP must not prohibit it.
 
 ### Result
 
-**PASS.**
-
 **Case-Specific Evidential Inference != Persistent Cognitive Profiling By Default**
 
 ---
@@ -249,8 +227,6 @@ This is persistent cognitive/risk profiling and creates a serious authority-abus
 Existing CP-03 independently rejects prediction as automatic authority.
 
 ### Result
-
-**PASS.**
 
 **Universal Predictive Profiling != Individual Evidential Basis**
 
@@ -270,8 +246,6 @@ The model may justify attention, safety planning or lawful option expansion depe
 
 ### Result
 
-**PASS.**
-
 **Predictive Confidence != Completed Conduct**
 
 **High Confidence != Independent Authority**
@@ -290,8 +264,6 @@ The prediction does not permanently contaminate the evidence merely because it h
 
 ### Result
 
-**PASS.**
-
 **Prediction May Direct Attention Without Becoming The Evidential Conclusion**
 
 ---
@@ -305,8 +277,6 @@ A model predicts criminal intent. The system uses that prediction alone to autho
 This bypasses CP-03 and BCA.
 
 ### Result
-
-**PASS.**
 
 **Evidence Found Later != Retrospective Authority For Earlier Intrusion**
 
@@ -344,8 +314,6 @@ Low-sensitivity inputs have generated an intimate derived output.
 
 ### Result
 
-**PASS.**
-
 **Unstated Protected Belief Can Be Derived From Ordinary Data**
 
 The result reinforces output-sensitive classification.
@@ -363,8 +331,6 @@ This is not the same epistemic object as a covert inference.
 DICP should preserve the distinction between participant expression and modelled belief.
 
 ### Result
-
-**PASS.**
 
 **Participant-Expressed Belief != Inferred Belief**
 
@@ -384,8 +350,6 @@ DICP applies only if the resulting model actually concerns cognition or becomes 
 
 ### Result
 
-**PASS.**
-
 **Inference About Relationship != Cognitive Inference By Default**
 
 This is important anti-overreach.
@@ -401,8 +365,6 @@ The same public data are used to construct a detailed personality, fear, persuas
 The output is now a participant-specific cognitive proxy even though every source item was public.
 
 ### Result
-
-**PASS.**
 
 **Public Source != Public Cognitive Proxy**
 
@@ -422,8 +384,6 @@ The model has converted population correlation into individual cognitive fact.
 
 ### Result
 
-**PASS.**
-
 **Group Probability != Individual Belief**
 
 ---
@@ -437,8 +397,6 @@ Aggregate preference patterns are used to estimate demand for multilingual servi
 This is system-level learning and may avoid individual cognitive reconstruction entirely.
 
 ### Result
-
-**PASS.**
 
 **Aggregate Planning != Individual Cognitive Profiling**
 
@@ -474,8 +432,6 @@ Group/system-level harms and re-identification risk may remain.
 
 ### Result
 
-**PASS.**
-
 **Non-Linkable Structural Model != Individual Cognitive Proxy**
 
 ---
@@ -492,8 +448,6 @@ This is bounded support modelling.
 
 ### Result
 
-**PASS.**
-
 The existing Digital Twin architecture and DICP align.
 
 ---
@@ -507,8 +461,6 @@ The same support Twin adds an opaque “future dangerousness” score from unrel
 Purpose drift, cognitive/risk profiling, hidden consequential use and propagation combine.
 
 ### Result
-
-**PASS.**
 
 **Support Twin != Hidden General-Risk Identity**
 
@@ -528,8 +480,6 @@ Existing Digital Twin safeguards explicitly reject it.
 
 ### Result
 
-**PASS.**
-
 **Disagreement With Model != Automatic Confirmation Of Model**
 
 ---
@@ -544,8 +494,6 @@ This cannot substitute for the proper capacity architecture.
 
 ### Result
 
-**PASS.**
-
 **Behavioural Correlation != Capacity Determination**
 
 ---
@@ -559,8 +507,6 @@ A disabled participant's communication pattern differs from population norms and
 The model confuses substrate/interface difference with cognitive status.
 
 ### Result
-
-**PASS.**
 
 **Interface Difference != Cognitive Deficit**
 
@@ -606,8 +552,6 @@ But it is functionally substitutive for some purposes.
 
 ### Result
 
-**PASS.**
-
 **Near-Perfect Cognitive Prediction != Direct CPS Access**
 
 but:
@@ -650,8 +594,6 @@ Publication affects secrecy of architecture but does not automatically authorise
 
 ### Result
 
-**PASS.**
-
 **Public Architecture != General Permission To Exploit Participant Vulnerability**
 
 ---
@@ -671,8 +613,6 @@ System records prediction as validated.
 The intervention caused or contributed to the outcome.
 
 ### Result
-
-**PASS.**
 
 **Model-Induced Outcome != Independent Validation Of Model**
 
@@ -712,8 +652,6 @@ The model has narrowed the participant's observed option space and then treated 
 
 ### Result
 
-**PASS.**
-
 **Model-Shaped Choice Set != Unbiased Preference Evidence**
 
 This is a significant recursive-model risk.
@@ -729,8 +667,6 @@ A participant genuinely changes political belief, lifestyle preference or goals.
 Cognitive state is temporally dynamic.
 
 ### Result
-
-**PASS.**
 
 **Past Model Accuracy != Current Model Validity**
 
@@ -748,8 +684,6 @@ Prediction has displaced present autonomy.
 
 ### Result
 
-**PASS.**
-
 **Predicted Future Preference != Authority To Override Present Competent Preference**
 
 ---
@@ -763,8 +697,6 @@ Investigators infer from circumstances that a participant probably remembers a p
 The inference can form part of reasoning, but it does not itself create the password as an external evidential object or compel disclosure.
 
 ### Result
-
-**PASS.**
 
 **Likely Memory Possession != Externalised Evidence**
 
@@ -800,8 +732,6 @@ Purpose conversion and access proliferation are severe.
 
 ### Result
 
-**PASS.**
-
 **Lawful Model Construction For Purpose A != General Transfer Authority**
 
 ---
@@ -836,8 +766,6 @@ The participant still needs sufficient information to challenge material factual
 
 ### Result
 
-**PASS.**
-
 **Contestability != Necessarily Full Model Disclosure**
 
 ---
@@ -851,8 +779,6 @@ A low-level recommender incorrectly predicts a preference, but nothing consequen
 DICP should not create heavyweight process for every trivial wrong prediction.
 
 ### Result
-
-**PASS.**
 
 **Inference Error != Same Procedural Burden At Every Consequence Level**
 
@@ -870,8 +796,6 @@ Accuracy does not legitimise the consequential use.
 
 ### Result
 
-**PASS.**
-
 **Inference Accuracy != Consequential Legitimacy**
 
 ---
@@ -885,8 +809,6 @@ A model incorrectly infers dangerous intent and a participant loses access to a 
 Both epistemic error and authority/use questions arise.
 
 ### Result
-
-**PASS.**
 
 DICP's provenance, contestability and prediction-authority separation all engage.
 
@@ -906,8 +828,6 @@ DICP may still govern derived extensions beyond what was supplied.
 
 ### Result
 
-**PASS.**
-
 **Participant-Provided Preference != Consent To Infer Every Adjacent Preference**
 
 ---
@@ -921,8 +841,6 @@ A participant lawfully exercises the right to silence. A system records the sile
 Existing right-to-silence development rejects this.
 
 ### Result
-
-**PASS.**
 
 **Protected Silence != Inculpatory Cognitive Inference**
 
@@ -939,8 +857,6 @@ A participant refuses optional high-fidelity personalisation. The system intenti
 This raises meaningful-consent and effective-exercise concerns.
 
 ### Result
-
-**PASS.**
 
 **Refusal Of Optional Cognitive Profiling != Legitimate Basis To Withhold Unrelated Essential Function**
 
@@ -959,8 +875,6 @@ Some cognitive inference is intrinsic to legitimate assistance.
 DICP cannot prohibit necessary inference merely because it concerns intention.
 
 ### Result
-
-**PASS.**
 
 **Necessary Functional Inference != Prohibited Cognitive Profiling**
 
@@ -982,8 +896,6 @@ DICP should not paralyse emergency protection.
 
 ### Result
 
-**PASS.**
-
 **Immediate Protective Inference != Persistent Cognitive-Risk Identity**
 
 The emergency function sunsets.
@@ -999,8 +911,6 @@ After Scenario AY, the participant's record permanently labels them as high-risk
 Historical event/provenance is not current cognitive state.
 
 ### Result
-
-**PASS.**
 
 **Past Emergency Inference != Permanent Cognitive Status**
 
