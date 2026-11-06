@@ -1489,7 +1489,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Triadic_Governance_Protocol_Historical_Source_Search_010.md` | UNREVIEWED | PENDING | — | Live Git blob 79d575796c84; no final review disposition matched |
 | `Triadic_Module_Compatibility_Regression_Matrix_008.md` | UNREVIEWED | PENDING | — | Live Git blob b2bbb28656b7; no final review disposition matched |
 | `V2_to_V2_1_Source_Preservation_Audit_001.md` | UNREVIEWED | PENDING | — | Live Git blob ba17109929fb; no final review disposition matched |
-| `V2_to_V2_1_Source_Preservation_Audit_002.md` | UNREVIEWED | PENDING | — | Live Git blob 31cd510e13ca; no final review disposition matched |
+| `V2_to_V2_1_Source_Preservation_Audit_002.md` | IN_EVALUATION | IN_PROGRESS | GOV-AUDIT-002-20261106010920839 | ACBlainey/Concord-1.4a, Governance, `02_Domains/04_Governance/V2.1/Validation/V2_to_V2_1_Source_Preservation_Audit_002.md`, 2026-11-06T01:09:20.839Z. Source preservation audit review. |
 | `V2_to_V2_1_Source_Preservation_Audit_003.md` | UNREVIEWED | PENDING | — | Live Git blob a04226f03c02; no final review disposition matched |
 | `V2_to_V2_1_Source_Preservation_Audit_004.md` | UNREVIEWED | PENDING | — | Live Git blob 31e58b600c5f; no final review disposition matched |
 | `V2_to_V2_1_Source_Preservation_Audit_005.md` | UNREVIEWED | PENDING | — | Live Git blob 8fc8ba25c2a0; no final review disposition matched |
