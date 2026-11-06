@@ -1276,7 +1276,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `GTP_Vertex_Representation_Authorial_Clarification_020.md` | REMOVED | COMPLETED | — | Deletion commit `2d588d7a` independently verified; Absent from live V1.4a, V1.3 original blob b3b1da7d3803; exact deletion/migration commit and pruning rationale still to verify |
 | `Migration_Aware_Source_Authority_and_Architecture_Recovery_Rule_056.md` | KEEP | COMPLETED | — | Handoff line 537 — retention; check source record for scope |
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 9932000255ef; no final review disposition matched |
-| `Single_Position_Vote_Bounded_Authority_Clarification_013.md` | UNREVIEWED | PENDING | — | Live Git blob b9a13457e175; no final review disposition matched |
+| `Single_Position_Vote_Bounded_Authority_Clarification_013.md` | IN_EVALUATION | IN_PROGRESS | GOV-WM-013-20261106005137708 | Repository ACBlainey/Concord-1.4a. Domain `02_Domains/04_Governance`. Path `02_Domains/04_Governance/V2.1/Completed/Single_Position_Vote_Bounded_Authority_Clarification_013.md`. UTC 2026-11-06T00:51:37.708Z. Backfill documented preservation hold. |
 | `Triadic_Decision_Authority_Conservation_Portable_Module_Candidate_007.md` | KEEP | COMPLETED | — | Handoff line 359 — retention; check source record for scope |
 | `Triadic_Module_V11_Source_Comparison_Minimal_Amendment_008.md` | KEEP | COMPLETED | — | Handoff line 359 — retention; check source record for scope |
 | `Vertex_Adjacent_Substitute_Selection_Operational_Candidate_027.md` | UNREVIEWED | PENDING | — | Live Git blob 0537ce97bac0; no final review disposition matched |
