@@ -1390,7 +1390,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `g05_bta_adversarial_073.py` | UNREVIEWED | PENDING | — | Live Git blob 87b83f2c59b2; no final review disposition matched |
 | `g05_bta_async_evidence_075.py` | UNREVIEWED | PENDING | — | Live Git blob a76fa3cc1971; no final review disposition matched |
 | `g05_bta_compat_adapter_072.py` | UNREVIEWED | PENDING | — | Live Git blob 8135af397a93; no final review disposition matched |
-| `G05_BTA_Compatibility_069.md` | UNREVIEWED | PENDING | — | Live Git blob 46ef8b13fd7a; no final review disposition matched |
+| `G05_BTA_Compatibility_069.md` | IN_EVALUATION | IN_PROGRESS | GOV-G05_BTA_Compatibility_069-2026-11-06T02:58:23.300Z | ACBlainey/Concord-1.4a. Exact path `02_Domains/04_Governance/V2.1/Validation/G05_BTA_Compatibility_069.md`. Domain Governance. Agent Codex-Governance. UTC 2026-11-06T02:58:23.300Z. Reconcile prior retention. |
 | `g05_bta_continuity_duties_081.py` | UNREVIEWED | PENDING | — | Live Git blob c97e0540699a; no final review disposition matched |
 | `g05_bta_cumulative_control_086.py` | UNREVIEWED | PENDING | — | Live Git blob e5fb5659f24c; no final review disposition matched |
 | `g05_bta_distributed_control_087.py` | UNREVIEWED | PENDING | — | Live Git blob 5d596a0f9706; no final review disposition matched |
