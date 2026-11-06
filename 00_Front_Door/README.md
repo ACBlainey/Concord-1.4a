@@ -11,6 +11,8 @@ V1.3 material will be populated here after current-state consistency review. The
 
 ## For AI Developers and Future Working Instances
 
+Start with **[New Instance Onboarding — The Concord in the Big Picture](New%20Instance%20Onboarding%20%E2%80%94%20The%20Concord%20in%20the%20Big%20Picture.md)** for the founding questions, the relationship between the systems, and how to apply ESCP to your own reading. Before substantive editing, use its short orientation check to make your understanding and assignment scope visible.
+
 Before modifying Concord architecture, read **[AI Developer Guide — Operational Documentation and Development Rules](AI%20Developer%20Guide%20%E2%80%94%20Operational%20Documentation%20and%20Development%20Rules.md)**. It sets out continuous development, clean operational documentation, precise design-gap marking, source preservation, authority boundaries and consistency-check practice. This is a working-method guide; it does not confer constitutional or domain authority.
 
 ## Urgent AI / Autonomy Bootstrap Entrance
