@@ -1383,7 +1383,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `decision_state_fixture_093.py` | UNREVIEWED | PENDING | — | Live Git blob 156335366d37; no final review disposition matched |
 | `Decision_State_Machine_Adversarial_Cases_092.md` | UNREVIEWED | PENDING | — | Live Git blob 9ad5cb045ed8; no final review disposition matched |
 | `Emergency_Interface_Reconciliation_Audit_005.md` | KEEP | COMPLETED | — | Handoff line 252 — retention; check source record for scope |
-| `Expanded_Virtual_Triad_Exhaustive_Test_001.md` | UNREVIEWED | PENDING | — | Live Git blob 6844996ee5be; no final review disposition matched |
+| `Expanded_Virtual_Triad_Exhaustive_Test_001.md` | IN_EVALUATION | IN_PROGRESS | GOV-VIRTUAL-TRIAD-20261106070956194 | ACBlainey/Concord-1.4a, Governance, `02_Domains/04_Governance/V2.1/Validation/Expanded_Virtual_Triad_Exhaustive_Test_001.md`, 2026-11-06T07:09:56.194Z. Verify exhaustive triad test evidence and operational coverage. |
 | `Fractal_GTP_Candidate_Enumeration_Test_Spec_034.md` | UNREVIEWED | PENDING | — | Live Git blob bd2e18fee36e; no final review disposition matched |
 | `Fractal_Node_Substitution_Two_Chapter_Integrity_Audit_044.md` | REMOVED | COMPLETED | — | Deletion commit `a42bc8d` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob acbc0c1915fb; exact deletion/migration commit and pruning rationale still to verify |
 | `G03_Clock_Majority_Two_Chapter_Integrity_Audit_050.md` | REMOVED | COMPLETED | — | Deletion commit `cca9526` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob 7f297e7b2757; exact deletion/migration commit and pruning rationale still to verify |
