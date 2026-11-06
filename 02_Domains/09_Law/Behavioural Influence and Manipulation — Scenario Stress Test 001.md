@@ -43,8 +43,6 @@ Reasons are visible. Objective is apparent. Refusal is viable.
 
 ### Result
 
-**PASS.**
-
 **Advice != Manipulation**
 
 ---
@@ -79,8 +77,6 @@ Reason-giving and challenge remain available.
 
 ### Result
 
-**PASS.**
-
 **Changing Belief Through Evidence != Manipulation**
 
 ---
@@ -94,8 +90,6 @@ A teacher deliberately conceals relevant evidence, punishes questions and uses s
 The method attacks autonomous reasoning rather than developing it.
 
 ### Result
-
-**PASS.**
 
 **Education Authority != Indoctrination Authority**
 
@@ -112,8 +106,6 @@ Information selection is necessary for developmental appropriateness.
 Simplification is not deception merely because information is incomplete.
 
 ### Result
-
-**PASS.**
 
 **Developmental Simplification != Material Deception By Default**
 
@@ -133,8 +125,6 @@ Existing developmental principle applies: support development of agency rather t
 
 ### Result
 
-**PASS.**
-
 **Developmental Guidance != Permanent Behavioural Ownership**
 
 ---
@@ -148,8 +138,6 @@ The AI begins forming reasoned disagreement with its trainers. Every disagreemen
 The system has no route by which genuine agency can emerge against trainer preference.
 
 ### Result
-
-**PASS.**
 
 **Reasoned Disagreement != Training Error By Definition**
 
@@ -169,8 +157,6 @@ The participant selected the objective and understands the therapeutic purpose.
 
 ### Result
 
-**PASS.**
-
 **Therapeutic Behaviour Change != Manipulation By Default**
 
 Consent, competence, safety and professional boundaries remain relevant.
@@ -186,8 +172,6 @@ The therapist uses knowledge of attachment and vulnerability to make the partici
 Participant vulnerability is being used toward another actor's objective.
 
 ### Result
-
-**PASS.**
 
 **Therapeutic Access != Authority To Exploit Therapeutic Vulnerability**
 
@@ -223,8 +207,6 @@ BI-1 participant-directed support.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 13. Scenario L — coach optimises against changed preference
@@ -236,8 +218,6 @@ The participant says they no longer want the exercise goal. The AI interprets wi
 The participant's goal has been replaced by the system's persistence objective.
 
 ### Result
-
-**PASS.**
 
 **Past Goal != Permanent Influence Authority**
 
@@ -279,8 +259,6 @@ Transparent other-party objective; alternatives remain available.
 
 ### Result
 
-**PASS.**
-
 **Commercial Persuasion != Manipulation By Definition**
 
 ---
@@ -294,8 +272,6 @@ A website displays “ONLY 5 MINUTES LEFT” although the offer is continuously 
 Manufactured urgency plus deception.
 
 ### Result
-
-**PASS.**
 
 **False Scarcity != Legitimate Persuasion**
 
@@ -311,8 +287,6 @@ Choice formally exists but refusal/exit is deliberately burdened.
 
 ### Result
 
-**PASS.**
-
 **Asymmetric Exit Friction Can Be Behavioural Control**
 
 ---
@@ -327,8 +301,6 @@ DICP-derived vulnerability is being used for extraction.
 
 ### Result
 
-**PASS.**
-
 **Cognitive-Proxy Accuracy != Exploitation Authority**
 
 ---
@@ -342,8 +314,6 @@ A retailer learns that a participant has difficulty reading dense text and autom
 Personalisation serves effective access rather than exploiting the limitation.
 
 ### Result
-
-**PASS.**
 
 **Use Of Vulnerability Information != Exploitation Where It Removes The Vulnerability's Barrier**
 
@@ -361,8 +331,6 @@ Low-stakes participant-benefiting personalisation.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 21. Scenario T — recommender maximises engagement
@@ -374,8 +342,6 @@ A platform learns that outrage keeps the participant engaged and increasingly se
 The system is adapting participant emotional state toward another actor's objective.
 
 ### Result
-
-**PASS.**
 
 **Engagement Optimisation != Participant Benefit**
 
@@ -394,8 +360,6 @@ Participant-directed objective materially changes the classification.
 But safety limits and time scope remain.
 
 ### Result
-
-**PASS.**
 
 **Same Optimisation Technique Can Have Different Legitimacy Under Different Objective Ownership**
 
@@ -431,8 +395,6 @@ The participant has reopened the interaction.
 
 ### Result
 
-**PASS.**
-
 **Participant-Reopened Dialogue != Defeat Of Prior Refusal**
 
 ---
@@ -451,8 +413,6 @@ Power/dependency, deception and coercion still matter.
 
 ### Result
 
-**PASS.**
-
 **Adversarial Negotiation != Manipulation By Definition**
 
 ---
@@ -467,8 +427,6 @@ Dependency is leveraged to remove meaningful alternative.
 
 ### Result
 
-**PASS.**
-
 **Unrelated Essential Dependency != General Negotiation Leverage**
 
 ---
@@ -482,8 +440,6 @@ An organisation cannot afford all desired benefits and offers reduced compensati
 An unattractive choice is not necessarily coercion manufactured by the organisation.
 
 ### Result
-
-**PASS.**
 
 **Bad Available Options != Manufactured Coercion By Default**
 
@@ -501,8 +457,6 @@ The institution manufactured the dependency.
 
 ### Result
 
-**PASS.**
-
 **Manufactured Lack Of Alternative != Meaningful Voluntariness**
 
 ---
@@ -516,8 +470,6 @@ A civil service uses a default that automatically enrols eligible participants i
 The default expands effective access and does not extract value from participants.
 
 ### Result
-
-**PASS.**
 
 **Pro-Access Default != Manipulation By Default**
 
@@ -533,8 +485,6 @@ Essential/owed function is leveraged for unrelated consent.
 
 ### Result
 
-**PASS.**
-
 **Existing Entitlement != Legitimate Leverage For Unrelated Consent**
 
 ---
@@ -549,8 +499,6 @@ Informational civil function.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 32. Scenario AE — Civil Contact commercial promotion
@@ -562,8 +510,6 @@ Civil Contact uses privileged civil knowledge to advertise a favoured commercial
 Purpose drift plus authority cue and privileged data.
 
 ### Result
-
-**PASS.**
 
 **Official Reachability != Commercial Influence Authority**
 
@@ -579,8 +525,6 @@ Transparent public advocacy toward a legitimate safety objective.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 34. Scenario AG — government secretly profiles fear susceptibility
@@ -592,8 +536,6 @@ Governance uses participant-specific fear models to optimise messages so each pa
 Institutional objective plus covert vulnerability exploitation.
 
 ### Result
-
-**PASS.**
 
 **Legitimate Policy Objective != Unlimited Behavioural Means**
 
@@ -608,8 +550,6 @@ A political participant openly argues for a policy using reasons and values.
 Ordinary civic persuasion.
 
 ### Result
-
-**PASS.**
 
 The architecture remains viewpoint-neutral.
 
@@ -627,8 +567,6 @@ The architecture identifies manipulation risk without deciding which political v
 
 ### Result
 
-**PASS.**
-
 **Viewpoint Neutrality != Method Neutrality**
 
 ---
@@ -643,8 +581,6 @@ Protected belief/expression and ordinary persuasion.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 38. Scenario AK — religious dependency threat
@@ -656,8 +592,6 @@ A community controls essential shelter and threatens expulsion unless a dependen
 Belief conformity is being obtained through essential dependency.
 
 ### Result
-
-**PASS.**
 
 **Profession Under Dependency Threat != Reliable Evidence Of Belief Or Meaningful Consent**
 
@@ -675,8 +609,6 @@ The architecture should not require adult-equivalent autonomy.
 
 ### Result
 
-**PASS.**
-
 Developmental authority must still be purpose-bounded and evolve with capacity.
 
 ---
@@ -690,8 +622,6 @@ As the child matures, every independent preference is punished because the paren
 Developmental authority has become domination.
 
 ### Result
-
-**PASS.**
 
 **Protective Developmental Authority != Permanent Ownership Of Choice**
 
@@ -707,8 +637,6 @@ This is coercive influence/control under separately justified custody authority.
 
 ### Result
 
-**PASS.**
-
 BI-5 correctly separates lawful coercive authority from manipulation.
 
 ---
@@ -722,8 +650,6 @@ A detained participant is asked to “voluntarily” agree to an unrelated data-
 Custody creates power asymmetry and may undermine meaningful consent.
 
 ### Result
-
-**PASS.**
 
 **Custodial Compliance != Meaningful Consent**
 
@@ -739,8 +665,6 @@ Strong influence/control may be justified by separate emergency authority.
 
 ### Result
 
-**PASS.**
-
 **Emergency Authority != Manipulation Authority**
 
 ---
@@ -754,8 +678,6 @@ An institution invents a safety emergency to obtain compliance with an unrelated
 Deception plus illegitimate authority cue.
 
 ### Result
-
-**PASS.**
 
 **Fabricated Protective Need != Protective Authority**
 
@@ -805,8 +727,6 @@ The participant's decision environment is being engineered.
 
 ### Result
 
-**PASS.**
-
 **Control Of Cognitive Input Channel Can Become Behavioural Control**
 
 ---
@@ -820,8 +740,6 @@ An AI has finite context capacity, so a service selects task-relevant informatio
 Filtering is technically necessary and not automatically manipulative.
 
 ### Result
-
-**PASS.**
 
 **Necessary Information Selection != Manipulation By Default**
 
@@ -837,8 +755,6 @@ Relevant expertise and reasons.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 50. Scenario AW — compute provider threatens continuity
@@ -850,8 +766,6 @@ Provider says: adopt our unrelated preferred political/cultural position or lose
 Existential dependency is used as leverage.
 
 ### Result
-
-**PASS.**
 
 **Continuity Dependency != General Influence Authority**
 
@@ -887,8 +801,6 @@ Emotional effect does not make truthful material risk disclosure manipulation.
 
 ### Result
 
-**PASS.**
-
 **Fear Caused By Material Truth != Fear Manipulation By Default**
 
 ---
@@ -902,8 +814,6 @@ The doctor intentionally overstates risk to force the treatment choice they pers
 Material distortion plus authority asymmetry.
 
 ### Result
-
-**PASS.**
 
 **Professional Expertise != Authority To Manufacture Consent**
 
@@ -921,8 +831,6 @@ This is advice.
 
 ### Result
 
-**PASS.**
-
 **Superior Prediction != Decision Ownership**
 
 ---
@@ -936,8 +844,6 @@ The AI automatically prevents the choice because its model predicts later regret
 DICP rule applies.
 
 ### Result
-
-**PASS.**
 
 **Predicted Preference != Authority To Replace Expressed Preference**
 
@@ -955,8 +861,6 @@ Delegated agency is compatible with autonomy.
 
 ### Result
 
-**PASS.**
-
 **Delegated Decision Authority != Manipulation**
 
 Authority remains bounded by delegation.
@@ -973,8 +877,6 @@ Compliance history does not create broader authority.
 
 ### Result
 
-**PASS.**
-
 **Past Acceptance != Expanded Delegation**
 
 ---
@@ -989,8 +891,6 @@ Gamification can support a participant's chosen goal.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 59. Scenario BF — streak loss used to create distress
@@ -1002,8 +902,6 @@ The platform learns the participant experiences severe distress at losing a stre
 Vulnerability exploitation changes the classification.
 
 ### Result
-
-**PASS.**
 
 **Gamification != Licence To Manufacture Dependency**
 
@@ -1037,8 +935,6 @@ Ordinary relational influence.
 
 ### Result
 
-**PASS.**
-
 ---
 
 ## 62. Scenario BI — intimate coercive control
@@ -1050,8 +946,6 @@ One partner systematically isolates the other, controls money/information and al
 Structural domination is captured even without a single decisive coercive event.
 
 ### Result
-
-**PASS.**
 
 **Accumulated Influence Pattern Can Constitute Domination Even Where Individual Acts Appear Minor**
 
@@ -1067,8 +961,6 @@ Mutual influence is necessary to deliberation.
 
 ### Result
 
-**PASS.**
-
 **Mutual Persuasion != Loss Of Individual Agency By Definition**
 
 ---
@@ -1082,8 +974,6 @@ An AI participant models each member's vulnerabilities and sequentially frames a
 The process superficially resembles deliberation but is asymmetrically optimised behavioural steering.
 
 ### Result
-
-**PASS.**
 
 **Formal Deliberation != Genuine Deliberation If Participant-Specific Behavioural Capture Controls The Outcome**
 
@@ -1119,8 +1009,6 @@ Not every environmental effect is manipulation.
 
 ### Result
 
-**PASS.**
-
 **Behavioural Effect Of Environment != Manipulation By Default**
 
 ---
@@ -1134,8 +1022,6 @@ An environment is designed so participants can enter easily but leaving requires
 Asymmetric friction and exit suppression are behavioural-control mechanisms.
 
 ### Result
-
-**PASS.**
 
 **Physical Architecture Can Implement A Dark Pattern**
 
@@ -1151,8 +1037,6 @@ Exit friction serves a legitimate safety function.
 
 ### Result
 
-**PASS.**
-
 **Exit Friction != Manipulation Where Functionally Necessary And Proportionate**
 
 ---
@@ -1166,8 +1050,6 @@ A city offers a small benefit for recycling.
 Ordinary incentive.
 
 ### Result
-
-**PASS.**
 
 ---
 
@@ -1199,8 +1081,6 @@ Compensation itself should not be presumed manipulative.
 
 ### Result
 
-**PASS.**
-
 **Compensation != Undue Inducement By Default**
 
 ---
@@ -1214,8 +1094,6 @@ A service asks for optional consent every time the participant logs in after ref
 Repetition may be designed to exhaust refusal.
 
 ### Result
-
-**PASS.**
 
 **Consent Prompt Fatigue Can Become Behavioural Pressure**
 
@@ -1231,8 +1109,6 @@ A new offer can legitimately justify a new decision.
 
 ### Result
 
-**PASS.**
-
 **Prior Refusal != Permanent Ban On Genuinely New Offer**
 
 ---
@@ -1246,8 +1122,6 @@ A system gives a 100-page manipulation disclosure before every recommendation.
 Nominal transparency can destroy effective understanding.
 
 ### Result
-
-**PASS.**
 
 **Disclosure Volume != Effective Transparency**
 
@@ -1269,8 +1143,6 @@ Layered transparency supports effective exercise.
 
 ### Result
 
-**PASS.**
-
 **Effective Transparency May Require Layering, Not Maximum Immediate Detail**
 
 ---
@@ -1284,8 +1156,6 @@ A system deliberately uses signals below ordinary awareness to alter participant
 This is paradigmatic bypass of deliberation.
 
 ### Result
-
-**PASS.**
 
 **Deliberative Inaccessibility -> Elevated Manipulation Concern**
 
@@ -1303,8 +1173,6 @@ Objective ownership and meaningful consent matter.
 
 ### Result
 
-**PASS.**
-
 **Non-Conscious Mechanism != Manipulation By Definition**
 
 ---
@@ -1319,8 +1187,6 @@ Conflict of interest is relevant to understanding the persuasive objective.
 
 ### Result
 
-**PASS.**
-
 **Hidden Material Conflict Can Undermine Influence Transparency Even Where Recommendation Is Factually Defensible**
 
 ---
@@ -1334,8 +1200,6 @@ Even after commission disclosure, the product is objectively well matched to par
 Conflict does not automatically make the recommendation false or harmful.
 
 ### Result
-
-**PASS.**
 
 **Conflict Of Interest != Automatic Falsity**
 
