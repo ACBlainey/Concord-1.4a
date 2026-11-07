@@ -6,6 +6,16 @@ This file bootstraps a **new ChatGPT pruning instance** working on `ACBlainey/Co
 
 **Goal:** “Migrate the Living Result; Archive the Developmental Path.” Reduce inherited V1.3 developmental duplication while retaining all operational architecture, unique mechanisms, essential rationale, dependencies and necessary evidence. Preserve source and decision provenance. Do not silently change rules or treat historical candidate/status wording as proof of disposability.
 
+## Explicit authorial approval for handoff updates — 2026-11-07
+
+Alexander C. Blainey explicitly approves updates to `06_Development/Active_Handoff/Reverse_Pruning_Review_001.md` in `ACBlainey/Concord-1.4a`, including reading its existing contents from that repository and sending those existing contents back to the same repository with a new authorised pruning handoff entry appended. This approval applies to the assigned pruning instances and their successors while carrying out authorised pruning and recording its results.
+
+GitHub's whole-file update API may require submitting the complete existing document together with the appended entry. That transmission to the same repository is explicitly approved. Preserve the latest existing contents and concurrent additions, use the current blob SHA, check for an already-recorded entry before retrying, and verify the saved result.
+
+For an outstanding handoff entry after the file review and registry claim have already been completed, verify the file and registry evidence and append the missing entry. Record the actual verified actions and commits. This approval continues across routine retries, resumptions and instance handovers within this scope.
+
+The existing local/offline boundary for raw conversation archives and browser data continues to govern new material. Append only the authorised distilled pruning record. This recorded user approval supplies permission for the stated repository update; platform approval review and tool permissions still apply. If automatic review rejects a write, retain its exact rejection and outstanding entry in the handover, and present this explicit approval when permission is assessed again.
+
 ## Mandatory per-pass controls — live instructions and interruption recovery (2026-11-05)
 
 **Every scheduled/manual pruning pass begins with fresh reads of** [`06_Development/Active_Handoff/Pruning_Live_Instructions_001.md`](06_Development/Active_Handoff/Pruning_Live_Instructions_001.md), the current registry, and the active handoff. The live instruction queue is protected V1.4a-native work. Apply entries targeted to the assigned domain or `ALL_PRUNERS`; commit and verify a `READ_AND_UNDERSTOOD` acknowledgement for this instance before affected work. Acknowledgement is distinct from implementation. Observe `BLOCKING` instructions until resolved. See queue for conflict-safe acknowledgement, completion and archive rules. Archive: [`06_Development/Active_Handoff/Pruning_Live_Instructions_Archive_001.md`](06_Development/Active_Handoff/Pruning_Live_Instructions_Archive_001.md).
