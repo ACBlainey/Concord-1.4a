@@ -1165,7 +1165,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `02_Domains/04_Governance/V2.1`
 | `Change_Register.md` | UNREVIEWED | PENDING | — | Live Git blob 1962038c4b10; no final review disposition matched |
-| `Outstanding_Issues_Register.md` | UNREVIEWED | PENDING | — | Live Git blob 73bc11c9bcc3; no final review disposition matched |
+| `Outstanding_Issues_Register.md` | IN_EVALUATION | IN_PROGRESS | GOV-ISSUES-2026-11-07T05:35:54.564Z | ACBlainey/Concord-1.4a. Exact path `02_Domains/04_Governance/V2.1/Outstanding_Issues_Register.md`. Domain Governance. Agent Codex-Governance. UTC 2026-11-07T05:35:54.564Z. Living-value and unresolved dependency review. |
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 517ab44c2284; no final review disposition matched |
 
 ### `02_Domains/04_Governance/V2.1/Completed`
