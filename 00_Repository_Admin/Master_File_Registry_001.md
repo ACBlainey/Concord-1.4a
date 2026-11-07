@@ -1292,7 +1292,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Existing_Architecture_Resolution_Pass_002.md` | UNREVIEWED | PENDING | — | Live Git blob e876c93ac33e; no final review disposition matched |
 | `Existing_Architecture_Resolution_Pass_003.md` | UNREVIEWED | PENDING | — | Live Git blob c11d9072a4a6; no final review disposition matched |
 | `Flagged_Issues_Registry.md` | UNREVIEWED | PENDING | — | Live Git blob 7504efe2bd82; no final review disposition matched |
-| `README.md` | UNREVIEWED | PENDING | — | Live Git blob 146618ac72b0; no final review disposition matched |
+| `README.md` | IN_EVALUATION | IN_PROGRESS | GOV-FLAGGED-INDEX-2026-11-07T08:34:58.192Z | ACBlainey/Concord-1.4a. Exact path `02_Domains/04_Governance/V2.1/Flagged_Issues/README.md`. Domain Governance. Agent Codex-Governance. UTC 2026-11-07T08:34:58.192Z. Living-value review. |
 | `Verified_Source_to_Issue_Map_004.md` | UNREVIEWED | PENDING | — | Live Git blob c5df8edac942; no final review disposition matched |
 
 ### `02_Domains/04_Governance/V2.1/Sections`
