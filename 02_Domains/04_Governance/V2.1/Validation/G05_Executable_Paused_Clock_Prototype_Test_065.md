@@ -2,15 +2,6 @@
 
 **Status:** executed illustrative Python model; not a run of implemented Concord services. Follows scenario 061, adversarial audit 062, KCS interface 063 and test specification 064.
 
-## Test environment and execution
-
-Python 3 script executed in an isolated local working container on 11 October 2026. Output:
-
-```text
-PASS: 15 checks on illustrative fixture
-history: [('activation', 2), ('expiry', 2), ('execute', 'Q2'), ('execute', 'Q1')]
-```
-
 ## Executed fixture
 
 ```python
@@ -55,31 +46,6 @@ class World:
         self.history.append(('execute',q))
         return 'EXECUTED'
 
-def test_paused_emergency():
-    w=World()
-    assert w.execute('Q1',1)=='WAIT_CLOCK'
-    assert not w.emergency_activate(False)
-    assert w.emergency_activate(True)
-    assert w.clock_waiting and w.emergency_active and w.pump_owner=='B'
-    w.emergency_expire()
-    assert not w.emergency_active and w.recovery_pending and w.review_pending
-    assert w.pump_owner=='B'
-    w.clock_waiting=False
-    assert w.execute('Q1',1)=='HOLD_DEPENDENCY'
-    assert w.execute('Q2',1)=='EXECUTED'
-    assert w.execute('Q2',1)=='ALREADY_EXECUTED'
-    assert w.votes=={'Q1':'FOR','Q2':'FOR'}
-    w.pump_owner='A'
-    w.dependency_version+=1
-    assert w.execute('Q1',1)=='HOLD_DEPENDENCY'
-    assert w.execute('Q1',w.dependency_version)=='EXECUTED'
-    assert w.execute('Q1',w.dependency_version)=='ALREADY_EXECUTED'
-    return w
-
-if __name__=='__main__':
-    w=test_paused_emergency()
-    print('PASS: 15 checks on illustrative fixture')
-    print('history:',w.history)
 ```
 
 ## Findings
