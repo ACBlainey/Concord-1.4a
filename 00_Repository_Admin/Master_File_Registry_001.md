@@ -1297,7 +1297,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `02_Domains/04_Governance/V2.1/Sections`
 | `Clause_Placement_Verification_002.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob eb91c431dadb; exact deletion/migration commit and pruning rationale still to verify |
-| `Section_01_Chapters_001-010_Source_Preserved_001.md` | UNREVIEWED | PENDING | — | Live Git blob e08b6a46289c; no final review disposition matched |
+| `Section_01_Chapters_001-010_Source_Preserved_001.md` | IN_EVALUATION | IN_PROGRESS | GOV-FWD-SOURCE01-2026-11-08T14:59:28.764Z | Codex-Governance-Forward-20261108; Governance; exact path `02_Domains/04_Governance/V2.1/Sections/Section_01_Chapters_001-010_Source_Preserved_001.md`; full original/history and operational survival comparison. |
 | `Section_01_Chapters_001-010_Subsection_Integration_Draft_004.md` | UNREVIEWED | PENDING | — | Live Git blob 82f05af7a995; no final review disposition matched |
 | `Section_02_Chapters_11-20_Assembly_Manifest_001.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 894593eb3d51; exact deletion/migration commit and pruning rationale still to verify |
 | `Section_02_Chapters_11-20_Clause_Placement_Draft_002.md` | UNREVIEWED | PENDING | — | Live Git blob 5bb2d39f964d; no final review disposition matched |
