@@ -16,11 +16,7 @@ Do **not** enumerate every possible geometric, security or voting permutation. G
 6. Expansion adds **candidate options**, never extra votes, new jurisdiction or permanent authority. Each valid substitute occupies one original Steward position for one bounded decision event.
 7. The term **node** is standard in Concord governance; *vertex* remains only a mathematical or historical synonym.
 
-## Validation completed
-
-- Synthetic regular triangular lattice: first ring 5, second ring 10.
-- Six-origin comparison: origin-excluded frontier produced differing ring memberships; node-centred frontier produced identical outward triangle sets.
-- Synthetic altered five-incident-triangle node: first ring 4, second ring 8; outward discovery consistent across all five origin choices.
+## Validation boundaries
 
 These are geometry checks, not deployment or security proofs. No real spherical GTP mesh, actual identity registry or cryptographic draw was exercised.
 
