@@ -4,13 +4,11 @@
 
 ## Submitted evaluator result
 
-On 2026-10-11 the user supplied a second independent model-based conceptual evaluation of frozen Candidate 016, reporting **PASS WITH CLARIFICATIONS**. The evaluator declared no tools, all four files received, hashes not independently recomputed, no implementation execution, and no outside Concord materials relied upon. Preserve the user-supplied complete response as primary provenance.
+This conceptual transfer review did not independently recompute source hashes or execute an implementation. Transfer evidence is not proof of operational correctness.
 
 The evaluator addressed all R01–R16. It distinguished unknown from failed quorum (R01/R02); invalid duplicate holders from diagnostic arithmetic (R03/R13); unauthorised substitution (R04); nested seven-Steward substitution (R05); committable, committed and unknown commit (R06–R08); expiry versus surviving lawful effects (R09); independent implementation mandate (R10); subsequent decision eligibility (R11); unresolved decision boundary (R12); excess jurisdiction (R14); advisory evidence (R15); and stale authority evidence (R16).
 
 ## Independent review
-
-**Conceptual result:** all sixteen explanations are broadly consistent with Candidate 016. The reported outcome is accepted as *transfer evidence*, not a proof of operational correctness or independent source-hash verification.
 
 **Residual precision issues:**
 - R02: missing third ballot is not a substantive A or U; record quorum failure without presenting a valid three-position decision.
