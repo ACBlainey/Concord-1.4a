@@ -1372,7 +1372,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Chapter_132_Candidate_006_Change_Integrity_Audit.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob bf1b215b4e2f; exact deletion/migration commit and pruning rationale still to verify |
 | `Chapter_132_Source_Reconciliation_Audit_005.md` | REMOVED | COMPLETED | — | Deletion commit `e7bbd0f` verified (exact GitHub file path); Absent from live V1.4a, V1.3 original blob 87914d9fe78c; exact deletion/migration commit and pruning rationale still to verify |
 | `Clause_Preservation_Verification_003.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob e065945d1f43; exact deletion/migration commit and pruning rationale still to verify |
-| `Context_Controlled_Fractal_Substitution_Regression_032.md` | UNREVIEWED | PENDING | — | Live Git blob db41d151b3d5; no final review disposition matched |
+| `Context_Controlled_Fractal_Substitution_Regression_032.md` | IN_EVALUATION | IN_PROGRESS | GOV-FWD-FRACTAL032-2026-11-08T18:59:17.514Z | Codex-Governance-Forward-20261108; domain 02_Domains/04_Governance; exact path `02_Domains/04_Governance/V2.1/Validation/Context_Controlled_Fractal_Substitution_Regression_032.md`; full source review. |
 | `Cross_Chapter_Consistency_Test_006.md` | UNREVIEWED | PENDING | — | Live Git blob 8380b5627536; no final review disposition matched |
 | `decision_acks_durable_096.py` | UNREVIEWED | PENDING | — | Live Git blob e7d2e3a87444; no final review disposition matched |
 | `decision_acks_transport_098.py` | UNREVIEWED | PENDING | — | Live Git blob 419c90f0b130; no final review disposition matched |
