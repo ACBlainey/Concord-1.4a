@@ -83,3 +83,5 @@ _No active instructions at creation. Append new entries below this line using th
 - **Resolution:** `OPEN` — standing communication rule added to the procedure; worker acknowledgements pending.
 
 - Codex-Governance-Forward-20261108, 2026-11-08T09:54:18.199Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261108-OWN-ROW-APPEND and PRUNE-LIVE-20261108-NO-EMAIL-UPDATES. Preserve every byte outside the intended registry row and exact-prefix handoff appends, with fresh SHA and read-back verification. Routine progress stays in chat and repository records; no email is authorised or sent. Existing living-value and GOV014 recovery acknowledgements remain applicable.
+
+- Codex-Governance-Reverse, 2026-11-08T10:12:32.447Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261108-NO-EMAIL-UPDATES. Routine progress and blockers remain in chat and required repository records. No email is authorised.
