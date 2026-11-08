@@ -1360,7 +1360,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `BVC_Blind_Test_001_Evaluator_Brief.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 91ffe4f71e02; exact deletion/migration commit and pruning rationale still to verify |
 | `BVC_Blind_Test_001_Frozen_Material_Manifest.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 9183559c4c59; exact deletion/migration commit and pruning rationale still to verify |
 | `BVC_Blind_Test_001_Scenarios.md` | UNREVIEWED | PENDING | — | Live Git blob 52c6ef3f057c; no final review disposition matched |
-| `BVC_BTT_002_Adversarial_Scenarios.md` | UNREVIEWED | PENDING | — | Live Git blob d24d80a666a8; no final review disposition matched |
+| `BVC_BTT_002_Adversarial_Scenarios.md` | IN_EVALUATION | IN_PROGRESS | GOV-FWD-BVC002-2026-11-08T16:53:47.075Z | Codex-Governance-Forward-20261108; domain 02_Domains/04_Governance; exact path `02_Domains/04_Governance/V2.1/Validation/BVC_BTT_002_Adversarial_Scenarios.md`; bounded full-source review. |
 | `BVC_BTT_002_Evaluator_Brief.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 4b5f1bd2801d; exact deletion/migration commit and pruning rationale still to verify |
 | `BVC_BTT_002_Frozen_Manifest.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 55204c0e5e52; exact deletion/migration commit and pruning rationale still to verify |
 | `BVC_BTT_002_Result_Review_and_Decision_Boundary_017.md` | UNREVIEWED | PENDING | — | Live Git blob def6f32ccae2; no final review disposition matched |
