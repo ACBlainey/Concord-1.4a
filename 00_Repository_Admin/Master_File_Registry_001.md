@@ -1401,7 +1401,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `g05_bta_orphan_protection_084.py` | UNREVIEWED | PENDING | — | Live Git blob 91fda26cce46; no final review disposition matched |
 | `g05_bta_owner_attestation_074.py` | UNREVIEWED | PENDING | — | Live Git blob cde3927e97c2; no final review disposition matched |
 | `g05_bta_partial_recovery_079.py` | UNREVIEWED | PENDING | — | Live Git blob b6c751a9f53a; no final review disposition matched |
-| `G05_BTA_Paused_Clock_Adversarial_Boundary_Audit_062.md` | UNREVIEWED | PENDING | — | Live Git blob 68e3c1f5ecbf; no final review disposition matched |
+| `G05_BTA_Paused_Clock_Adversarial_Boundary_Audit_062.md` | IN_EVALUATION | IN_PROGRESS | GOV-FWD-CLOCK062-2026-11-08T22:00:30.106Z | Codex-Governance-Forward-20261108; domain 02_Domains/04_Governance; exact path `02_Domains/04_Governance/V2.1/Validation/G05_BTA_Paused_Clock_Adversarial_Boundary_Audit_062.md`; full inherited source review. |
 | `g05_bta_protection_renewal_085.py` | UNREVIEWED | PENDING | — | Live Git blob f1b7b3f89437; no final review disposition matched |
 | `g05_bta_recovery_outcomes_080.py` | UNREVIEWED | PENDING | — | Live Git blob 61ab259ed3e3; no final review disposition matched |
 | `g05_custody_reconciliation_089.py` | UNREVIEWED | PENDING | — | Live Git blob ea92f8f7167e; no final review disposition matched |
