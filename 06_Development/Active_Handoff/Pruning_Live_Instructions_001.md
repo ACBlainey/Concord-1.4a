@@ -71,3 +71,13 @@ _No active instructions at creation. Append new entries below this line using th
 - **Resolution:** `OPEN` as standing guidance pending worker acknowledgements. Section16 handoff recovery is complete. Actual platform review remains applicable; report further rejections precisely without claiming unsaved work completed.
 
 - Codex-Governance-Reverse, 2026-11-08 09:28:16 UTC, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261108-OWN-ROW-APPEND. Verify own-row-only registry diffs, exact-prefix handoff append and saved states. Section16 recovery is coordinator-recorded and independently checked before resuming descending assignment.
+
+
+## PRUNE-LIVE-20261108-NO-EMAIL-UPDATES — email reserved for extreme issues
+
+- **Target:** `ALL_PRUNERS`.
+- **Issued UTC / issuer:** 2026-11-08, Alexander C. Blainey through the coordinating instance.
+- **Instruction / scope / priority:** `NORMAL`. **Do not email the author with updates. Email is for extreme issues only.** Use the working chat and required registry/handoff records for routine progress, completed reviews, ordinary blockers, retries and handovers. Reserve email for extreme issues requiring the author's urgent attention. Sending an email still requires explicit authorisation; this exception alone does not grant it.
+- **Procedure reference:** Root `Pruning start here.md`, “What to report and how to hand over”, commit `ce6b0a27092866bff90ff76e16b6b20247eb8ec8`.
+- **Acknowledgements:** Each applicable worker must record its own `READ_AND_UNDERSTOOD`, identity and UTC after reading. Preserve other entries and acknowledgements.
+- **Resolution:** `OPEN` — standing communication rule added to the procedure; worker acknowledgements pending.
