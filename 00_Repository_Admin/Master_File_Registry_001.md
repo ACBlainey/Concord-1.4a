@@ -1408,7 +1408,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `G05_Emergency_Authority_Existing_Source_Recovery_and_Reconciliation_055.md` | UNREVIEWED | PENDING | — | Live Git blob 8d5f5583ad4c; no final review disposition matched |
 | `G05_Emergency_Authority_Source_Limited_Boundary_Audit_054.md` | UNREVIEWED | PENDING | — | Live Git blob deb2296141d7; no final review disposition matched |
 | `G05_Executable_Integration_Adapter_066.md` | UNREVIEWED | PENDING | — | Live Git blob 643b826622e4; no final review disposition matched |
-| `G05_Executable_Paused_Clock_Prototype_Test_065.md` | UNREVIEWED | PENDING | — | Live Git blob 37740b7cbe91; no final review disposition matched |
+| `G05_Executable_Paused_Clock_Prototype_Test_065.md` | IN_EVALUATION | IN_PROGRESS | GOV-FWD-PROTOTYPE065-2026-11-08T22:59:59.776Z | Codex-Governance-Forward-20261108; domain 02_Domains/04_Governance; exact path `02_Domains/04_Governance/V2.1/Validation/G05_Executable_Paused_Clock_Prototype_Test_065.md`; full source and internal-pruning review. |
 | `g05_gtp_execution_revalidation_078.py` | UNREVIEWED | PENDING | — | Live Git blob 5c2ba96603b7; no final review disposition matched |
 | `g05_gtp_reconciliation_077.py` | UNREVIEWED | PENDING | — | Live Git blob fbdc0537110c; no final review disposition matched |
 | `g05_gtp_resource_collision_076.py` | UNREVIEWED | PENDING | — | Live Git blob 69683bd0f87b; no final review disposition matched |
