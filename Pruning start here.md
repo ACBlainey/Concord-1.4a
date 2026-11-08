@@ -73,6 +73,8 @@ This different-row recovery was exercised during concurrent Governance/Judiciary
 
 ## What to report and how to hand over
 
+**Do not email the author with updates. Email is for extreme issues only.** Report routine pruning progress, completed reviews, ordinary blockers, retries and handovers through the working chat and the required repository registry/handoff records. Reserve email for extreme issues requiring the author's urgent attention. An instance must have explicit authorisation to send any email; this exception does not itself grant permission to send one.
+
 For each completed pass report: domain; exact full repository-relative file path; source path and blob SHA; whether edited, retained or deleted; unique architecture and rationale preserved; verification performed; claim/operation/registry/handoff commit SHAs; unresolved risks; and the next eligible candidate **only if verified against current state**. State if no deletion was justified. Report any post-migration hold explicitly. Do not infer safety from lack of observed conflicts.
 
 **For a new instance reading this file before domain assignment:** acknowledge readiness, confirm the two mandatory documents and the live registry are accessible, summarise the protected exclusions and conflict-safe claiming rules, then **ask the user which domain to assign**. Do not begin pruning or create an automation until instructed. If a requested recurring automation is supported and explicitly authorised, scope it to that assigned domain and require the same fresh-read, exclusive-claim and verification protocol on every run.
