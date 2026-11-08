@@ -1562,7 +1562,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Section_19_Chapters_181-190_Working.md` | UNREVIEWED | PENDING | — | Live Git blob c22ba8b21ade; no final review disposition matched |
 | `Section_20_Chapters_191-200_Working.md` | UNREVIEWED | PENDING | — | Live Git blob 4693ca6e3d14; no final review disposition matched |
 | `Section_21_Chapters_201-210_Working.md` | UNREVIEWED | PENDING | — | Live Git blob b5d7431ad071; no final review disposition matched |
-| `Section_22_Chapters_211-215_Working.md` | UNREVIEWED | PENDING | — | Live Git blob 3934afa003cf; no final review disposition matched |
+| `Section_22_Chapters_211-215_Working.md` | IN_EVALUATION | IN_PROGRESS | GOV-REV-20261108-010553 | Codex-Governance-Reverse, 2026-11-08T01:05:53.618Z. Domain `02_Domains/04_Governance`. Exact path `02_Domains/04_Governance/V2.2/Work/Section_22_Chapters_211-215_Working.md`. Scope: source/history and published section comparison, descending registry order. |
 
 ### `02_Domains/05_Judiciary`
 | `Constitutional Adversary Stewardship — Combined Architecture Stress Test 001.md` | UNREVIEWED | PENDING | — | Live Git blob 2ce0853e6ec8; no final review disposition matched |
