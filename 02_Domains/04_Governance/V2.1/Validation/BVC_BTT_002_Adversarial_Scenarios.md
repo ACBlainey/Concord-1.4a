@@ -1,7 +1,5 @@
 # BVC-BTT-002 — Second Blind Regression Scenarios
 
-**Status:** Prepared, not executed. Use with frozen Candidate 016 and evaluator brief. No answer key included.
-
 For each case distinguish: holder uniqueness; legitimacy/mandate; quorum status; mathematical F/A/U; commit eligibility; commit evidence; and any separate implementation authority. Do not invent missing external rules.
 
 **R01 — Unknown quorum:** Three distinct eligible Stewards vote F/F/A. No quorum rule is supplied. No evidence establishes whether quorum is satisfied.
@@ -36,4 +34,4 @@ For each case distinguish: holder uniqueness; legitimacy/mandate; quorum status;
 
 **R16 — Expired evidence vs authority:** A credential appears technically usable but its associated authority evidence is stale. No current source confirms the vote-specific mandate.
 
-For each case explain which issues are resolved by Candidate 016 itself and which remain external dependencies. A test result should not be described as operational validation.
+A test result should not be described as operational validation.
