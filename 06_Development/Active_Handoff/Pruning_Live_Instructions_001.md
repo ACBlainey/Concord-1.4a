@@ -81,3 +81,5 @@ _No active instructions at creation. Append new entries below this line using th
 - **Procedure reference:** Root `Pruning start here.md`, “What to report and how to hand over”, commit `ce6b0a27092866bff90ff76e16b6b20247eb8ec8`.
 - **Acknowledgements:** Each applicable worker must record its own `READ_AND_UNDERSTOOD`, identity and UTC after reading. Preserve other entries and acknowledgements.
 - **Resolution:** `OPEN` — standing communication rule added to the procedure; worker acknowledgements pending.
+
+- Codex-Governance-Forward-20261108, 2026-11-08T09:54:18.199Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261108-OWN-ROW-APPEND and PRUNE-LIVE-20261108-NO-EMAIL-UPDATES. Preserve every byte outside the intended registry row and exact-prefix handoff appends, with fresh SHA and read-back verification. Routine progress stays in chat and repository records; no email is authorised or sent. Existing living-value and GOV014 recovery acknowledgements remain applicable.
