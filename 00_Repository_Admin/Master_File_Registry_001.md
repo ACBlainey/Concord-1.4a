@@ -233,7 +233,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `02_Domains/02_Continuity/V2.1/Sections`
 | `Section_01_Chapters_001-010.md` | UNREVIEWED | PENDING | — | Live Git blob f3ca63e13484; no final review disposition matched |
-| `Section_02_Chapters_011-020.md` | UNREVIEWED | PENDING | — | Live Git blob 1efaa0f63007; no final review disposition matched |
+| `Section_02_Chapters_011-020.md` | IN_EVALUATION | IN_PROGRESS | GOV-REV-20261108-232513 | Codex-Governance-Reverse, 2026-11-08T23:25:13.425Z. Domain `02_Domains/04_Governance`. Exact path `02_Domains/04_Governance/V2.2/Work/Section_02_Chapters_011-020.md`. Scope: full source/history and published comparison. |
 | `Section_03_Chapters_021-030.md` | UNREVIEWED | PENDING | — | Live Git blob bb28ba1a6c54; no final review disposition matched |
 | `Section_04_Chapters_031-040.md` | UNREVIEWED | PENDING | — | Live Git blob 82b5a0dd4d30; no final review disposition matched |
 | `Section_05_Chapters_041-050.md` | UNREVIEWED | PENDING | — | Live Git blob fd6ed3b021d4; no final review disposition matched |
