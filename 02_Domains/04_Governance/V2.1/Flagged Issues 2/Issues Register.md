@@ -32,8 +32,6 @@ Assign each newly identified issue a permanent sequential identifier: `FI2-001`,
 - 2026-10-15: FI2-006 reconciled against Chapter 151 §§151.1/151.13 and Chapter 132 §§132.0/132.3: institutional federal layers may have constitutionally delegated or enumerated powers, but GTP geometric containment creates no governance rank. Added explicit interpretive resolution in §151.13; preserved all original nested-federation wording and mesh architecture. Actual jurisdiction and competence contracts remain G-009/G-010 implementation questions, not a duplication defect.
 
 
-- 2026-10-15: Completed targeted voting-language scan of the remaining 18 V2.1 sectional files (Sections 04–05 and 07–22). Only two additional direct matches warranted clarification: Section 07 Chapter 69 conflict/recusal language now explicitly separates mathematical majority from mandatory three-ballot ordinary completion; Section 13 Chapter 122 dissent language now expressly preserves the third official ballot and bars premature ordinary effect. Other 16 sectional files had no direct matches to the targeted two-matching/third-ballot/early-acceptance phrase family. This is a targeted phrase audit, not proof that every indirect state-machine formulation is clear. FI2-001/003 can be considered textually reconciled at all direct-match locations; broader semantic validation remains pending.
-
 
 - 2026-10-15: Follow-up validation found and corrected additional stale ordinary-completion wording in Chapter 12 (historical Integration 048 summary, missing third-ballot classification, ordinary completion vs provenance) and Chapter 29 (pending provenance, Clock/emergency gating, immediate preservation distinction). This extends the direct reconciliation beyond initial headings while preserving the legitimate distinction between triadic emergency action and separately lawful immediate protective functions. FI2-001/003 remain verification-pending until full cross-section review.
 
@@ -50,19 +48,9 @@ Assign each newly identified issue a permanent sequential identifier: `FI2-001`,
 - 2026-10-15: Applied authorial clarification that purposeful repetition supporting or explaining other architecture is not erroneous. FI2-002 (decision records in general process versus detailed operations), FI2-004 (GTP mechanics versus decentralisation application) and FI2-005 (shared competence across distinct governance functions) reclassified as legitimate supporting material; no deletion proposed. Verified substantive contradiction remains between Chapter 12 §12.0 mandatory three-vote ordinary effect and Chapter 29 §29.2 earlier ordinary two-vote progression, §29.8 third occupancy language and Chapter 54 §54.38. FI2-001/FI2-003 retained as conflicts, not duplicate-removal candidates.
 
 
-- 2026-10-15: Compared substantive GTP mesh, decentralisation, central coordination, federation and jurisdiction provisions in Chapters 132, 149, 150, 151 and 198. Recorded FI2-004–006 as architectural overlap/interpretation candidates; no deletion or rewriting.
 
 
-- 2026-10-15: Direct chapter-level architectural comparison of Chapter 9 and Chapter 54 identified overlapping decision-record and lifecycle mechanisms (FI2-002) and repeated triadic completion rules (FI2-003). These are candidates, not permission to delete; no substantive text changed.
 
-
-- 2026-10-15: Reviewed V2.1 README, Change Register, G05 integration/graduation register, G05 source-to-rule map, G05 architecture and Outstanding Issues Register. Shifted audit from literal matches to substantive architectural overlap and contradictions. FI2-001 opened as a candidate requiring chapter-level verification. No substantive architecture changed.
-
-
-- 2026-10-15: Register established as a clean, separate workspace. Existing earlier issue registers are unchanged. Section 22's prior exact-line source-preservation comparison reported zero missing non-empty lines; this is not a semantic duplication/conflict clearance.
-
-
-- 2026-10-15: Preliminary exact-block duplication scan completed across 22 integration files (3,140 substantive blocks, checked in two batches of 8 and 14 files). No repeated normalized full blocks within either batch. Cross-batch, partial-overlap, and semantic duplication checks remain outstanding. No source text was changed and no issue was numbered without a verified candidate.
 
 ## Status vocabulary
 - **Open** — issue identified, awaiting examination.
