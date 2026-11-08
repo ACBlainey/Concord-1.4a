@@ -2,26 +2,11 @@
 
 **Status:** Reproducible synthetic geometry check, not a blind validation or real GTP deployment. Evaluates the **proposed** edge-frontier convention from Formalisation 033 and Implementation 037.
 
-## Fixture
+## Enumeration boundary
 
-Constructed a finite regular triangular lattice with integer coordinates `x,y=-4..4`. For each lattice cell, added two triangles:
-- `u(x,y)`: nodes `(x,y),(x+1,y),(x,y+1)`;
-- `d(x,y)`: nodes `(x+1,y+1),(x+1,y),(x,y+1)`.
+Rings 1 and 2 follow the authorial first-two-ring definition. Rings 3+ follow the **proposed** edge-adjacent triangle frontier with visited-triangle deduplication.
 
-Selected origin triangle `d(-1,-1)` at node `(0,0)`. There are exactly six incident triangles at that node. Rings 1 and 2 follow the authorial first-two-ring definition. Rings 3+ follow the **proposed** edge-adjacent triangle frontier with visited-triangle deduplication.
-
-## Actual computed results
-
-| Ring | Newly discovered triangles | Candidate Steward positions |
-|---|---:|---:|
-| 1 | Five neighbouring incident triangles | **5** (one at the origin node in each) |
-| 2 | Same five triangles, two other nodes each | **10** |
-| 3 | 5 new edge-frontier triangles | 15 |
-| 4 | 10 new triangles | 30 |
-| 5 | 12 new triangles | 36 |
-| 6 | 18 new triangles | 54 |
-
-The implementation reported **five distinct R1 position keys**, **ten distinct R2 position keys**, and **zero overlap between R1 and R2**. Beyond ring two, the observed counts are specific to this synthetic fixture, chosen origin, and proposed traversal. They are **not** universal ring-size formulas.
+Higher-ring counts depend on the synthetic geometry, chosen origin and proposed traversal; they are **not** universal ring-size formulas. R1 and R2 contain distinct position keys with no overlap.
 
 ## Test method (executed in JS)
 
