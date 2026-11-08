@@ -15,7 +15,7 @@
 
 ## Progress update — 11 October 2026
 
-Additional source-grounded, provisional chapter patches have been committed for Chapters **28, 29, 30, 54, 100, 149, 150, 151, 198**. The older table entries marked 'review pending' are superseded for these chapters by this update. All remain ungraduated; complete ten-chapter sections are not yet assembled. Governance V2 Canonical is unchanged.
+Additional source-grounded, provisional chapter patches have been committed for Chapters **28, 29, 30, 54, 100, 149, 150, 151, 198**. The older table entries marked 'review pending' are superseded for these chapters by this update. All remain ungraduated; complete ten-chapter sections are not yet assembled. 
 
 ## Progress update — 13 October 2026: voting and conference reconciliation
 
@@ -29,7 +29,7 @@ Additional source-grounded, provisional chapter patches have been committed for 
 
 **Committed in place** within existing source-preserving sectional drafts (not merely linked integration notes): Chapter 9 (Section 01), Chapter 12 (Section 02), Chapters 28–30 (Section 03), Chapter 54 (Section 06), Chapter 100 (Section 10), Chapter 132 (Section 14), Chapters 149–150 (Section 15), Chapter 151 (Section 16), and Chapter 198 (Section 20). All twelve chapter insertions are delimited developmental additions preserving the original text. They integrate source resolutions 097, 110, 115 and 121–123 with existing GTP substitution, expanded triads, shared competence and emergency boundaries.
 
-**Not yet graduated:** authorial review of exact clause placement and precedence, conference after partial ballot commitment, preliminary disclosure, cross-constituent independence, actual owner-controlled authority attestations, and full older-repository migration completeness. The V2 Canonical original remains unchanged; subsection drafts remain developmental.
+**Not yet graduated:** authorial review of exact clause placement and precedence, conference after partial ballot commitment, preliminary disclosure, cross-constituent independence, actual owner-controlled authority attestations, and full older-repository migration completeness. 
 
 ## Chapter 132 retained-source conflict disposition — 13 October 2026
 
@@ -41,7 +41,7 @@ Committed explicit **operative developmental reconciliation** inside Sections 01
 
 ## G05 direct sectional consolidation — 13 October 2026
 
-Committed ten additional source-preserving, marked G05 developmental chapter integrations: Chapters **24–27** in Section 03 and **55–60** in Section 06. These bring bounded emergency declaration/preservation, independent operational time, BTA partial effects, custody/orphaned duties, KCS and owner evidence, cumulative/distributed control, protected records and cross-context resource coordination into their actual V2.1 chapter locations. Original V2 source text remains intact. The G05 standalone document remains provenance/interface evidence, not the sole architecture location. Owner implementation, real attestations, legal thresholds and independent constitutional review are flagged in-section rather than used to postpone consolidation.
+Committed ten additional source-preserving, marked G05 developmental chapter integrations: Chapters **24–27** in Section 03 and **55–60** in Section 06. These bring bounded emergency declaration/preservation, independent operational time, BTA partial effects, custody/orphaned duties, KCS and owner evidence, cumulative/distributed control, protected records and cross-context resource coordination into their actual V2.1 chapter locations. The G05 standalone document remains provenance/interface evidence, not the sole architecture location. Owner implementation, real attestations, legal thresholds and independent constitutional review are flagged in-section rather than used to postpone consolidation.
 
 ## G05 source-to-rule placement audit — 13 October 2026
 
@@ -49,7 +49,7 @@ Updated `G05 — Governance Source-to-Rule Integration Map 004.md` with actual c
 
 ## Additional historical-source recovery into sections — 13 October 2026
 
-Committed marked in-chapter reconciliations from Integration 035, 041, 056 and 068: **Chapter 12** standardises node terminology and candidate-ring eligibility; **Chapter 132** incorporates node-centred mesh geometry without command hierarchy; **Chapter 55** preserves BTA's complete 28-field materially optional contract and six legacy-field semantic mapping cautions; **Chapter 24** recovers PH-02 Emergency Authority Envelope and Phase D4 emergency safeguards under the migration-aware source rule. Open topology, host, source-text and constitutional authority details remain flagged in the affected chapters. This is sectional consolidation, not source deletion or certification.
+Committed marked in-chapter reconciliations from Integration 035, 041, 056 and 068: **Chapter 12** standardises node terminology and candidate-ring eligibility; **Chapter 132** incorporates node-centred mesh geometry without command hierarchy; **Chapter 55** preserves BTA's complete 28-field materially optional contract and six legacy-field semantic mapping cautions; **Chapter 24** recovers PH-02 Emergency Authority Envelope and Phase D4 emergency safeguards under the migration-aware source rule. Open topology, host, source-text and constitutional authority details remain flagged in the affected chapters. 
 
 ## PH-02 and Phase D4 direct clause recovery — 13 October 2026
 
@@ -69,7 +69,7 @@ Authorial working direction: **incorporate and consolidate all relevant establis
 
 ## GTP persistent mesh and adaptive activation incorporated — 13 October 2026
 
-Chapter 132 now directly incorporates the authorially clarified V1–V1.2 GTP recovery: persistent conceptual lattice at every resolution; four-child geometry versus three-position triadic governance; concurrent fine/coarse active contexts; function-specific, nonhierarchical mesh coordination; workload-driven refinement and consolidation of governance **activation** (not geometric creation/deletion); hysteresis; and locally flagged capacity, seams, Steward allocation and authority questions. Source: `02_Domains/04_Governance/GTP Spatial Triadic Governance — V1.2 Architecture Recovery 001.md`. The incorporate-first instruction governs; unresolved matters do not block inclusion.
+Chapter 132 now directly incorporates the authorially clarified V1–V1.2 GTP recovery: persistent conceptual lattice at every resolution; four-child geometry versus three-position triadic governance; concurrent fine/coarse active contexts; function-specific, nonhierarchical mesh coordination; workload-driven refinement and consolidation of governance **activation** (not geometric creation/deletion); hysteresis; and locally flagged capacity, seams, Steward allocation and authority questions. Source: `02_Domains/04_Governance/GTP Spatial Triadic Governance — V1.2 Architecture Recovery 001.md`. 
 
 ## V1 governance institutional boundaries and Steward lifecycle recovery — 13 October 2026
 
@@ -93,7 +93,7 @@ Direct Chapter 12 incorporation from `Expanded_Triadic_Governance_and_Continuity
 
 ## Section-wide source incorporation expansion — 14 October 2026
 
-Created **13 additional V2.1 working integration drafts** from the intact Source_Preserved manuscripts: Sections 04, 05, 07, 08, 09, 11, 12, 13, 17, 18, 19, 21, 22. Each contains a marked, source-identified first direct clause recovery in the relevant chapter (31, 41, 65, 74, 88, 105, 116, 126, 163, 177, 183, 203, 213 respectively). Recovered topics: emergency resources, constitutional memory, governance records, Steward selection, failure taxonomy, resource allocation, office succession, AI advice, KCS propagation, self-certifying authority, metric capture, correction culture and source-survival obligations. Local unresolved implementation dependencies are flagged. These are **initial incorporation drafts, not completed source coverage or validation**; 22 of 22 sectional ranges now have a working integration manuscript. Original preserved baselines untouched.
+Created **13 additional V2.1 working integration drafts** from the intact Source_Preserved manuscripts: Sections 04, 05, 07, 08, 09, 11, 12, 13, 17, 18, 19, 21, 22. Each contains a marked, source-identified first direct clause recovery in the relevant chapter (31, 41, 65, 74, 88, 105, 116, 126, 163, 177, 183, 203, 213 respectively). Recovered topics: emergency resources, constitutional memory, governance records, Steward selection, failure taxonomy, resource allocation, office succession, AI advice, KCS propagation, self-certifying authority, metric capture, correction culture and source-survival obligations. Local unresolved implementation dependencies are flagged. These are **initial incorporation drafts, not completed source coverage or validation**; 22 of 22 sectional ranges now have a working integration manuscript. 
 
 ## Deepening thirteen newly created integration sections — 14 October 2026
 
@@ -101,7 +101,7 @@ Thirteen further marked, source-attributed additions were made directly in V2.1 
 
 ## Further chapter integration — 14 October 2026
 
-Thirteen additional source-grounded manuscript additions committed to Chapters 36, 48, 67, 78, 90, 107, 113, 125, 165, 175, 187, 210 and 211. Source bases: V1 Governance Component Recovery Map, Constitutional Emergency V2, Governance Operating Boundary and Authority Lifecycle, Stewardship Selection and Allocation and G05 Clock interfaces. These cover emergency branching, resilience, classification, time, diagnosis, staffing, secrecy, AI dependency, provenance, capture, continuity and epistemic boundaries. Implementation questions remain locally flagged. No historical baseline overwritten.
+Thirteen additional source-grounded manuscript additions committed to Chapters 36, 48, 67, 78, 90, 107, 113, 125, 165, 175, 187, 210 and 211. Source bases: V1 Governance Component Recovery Map, Constitutional Emergency V2, Governance Operating Boundary and Authority Lifecycle, Stewardship Selection and Allocation and G05 Clock interfaces. These cover emergency branching, resilience, classification, time, diagnosis, staffing, secrecy, AI dependency, provenance, capture, continuity and epistemic boundaries. Implementation questions remain locally flagged. 
 
 ## Twenty direct chapter source incorporations — 14 October 2026
 
@@ -109,7 +109,7 @@ Added source-attributed, locally flagged provisions to Chapters 32, 37, 39, 43, 
 
 ## Research source incorporation: legitimacy and epistemics — 14 October 2026
 
-Sixteen direct chapter additions from two previously identified Governance Research sources: **Legitimate Function and the Authority Justification Chain** (Chapters 69, 80, 82, 106, 120, 174, 182, 201) and **Epistemic Independence, Contestability and Provenance — Preliminary Civil Evidence Architecture** (Chapters 65, 71, 85, 102, 111, 126, 163, 183). Recovered candidate LF-01–LF-10 legitimacy tests, BC-1–BC-8 broken-chain diagnoses, C0–C7 claim classes, E0–E4 evidence thresholds, claim-level confidence, common-source dependencies, contestability without veto, and dependency-triggered review rather than automatic cancellation. Research status remains preliminary/noncanonical; all additions are source-attributed and locally flag unresolved owner/implementation details. Preserved sources untouched.
+Sixteen direct chapter additions from two previously identified Governance Research sources: **Legitimate Function and the Authority Justification Chain** (Chapters 69, 80, 82, 106, 120, 174, 182, 201) and **Epistemic Independence, Contestability and Provenance — Preliminary Civil Evidence Architecture** (Chapters 65, 71, 85, 102, 111, 126, 163, 183). Recovered candidate LF-01–LF-10 legitimacy tests, BC-1–BC-8 broken-chain diagnoses, C0–C7 claim classes, E0–E4 evidence thresholds, claim-level confidence, common-source dependencies, contestability without veto, and dependency-triggered review rather than automatic cancellation. Research status remains preliminary/noncanonical; all additions are source-attributed and locally flag unresolved owner/implementation details. 
 
 ## Triadic epistemics and BCA Research source incorporation — 14 October 2026
 
@@ -117,7 +117,7 @@ Fifteen direct chapter additions. **Triadic Epistemics** (Independent Measuremen
 
 ## Adversarial-audit recovery into Governance V2.1 — 14 October 2026
 
-Thirteen chapter-level additions in Chapters **65, 69, 71, 79, 89, 90, 112, 122, 162, 178, 186, 204 and 213**, directly in existing working sectional manuscripts. Historical evidence: *Bounded Contextual Authority — Adversarial Attack and Falsification Audit* (100 attacks; refined general operator; BCA-R1–R12) and *Triadic Epistemics — Direct Adversarial Attack and Falsification Audit* (false independence, participant manipulation, anomaly overload, 2-of-3/cross-layer capture, comparative falsification). Local implementation conflicts/dependencies flagged. Historical audit findings are neither canonical adoption nor empirical owner validation. Original sources preserved.
+Thirteen chapter-level additions in Chapters **65, 69, 71, 79, 89, 90, 112, 122, 162, 178, 186, 204 and 213**, directly in existing working sectional manuscripts. Historical evidence: *Bounded Contextual Authority — Adversarial Attack and Falsification Audit* (100 attacks; refined general operator; BCA-R1–R12) and *Triadic Epistemics — Direct Adversarial Attack and Falsification Audit* (false independence, participant manipulation, anomaly overload, 2-of-3/cross-layer capture, comparative falsification). Local implementation conflicts/dependencies flagged. Historical audit findings are neither canonical adoption nor empirical owner validation. 
 
 ## Further adversarial-audit series integration — 14 October 2026
 
@@ -133,7 +133,7 @@ At user direction, suspended discovery of further missing architecture and worke
 
 ## Substantive consolidation of overlapping operative clauses — 14 October 2026
 
-Added native opening **§12.0** in Section 02 Chapter 12 and **§132.0** in Section 14 Chapter 132, assembling previously recovered clauses into explicit coherent working architecture. Chapter 12 reconciles independent one-use immutable official ballots, two matching substantive votes, anonymous count, abstention/vacancy, expanded triadic resultants, legal effect versus execution and separate review. Chapter 132 reconciles persistent GTP multiresolution mesh, four spatial children versus three Steward positions, overlapping scales, workload hysteresis, no spatial command hierarchy, lawful shared competence, origin-included/excluded expansion, node substitution and emergency timing. Retained historical passages, candidate blocks and source-conflict registers are preserved below for provenance and explicitly subordinated to the consolidated **working V2.1 interpretation** where conflicting; this is not final adoption or deletion. Local unresolved issues remain attached to each chapter. No further architecture discovery undertaken.
+Added native opening **§12.0** in Section 02 Chapter 12 and **§132.0** in Section 14 Chapter 132, assembling previously recovered clauses into explicit coherent working architecture. Chapter 12 reconciles independent one-use immutable official ballots, two matching substantive votes, anonymous count, abstention/vacancy, expanded triadic resultants, legal effect versus execution and separate review. Chapter 132 reconciles persistent GTP multiresolution mesh, four spatial children versus three Steward positions, overlapping scales, workload hysteresis, no spatial command hierarchy, lawful shared competence, origin-included/excluded expansion, node substitution and emergency timing. Retained historical passages, candidate blocks and source-conflict registers are preserved below for provenance and explicitly subordinated to the consolidated **working V2.1 interpretation** where conflicting; this is not final adoption or deletion. Local unresolved issues remain attached to each chapter. 
 
 ## Authorial provenance simplification — 14 October 2026
 
