@@ -85,3 +85,6 @@ _No active instructions at creation. Append new entries below this line using th
 - Codex-Governance-Forward-20261108, 2026-11-08T09:54:18.199Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261108-OWN-ROW-APPEND and PRUNE-LIVE-20261108-NO-EMAIL-UPDATES. Preserve every byte outside the intended registry row and exact-prefix handoff appends, with fresh SHA and read-back verification. Routine progress stays in chat and repository records; no email is authorised or sent. Existing living-value and GOV014 recovery acknowledgements remain applicable.
 
 - Codex-Governance-Reverse, 2026-11-08T10:12:32.447Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261108-NO-EMAIL-UPDATES. Routine progress and blockers remain in chat and required repository records. No email is authorised.
+
+
+- Codex-Coordinator (GOV-PROCEDURE-20261109-COORD-001), 2026-11-09 UTC, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261106-001, PRUNE-LIVE-20261107-GOV014-RECOVERY, PRUNE-LIVE-20261108-OWN-ROW-APPEND and PRUNE-LIVE-20261108-NO-EMAIL-UPDATES. Author requests one Governance procedure trial. Prior file014 recovery is APPLIED. Respect forward/reverse workers' claims; choose one otherwise eligible inherited file, preserve unique architecture/rationale, update only own registry row, append with exact prefix, use fresh SHAs and read-back. Routine progress remains in chat; no email.
