@@ -1416,7 +1416,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `G05_Paused_Clock_Emergency_BTA_Combined_Scenario_061.md` | UNREVIEWED | PENDING | — | Live Git blob eca7898a440c; no final review disposition matched |
 | `g05_privacy_projections_091.py` | UNREVIEWED | PENDING | — | Live Git blob 5a7614b0b32e; no final review disposition matched |
 | `g05_reconciliation_acknowledgements_090.py` | UNREVIEWED | PENDING | — | Live Git blob d35ec1d75915; no final review disposition matched |
-| `G05_Schema_Shaped_Executable_Adapter_067.md` | UNREVIEWED | PENDING | — | Live Git blob f95bebf9adb1; no final review disposition matched |
+| `G05_Schema_Shaped_Executable_Adapter_067.md` | IN_EVALUATION | IN_PROGRESS | GOV-FWD-SCHEMA067-2026-11-09T00:01:07.805Z | Codex-Governance-Forward-20261108; domain 02_Domains/04_Governance; exact path `02_Domains/04_Governance/V2.1/Validation/G05_Schema_Shaped_Executable_Adapter_067.md`; full inherited-source review. |
 | `glass_hammer_atomic_acceptance_112.py` | UNREVIEWED | PENDING | — | Live Git blob ed446c3f0ec0; no final review disposition matched |
 | `glass_hammer_concern_review_116.py` | UNREVIEWED | PENDING | — | Live Git blob 2892450db868; no final review disposition matched |
 | `glass_hammer_context_evidence_111.py` | UNREVIEWED | PENDING | — | Live Git blob ae4768b4b025; no final review disposition matched |
