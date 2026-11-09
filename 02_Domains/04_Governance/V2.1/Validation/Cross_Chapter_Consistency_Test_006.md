@@ -20,20 +20,20 @@ Enumerated every one of 3^9 = **19,683** nine-position F/A/U assignments. For ea
 
 | Scenario | Relevant chapters | Result / disposition | Finding |
 |---|---|---|---|
-| Constituent A=F/F/A, B=F/F/A, C=A/A/A | 9, 12, 54, 132 | Virtual F/F/A → F, despite pooled 4F/5A → A | PASS: consistent and expressly documented |
-| Constituent resultants F/F/U | 9, 12, 29, 30 | Arithmetic F; legal effect conditional on valid quorum, eligibility and competence | PASS WITH CONDITION: quorum not yet specified |
-| Constituent resultants F/A/U | 9, 12, 30 | U, not A and not an automatic emergency appointment | PASS |
-| Constituent resultants A/A/U | 9, 12, 30 | Arithmetic A; does not create vacancy or emergency deadlock merely because outcome is unwanted | PASS |
-| Abstention or recusal | 9, 28, 29, 30 | Distinct procedural cause; not automatically Against or a vacant office | PASS |
-| One Steward unavailable | 28, 29, 100 | No automatic Parallel Steward appointment; lawful succession/degraded procedure required | PASS WITH CONDITION: appointment rules unresolved |
+| Constituent A=F/F/A, B=F/F/A, C=A/A/A | 9, 12, 54, 132 | Virtual F/F/A → F, despite pooled 4F/5A → A | consistent and expressly documented |
+| Constituent resultants F/F/U | 9, 12, 29, 30 | Arithmetic F; legal effect conditional on valid quorum, eligibility and competence | Condition: quorum not yet specified |
+| Constituent resultants F/A/U | 9, 12, 30 | U, not A and not an automatic emergency appointment | — |
+| Constituent resultants A/A/U | 9, 12, 30 | Arithmetic A; does not create vacancy or emergency deadlock merely because outcome is unwanted | — |
+| Abstention or recusal | 9, 28, 29, 30 | Distinct procedural cause; not automatically Against or a vacant office | — |
+| One Steward unavailable | 28, 29, 100 | No automatic Parallel Steward appointment; lawful succession/degraded procedure required | Condition: appointment rules unresolved |
 | Origin-included R position used in multiple constituent triads | 12, 132 | Repetition and independence explicitly unresolved; no deployment until eligibility map exists | BLOCKED: missing specification |
 | Six-Steward GTP vertex mapping | 12, 132 | No inferred seat allocation from geometry | BLOCKED: missing specification |
-| Larger GTP cell claims authority over smaller one | 132, 149, 151, 198 | Geometry alone cannot create command or jurisdiction | PASS |
-| Four regions prefer to override fifth independent local decision | 12, 150, 151, 198 | No override absent valid shared competence or constitutional priority | PASS |
-| Shared infrastructure crossing cells | 12, 132, 150, 198 | Common binding decision only within separately authorised shared field | PASS WITH CONDITION: common-competence instrument needed |
-| Emergency deadline with unresolved virtual result | 28–30, 54 | Pre-existing narrow emergency preservation path required; no authority laundering | PASS WITH CONDITION: trigger and review details unresolved |
-| Parallel Steward gives contrary advice | 54, 100 | Advice recorded; not a voting seat or veto without independent authority | PASS |
-| Workload oscillates near a spatial scale threshold | 132, 149 | Conceptual cells persist; operational coverage uses hysteresis | PASS WITH CONDITION: numerical hysteresis policy unresolved |
+| Larger GTP cell claims authority over smaller one | 132, 149, 151, 198 | Geometry alone cannot create command or jurisdiction | — |
+| Four regions prefer to override fifth independent local decision | 12, 150, 151, 198 | No override absent valid shared competence or constitutional priority | — |
+| Shared infrastructure crossing cells | 12, 132, 150, 198 | Common binding decision only within separately authorised shared field | Condition: common-competence instrument needed |
+| Emergency deadline with unresolved virtual result | 28–30, 54 | Pre-existing narrow emergency preservation path required; no authority laundering | Condition: trigger and review details unresolved |
+| Parallel Steward gives contrary advice | 54, 100 | Advice recorded; not a voting seat or veto without independent authority | — |
+| Workload oscillates near a spatial scale threshold | 132, 149 | Conceptual cells persist; operational coverage uses hysteresis | Condition: numerical hysteresis policy unresolved |
 
 ## III. Potential conflicts or ambiguities requiring explicit reconciliation
 
@@ -51,7 +51,7 @@ Enumerated every one of 3^9 = **19,683** nine-position F/A/U assignments. For ea
 
 ## IV. Graduation gate
 
-**Arithmetic:** PASS. **Cross-chapter textual coherence:** PROVISIONAL PASS with open constitutional interface questions. **Operational deployability:** NOT READY. **Canonical graduation:** NOT AUTHORISED.
+Open constitutional interface questions remain. **Operational deployability:** NOT READY. **Canonical graduation:** NOT AUTHORISED.
 
 Next: draft non-operative, reviewable interface specifications for eligibility, quorum, common competence and emergency triggers; do not assert they are already constitutional law. Reconcile institutional hierarchy wording separately from geometric hierarchy.
 
