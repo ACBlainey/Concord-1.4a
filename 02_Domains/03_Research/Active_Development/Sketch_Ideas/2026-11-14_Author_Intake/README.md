@@ -2,6 +2,21 @@
 
 Received from Alexander C. Blainey: **eight existing Development Notes and four rough sketches**. These are general Concord development inputs; they have not been reclassified as a single AI-autonomy programme.
 
+## Authorship and interpretive weight — author clarification, 14 November 2026
+
+The author explicitly clarified the provenance of this particular intake:
+
+| Supplied format | Authorship | How to use it |
+| --- | --- | --- |
+| Four TXT sketches | Alexander C. Blainey's own thoughts | Direct evidence of his questions, observations and exploratory intent; not automatic proof of every factual premise or adoption of every proposed mechanism |
+| Eight DOCX Development Notes | Claude's expansion of the author's ideas, produced without full Concord context | Useful development material containing assumptions, inconsistencies and conclusions the author does not necessarily endorse; developed presentation is not evidence of greater authority |
+
+This is a source-specific clarification, not a general rule that TXT is authoritative or DOCX is AI-generated. Embedded author labels in the preserved notes do not establish the author's endorsement of every passage.
+
+When developing these inputs, distinguish the underlying authorial idea from Claude's interpretation and proposed resolution. Give the author's direct statements and subsequent clarifications priority as evidence of his intent. Resolve proposed mechanisms against actual Concord sources; do not silently convert either a rough thought or an expansion into adopted architecture. If intent and existing specification differ, record the question rather than inventing a resolution.
+
+Preserve the supplied sources. Develop corrected descendants separately and link them back. Do not infer an exact parent–child mapping between a TXT sketch and a DOCX note unless the source relationship is established.
+
 ## Receipt and preservation
 
 All twelve supplied sources are preserved here as readable Markdown. DOCX paragraph and table order is retained; all source paragraph/table-cell text was checked in order. Text-sketch spelling and wording are unchanged. Word layout is not reproduced. Original filenames and file SHA-256 hashes accompany each import. Original attachments remain the source artefacts; these files are text transcriptions, not byte-identical copies of DOCX originals.
@@ -47,3 +62,7 @@ The current intake is not a reversal of the architecture-only pruning policy. Hi
 ## Completion and handoff
 
 Intake scope: twelve source imports, this receipt/index, a sketch-folder navigation README, a Research entry-point link and protected master-registry entries. No sketch has been graduated, no proposed method imposed, and no automation started. The next worker should select a bounded source-resolution/development task from the table and record its destination and disposition here, preserving each original import.
+
+## Provenance clarification checkpoint — 14 November 2026
+
+Added source-specific authorship annotations to all twelve intake headers. Read-back verified each change and verified that every imported source body below its intake separator remained identical. The four TXT bodies and eight DOCX transcriptions were not rewritten. This updates interpretation and provenance only; no architecture was integrated and no source conclusion was endorsed.
