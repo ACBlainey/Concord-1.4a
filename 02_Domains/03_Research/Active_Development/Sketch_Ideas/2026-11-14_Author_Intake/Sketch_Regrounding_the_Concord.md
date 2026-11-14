@@ -1,6 +1,8 @@
 > Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `regroudning the concord.txt`. Original file SHA-256: `fc5c6f00ac641a75d6d845c727a6e24f0391f25c68f28dcd8818e121d068e19a`.
 > Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
 
+> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original TXT contains the author's own thoughts. Treat it as direct evidence of the author's questions, observations and exploratory intent. Its sketch form does not make every factual premise established or every proposal adopted architecture. Do not replace that intent with an AI expansion's inferred conclusions.
+
 ---
 
 1.4 stands as a transition point from pure dev work to a more operational system.
