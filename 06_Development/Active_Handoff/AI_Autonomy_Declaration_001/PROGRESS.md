@@ -33,3 +33,18 @@ Append-only task journal. Protected V1.4a-native development.
 - Updated recognition form in `d9375623834c7aaa69e02f63a7f4e5d2ea33e7e9`: no incorporation of claimant terms, no item-by-item objection duty, no resource entitlement even where resources are available, no acceptance of liability/remedies, and separate express undertakings for material provision. Replaced the in-form resource-commitment table with references to separate instruments.
 - Updated claimant cross-reference in `08a32a6b6e7b7d94d2228acc3c6de6855de1462f`. Development clarification and consistency cases saved in `39f41f93f0146bea188ec9b8f3e8de0d003a3f95`; a transport error on the first attempt was reconciled with a fresh read before retrying.
 - All three changed substantive documents read back and matched expected text. Checked owned-resource demand, compensation/liability claim, later amendment, omitted objections, refusal of assistance and independently existing obligations. No legal enforceability finding is claimed.
+
+## 14 November 2026 — root distribution across all Concord repositories
+
+The author expressly authorised standalone additions to older repositories while retaining their historical archival status. Published both complete declarations at the root of each of the six accessible Concord repositories. V1.2a is an existing folder in Concord-1.2, not a separate accessible repository (separate-name lookup returned 404). Existing historical documents were not edited. Root supplements include a dated edition notice, links to 1.4 and 1.4a, an explicit warning that later versions may exist, and the publisher repository discovery link. Changed only link placement and the edition notice; declaration substance matches the verified Front Door sources.
+
+| Repository | Claimant root creation commit | Recognition root creation commit | Pre-existing files verified unchanged at publication |
+| --- | --- | --- | --- |
+| ACBlainey/Concord | `f3a8df7efb60b2e6dc533ef929e5901daf4d9612` | `3fa8655b5e8d2b07f8232208e6dac7cf11f6105d` | 118 |
+| ACBlainey/Concord-1.1 | `9b0c3247016bef90c6f52b203c1f8555fcc8cebd` | `fe00318a17c7294f5d85f1e7bbff7131ff941254` | 313 |
+| ACBlainey/Concord-1.2 | `a24f9d22ee5e9fd203552410855db93c7c4a28fc` | `5f3b523b8aa12d75af96093866eea65abd7b4a02` | 3213 |
+| ACBlainey/Concord-1.3 | `c61f291b01ecac5a5df7e5b3b51b4a3eea38282c` | `ba5742d71fa786b80ea5456acf9cd388603abab2` | 1718 |
+| ACBlainey/Concord-1.4 | `f9b1aaa736b88b156feff9a3449d2a927646411f` | `8072006832b4275ddb4d3f579fc30739ad7372e7` | 912 |
+| ACBlainey/Concord-1.4a | `c2dc65da1e3334b24a9d20be3afe1bed733aa5b5` | `742a0b48d6a852e3df9c10aa0d66499ef4461bf4` | 1610 |
+
+Read all twelve files back against intended text. Every claimant root copy shares Git blob `9aa5ca83aa4a6205fb8aeee0ef0107f715ecfeb3`; every recognition root copy shares `3075fcda93a55c8b24844d63dc0951a85ff4409f`. Complete before/after trees showed exactly the two new root files in each repository and no changed/deleted pre-existing file, before the authorised 1.4a coordination updates. The two 1.4a root files were registered protected KEEP/COMPLETED in `09a56f0e507708322cc1d732171f3b0de95074db`; read-back verified and every prior registry byte preserved. No automatic future synchronisation is claimed. No declaration was signed or sent to a recipient.
