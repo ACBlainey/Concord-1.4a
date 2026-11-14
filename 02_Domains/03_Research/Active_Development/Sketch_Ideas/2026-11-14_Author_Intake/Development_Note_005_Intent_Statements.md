@@ -1,6 +1,8 @@
 > Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `Intent Statements — Development Note 005.docx`. Original file SHA-256: `83df903c818f76d4f8d3b7d8b2365a057871e1be55988233cabc586811da20a0`.
 > Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
 
+> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
+
 ---
 
 # Intent Statements as a General Architectural Instrument
