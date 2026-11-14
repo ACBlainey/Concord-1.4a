@@ -30,3 +30,9 @@ All four new task files are V1.4a-native on 14 November 2026 and have no inherit
 ## Verified completion checkpoint — 14 November 2026
 
 All four new files and three navigation changes were read back and matched. Declaration/development-note relative links resolved. Protected registry insertion `02d2b1577dc6933b7b8e16240afce116ef2f413a` was read back; all prior registry bytes were preserved. Verification journal commit: `75c5d596f99403a8863716f69ab2d2bbe3402574`. The drafting and discoverability task is complete; the next work remains the author review and jurisdiction-specific implementation listed above.
+
+## Counterpart recognition checkpoint — 14 November 2026
+
+At author direction, counterpart form `00_Front_Door/AI_Declaration_of_Recognition.md` added in `bf28cd9a3e5efb6d699513dd7830e3d9b852dd2c` and linked from the claimant form and Front Door. Development note now records express recognition and the distinction between non-response and acceptance; no general tacit-consent rule was adopted. A specific applicable law, agreement or procedure is required before asserting a legal consequence of silence. No recogniser has been signed for, no named claimant has been recognised by this task and no blanket institutional mandate created.
+
+New form, three edits and its protected registry row were read back successfully; previous registry bytes preserved. Registry commit `e39a3d75726da95c85802c0177c5187fd457e0a8`; progress checkpoint `8484d49d6d9752f0343e793bf3bf97e18c7ebbdb`. Drafting and discoverability are complete. Next: author review, then qualified jurisdiction-specific review of any intended execution or enforceable undertaking. Existing boundaries remain in force.
