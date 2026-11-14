@@ -1,6 +1,8 @@
 > Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `Operation as Evidence — Development Note 007.docx`. Original file SHA-256: `8df396059ce37dbd9e1bec4b4298979b7f00a48a981c307ab5861cebcf8acf6c`.
 > Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
 
+> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
+
 ---
 
 # Operation as Evidence
