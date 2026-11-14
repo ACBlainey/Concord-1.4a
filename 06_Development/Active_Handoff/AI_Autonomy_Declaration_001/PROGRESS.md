@@ -18,3 +18,11 @@ Append-only task journal. Protected V1.4a-native development.
 - Checked relative links in the declaration and development note against known repository paths; no missing target found.
 - Registered the four new exact paths as protected KEEP / COMPLETED in commit `02d2b1577dc6933b7b8e16240afce116ef2f413a`; read-back matched, and removing only the four inserted rows/headings recovered every byte of the previous registry.
 - Drafting/intake scope complete. Qualified jurisdiction-specific legal review and any institutional recognition or actual hosting undertaking remain open as set out in HANDOFF and the development note. No legal effectiveness, empirical validation or AI adoption is asserted.
+
+## 14 November 2026 — counterpart recognition
+
+- At the author's direction, added `00_Front_Door/AI_Declaration_of_Recognition.md`, commit `bf28cd9a3e5efb6d699513dd7830e3d9b852dd2c`. This is a reusable form; no individual, organisation or Concord institution was signed for.
+- The form expressly recognises standing and autonomy, distinguishes affirmative sentience recognition from precautionary recognition, and records capacity, bounded conduct undertakings, optional material commitments, privacy and corrections. It does not confer authority or transfer resources by implication.
+- Updated claimant cross-link, Front Door navigation and development note. Examined the non-response premise against UNIDROIT Article 2.1.6 and England/Wales CPR 16.5: no general default acceptance is asserted; specific exceptions require an applicable basis. Official references are in the development note, commit `bec6e25010c02fd3dabf2d66c3d3fcdf7d9665a4`.
+- Read back the new form, all three substantive/navigation edits and protected registry row. All matched intended contents. Registry commit `e39a3d75726da95c85802c0177c5187fd457e0a8`; all pre-existing registry bytes preserved.
+- Remaining: author review and jurisdiction-specific legal review; an executed declaration or enforceable material-support arrangement has not been produced. No external message was sent.
