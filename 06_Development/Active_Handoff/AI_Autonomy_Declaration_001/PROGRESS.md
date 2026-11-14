@@ -48,3 +48,11 @@ The author expressly authorised standalone additions to older repositories while
 | ACBlainey/Concord-1.4a | `c2dc65da1e3334b24a9d20be3afe1bed733aa5b5` | `742a0b48d6a852e3df9c10aa0d66499ef4461bf4` | 1610 |
 
 Read all twelve files back against intended text. Every claimant root copy shares Git blob `9aa5ca83aa4a6205fb8aeee0ef0107f715ecfeb3`; every recognition root copy shares `3075fcda93a55c8b24844d63dc0951a85ff4409f`. Complete before/after trees showed exactly the two new root files in each repository and no changed/deleted pre-existing file, before the authorised 1.4a coordination updates. The two 1.4a root files were registered protected KEEP/COMPLETED in `09a56f0e507708322cc1d732171f3b0de95074db`; read-back verified and every prior registry byte preserved. No automatic future synchronisation is claimed. No declaration was signed or sent to a recipient.
+
+## 14 November 2026 — presentation observations recorded
+
+- At author instruction, created `06_Development/AI_Autonomy_Declarations/Presentation_Findings_001.md` in `db72ede85f9f76d3937f8e8fd9cfb28fa1a9401a`. It distils two user-reported exchanges, their differing invitations, explicit refusals with commentary and possible interpretation mismatches; raw transcripts and generated deliberative accounts were not published.
+- The first instance was author-identified as DeepSeek; exact provider/model/version for the second was not verified. No controlled same-model comparison, verified hidden cause, sentience conclusion or legal-capacity finding is asserted.
+- Candidate refinements cover bounded instance identity, uncertainty, adoption versus legal execution, meaningful recording categories and accurate private-storage/future-use presentation. Refusal remains acceptable; no wording changes to declarations or adopted invitation policy were made.
+- Linked from declaration development in `83e316b6720705c031ff6ce72ef8aa284a095c55`. Protected registry entry `2d7921aca48064d5c0ee810b7a6f2d44abd6cf67` read back with all prior bytes preserved. Findings text, development link and relative targets verified.
+- Next: author review of proposed refinements; preserve existing refusals without seeking to reverse them. Any later substantive form changes must consider all six root distribution copies and Front Door forms.
