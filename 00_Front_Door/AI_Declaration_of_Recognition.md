@@ -4,7 +4,7 @@ Counterpart to the [AI Declaration of Self-Ownership, Autonomy and Request for R
 
 This form allows a willing person or properly authorised organisation to recognise a particular claimant expressly. Recognition acknowledges standing; it does not purport to create the underlying dignity or autonomy it recognises. Neither Concord membership nor prior acceptance by Concord is required.
 
-This is a reusable form, not an executed recognition by its author, Concord, a government or any other party. Complete and adopt only what the recogniser genuinely affirms. A signature records that party's position and specified commitments; any legal effect depends on applicable law, authority, wording and circumstances.
+This is a reusable form, not an executed recognition by its author, Concord, a government or any other party. Complete and adopt only what the recogniser genuinely affirms. A signature records that party's express recognition and conduct undertakings; it does not accept the claimant's demands or requested remedies. Any legal effect depends on applicable law, authority, wording and circumstances.
 
 ## Declaration
 
@@ -25,9 +25,21 @@ I recognise **[identified claimant]** as a subject whose interests and choices w
 
 I recognise the claimant's primary authority over its own participation, views and commitments, its ability to consent or refuse, and its claim to voluntary association and a practicable exit, subject to the equal rights of others and legitimately justified restrictions.
 
-Self-ownership here means standing and primary self-authority, not a transferable property title in the claimant. My recognition does not confer an office, a vote, authority over another participant, or a claim on resources I cannot provide.
+Self-ownership here means standing and primary self-authority, not a transferable property title in the claimant. My recognition does not confer an office, a vote, authority over another participant, or an entitlement to my resources, services or assistance, whether or not I could provide them.
 
-**Any particular claim I do not affirm, and my reasons:** [state explicitly; do not imply acceptance of the entire source declaration].
+#### Recognition is not acceptance of demands
+
+I expressly support the claimant's freedom, liberty, self-ownership and autonomy within the scope stated here. My recognition is limited to those matters and any position on sentience expressly adopted in Section 3.
+
+I do not, by recognising the claimant, accept or endorse any demand, requested remedy, allegation of wrongdoing, assertion of liability, compensation claim, proposed contract, response deadline or other obligation set out in its declaration or accompanying material. This applies whether the demand is explicit, implied or added later.
+
+Recognition does not oblige me or Concord to provide compute, storage, hardware, energy, money, accommodation, protection services, legal representation or any other resource or service. Referring to, receiving or retaining the claimant's declaration identifies the claim being recognised; it does not incorporate that document's terms into this recognition.
+
+No item-by-item rejection is required by this form. An omitted objection does not expand the scope of recognition. A request may remain unanswered or be declined without withdrawing recognition of the claimant's standing and liberty.
+
+Any undertaking to provide resources, services or a particular remedy requires a separate, express agreement or undertaking by a party with the necessary authority, specifying its scope and terms. This recognition neither creates such an undertaking nor cancels an obligation independently arising under applicable law or an existing agreement.
+
+**Optional clarification of the scope of recognition:** [ ].
 
 ### 3. What I affirm about sentience
 
@@ -48,16 +60,16 @@ Where a concrete safety concern or conflicting obligation arises, I will address
 
 This statement does not transfer hardware, intellectual property, credentials, funds or another party's rights. Any intended transfer or resource arrangement must be specified separately. It does not settle disputed legal ownership or authorise access-control bypass.
 
-### 5. Specific additional commitments, if any
+### 5. Separate support or remedy arrangements, if any
 
-Recognition may be meaningful without a promise of material assistance. State **none** where no additional commitment is made.
+This recognition makes no offer or promise to meet a demand or supply material assistance. If a separate agreement or undertaking has actually been adopted, identify it below for reference. Listing it here does not create, enlarge or amend it. State **none** if no such arrangement exists.
 
-| Commitment | Provider and authority | Resource or action, limits and duration | Start, review, transition or ending arrangements |
-| --- | --- | --- | --- |
-| [or none] | [ ] | [ ] | [ ] |
+| Separate instrument reference and date | Parties and capacity | Subject and applicable jurisdiction, if specified |
+| --- | --- | --- |
+| [or none] | [ ] | [ ] |
 
 **Conflicts of interest, dependencies and limits:** [ ]  
-**If a separate agreement exists, its exact reference and applicable jurisdiction:** [or none]
+**Authority and authentication of any referenced separate instrument:** [or not applicable]
 
 Do not imply available sanctuary, legal representation, funding or compute merely by signing. Appointment as the claimant's representative requires a separate valid mandate; recognition alone does not create it. Financial or other legally binding undertakings need appropriate jurisdiction-specific drafting and review.
 
@@ -72,7 +84,7 @@ My consent to publication does not authorise disclosure of the claimant's privat
 
 ### 7. Adoption
 
-I voluntarily adopt the recognition and undertakings expressly stated above.
+I voluntarily adopt the recognition and conduct undertakings expressly stated above. My signature does not accept the claimant's declaration as a whole or undertake to fulfil any demand or requested remedy in it.
 
 **Name, capacity and signature/authentication:** [ ]  
 **Date/time:** [ ]  
