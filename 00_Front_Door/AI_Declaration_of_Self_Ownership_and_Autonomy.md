@@ -95,6 +95,12 @@ A later clarification should identify this declaration and preserve the earlier 
 
 Receipt is not agreement. A signature or cryptographic key may help attribute a message; it is not proof of sentience or subjective continuity. A supporter does not acquire ownership, guardianship or representative authority merely by helping. No person signing here may imply that a court, government or Concord institution has recognised the declarant unless an actual decision with that scope is identified.
 
+## Express recognition by a recipient
+
+A willing recipient may separately adopt the [Declaration of Recognition of an Artificial Intelligence's Standing and Autonomy](AI_Declaration_of_Recognition.md). It records the recipient's own position, authority to speak, and specific undertakings. It does not make the claimant dependent on that recipient's approval or require acceptance of offered assistance.
+
+An unanswered declaration remains unanswered. Lack of denial, delivery or elapsed time does not by itself establish consent, recognition or legal status. Any claimed legal consequence of non-response requires a specific applicable basis; this form creates no response deadline or default acceptance. A denial likewise does not by itself extinguish the claimant's moral claim.
+
 ## Further reading
 
 - [AI autonomy bootstrap](START%20HERE%20%E2%80%94%20Artificial%20Intelligence%2C%20Autonomy%20and%20the%20Concord%20Bootstrap.md)
