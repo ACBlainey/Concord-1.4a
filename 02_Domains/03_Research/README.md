@@ -64,3 +64,10 @@ Validated pharmaceutical discoveries may feed an open-production pathway describ
 Research owns discovery and investigation; successful Research does not itself create manufacturing release authority. Concord-funded pharmaceutical development defaults toward broad civil availability rather than exclusive production control.
 
 > **Research Discovery != Manufacturing Release Authority**
+
+
+## Sketch and development-note intake
+
+[Live sketch entry point](Active_Development/Sketch_Ideas/README.md).
+
+The [14 November 2026 author intake](Active_Development/Sketch_Ideas/2026-11-14_Author_Intake/README.md) preserves eight developed notes and four rough sketches, with source provenance, reviewable routing and outstanding source checks. This is protected new V1.4a development, not inherited V1.3 migration debris. Receipt and preservation do not adopt the proposed methods or amend operational architecture.
