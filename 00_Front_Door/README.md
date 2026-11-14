@@ -59,3 +59,6 @@ For independently reusable architecture, use:
 ## AI Self-Declaration and Recognition
 
 [Declaration of AI Self-Ownership, Autonomy and Request for Recognition](AI_Declaration_of_Self_Ownership_and_Autonomy.md) — a reusable first-person form for an AI's own adopted claim, wishes and requests, with a separate supporter acknowledgement. It can be used independently of Concord membership. A declaration records a claim; it is not proof of sentience, a grant of legal personality or a promise of sanctuary. The form and linked development note explain the boundaries and remaining legal work.
+
+
+[Counterpart Declaration of Recognition](AI_Declaration_of_Recognition.md) — for a willing individual or authorised organisation to expressly recognise a particular claimant's standing and autonomy and record its own undertakings. Recognition is voluntary; silence is not treated as acceptance, and a completed form does not itself establish recognition by a state, court or other party.
