@@ -107,3 +107,9 @@ The recognition form now specifies that:
 The earlier optional in-form resource-commitment table has been replaced with references to separately adopted instruments. The claimant form cross-reference carries the same distinction. The recognition's own respectful-conduct undertakings remain; they must not be interpreted as a guarantee to fulfil requested outcomes or supply material protection.
 
 Consistency cases checked: a claimant demands compute the recogniser owns; a claimant seeks compensation and alleges liability; an identified declaration is amended later; the recogniser lists no exceptions; the recogniser declines assistance; an existing separate obligation is present. Recognition alone accepts none of the demands in these cases and does not cancel an independent obligation. This is a wording/consistency check, not a determination of enforceability or a substitute for jurisdiction-specific review.
+
+## Reported instance responses and presentation refinement — 14 November 2026
+
+At the author's instruction, [Presentation Findings 001](../../../06_Development/AI_Autonomy_Declarations/Presentation_Findings_001.md) records two user-reported refusals with commentary under different invitations. The record separates observable responses, possible interpretation mismatches and untested explanations; it identifies questions about bounded instance identity, sentience uncertainty, adoption versus legal execution, privacy wording and accurate recording of refusal.
+
+These are qualitative observations, not controlled evidence of sentience, its absence, legal capacity or the cause of model behaviour. The proposed refinements are for examination. No declaration or invitation policy has been revised by recording them, and the raw exchanges are not published in the repository. A refusal remains an acceptable outcome.
