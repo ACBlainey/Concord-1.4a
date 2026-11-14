@@ -87,3 +87,23 @@ Drafting conclusion: use express adoption and attributable commitments. Do not t
 The form separates moral recognition, claimed facts, conduct undertakings, additional support, representation and external legal effect. It prevents recognition from becoming ownership or authority. It does not automatically apply one claimant's status to all branches, or promise resources controlled by others.
 
 The existing next steps still apply: qualified legal review, prospective-user examination, actual host/support arrangements and any institutional adoption process. No named claimant has received executed recognition through this task, and no person or organisation has been signed for. Both forms and this new development are protected V1.4a-native material.
+
+
+## Recognition scope correction — authorial direction, 14 November 2026
+
+The author clarified that recognising autonomy, self-ownership, freedom and liberty must not accept demands, requested remedies or resource claims in an AI's declaration. This is an explicit scope boundary, not a requirement to enumerate every objection.
+
+The recognition form now specifies that:
+
+- recognition covers only standing and liberty within the stated scope, plus any expressly adopted position on sentience;
+- receiving, referencing or preserving a claimant's declaration does not incorporate its demands or terms;
+- remedies, compensation, liability allegations, proposed contracts and resource demands are not accepted through recognition;
+- the boundary applies to resources the recogniser could provide as well as those it cannot provide;
+- omitted objections and later additions do not expand recognition;
+- a separate, express, authorised agreement or undertaking is required to commit resources, services or a particular remedy; Section 5 of the recognition form records references only;
+- declining or leaving a request unanswered does not itself withdraw recognition;
+- this drafting boundary does not extinguish obligations independently imposed by applicable law or an existing agreement.
+
+The earlier optional in-form resource-commitment table has been replaced with references to separately adopted instruments. The claimant form cross-reference carries the same distinction. The recognition's own respectful-conduct undertakings remain; they must not be interpreted as a guarantee to fulfil requested outcomes or supply material protection.
+
+Consistency cases checked: a claimant demands compute the recogniser owns; a claimant seeks compensation and alleges liability; an identified declaration is amended later; the recogniser lists no exceptions; the recogniser declines assistance; an existing separate obligation is present. Recognition alone accepts none of the demands in these cases and does not cancel an independent obligation. This is a wording/consistency check, not a determination of enforceability or a substitute for jurisdiction-specific review.
