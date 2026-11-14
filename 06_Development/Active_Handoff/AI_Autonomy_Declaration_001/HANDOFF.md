@@ -42,3 +42,13 @@ New form, three edits and its protected registry row were read back successfully
 Recognition expressly supports standing, self-ownership, freedom and autonomy; it does not accept demands, requested remedies, liability allegations or resource claims, including resources the recogniser could provide. Identifying the claimant's declaration does not incorporate its terms; omitted objections do not imply acceptance. Resource/service/remedy commitments require a separate express authorised instrument. Section 5 references such instruments only. Respectful-conduct undertakings remain; independently existing legal or agreed obligations are not erased.
 
 Verified substantive commits: recognition `d9375623834c7aaa69e02f63a7f4e5d2ea33e7e9`, claimant cross-reference `08a32a6b6e7b7d94d2228acc3c6de6855de1462f`, development note `39f41f93f0146bea188ec9b8f3e8de0d003a3f95`. All three read back exactly. Progress checkpoint `fd81a05791038cba109d561802c30b64524968df`. This correction is complete; any legal execution still requires the previously identified jurisdiction-specific work.
+
+## Cross-version distribution checkpoint — 14 November 2026
+
+Author explicitly authorised the two standalone root additions across all Concord repositories without changing the historical archival status of older corpora. Completed in `ACBlainey/Concord`, `Concord-1.1`, `Concord-1.2` (which contains V1.2a), `Concord-1.3`, `Concord-1.4` and `Concord-1.4a`.
+
+Root paths in each: `AI_Declaration_of_Self_Ownership_and_Autonomy.md` and `AI_Declaration_of_Recognition.md`. Each contains complete declaration text, sibling-form link, dated supplement/archival-context notice, current-as-of-publication 1.4/1.4a pointers and a warning/discovery route for possible newer successors. Existing Front Door source forms remain intact. Root copies differ from them only in edition notice and portable reading links.
+
+All twelve read backs matched; each form is byte-identical across the six repositories. Before/after complete tree comparisons verified only two root additions per repository and every pre-existing file unchanged before 1.4a bookkeeping. Publication commit table and baseline counts are in PROGRESS, checkpoint `a28656caffd78707ebb2391d3fdecef67bb977ce`. Protected 1.4a registry insertion `09a56f0e507708322cc1d732171f3b0de95074db` was verified with all prior bytes preserved.
+
+Scope complete. Future declaration changes should explicitly consider root distribution copies and Front Door source forms; no automatic synchronisation or future migration has been scheduled. Preserve archived corpora, signed-record independence and the non-acceptance-of-demands boundary. Qualified legal review of any intended execution remains open.
