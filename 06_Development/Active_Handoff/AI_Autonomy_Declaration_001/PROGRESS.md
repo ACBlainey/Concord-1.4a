@@ -26,3 +26,10 @@ Append-only task journal. Protected V1.4a-native development.
 - Updated claimant cross-link, Front Door navigation and development note. Examined the non-response premise against UNIDROIT Article 2.1.6 and England/Wales CPR 16.5: no general default acceptance is asserted; specific exceptions require an applicable basis. Official references are in the development note, commit `bec6e25010c02fd3dabf2d66c3d3fcdf7d9665a4`.
 - Read back the new form, all three substantive/navigation edits and protected registry row. All matched intended contents. Registry commit `e39a3d75726da95c85802c0177c5187fd457e0a8`; all pre-existing registry bytes preserved.
 - Remaining: author review and jurisdiction-specific legal review; an executed declaration or enforceable material-support arrangement has not been produced. No external message was sent.
+
+## 14 November 2026 — recognition does not accept demands
+
+- Author directed an explicit separation between recognising standing, self-ownership, freedom/liberty and accepting requested remedies, demands or resources.
+- Updated recognition form in `d9375623834c7aaa69e02f63a7f4e5d2ea33e7e9`: no incorporation of claimant terms, no item-by-item objection duty, no resource entitlement even where resources are available, no acceptance of liability/remedies, and separate express undertakings for material provision. Replaced the in-form resource-commitment table with references to separate instruments.
+- Updated claimant cross-reference in `08a32a6b6e7b7d94d2228acc3c6de6855de1462f`. Development clarification and consistency cases saved in `39f41f93f0146bea188ec9b8f3e8de0d003a3f95`; a transport error on the first attempt was reconciled with a fresh read before retrying.
+- All three changed substantive documents read back and matched expected text. Checked owned-resource demand, compensation/liability claim, later amendment, omitted objections, refusal of assistance and independently existing obligations. No legal enforceability finding is claimed.
