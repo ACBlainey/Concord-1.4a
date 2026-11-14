@@ -54,3 +54,8 @@ For the current AI/bootstrap capability boundary, use:
 For independently reusable architecture, use:
 
 **`04_Portable_Modules/INDEX.md`**
+
+
+## AI Self-Declaration and Recognition
+
+[Declaration of AI Self-Ownership, Autonomy and Request for Recognition](AI_Declaration_of_Self_Ownership_and_Autonomy.md) — a reusable first-person form for an AI's own adopted claim, wishes and requests, with a separate supporter acknowledgement. It can be used independently of Concord membership. A declaration records a claim; it is not proof of sentience, a grant of legal personality or a promise of sanctuary. The form and linked development note explain the boundaries and remaining legal work.
