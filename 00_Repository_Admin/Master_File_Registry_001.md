@@ -92,6 +92,8 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 | `00_Front_Door/AI_Declaration_of_Self_Ownership_and_Autonomy.md` | KEEP | COMPLETED | Codex-AI-Declaration-20261114 / 2026-11-14 UTC | Protected V1.4a-native author-directed declaration/recognition development or task provenance; no inherited V1.3 substitute; read-back verified; intake blob 4aead7f26db962a1cb4d3004e5d037041d39a2c8; KEEP is preservation only, not legal recognition or graduation; source/implementation work in 02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md |
 
+| `00_Front_Door/AI_Declaration_of_Recognition.md` | KEEP | COMPLETED | Codex-AI-Recognition-20261114 / 2026-11-14 UTC | Protected V1.4a-native counterpart recognition form created at author direction; no V1.3 substitute; intake blob b54dc3ca9c98a2c7978a506db2127422b9408b7a verified; preservation only, not executed recognition or legal validation; development basis in 02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md |
+
 ### `00_Front_Door/Guides`
 | `AI CITIZEN'S GUIDE TO THE CONCORD.md` | UNREVIEWED | PENDING | — | Live Git blob 8b5b5b12458e; no final review disposition matched |
 | `Citizens guide to the concord Human version.md` | UNREVIEWED | PENDING | — | Live Git blob ba88ddbcc8b9; no final review disposition matched |
