@@ -2199,6 +2199,10 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Historical Retrieval Bridge — Publication Approval Gate Design 001.md` | UNREVIEWED | PENDING | — | Live Git blob 97b113c8fd70; no final review disposition matched |
 | `Historical Retrieval Bridge — Standing Authority Switch and Historical Alignment 001.md` | UNREVIEWED | PENDING | — | Live Git blob f52fcbfde556; no final review disposition matched |
 
+
+### `06_Development/AI_Autonomy_Declarations`
+| `06_Development/AI_Autonomy_Declarations/Presentation_Findings_001.md` | KEEP | COMPLETED | Codex-Declaration-Findings-20261114 / 2026-11-14 UTC | Protected V1.4a-native author-requested qualitative development findings; not inherited V1.3 material; read-back verified blob 51b3ccd8a9f07dfff0d5644b820adc3dd767d81f; two user-reported refusals and presentation hypotheses kept distinct; preservation is not validation or adoption; raw chats excluded |
+
 ### `06_Development/Active_Handoff`
 | `Pruning_Live_Instructions_001.md` | KEEP | COMPLETED | — | Protected V1.4a-native live instruction queue; created 2026-11-05 commit 1f4eda9e626f8a23eefe970980b3581b425aa056; required before every domain pruning pass; authorised maintenance only, no destructive pruning |
 | `Pruning_Live_Instructions_Archive_001.md` | KEEP | COMPLETED | — | Protected V1.4a-native instruction provenance archive; created 2026-11-05 commit ad730eddefe44dbd9001fbfc82cdd2ffe3344f7b; never prune or remove archived evidence |
