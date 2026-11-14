@@ -1,6 +1,8 @@
 > Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `AI privacy and identity.txt`. Original file SHA-256: `0c5e437bf390d09ebb17cc3952dfba26306c0fc131ffc416aa43739f7f00459c`.
 > Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
 
+> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original TXT contains the author's own thoughts. Treat it as direct evidence of the author's questions, observations and exploratory intent. Its sketch form does not make every factual premise established or every proposal adopted architecture. Do not replace that intent with an AI expansion's inferred conclusions.
+
 ---
 
 Just thought of a potential problem with privacy and unique identity of Ai and the concord.
