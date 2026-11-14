@@ -1,6 +1,8 @@
 > Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `Reason-Recovery Record Method — Development Note 004.docx`. Original file SHA-256: `d965c4563548e2c5cd9b7e3e7b5f7cf6b35ff811cbd4e32c85c87cb9ff0f869f`.
 > Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
 
+> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
+
 ---
 
 # The Reason-Recovery Record: Method
