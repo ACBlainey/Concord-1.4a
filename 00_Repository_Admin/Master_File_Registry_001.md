@@ -30,6 +30,9 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `README.md` | KEEP | COMPLETED | — | Handoff line 42 — retention; check source record for scope |
 | `Starting wordcount.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob e7abd072419e; exact deletion/migration commit and pruning rationale still to verify |
 
+| `AI_Declaration_of_Self_Ownership_and_Autonomy.md` | KEEP | COMPLETED | Codex-Declaration-Distribution-20261114 / 2026-11-14 UTC | Protected author-directed root-level standalone declaration supplement added after migration, distributed to all six Concord repositories on 2026-11-14; not part of inherited V1.3 baseline; verified blob 9aa5ca83aa4a6205fb8aeee0ef0107f715ecfeb3; current/future-version pointers included; KEEP is preservation, not executed declaration or legal validation |
+| `AI_Declaration_of_Recognition.md` | KEEP | COMPLETED | Codex-Declaration-Distribution-20261114 / 2026-11-14 UTC | Protected author-directed root-level standalone declaration supplement added after migration, distributed to all six Concord repositories on 2026-11-14; not part of inherited V1.3 baseline; verified blob 3075fcda93a55c8b24844d63dc0951a85ff4409f; current/future-version pointers included; KEEP is preservation, not executed declaration or legal validation |
+
 ### `.github/workflows`
 | `authority-commit-race-102.yml` | UNREVIEWED | PENDING | — | Live Git blob c8ee40ed95b3; no final review disposition matched |
 | `authority-owner-registry-101.yml` | UNREVIEWED | PENDING | — | Live Git blob aad300fe09fd; no final review disposition matched |
