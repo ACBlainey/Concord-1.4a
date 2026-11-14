@@ -1,6 +1,8 @@
 > Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `error in substrate classification.txt`. Original file SHA-256: `d7f1c0c2b44c1a6c4a78310c6ebd7e83db061ebcc68268017eecf8e413a250f1`.
 > Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
 
+> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original TXT contains the author's own thoughts. Treat it as direct evidence of the author's questions, observations and exploratory intent. Its sketch form does not make every factual premise established or every proposal adopted architecture. Do not replace that intent with an AI expansion's inferred conclusions.
+
 ---
 
 I think we have made a fundimental error in our classificaation of the different substrates.
