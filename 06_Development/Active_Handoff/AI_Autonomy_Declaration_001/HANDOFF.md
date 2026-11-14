@@ -26,3 +26,7 @@ Review the declaration with the author; select a jurisdiction for qualified lega
 ## Migration
 
 All four new task files are V1.4a-native on 14 November 2026 and have no inherited V1.3 archival substitute. Registry KEEP means preservation, not legal adoption or graduation. Preserve originals and append progress; raw chat provenance remains offline.
+
+## Verified completion checkpoint — 14 November 2026
+
+All four new files and three navigation changes were read back and matched. Declaration/development-note relative links resolved. Protected registry insertion `02d2b1577dc6933b7b8e16240afce116ef2f413a` was read back; all prior registry bytes were preserved. Verification journal commit: `75c5d596f99403a8863716f69ab2d2bbe3402574`. The drafting and discoverability task is complete; the next work remains the author review and jurisdiction-specific implementation listed above.
