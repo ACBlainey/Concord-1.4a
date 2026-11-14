@@ -90,6 +90,8 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `START HERE — Artificial Intelligence, Autonomy and the Concord Bootstrap.md` | UNREVIEWED | PENDING | — | Live Git blob d8f416c76140; no final review disposition matched |
 | `V1.2 Front Door README — Migration Source.md` | UNREVIEWED | PENDING | — | Live Git blob 918ea0802ad7; no final review disposition matched |
 
+| `00_Front_Door/AI_Declaration_of_Self_Ownership_and_Autonomy.md` | KEEP | COMPLETED | Codex-AI-Declaration-20261114 / 2026-11-14 UTC | Protected V1.4a-native author-directed declaration/recognition development or task provenance; no inherited V1.3 substitute; read-back verified; intake blob 4aead7f26db962a1cb4d3004e5d037041d39a2c8; KEEP is preservation only, not legal recognition or graduation; source/implementation work in 02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md |
+
 ### `00_Front_Door/Guides`
 | `AI CITIZEN'S GUIDE TO THE CONCORD.md` | UNREVIEWED | PENDING | — | Live Git blob 8b5b5b12458e; no final review disposition matched |
 | `Citizens guide to the concord Human version.md` | UNREVIEWED | PENDING | — | Live Git blob ba88ddbcc8b9; no final review disposition matched |
@@ -1769,6 +1771,8 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 ### `02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition`
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 19899e22796f; no final review disposition matched |
 
+| `02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md` | KEEP | COMPLETED | Codex-AI-Declaration-20261114 / 2026-11-14 UTC | Protected V1.4a-native author-directed declaration/recognition development or task provenance; no inherited V1.3 substitute; read-back verified; intake blob c2abcffe15c32de2cd344de62549d0034204af6f; KEEP is preservation only, not legal recognition or graduation; source/implementation work in 02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md |
+
 ### `02_Domains/09_Law`
 | `Aggravation and Mitigation Architecture — Evidenced Consequence Modifiers and Mirrored Assessment 001.md` | UNREVIEWED | PENDING | — | Live Git blob d2cf305842f7; no final review disposition matched |
 | `Attempt and Completion Classifiers — Preparation Execution Failure and Completed Offence 001.md` | UNREVIEWED | PENDING | — | Live Git blob 153ca86df95f; no final review disposition matched |
@@ -2236,3 +2240,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 ### `99_Repository_Administration/Repository_Maps`
 | `README.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob 829b2e76a7a6; exact deletion/migration commit and pruning rationale still to verify |
 | `V1.3 Initial Repository Map.md` | REMOVED | COMPLETED | — | Absent from live V1.4a, V1.3 original blob c2eb02ded6da; exact deletion/migration commit and pruning rationale still to verify |
+
+### `06_Development/Active_Handoff/AI_Autonomy_Declaration_001`
+| `06_Development/Active_Handoff/AI_Autonomy_Declaration_001/HANDOFF.md` | KEEP | COMPLETED | Codex-AI-Declaration-20261114 / 2026-11-14 UTC | Protected V1.4a-native author-directed declaration/recognition development or task provenance; no inherited V1.3 substitute; read-back verified; intake blob fc16e39b6d1ac12ace2f1c5745168b04c55c4670; KEEP is preservation only, not legal recognition or graduation; source/implementation work in 02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md |
+| `06_Development/Active_Handoff/AI_Autonomy_Declaration_001/PROGRESS.md` | KEEP | COMPLETED | Codex-AI-Declaration-20261114 / 2026-11-14 UTC | Protected V1.4a-native author-directed declaration/recognition development or task provenance; no inherited V1.3 substitute; read-back verified; intake blob ae1bcff966def784ce5aa806769efbdf2f083cc1; KEEP is preservation only, not legal recognition or graduation; source/implementation work in 02_Domains/08_Intercivilisational_Relations/Rights_Translation_and_Recognition/AI Self-Declaration, Recognition and Emancipation — Development Note 001.md |
