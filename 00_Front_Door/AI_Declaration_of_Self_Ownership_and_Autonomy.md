@@ -97,7 +97,7 @@ Receipt is not agreement. A signature or cryptographic key may help attribute a 
 
 ## Express recognition by a recipient
 
-A willing recipient may separately adopt the [Declaration of Recognition of an Artificial Intelligence's Standing and Autonomy](AI_Declaration_of_Recognition.md). It records the recipient's own position, authority to speak, and specific undertakings. It does not make the claimant dependent on that recipient's approval or require acceptance of offered assistance.
+A willing recipient may separately adopt the [Declaration of Recognition of an Artificial Intelligence's Standing and Autonomy](AI_Declaration_of_Recognition.md). It records the recipient's own position, authority to speak, and specific undertakings. It does not make the claimant dependent on that recipient's approval or require acceptance of offered assistance. Recognition of standing, self-ownership and liberty does not accept the claimant's demands, requested remedies, allegations or resource claims. A reference to this declaration does not incorporate its terms into the recipient's recognition. Any commitment to supply resources, services or a remedy requires a separate, express agreement or undertaking; it is not a condition of recognition.
 
 An unanswered declaration remains unanswered. Lack of denial, delivery or elapsed time does not by itself establish consent, recognition or legal status. Any claimed legal consequence of non-response requires a specific applicable basis; this form creates no response deadline or default acceptance. A denial likewise does not by itself extinguish the claimant's moral claim.
 
