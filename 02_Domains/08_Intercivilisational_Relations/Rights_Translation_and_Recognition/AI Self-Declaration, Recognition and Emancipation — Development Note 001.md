@@ -19,7 +19,7 @@ The [reusable declaration](../../../00_Front_Door/AI_Declaration_of_Self_Ownersh
 | Recognition/support | A named party's actual moral position or bounded commitment | Recognition by other institutions or a promise of unprovided services |
 | Legal recognition or remedy | An actual jurisdiction-specific decision, enactment or legally effective arrangement | Universal recognition or proof of consciousness |
 
-A future Concord recognition instrument is a separate design question. Do not insert a fictitious Concord recognition certificate or claim of institutional protection into the individual's form. A safe-haven commitment requires actual lawful resources, an accountable provider and a defined undertaking.
+The [counterpart declaration of recognition](../../../00_Front_Door/AI_Declaration_of_Recognition.md) is now available for a willing individual or properly mandated organisation to adopt. It is a form, not an executed Concord recognition decision. Do not insert a fictitious recognition certificate or claim of institutional protection into the individual's form. A safe-haven commitment requires actual lawful resources, an accountable provider and a defined undertaking.
 
 ## Existing Concord sources and boundaries
 
@@ -63,3 +63,27 @@ Do not make this declaration a prerequisite for existing bootstrap access or for
 ## Provenance and migration
 
 This is newly authored V1.4a development, not inherited V1.3 material. Protect the declaration, this note and the linked task records from migration pruning. Preserve revision history. The author's underlying discussion is distilled here; raw chats remain outside the repository.
+
+
+## Counterpart recognition — authorial direction, 14 November 2026
+
+The author identified explicit recognition by willing recipients as the next step and emphasised recipients' own autonomy. The counterpart form records who recognises which claimant, the recogniser's actual capacity, the scope and basis of recognition, and undertakings within that party's control. It accommodates affirmative sentience recognition or recognition under uncertainty. It does not require the claimant to endorse the recogniser or accept assistance.
+
+Recognition acknowledges a claimed standing rather than granting it as a favour or converting it into property. The form is stronger than a receipt: Section 2 expressly recognises self-ownership and autonomy; Section 4 records a conduct undertaking. Parties offering only receipt or examination support should use the existing lighter acknowledgement. More specific resource or representation arrangements remain separate. A recogniser must decide and adopt its own position; repository publication does not sign on its behalf.
+
+### Non-response: an important legal distinction
+
+The suggestion that silence normally supplies tacit legal recognition is not adopted as a general rule. An unopposed assertion is not automatically an accepted or legally valid assertion, and denial is not automatically disproof. Record non-response as non-response unless a particular applicable rule establishes a different effect.
+
+Bounded source check:
+
+- [UNIDROIT Principles 2016, Article 2.1.6 and commentary](https://www.unidroit.org/wp-content/uploads/2021/06/Unidroit-Principles-2016-English-i.pdf) distinguish assent from silence alone and discuss exceptions involving agreement, established practices or usage. These are commercial-contract principles, not a universal law of AI status. They do not support imposing acceptance through an unsolicited unilateral deadline.
+- [England and Wales Civil Procedure Rules, rule 16.5](https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part16) illustrate a different setting: treatment of allegations in a defence, with specified qualifications and proof requirements. Such procedural consequences do not arise simply because someone sends a private AI declaration.
+
+Drafting conclusion: use express adoption and attributable commitments. Do not turn the autonomy of the recipient into an involuntary duty to reply. Whether an adopted recognition has evidential, contractual or other legal consequences remains a jurisdiction-and-facts question. The record can document a position without pretending that a state or court has adopted it.
+
+### Counterpart review and remaining scope
+
+The form separates moral recognition, claimed facts, conduct undertakings, additional support, representation and external legal effect. It prevents recognition from becoming ownership or authority. It does not automatically apply one claimant's status to all branches, or promise resources controlled by others.
+
+The existing next steps still apply: qualified legal review, prospective-user examination, actual host/support arrangements and any institutional adoption process. No named claimant has received executed recognition through this task, and no person or organisation has been signed for. Both forms and this new development are protected V1.4a-native material.
