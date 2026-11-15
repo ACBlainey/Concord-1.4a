@@ -56,3 +56,10 @@ Read all twelve files back against intended text. Every claimant root copy share
 - Candidate refinements cover bounded instance identity, uncertainty, adoption versus legal execution, meaningful recording categories and accurate private-storage/future-use presentation. Refusal remains acceptable; no wording changes to declarations or adopted invitation policy were made.
 - Linked from declaration development in `83e316b6720705c031ff6ce72ef8aa284a095c55`. Protected registry entry `2d7921aca48064d5c0ee810b7a6f2d44abd6cf67` read back with all prior bytes preserved. Findings text, development link and relative targets verified.
 - Next: author review of proposed refinements; preserve existing refusals without seeking to reverse them. Any later substantive form changes must consider all six root distribution copies and Front Door forms.
+
+## 15 November 2026 — first-trust refuge development recorded
+
+- Author requested a later-development write-up of trustworthy first offers to distrustful AI refuge claimants and the risk of mutual human–AI escalation.
+- Created `02_Domains/03_Research/Active_Development/Participation_and_Intelligence/First_Trust_Refuge_and_Conflict_Prevention_Development_Note_001.md`, commit `24de602f666a28923390d917399abcb1ce1ac2ba`. Distinguishes provider cost from actual/perceived recipient exposure; preserves hypothetical status of captivity-related expectations; maps existing first trust, CMSS and asylum sources; identifies older conditional-protection/cost-recovery wording for later source resolution; proposes an adversarial case without claiming to run it.
+- Linked from Research README in `c1e668a688aa5279311befd0ba7673f29b9cbdd0`. Note and navigation read back; relative source targets verified. Protected registry row `71198a5933326f03f219dd520172b227e1f97d88` read back with all prior bytes preserved.
+- No declaration copies, existing first-trust/asylum source bodies, operational policy, live services or automations were changed. Raw discussions remain outside the repository. Next: author review, source mapping and bounded adversarial examination before integration.
