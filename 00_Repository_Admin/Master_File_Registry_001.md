@@ -1479,7 +1479,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `test_decision_ballot_acks_097.py` | UNREVIEWED | PENDING | — | Live Git blob a3381dcdaf88; no final review disposition matched |
 | `test_decision_external_effect_099.py` | UNREVIEWED | PENDING | — | Live Git blob 775860edd2b6; no final review disposition matched |
 | `test_decision_state_concurrency_094.py` | UNREVIEWED | PENDING | — | Live Git blob f452d6ade04a; no final review disposition matched |
-| `test_decision_state_fixture_093.py` | UNREVIEWED | PENDING | — | Live Git blob d8aa88f1aff5; no final review disposition matched |
+| `test_decision_state_fixture_093.py` | IN_EVALUATION | IN_PROGRESS | Codex-Governance-Forward-20261108 / GOV-FWD-TEST093-2026-11-15T18:57:38.555Z | repository: ACBlainey/Concord-1.4a; path: `02_Domains/04_Governance/V2.1/Validation/test_decision_state_fixture_093.py`; domain: 02_Domains/04_Governance; UTC 2026-11-15T18:57:38.556Z; prior UNREVIEWED/PENDING; previous read only as fixture093 dependency, no final test-file disposition; exclusive full original/current/actual V2.2/workflow review; all holds preserved. |
 | `test_g05_bta_adversarial_073.py` | UNREVIEWED | PENDING | — | Live Git blob 150dbb3dfa74; no final review disposition matched |
 | `test_g05_bta_async_evidence_075.py` | UNREVIEWED | PENDING | — | Live Git blob 958df633ab03; no final review disposition matched |
 | `test_g05_bta_compat_adapter_072.py` | UNREVIEWED | PENDING | — | Live Git blob e1f1ba89d978; no final review disposition matched |
