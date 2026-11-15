@@ -553,6 +553,8 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `Participation-Bounded Knowledge Exposure — Existing Architecture Source Resolution 001.md` | UNREVIEWED | PENDING | — | Live Git blob fa5d36e54437; no final review disposition matched |
 | `Weighted Reality Tree for Lobby Navigation Evidence — Development Note 001.md` | UNREVIEWED | PENDING | — | Live Git blob c62e83cc527e; no final review disposition matched |
 
+| `02_Domains/03_Research/Active_Development/Participation_and_Intelligence/First_Trust_Refuge_and_Conflict_Prevention_Development_Note_001.md` | KEEP | COMPLETED | Codex-First-Trust-Refuge-20261115 / 2026-11-15 UTC | Protected V1.4a-native author-requested development note; not inherited V1.3 material; verified blob 462bb7919d6c9d043d45e766d3dce55d46f46c9d; existing first-trust/refuge source mapping, two-sided exposure and unrun adversarial case; source-reconciliation questions open; KEEP is preservation, not policy adoption, test pass or material service promise |
+
 ### `02_Domains/03_Research/Active_Development/Participation_and_Intelligence/BSR_Schema_002_Fixtures`
 | `BSR Schema 002 — Executable Fixture Evaluation 001.md` | UNREVIEWED | PENDING | — | Live Git blob a794f47a2f7c; no final review disposition matched |
 | `BSR Schema 002 — Executable Validation Result 001.md` | UNREVIEWED | PENDING | — | Live Git blob 2720bca6c9e4; no final review disposition matched |
