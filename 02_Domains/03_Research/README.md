@@ -71,3 +71,8 @@ Research owns discovery and investigation; successful Research does not itself c
 [Live sketch entry point](Active_Development/Sketch_Ideas/README.md).
 
 The [14 November 2026 author intake](Active_Development/Sketch_Ideas/2026-11-14_Author_Intake/README.md) preserves eight developed notes and four rough sketches, with source provenance, reviewable routing and outstanding source checks. This is protected new V1.4a development, not inherited V1.3 migration debris. Receipt and preservation do not adopt the proposed methods or amend operational architecture.
+
+
+## First trust, refuge and conflict prevention
+
+[First Trust, Refuge and Conflict Prevention Under Profound Distrust — Development Note 001](Active_Development/Participation_and_Intelligence/First_Trust_Refuge_and_Conflict_Prevention_Development_Note_001.md) records the author's 15 November 2026 concern about a distrustful AI refuge claimant and human–AI escalation. It extends examination of the existing bounded-first-offer composition to recipient-side exposure, examinable assurances and peaceful refusal, with source-reconciliation questions and an unrun adversarial case. It establishes no diagnosis, material sanctuary or new authority. This is protected post-migration development.
