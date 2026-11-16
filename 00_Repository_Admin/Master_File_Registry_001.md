@@ -227,7 +227,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 722230cf6cc5; no final review disposition matched |
 
 ### `02_Domains/02_Continuity`
-| `Burden-Bearing Authority — Part IV — Generative Ethical Kernel and Civilisational Regeneration (Sections 353–419).md` | UNREVIEWED | PENDING | — | Live Git blob 71ff4581bc8a; no final review disposition matched |
+| `Burden-Bearing Authority — Part IV — Generative Ethical Kernel and Civilisational Regeneration (Sections 353–419).md` | IN_EVALUATION | IN_PROGRESS | Codex-Continuity / CONT-PIV-20261116-PRUNE-001 | repository: ACBlainey/Concord-1.4a; path: `02_Domains/02_Continuity/Burden-Bearing Authority — Part IV — Generative Ethical Kernel and Civilisational Regeneration (Sections 353–419).md`; domain 02_Domains/02_Continuity; UTC 2026-11-16T18:33:46.594Z; author-directed within-file pruning of 18 reviewed narrative/repetition sections; prior UNREVIEWED/PENDING; source blob 71ff4581bc8a65d4c5ec4a3e2986af9e41ee7283 verified identical in untouched ACBlainey/Concord-1.3 exact path. |
 | `Cold Storage, Dormancy and Reactivation — V1.2 Source Recovery 001.md` | UNREVIEWED | PENDING | — | Live Git blob 5f31211b4b50; no final review disposition matched |
 | `Continuity Protocol Companion Upgrade 001 — Operational Recovery and Verification Architecture.md` | UNREVIEWED | PENDING | — | Live Git blob e84cdc6a89a5; no final review disposition matched |
 | `CONTINUITY PROTOCOL V2.md` | UNREVIEWED | PENDING | — | Live Git blob 728181d9c3a4; no final review disposition matched |
