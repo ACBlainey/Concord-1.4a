@@ -1492,7 +1492,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `test_g05_bta_orphan_protection_084.py` | UNREVIEWED | PENDING | — | Live Git blob df938b31b04d; no final review disposition matched |
 | `test_g05_bta_owner_attestation_074.py` | UNREVIEWED | PENDING | — | Live Git blob 9467fc1950b1; no final review disposition matched |
 | `test_g05_bta_partial_recovery_079.py` | UNREVIEWED | PENDING | — | Live Git blob 73747dca2bf6; no final review disposition matched |
-| `test_g05_bta_protection_renewal_085.py` | UNREVIEWED | PENDING | — | Live Git blob e8c16685b13c; no final review disposition matched |
+| `test_g05_bta_protection_renewal_085.py` | IN_EVALUATION | IN_PROGRESS | Codex-Governance-Forward-20261108 / GOV-FWD-RENEWALTEST085-2026-11-16T00:04:46.987Z | repository: ACBlainey/Concord-1.4a; path: `02_Domains/04_Governance/V2.1/Validation/test_g05_bta_protection_renewal_085.py`; domain 02_Domains/04_Governance; fresh queue/registry/handoff; previous dependency read under module review was not this test own disposition. Full exact original/history and configured workflow review pending. |
 | `test_g05_bta_recovery_outcomes_080.py` | UNREVIEWED | PENDING | — | Live Git blob a8417bdb17a1; no final review disposition matched |
 | `test_g05_cross_stage_integration_088.py` | UNREVIEWED | PENDING | — | Live Git blob b891bca861bf; no final review disposition matched |
 | `test_g05_custody_reconciliation_089.py` | UNREVIEWED | PENDING | — | Live Git blob 31cf87b26841; no final review disposition matched |
