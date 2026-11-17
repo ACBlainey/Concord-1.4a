@@ -1505,7 +1505,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `test_glass_hammer_concern_review_116.py` | UNREVIEWED | PENDING | — | Live Git blob 0276e736c735; no final review disposition matched |
 | `test_glass_hammer_context_evidence_111.py` | UNREVIEWED | PENDING | — | Live Git blob aa5bf000093c; no final review disposition matched |
 | `test_glass_hammer_early_acceptance_110.py` | UNREVIEWED | PENDING | — | Live Git blob fbdf612732a7; no final review disposition matched |
-| `test_glass_hammer_integration_109.py` | UNREVIEWED | PENDING | — | Live Git blob dca18d22c476; no final review disposition matched |
+| `test_glass_hammer_integration_109.py` | IN_EVALUATION | IN_PROGRESS | Codex-Governance-Forward-20261108 / GOV-FWD-TEST109-2026-11-17T10:57:04.457Z | repository: ACBlainey/Concord-1.4a; path: `02_Domains/04_Governance/V2.1/Validation/test_glass_hammer_integration_109.py`; domain 02_Domains/04_Governance; UTC 2026-11-17T10:57:04.457Z; prior UNREVIEWED/PENDING; bounded full-source, exact V1.3, V2.2 and dependency review. |
 | `test_glass_hammer_isolation_117.py` | UNREVIEWED | PENDING | — | Live Git blob 8ad2a6c2a1e2; no final review disposition matched |
 | `test_glass_hammer_owner_projection_118.py` | UNREVIEWED | PENDING | — | Live Git blob e93f989a3a98; no final review disposition matched |
 | `test_glass_hammer_seventh_digit_120.py` | UNREVIEWED | PENDING | — | Live Git blob 0c5e2cf37592; no final review disposition matched |
