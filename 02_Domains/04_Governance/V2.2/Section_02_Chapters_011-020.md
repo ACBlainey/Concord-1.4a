@@ -1483,7 +1483,7 @@ Keep separate records for (1) lawful triad constitution and voting-position auth
 
 ### 12.29.4 Vote-Driven State Transition and Bounded Authority
 
-**Correction to the preceding 12 October implementation separation:** The valid triadic **vote decision is what changes the relevant decision state**. The **state machine** owns and effects the state transition according to its lawfully established transition relation. The triad holds authority to vote, **not direct operational authority to perform subsequent acts**. Do not describe the vote as merely an advisory result waiting for an executive to decide whether the state changes; do not describe the Stewards as personally executing that transition.
+**Decision-state transition:** The valid triadic **vote decision is what changes the relevant decision state**. The **state machine** owns and effects the state transition according to its lawfully established transition relation. The triad holds authority to vote, **not direct operational authority to perform subsequent acts**. Do not describe the vote as merely an advisory result waiting for an executive to decide whether the state changes; do not describe the Stewards as personally executing that transition.
 
 
 **Governance decision and effect boundaries:** lawfully constituted voting forum → valid ballots → determined decision outcome → authorised decision-state transition by the competent host state machine, subject to its independently legitimate transition conditions → any downstream physical/resource/legal execution by separately bounded actors under their own authority. These are distinguishable transitions, not necessarily sequential clock ticks. The decision-state transition may itself have consequential legal effect; do **not** assume all legal effect waits for a separate executive act. Ordinary effective-time/Clock scheduling and emergency-independent timing belong to the host's valid transition semantics, not to discretionary reapproval by an implementer.
@@ -1588,8 +1588,6 @@ The normal triad, lawful constitution of three selected positions, alternate sub
 The Concord does not treat governance as one undifferentiated activity.
 
 Different civilisational responsibilities require different forms of knowledge, expertise, evidence and authority.
-
-The Concord's earlier governance architecture developed distinct stewardship domains, whose operative responsibilities and boundaries are consolidated here.
 
 These domains are retained because they prevent a general governing institution from automatically claiming competence over every area of civilisation.
 
@@ -3815,7 +3813,7 @@ can therefore create de facto authority.
 
 ## 15.3 Energy-Backed Currency
 
-Governance V1 explored an energy-backed currency architecture in which the unit of account is linked to measurable energy.
+An energy-backed currency design links the unit of account to measurable energy.
 
 The underlying motivation is that energy represents a physically grounded input into almost every productive process.
 
@@ -3829,8 +3827,6 @@ Energy can be:
 - and compared.
 
 A monetary unit connected to energy therefore offers the possibility of anchoring currency to a measurable physical capability rather than solely to political monetary discretion.
-
-This architecture remains exploratory.
 
 ### 15.3.1 Energy as Physical Reference, Not Complete Value Theory
 
@@ -4461,8 +4457,6 @@ Capture may arise through:
 - or crisis-created indispensability.
 
 ## 15.27 Relationship to Ratchet
-
-Ratchet V4.2 now contains a much broader economic and coordination architecture than existed when much of Governance V1 was written.
 
 Ratchet distinguishes among:
 
@@ -5120,7 +5114,7 @@ Those questions remain explicitly open.
 
 Resource stewardship, commons protection, intergenerational obligations, environmental measurement and product lifecycle duties do not create ownership of resources or general power to command participants. Scarcity, concentration, ecological urgency or stewardship responsibility may justify considering a bounded intervention but cannot by itself supply authority. Each consequential act must have its own lawful context, rights limits, state-conditioned authorisation and accountable execution.
 
-The original V2 source retains its historical editorial status labels for provenance. The operative chapter applies the established resource duties and explicitly identifies incomplete interfaces; it does not invent missing thresholds, property doctrines or allocation mechanisms.
+The operative chapter applies the established resource duties and explicitly identifies incomplete interfaces; it does not invent missing thresholds, property doctrines or allocation mechanisms.
 
 # Chapter 17 — Civilisational Planning
 
