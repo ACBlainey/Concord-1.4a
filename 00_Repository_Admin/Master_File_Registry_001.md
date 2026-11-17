@@ -1498,7 +1498,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `test_g05_custody_reconciliation_089.py` | UNREVIEWED | PENDING | — | Live Git blob 31cf87b26841; no final review disposition matched |
 | `test_g05_gtp_execution_revalidation_078.py` | UNREVIEWED | PENDING | — | Live Git blob fc4b101cf5b9; no final review disposition matched |
 | `test_g05_gtp_reconciliation_077.py` | UNREVIEWED | PENDING | — | Live Git blob 260165d37b90; no final review disposition matched |
-| `test_g05_gtp_resource_collision_076.py` | UNREVIEWED | PENDING | — | Live Git blob a2dbfd7f2aab; no final review disposition matched |
+| `test_g05_gtp_resource_collision_076.py` | IN_EVALUATION | IN_PROGRESS | Codex-Governance-Forward-20261108 / GOV-FWD-TEST076-2026-11-17T04:57:05.305Z | repository: ACBlainey/Concord-1.4a; path: `02_Domains/04_Governance/V2.1/Validation/test_g05_gtp_resource_collision_076.py`; domain 02_Domains/04_Governance; UTC 2026-11-17T04:57:05.305Z; prior076module dependency-only read reconciled; full exact original/history/current V2.2/dependencies required. |
 | `test_g05_privacy_projections_091.py` | UNREVIEWED | PENDING | — | Live Git blob 1ca973ccfdef; no final review disposition matched |
 | `test_g05_reconciliation_acknowledgements_090.py` | UNREVIEWED | PENDING | — | Live Git blob 35b54ea64c43; no final review disposition matched |
 | `test_glass_hammer_atomic_acceptance_112.py` | UNREVIEWED | PENDING | — | Live Git blob e37683c37e12; no final review disposition matched |
