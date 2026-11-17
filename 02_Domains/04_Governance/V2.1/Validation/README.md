@@ -44,6 +44,12 @@ Validate durable ballot acceptance, transactional action claims, action expiry a
 
 In the independent-host crash-window fixture, the direct execute route accepts only CLAIMED state. This restriction is fixture behaviour, not a substitute for a production recovery policy. The fixture's synthetic host idempotency and caller-supplied trusted-status flag do not prove a physical-effect guarantee.
 
+## Distinct fixture coverage
+
+The G05 acknowledgement journal (090) tests owner-separated, revision-bound replay/conflict handling; it does not implement secure transport, signatures, durable storage or real owner transactions. The decision-state fixture (093) is an in-memory model; broader decision, ancestry, concurrency, crash-recovery, live-attestation and paused-Clock requirements remain outside its coverage. The concurrency fixture (094) uses an in-process lock, not a durable distributed ballot journal.
+
+The local recovery fixture (096) injects the decision majority; it does not validate durable ballot acceptance or constitutional integration. The ballot/action/ACKS fixture (097) instead derives its result from persisted ballots and binds acknowledgements to action revisions, while still relying on supplied mandate, host-authority, authentication and scope assertions. Keep these implementation distinctions visible when designing further validation.
+
 ## Outstanding owner interfaces
 
 Complete independently evidenced contracts for authenticated owner attestation, constitutional competence, current revision and revocation, secure transport, durable journals, protected beneficiary and ballot projections, independent review, host execution and recovery of uncertain effects. Test real failure and concurrency boundaries rather than assuming local storage or a successful workflow supplies those contracts.
