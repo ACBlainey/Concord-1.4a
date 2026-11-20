@@ -1,6 +1,6 @@
 # Steward eligibility and contextual authority
 
-This diagram distinguishes participation, eligibility, selection and bounded authority. Eligibility does not itself grant permanent governing authority. Detailed admission and accreditation criteria must be checked against V2.1.
+Detailed admission and accreditation criteria remain subject to domain-specific verification; this diagram does not define them.
 
 ```mermaid
 flowchart TD
