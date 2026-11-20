@@ -4468,3 +4468,12 @@ Author directive: finish unchecked Governance entries first; do not reaudit comp
 - `02_Domains/04_Governance/a_clean_infographic_poster_on_a_white_background_w.png`: `KEEP / COMPLETED`; claim commit `1d7e60366c4de3b7ac9ccbe204f9b9e9c89891bd`; completion commit `ab31cb17274211d05f5c0c7839313c3093cd94b0`. Exact preserved `ACBlainey/Concord-1.3` main same-path blob `0da019de09bbf0e77388fa7c2a5295a8d8e01893` matches live V1.4a. Binary pixels not available through connector for visual review; conservative preservation without claiming visual uniqueness.
 
 Registry `00_Repository_Admin/Master_File_Registry_001.md` updated and verified for both. No outstanding claim by this worker. Under current live registry, no UNREVIEWED rows remain under `02_Domains/04_Governance`; other domain entries are outside assignment. No schedules/emails.
+
+
+## GOV-V21-REDUCE-20261120-VIS04 — V2.1 clause-level redundancy pruning, voting visual (2026-11-20)
+
+- Author direction: systematically process Governance V2.1 documents, remove only architecture proven incorporated into V2.2, retain uncertain/unincorporated material; no wholesale deletion without proof.
+- Exact path: `02_Domains/04_Governance/V2.1/visual aids/04 Voting Outcomes and Confidence.md`; untouched `ACBlainey/Concord-1.3` original same path blob `704e29f7ee507fcb66996c85b8004bde55ba8e1f`.
+- Existing disposition `KEEP / COMPLETED` explicitly reopened by new author instruction; exclusive claim commit `5d8ac7d180b4e32ea6af74da751408808d395f0e`; direct pruning commit `5cd5959d3a35ba8ec4a8e514da81faaae47a16f8`; registry release `912cdbf9035dbf7c823fd288eaa73f60a85b96e9`.
+- Compared to published `02_Domains/04_Governance/V2.2/Section_02_Chapters_011-020.md` Chapter12. Removed only one 457-character prose paragraph covering equal mandatory votes, For/3 support (100/66.7/33.3/0), ordinary full ballot completion, non-probabilistic confidence and nonnegative missing votes already addressed by current V2.2. Retained the entire Mermaid voting diagram unchanged, because distinct visual utility and exact diagram semantics were not independently incorporated.
+- Before 830 characters; after 373 characters; reduction 55.1%. Exact post-edit read-back and own registry release verified. No other files edited, no schedule/email.
