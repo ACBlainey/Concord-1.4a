@@ -4433,3 +4433,14 @@ Reduction278245→277746characters,499characters. **Mandatory whole-original-ver
 Fresh-own-row release52a8c9bf9d45df872ce4d5caf79373e8b1b3c24b, registryblobbf9607a0b7e6cce6010a4fa64e20c56010af7930, full exact readback/outside-row preservation verified. No own active Governance claim. Count205 REMOVED rows includes seven author-presumed historical removals, unchanged. All existing companion, emergency, anti-capture, owner-system, workspace and postmigration holds preserved; no new provenance hold. No technical failure/automatic approval rejection/email/raw-chat upload/unrecorded source commit. Concord-1.3/1.4, native Historical/retrieval/shared/recent work untouched.
 
 NEXT: fresh live controls, eligible `02_Domains/04_Governance/V2.2/Section_03_Chapters_021-030.md` (registryUNREVIEWED/PENDING, current startup tree6987cb36b33f42c29cd0752ddc7e7e2c34baf4b6); reconcile its prior clause/dependency-only mentions before standalone exclusive claim and complete original/current review. Nine Governance rows remain UNREVIEWED/PENDING, including `02_Domains/04_Governance/Governance V2 Canonical.md`; do not infer Governance completion. Verify full exact-prefix handoff append before further mutations.
+
+
+## GOV-20261120-S03 — Governance V2.2 published Section 03 operational retention (2026-11-20)
+
+- Repository: `ACBlainey/Concord-1.4a`; domain: `02_Domains/04_Governance`; worker: `ChatGPT-Governance-20261120`.
+- Exact path: `02_Domains/04_Governance/V2.2/Section_03_Chapters_021-030.md`.
+- Preserved source: `ACBlainey/Concord-1.3` main, exact same path, blob `6987cb36b33f42c29cd0752ddc7e7e2c34baf4b6`; current V1.4a blob identical.
+- Claim commit `b6dee8379b8d972a6c3fd271c119fb79f9330b36`; registry completion commit `0a1da25f75a5109e7f51cdbbe633d16043ac8de6`, read-back verified.
+- Disposition: `UNREVIEWED / PENDING` → `IN_EVALUATION / IN_PROGRESS` → `KEEP / COMPLETED`. No source file edit or deletion.
+- Basis: Published V2.2 Section 03 Chapters 21–30 contains substantive constitutional self-modification, recursive review, emergency classification, declaration, bounded emergency authority, succession, degraded triads and abstention/decision-failure architecture. It is living operational architecture, not a redundant development narrative. `02_Domains/04_Governance/V2.2/README.md` identifies the sectioned published architecture.
+- Controls: 2026-11-09 architecture-only correction applied. V1.3 original untouched; no post-migration destruction; no other claim touched; no email or automation change. Further reviews require new exclusive claims.
