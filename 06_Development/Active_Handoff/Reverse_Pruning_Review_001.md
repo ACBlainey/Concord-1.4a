@@ -4477,3 +4477,11 @@ Registry `00_Repository_Admin/Master_File_Registry_001.md` updated and verified 
 - Existing disposition `KEEP / COMPLETED` explicitly reopened by new author instruction; exclusive claim commit `5d8ac7d180b4e32ea6af74da751408808d395f0e`; direct pruning commit `5cd5959d3a35ba8ec4a8e514da81faaae47a16f8`; registry release `912cdbf9035dbf7c823fd288eaa73f60a85b96e9`.
 - Compared to published `02_Domains/04_Governance/V2.2/Section_02_Chapters_011-020.md` Chapter12. Removed only one 457-character prose paragraph covering equal mandatory votes, For/3 support (100/66.7/33.3/0), ordinary full ballot completion, non-probabilistic confidence and nonnegative missing votes already addressed by current V2.2. Retained the entire Mermaid voting diagram unchanged, because distinct visual utility and exact diagram semantics were not independently incorporated.
 - Before 830 characters; after 373 characters; reduction 55.1%. Exact post-edit read-back and own registry release verified. No other files edited, no schedule/email.
+
+
+## GOV-V21-REDUCE-20261120-VIS01 — V2.1 Steward Eligibility visual clause-level pruning (2026-11-20)
+
+- Author-directed systematic document-by-document comparison of Governance V2.1 to published V2.2; delete only incorporated prose and retain ambiguous/unique architecture.
+- Exact path `02_Domains/04_Governance/V2.1/visual aids/01 Steward Eligibility and Authority.md`; original archived in `ACBlainey/Concord-1.3` same path blob `d9f9d5af429a5daa82e8bf96d8e3f8860c9f7e41`.
+- V2.2 Section01 covers participation/eligibility/selection and contextual, consumed, non-inherited authority. Removed duplicated explanation, while retaining the original Mermaid decision-flow diagram byte-for-byte. Replaced the obsolete instruction to consult V2.1 accreditation criteria with an explicit unresolved domain-specific verification note; no criteria invented or silently discarded.
+- Claim `de2c9f9e72adbd62cdae9b13386ce79adf362d25`; direct prune `26121b3b60731579fb316091f6cc0182ebb6dded`; registry release `0d6c74b64dff9aeceaf4eb2fac4ad00380b9b976`. 719 -> 619 characters, 100 net removed (13.9%). All read-back verified. No other files edited, no schedule/email.
