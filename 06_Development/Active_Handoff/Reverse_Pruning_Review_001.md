@@ -4444,3 +4444,17 @@ NEXT: fresh live controls, eligible `02_Domains/04_Governance/V2.2/Section_03_Ch
 - Disposition: `UNREVIEWED / PENDING` → `IN_EVALUATION / IN_PROGRESS` → `KEEP / COMPLETED`. No source file edit or deletion.
 - Basis: Published V2.2 Section 03 Chapters 21–30 contains substantive constitutional self-modification, recursive review, emergency classification, declaration, bounded emergency authority, succession, degraded triads and abstention/decision-failure architecture. It is living operational architecture, not a redundant development narrative. `02_Domains/04_Governance/V2.2/README.md` identifies the sectioned published architecture.
 - Controls: 2026-11-09 architecture-only correction applied. V1.3 original untouched; no post-migration destruction; no other claim touched; no email or automation change. Further reviews require new exclusive claims.
+
+
+## GOV-20261120-V22-OPERATIONAL-SECTIONS-04-09 — Author-directed operational retention of published Governance V2.2 Sections 04–09 (2026-11-20)
+
+Repository: `ACBlainey/Concord-1.4a`; assigned domain: `02_Domains/04_Governance`; worker: `ChatGPT-Governance-20261120`. Author explicitly directs that the most recent published V2.2 operational sections be assumed exempt from pruning and marked KEEP/COMPLETED. This is a retention disposition, not a new chapter-by-chapter content audit. Six independent exclusive claims and six release writes were performed and verified in `00_Repository_Admin/Master_File_Registry_001.md`. Exact paths and archived source blob SHAs:
+
+- `02_Domains/04_Governance/V2.2/Section_04_Chapters_031-040.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `e7887e4791ad1848c085f0d41dba22694dddb00d` equals V1.4a; claim and completion verified in registry; no source edits.
+- `02_Domains/04_Governance/V2.2/Section_05_Chapters_041-050.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `1aa212bfcfe9d3747b6d7f7e72744b2f6faa304e` equals V1.4a; claim and completion verified in registry; no source edits.
+- `02_Domains/04_Governance/V2.2/Section_06_Chapters_051-060.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `e2941897bbb0afec48342ac3ed9eae4462e25854` equals V1.4a; claim and completion verified in registry; no source edits.
+- `02_Domains/04_Governance/V2.2/Section_07_Chapters_061-070.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `9630719e5266eb6f33a6c3c23f081bf1451f27b9` equals V1.4a; claim and completion verified in registry; no source edits.
+- `02_Domains/04_Governance/V2.2/Section_08_Chapters_071-080.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `157e360843f12d1a15c76a7cfbba3512e715fb34` equals V1.4a; claim and completion verified in registry; no source edits.
+- `02_Domains/04_Governance/V2.2/Section_09_Chapters_081-090.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `0bf4a4a3c9a65922bd1362ce1ee7cbda9b25482d` equals V1.4a; claim and completion verified in registry; no source edits.
+
+All original sources remain untouched in V1.3; no operational section modified or deleted. The registry contains the individual claim commit SHA and final disposition for each path. No other worker claim, schedule, or email affected. This entry records the author's classification instruction and completed bookkeeping, not evidence of exhaustive architectural evaluation.
