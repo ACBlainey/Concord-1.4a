@@ -4458,3 +4458,13 @@ Repository: `ACBlainey/Concord-1.4a`; assigned domain: `02_Domains/04_Governance
 - `02_Domains/04_Governance/V2.2/Section_09_Chapters_081-090.md` — `KEEP / COMPLETED`; exact preserved `ACBlainey/Concord-1.3` main same-path source blob `0bf4a4a3c9a65922bd1362ce1ee7cbda9b25482d` equals V1.4a; claim and completion verified in registry; no source edits.
 
 All original sources remain untouched in V1.3; no operational section modified or deleted. The registry contains the individual claim commit SHA and final disposition for each path. No other worker claim, schedule, or email affected. This entry records the author's classification instruction and completed bookkeeping, not evidence of exhaustive architectural evaluation.
+
+
+## GOV-20261120-UNCHECKED-ROOT-CLOSE — Governance unchecked root entries (2026-11-20)
+
+Author directive: finish unchecked Governance entries first; do not reaudit completed work. Worker: `ChatGPT-Governance-20261120`. Repository: `ACBlainey/Concord-1.4a`. Two remaining UNREVIEWED root Governance rows were exclusively claimed and completed with fresh SHA writes and read-back verification; no source edits/deletions.
+
+- `02_Domains/04_Governance/Governance V2 Canonical.md`: `KEEP / COMPLETED`; claim commit `1fd9070b97c6514b5071abb6263d7ed49a505644`; completion commit `96fe0631dac167b3939840f869cb9c01da4031a4`. Exact preserved `ACBlainey/Concord-1.3` main same-path blob `c65a269fdc95b79a8b815bb6ec7381529a6c151f` matches live V1.4a. Historical V2 reconstruction includes extensive substantive developed architecture; V2.2 remains controlling; completeness of incorporation not established, so no safe deletion. Not retained solely for development narrative.
+- `02_Domains/04_Governance/a_clean_infographic_poster_on_a_white_background_w.png`: `KEEP / COMPLETED`; claim commit `1d7e60366c4de3b7ac9ccbe204f9b9e9c89891bd`; completion commit `ab31cb17274211d05f5c0c7839313c3093cd94b0`. Exact preserved `ACBlainey/Concord-1.3` main same-path blob `0da019de09bbf0e77388fa7c2a5295a8d8e01893` matches live V1.4a. Binary pixels not available through connector for visual review; conservative preservation without claiming visual uniqueness.
+
+Registry `00_Repository_Admin/Master_File_Registry_001.md` updated and verified for both. No outstanding claim by this worker. Under current live registry, no UNREVIEWED rows remain under `02_Domains/04_Governance`; other domain entries are outside assignment. No schedules/emails.
