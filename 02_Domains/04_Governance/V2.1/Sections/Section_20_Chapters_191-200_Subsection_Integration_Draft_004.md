@@ -1,27 +1,7 @@
 # V2.1 Section 20 — Subsection Integration Draft 004
 
-**Developmental; not canonical.** All original source retained. Proposed insertions occur at precise subsection boundaries and are fully reversible.
-
-# Chapter 191 — Governance Capture Through Oversight
-
-# Chapter 192 — Governance Capture Through Public Opinion
-
-# Chapter 193 — Governance Capture Through Bureaucracy
-
-# Chapter 194 — Governance Capture Through Law
-
-# Chapter 195 — Governance Capture Through Institutional Memory
-
-# Chapter 196 — Governance Capture Through Constitutional Interpretation
-
-# Chapter 197 — Governance and Constitutional Ambiguity
-
 # Chapter 198 — Governance and Jurisdiction
 
-
-## 198.20 Jurisdiction Principle
-
-> **Authority should operate within defined geographic, functional, institutional, personal, technological or issue-specific jurisdiction. Overlaps require coordination, gaps require legitimate assignment, and neither first action, technical capability nor delegated implementation should create jurisdiction that the constitutional architecture did not confer.**
 
 <!-- BEGIN G05 SOURCE INTERFACES AND LIMITATIONS -->
 
@@ -49,27 +29,6 @@
 <!-- END G05 SOURCE INTERFACES AND LIMITATIONS -->
 
 
-<!-- V2.1 INTEGRATION 2026-10-13: AUTHORIAL SOURCE RECONCILIATION; DEVELOPMENTAL; REVERSIBLE -->
-## 198.21 Spatial address, authority and jurisdictional conflicts
-
-A GTP spatial address locates participants and consequences; it does not prove authority or exhaust jurisdiction. Every proposed decision must identify subject, participants, geographic reach, material externalities, time and delegated mandate. Overlapping GTP fields do not merge voting rights. Positive jurisdiction conflicts follow the constitutional conflict procedure, not a presumption that larger triangles outrank smaller ones. Negative conflicts require legitimate referral or bounded coordination rather than improvised general power. Origin-included or origin-excluded expanded triads must establish issue-specific decision authority.
-
-**Open issue:** cross-check §§198.10–198.17 priority, gap and delegation mechanisms before automating any shared-jurisdiction decision rule.
-
-## 198.22 Conference does not delegate jurisdiction
-
-A Steward's attendance at conference does not delegate their jurisdiction or waive protected rights. GTP location and scale identify contexts, not command rank. Binding shared decisions require explicit lawful competence; exceptional conference and urgent conditions do not create it. See Integrations 051–052 and 122–123.
-
-
-## 198.23 Permission composition and cross-boundary gates
-
-Jurisdictional overlap must be examined with existing Concord **Fractal Permission Architecture** (bounded participant/action/context/basis/conditions/time), **Multi-Key Authority** (§17: independent authority keys do not automatically compose), and **Cross Boundary Externality Recognition** (§§15–17: material consequence and coordination do not create jurisdiction). Permission, capability, ownership, office and legal authority are distinct. A spatially shared GTP node, an emergency need, a technical dependency or an administrative routing path does not itself create a superior or composite government. A proposed consequential cross-boundary act must identify its real authority sources, current scope, applicable prohibitions, affected parties, legitimate shared or independent route and host commit verification. Unknown or disputed competence remains recorded as such; it is not silently treated as permission. **[LOCAL ISSUE — FI-060, FI-062, FI-076:]** constitutional priority, negative gaps, contested standing and independent remedy paths remain to be settled.
-
-## 198.24 Emergency oversight and capture safeguards
-
-**Constitutional Emergency V2 §§211–244:** Crisis creates risks of political, institutional, security, information, algorithmic, metric and economic capture. Detection systems, dashboards and external providers can become de facto governors if their outputs are treated as commands. Recursive oversight must itself be bounded, privacy-protective and terminable; no permanent reviewer sovereign is created. The owner of an emergency repository or software deployment does not thereby acquire constitutional authority. Separate constitutional legitimacy from empirical effectiveness; evidence of success, simulations and exercises cannot replace lawful authorisation. Preserve negative results, dissent, failed mechanisms, uncertainty and corrections without institutionalising failed emergency powers. **Open:** independent capture review, recursion stopping conditions, real algorithmic explainability and privacy-enforced audit.
-
-
 ### Future design architecture — deferred implementation interfaces (G-014, G-015, G-016, G-018, G-022)
 
 **ARCHITECTURE TO BE DESIGNED — OUTSIDE CURRENT V2.1 TEXT-INTEGRATION SCOPE.** The principles in this chapter remain operative as stated. The following are design requirements, **not** invented deployed services, automatic authority grants or grounds to delay consolidation. Resolve these at the indicated interfaces when working systems and domain owners exist:
@@ -82,10 +41,6 @@ Jurisdictional overlap must be examined with existing Concord **Fractal Permissi
 
 **Future acceptance evidence:** record accountable owner, actual mandate, state-machine/adapter specification, failure and recovery paths, independent review and provenance. Preserve CAP ≠ PERM ≠ AUTH. Do not mark implementation as tested or operational until supported by real evidence.
 # Chapter 199 — Governance and Cross-System Disagreement
-
-## 199.17 Cross-System Disagreement Principle
-
-> **Concord systems may legitimately disagree because they answer different questions and operate under different functions. Governance should integrate their evidence without allowing Science, Judiciary, Metrics, KCS, Ratchet, Roadway, AI, Planning or another subsystem to become an automatic master authority outside its constitutional jurisdiction.**
 
 <!-- BEGIN G05 GRADUATION REQUIREMENTS -->
 
@@ -141,6 +96,4 @@ Stage 088 demonstrates that independently owned duty, succession and orphan reco
 **Provenance:** `G05 — Custody Reconciliation Protocol 002.md`, `G05 — Integration and Graduation Register 003.md`, `Validation/README.md`, and Stage 091 implementation/tests. This is an explicit source-to-section integration boundary; it does not overwrite or reinterpret the preserved Governance V2 source.
 
 <!-- END G05 STAGES 088-091 CROSS-SYSTEM EVIDENCE BOUNDARY -->
-
-# Chapter 200 — Governance as Integration
 
