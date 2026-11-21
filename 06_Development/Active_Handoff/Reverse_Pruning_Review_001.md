@@ -4491,3 +4491,6 @@ Registry `00_Repository_Admin/Master_File_Registry_001.md` updated and verified 
 
 
 - GOV-20261121-S01-DRAFT-TRIM — Section_01_Chapters_001-010_Subsection_Integration_Draft_004.md: 178 incorporated blocks removed, 199941 → 71443 chars; exact V1.3 original verified; unmatched retained. Edit b7139980411e1150b58b1ea379e6bbeb3f5cd8c5; registry release 5201a19bc161246bfb5cb2210c65e307b806055f verified.
+
+
+- GOV-20261121-S03-DRAFT-TRIM — Section_03_Chapters_21-30_Subsection_Integration_Draft_004.md: 56 incorporated blocks removed, 106124 → 75319 chars; exact V1.3 original verified; unmatched retained. Edit e7bc10bb9f9844622dceee8e839a8d48247e0c94; registry release 17c0de0fcc39458e8a1a88a3df1e5a1c22b1d931 verified.
