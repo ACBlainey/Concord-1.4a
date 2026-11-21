@@ -4485,3 +4485,6 @@ Registry `00_Repository_Admin/Master_File_Registry_001.md` updated and verified 
 - Exact path `02_Domains/04_Governance/V2.1/visual aids/01 Steward Eligibility and Authority.md`; original archived in `ACBlainey/Concord-1.3` same path blob `d9f9d5af429a5daa82e8bf96d8e3f8860c9f7e41`.
 - V2.2 Section01 covers participation/eligibility/selection and contextual, consumed, non-inherited authority. Removed duplicated explanation, while retaining the original Mermaid decision-flow diagram byte-for-byte. Replaced the obsolete instruction to consult V2.1 accreditation criteria with an explicit unresolved domain-specific verification note; no criteria invented or silently discarded.
 - Claim `de2c9f9e72adbd62cdae9b13386ce79adf362d25`; direct prune `26121b3b60731579fb316091f6cc0182ebb6dded`; registry release `0d6c74b64dff9aeceaf4eb2fac4ad00380b9b976`. 719 -> 619 characters, 100 net removed (13.9%). All read-back verified. No other files edited, no schedule/email.
+
+
+- GOV-20261121-S01-TRIM — Section_01_Chapters_001-010_Source_Preserved_001.md: 178 exact headed blocks removed against V2.2 Section 01; 185798 → 57301 chars; V1.3 original verified; remaining material retained. Edit d20a9d29987ead000e4ef63839b3a428748f4ffd; registry release 5b153834d0c3f9536d8f7902e416da27a6fd17be verified.
