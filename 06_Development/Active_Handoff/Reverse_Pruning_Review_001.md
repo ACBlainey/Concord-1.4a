@@ -4497,3 +4497,6 @@ Registry `00_Repository_Admin/Master_File_Registry_001.md` updated and verified 
 
 
 - GOV-20261121-S20-DRAFT-TRIM — Section_20_Chapters_191-200_Subsection_Integration_Draft_004.md: 144 incorporated blocks removed, 61283 → 15316 chars; exact V1.3 original verified; unmatched retained. Edit 0934f291526ec3e8d78a7036eb474dc0ee9c742b; registry release ce69c27e75e4c18d15f7dbfb8c3b5b8ceda87ff8 verified.
+
+
+- GOV-20261121-S20-SEMANTIC — Section_20_Chapters_191-200_Subsection_Integration_Draft_004.md: V2.2 §§198.20–24, 199.17 cover removed provisions; empty headings removed; 15316 → 10456 chars; G05 interfaces retained. Edit 035d3c1e4f3b6f3a0abb7317bf5f043ae9222d14; registry release 2c9388452f1d42141ecfd345ffcce83fbb2f56d9 verified.
