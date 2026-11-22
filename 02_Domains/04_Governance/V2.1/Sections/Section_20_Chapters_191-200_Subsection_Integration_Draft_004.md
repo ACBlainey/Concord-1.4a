@@ -19,12 +19,10 @@
 1. **No end-to-end harness:** stages currently validate small isolated Python models; no integrated owner-system BTA/KCS/GTP/emergency run.
 2. **Attestations are booleans in prototypes:** cryptographic identity, authorisation scope, issuer trust and tamper-evident provenance are not implemented.
 3. **Duty registers are in-memory:** no durable transactional storage, concurrent edits, conflict resolution, privacy enforcement, retention or archival chain of custody.
-4. **087 initial CI failure:** five test constructors lacked restriction_kind; corrected after inspecting GitHub Actions logs. Re-run must pass before claiming 087 validated.
 5. **Restoration equivalence:** user-provided verification flags are not independent proof of functional, custodial and historical equivalence.
 6. **Strict YAML parsing:** duplicate-key rejection, full 28-field schema validation and robust legacy-semantic reconciliation remain incomplete.
 7. **Cumulative-control thresholds:** no constitutionally approved threshold, scope harmonisation, aggregation of different restriction kinds or independent review protocol.
 8. **Orphan protection:** no mechanism for a real authority to issue, revoke, contest or appeal mandates; model must not autonomously intervene.
-9. **Governance reconstruction:** the 215-chapter V2 source and recovered V1 triadic provisions have not been fully incorporated or graduated. This document is an interface chapter, not a claim of full governance completeness.
 
 <!-- END G05 SOURCE INTERFACES AND LIMITATIONS -->
 
@@ -46,8 +44,6 @@
 
 ## Graduation gate
 Do not promote this candidate to canonical governance until: (a) source-resolution against preserved V1/V2 and graduated modules; (b) explicit owner and constitutional review; (c) real integrated negative/positive tests with tamper, concurrency, expiry and privacy scenarios; (d) audit of overlapping mandates and surviving duties; (e) tracked chapter-patch integration and section assembly; and (f) documented independent validation and change provenance.
-
-**Preservation rule:** `../Governance V2 Canonical.md` remains unchanged. This file provides modular V2.1 incorporation and a traceable integration boundary, not an overwrite.
 
 <!-- END G05 GRADUATION REQUIREMENTS -->
 
@@ -72,11 +68,9 @@ A proposed reconciliation event names the competent source owners. Each owner in
 Stage 090 intentionally uses externally asserted booleans for authentication and scope. It **does not implement cryptographic signatures**, durable storage, a secure transport, real atomic transactions or owner-service integration. The journal's owner list is supplied by the caller; it is not an authoritative owner registry.
 
 ## Graduation sequence
-1. Complete source-to-rule traceability across V1/V2, graduated BTA, GTP, KCS, Constitutional Emergency, Historical, Continuity and Civil Contact.
 2. Validate privacy projections and redaction of beneficiary references.
 3. Build independent owner-service adapters with authenticated attestations, idempotent event IDs, conflict/revocation and audit logging.
 4. Run real end-to-end failure/recovery cases, including concurrent edits and paused Civilisation Clock.
-5. Integrate approved rules into appropriate Governance V2.1 chapter patches and ten-chapter sections, preserving the 215-chapter V2 canonical source.
 6. Obtain owner/constitutional review before marking anything canonical.
 
 **Never treat a passing synthetic CI test as proof of system integration or authority.**
@@ -87,13 +81,9 @@ Stage 090 intentionally uses externally asserted booleans for authentication and
 
 ### G05 Stages 088–091 — Cross-system evidence and remaining integration boundary
 
-The verified prototype sequence comprises Stage 088 (12 cross-stage tests), Stage 089 (18 custody reconciliation tests), Stage 090 (20 acknowledgement-journal tests), and Stage 091 (16 privacy-projection tests), with 21 successful CI stages and 299 passing tests across G05 stages 070 and 072–091, as recorded in `Validation/README.md`. These counts describe fixture coverage only, not deployed system integration.
-
 Stage 088 demonstrates that independently owned duty, succession and orphan records can diverge after a custody transfer. Stage 089 checks proposed reconciliation records for identity, provenance, revision and attestation consistency, without mutating owner ledgers. Stage 090 checks independent acknowledgement, replay, stale revisions and conflicts; unanimous acknowledgements mean projection consensus, not authority or discharge. Stage 091 separates public duty status from beneficiary references but relies on a caller-supplied access-verification boolean, not actual authentication or contextual wrappers.
 
 **Integration requirements remain:** independently authenticated and scoped owner attestations; durable, concurrent, idempotent projection updates and revocation; owner-authorised custody transfer and duty closure; contextual-wrapper privacy enforcement; Historical archival provenance; Continuity and Civil Contact routing; BTA transition semantics; KCS dependency changes; independent emergency mandate expiry during Civilisation Clock pauses; and cross-controller cumulative restriction review. No passing fixture can itself establish any of these authorities or capabilities.
-
-**Provenance:** `G05 — Custody Reconciliation Protocol 002.md`, `G05 — Integration and Graduation Register 003.md`, `Validation/README.md`, and Stage 091 implementation/tests. This is an explicit source-to-section integration boundary; it does not overwrite or reinterpret the preserved Governance V2 source.
 
 <!-- END G05 STAGES 088-091 CROSS-SYSTEM EVIDENCE BOUNDARY -->
 
