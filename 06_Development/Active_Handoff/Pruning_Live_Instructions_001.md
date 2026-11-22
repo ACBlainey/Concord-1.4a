@@ -114,3 +114,5 @@ _No active instructions at creation. Append new entries below this line using th
 
 
 - ChatGPT-Governance-20261121, 2026-11-21T19:54:46.183Z, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261106-001, PRUNE-LIVE-20261108-OWN-ROW-APPEND, PRUNE-LIVE-20261108-NO-EMAIL-UPDATES and PRUNE-LIVE-20261109-ARCHITECTURE-ONLY. GOV014 remains with documented owner. Author directs granular deletion of incorporated V2.1 content, retention of uncertain architecture, minimal existing bookkeeping, no new audit documents.
+
+- ChatGPT-Governance-20261122, 2026-11-22 UTC, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261106-001, PRUNE-LIVE-20261108-OWN-ROW-APPEND, PRUNE-LIVE-20261108-NO-EMAIL-UPDATES and PRUNE-LIVE-20261109-ARCHITECTURE-ONLY. Author confirms no concurrent pruners. Use local 22 November snapshot for comparison, live GitHub for writes; preserve unincorporated architecture, verify V1.3 source and use minimal existing bookkeeping; no new audit documents.
