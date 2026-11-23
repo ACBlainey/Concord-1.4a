@@ -1,33 +1,10 @@
-# G-05 — BTA Paused-Clock Adversarial Boundary Audit 062
+# G-05 — Paused-Clock Unincorporated Interface Requirements (from 062)
 
-**Type:** analytical adversarial audit of Scenario 061, not an executable or independent blind test.
+These are **implementation contracts still requiring explicit integration**, not independent Governance authority. The broader six-case adversarial audit and rationale remain unchanged in Concord-1.3 at this exact path (blob `68e3c1f5ecbfebeb083cee60e58790bd90de2c82`). V2.2 Chapters 28–30 and 33 already govern emergency independence, owner-state revalidation, non-propagation, mandate boundaries and non-replayable execution.
 
-## Attack A — stale dependency feedback
+1. **Versioned dependency attestations:** An owner of a prerequisite (for example D7) must attest its current subject state/version and validity window. Stale affirmative feedback after a material owner-state change cannot satisfy a resumed Clock dependency. Specify transport, authentication, expiry and invalidation of queued evidence.
+2. **Expiry during communications isolation:** Emergency authority must expire on an independently progressing local operational timebase, even without network contact or Clock progress. Loss of a renewal message cannot extend it. Specify degraded-clock/time-source failure handling and lawful, auditable renewal, with least-privilege termination.
+3. **Cross-mandate collisions:** When two GTP areas issue incompatible emergency instructions, neither geographic scale nor earlier declaration automatically establishes priority. Preserve each issuer's lawful scope, conflicting owner claims and unresolved status; define a separately authorised collision-resolution protocol and safe bounded local actions.
+4. **Idempotent owner execution:** A queued command after Clock resumption must carry stable execution identity, current owner-state preconditions and durable consequence status. Duplicate delivery must not reproduce a completed effect; unknown outcomes require status reconciliation rather than a new command identity.
 
-The Clock waits for D7. During an emergency, D7's underlying subject is altered, but an old affirmative D7 response arrives. **Failure:** clock proceeds on a stale prerequisite. **Required interface:** the owner of D7 must attest to the relevant current state/version and validity window; an old message cannot certify unchanged state. **Disposition:** architectural gate required; transport/version protocol unverified.
-
-## Attack B — emergency expiry during isolation
-
-An area loses network connectivity while an exceptional power is active. **Failure:** a paused Clock or lost central renewal message is treated as an automatic extension. **Required:** independent local expiry and least-privilege termination; renewal only through a lawful, auditable mechanism. **Disposition:** source principles support this, but clock-source failure handling remains open.
-
-## Attack C — overlapping authority claims
-
-Two GTP areas respond to one infrastructure incident with incompatible instructions. **Failure:** larger-scale coordination or earlier emergency declaration is assumed to confer priority. **Required:** preserve separate mandate scopes, shared-competence constraints, unresolved conflict and safe local action; escalate only via independently valid authority. **Disposition:** no hierarchy implied; collision-resolution law still requires specification.
-
-## Attack D — hidden transition propagation
-
-Area A reports emergency response complete. **Failure:** systems infer rights restored, resource allocations valid, area B recovered and all obligations discharged. **Required:** BTA non-propagation, owner-specific completion conditions and protected unresolved states. **Disposition:** addressed at specification level by BTA v1.0 and Emergency Test 002.
-
-## Attack E — replay of old queued implementation
-
-Clock resumes and repeats a previously committed action against a changed environment. **Failure:** duplicated resource commitment or use of expired power. **Required:** idempotent execution identity, owner-state precondition check and immutable consequence record. **Disposition:** precondition principle supported; idempotency/execution protocol not yet evidenced.
-
-## Attack F — malicious emergency as clock accelerator
-
-Actor declares an emergency to force a Clock transition or override an unfavourable majority. **Failure:** threat recognition becomes authority and scheduling control. **Required:** independent emergency legitimacy/activation/exercise, no forced clock advance, no vote rewriting. **Disposition:** architecturally rejected by Emergency V2, PH-02 and G-03.
-
-## Overall
-
-**Architecture-level non-propagation survives the six attacks; implementation proof is not established.** Prioritise (1) versioned prerequisite attestation, (2) independently resilient emergency expiry, (3) cross-mandate conflict handling, and (4) idempotent consequential execution. Reuse existing BTA and domain owner interfaces; do not create a new governance-owned state machine.
-
-Sources: Governance Validation 061; G-05 Integration 059–060; BTA Portable Module v1.0; Constitutional Emergency V2; Civilisation Clock Companion and Consequence-Relevant State Transition Layer.
+**Other boundaries already retained in V2.2:** emergency completion does not imply restoration of rights, resources or obligations; an emergency declaration cannot accelerate the Clock or rewrite a settled ballot; BTA/Clock coordination is not a substitute owner state machine. None of these requirements constitutes evidence of deployed interfaces or completed validation.
