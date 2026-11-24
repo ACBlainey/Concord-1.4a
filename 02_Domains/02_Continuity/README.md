@@ -4,7 +4,7 @@
 
 ## Current operational authority — 28 October 2026
 
-**Continuity Protocol V2.1 is the CURRENT OPERATIONAL CONTINUITY DOCUMENT**, superseding the monolithic V2 by express authorial designation. The eight published sections preserve V2 content exactly at initial split; the original remains unchanged for provenance. Future consistency corrections belong in V2.1, with reference to current Governance V2.2 and Judiciary V2.1.
+**Continuity Protocol V2.1 is the CURRENT OPERATIONAL CONTINUITY DOCUMENT**, superseding the monolithic V2 by express authorial designation. The eight published sections preserve V2 content exactly at initial split; the [original remains unchanged in Concord-1.3](https://github.com/ACBlainey/Concord-1.3/blob/main/02_Domains/02_Continuity/CONTINUITY%20PROTOCOL%20V2.md) for provenance. The redundant 1.4a V2 copy has been pruned after comparison with the current V2.1 sections. Future consistency corrections belong in V2.1, with reference to current Governance V2.2 and Judiciary V2.1.
 
 See [Continuity V2.1](V2.1/README.md) and its [published sections](V2.1/Sections/).
 
