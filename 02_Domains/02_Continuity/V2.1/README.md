@@ -1,6 +1,6 @@
 # Continuity Protocol V2.1 — Operational Sectional Edition
 
-**Status: CURRENT OPERATIONAL CONTINUITY DOCUMENT (28 October 2026).** By express authorial designation, V2.1 supersedes the monolithic `../CONTINUITY PROTOCOL V2.md`, which is retained unchanged as historical provenance.
+**Status: CURRENT OPERATIONAL CONTINUITY DOCUMENT (28 October 2026).** By express authorial designation, V2.1 supersedes the [monolithic V2 source preserved in Concord-1.3](https://github.com/ACBlainey/Concord-1.3/blob/main/02_Domains/02_Continuity/CONTINUITY%20PROTOCOL%20V2.md). Its redundant 1.4a copy has been pruned; the archive remains unchanged.
 
 ## Published sections
 
@@ -15,6 +15,6 @@
 
 ## Source preservation and next work
 
-The eight files are a copy-only partition of the V2 text. Sequential concatenation was checked against V2 and matched exactly (59,417 characters). The original Part I–VII headings are preserved in their original positions, including where a Part boundary falls within a ten-chapter section.
+At initial publication, the eight files were a copy-only partition of the V2 text. Sequential concatenation was checked against V2 and matched exactly (59,417 characters). Subsequent V2.1 clarifications preserve all 74 chapters, front matter and closing reflection. The full comparison before V2 removal found 23 added passages and six replacement sentences addressing authority, identity protection, privacy, succession and cross-branch propagation; no other V2 text was missing. The original Part I–VII headings are preserved in their original positions, including where a Part boundary falls within a ten-chapter section.
 
-V2.1 is operational now; no comprehensive cross-domain consistency validation is claimed. Subsequent changes will be made to V2.1 sections, preserving the monolithic V2 source, and will examine interfaces with current Governance V2.2 and Judiciary V2.1, especially succession, emergency authority, bounded case authority, judicial continuity, replacements, and state-machine independence from the Civilisation Clock. Any identified conflict should be corrected explicitly in the relevant section, preserving provenance.
+V2.1 is operational now; no comprehensive cross-domain consistency validation is claimed. Subsequent changes will be made to V2.1 sections, preserving the monolithic V2 source in Concord-1.3, and will examine interfaces with current Governance V2.2 and Judiciary V2.1, especially succession, emergency authority, bounded case authority, judicial continuity, replacements, and state-machine independence from the Civilisation Clock. Any identified conflict should be corrected explicitly in the relevant section, preserving provenance.
