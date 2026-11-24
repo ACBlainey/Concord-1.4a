@@ -4,7 +4,8 @@
 
 ## Current substantial architecture
 
-- `02_Domains/02_Continuity/CONTINUITY PROTOCOL V2.md`
+- [Continuity Protocol V2.1 — current operational sections](V2.1/README.md)
+- Historical predecessor: [CONTINUITY PROTOCOL V2.md — preserved in Concord-1.3](https://github.com/ACBlainey/Concord-1.3/blob/main/02_Domains/02_Continuity/CONTINUITY%20PROTOCOL%20V2.md). Superseded by V2.1; the redundant 1.4a copy was pruned after full comparison.
 - `02_Domains/02_Continuity/Continuity Protocol Companion Upgrade 001 — Operational Recovery and Verification Architecture.md`
 - `04_Portable_Modules/Continuity Protocol — Portable Module.md`
 
