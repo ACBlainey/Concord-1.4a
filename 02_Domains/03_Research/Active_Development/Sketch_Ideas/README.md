@@ -4,6 +4,8 @@
 
 ## Current intake
 
+- [25 November 2026 — triadic variants](Triadic_Variants_Comparative_Development_Note_001.md), with the [verbatim author sketch](Triadic_Variance_Author_Sketch_2026-11-25.txt): basic triad, shared-node mesh, current flat overlay and proposed hierarchical overlay. Research-only alternatives; current flat Governance/Judiciary remain unchanged. Regional aggregation, authority allocation and comparative failure/capture modes require development before any portable release or adoption.
+
 - [14 November 2026 intake — current corrected notes and four author sketches](2026-11-14_Author_Intake/README.md): eight working notes now use the 25 November Concord-aligned revisions. At the author's explicit direction, superseded Claude expansions were removed from active content; do not recover them as unincorporated architecture during migration. Four original author sketches remain unchanged; further research and testing remain open.
 - Earlier sketches remain in this folder and in the relevant Research active-development areas. This entry point does not certify their review status or complete the wider migration.
 
