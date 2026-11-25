@@ -47,26 +47,6 @@ A participant's internal conception of self is presumptively protected as autono
 
 ---
 
-## CQ-02 — Does an Emergency Itself Create Legitimate Authority?
-
-**Disposition:** CLOSED — ANSWERED: NO
-
-Emergency is a condition under which previously legitimate bounded powers may activate. It is not itself a source of legitimacy.
-
-The relevant distinction is:
-
-**Legitimate institution ≠ legitimate activation ≠ legitimate action.**
-
-The current conceptual relation is:
-
-**Emergency authority = prior legitimate authority + valid activation conditions + constitutional constraints + necessity + proportionality.**
-
-Operational questions remain open concerning evidence, discretion, communications failure, compulsion thresholds, termination, residual duties and extreme cases.
-
-**Arises from:** Constitutional Emergency; Peaceful Heterogeneity emergency work; Bounded Contextual Authority.
-
----
-
 ## CQ-03 — Does a Directive Necessarily Imply Compulsion or Criminalisation?
 
 **Disposition:** CLOSED — ANSWERED: NO
@@ -146,20 +126,6 @@ Therefore identical sentence duration cannot be assumed to create equivalent pun
 The replacement question concerns what legitimate consequences remain proportionate across participants with radically different temporal experience, embodiment, values and restoration possibilities.
 
 **Arises from:** cross-substrate jurisprudence; Judiciary; equality/equivalence work.
-
----
-
-## CQ-08 — Is Participant Contradiction During an Emergency Necessarily Mere Disobedience?
-
-**Disposition:** CLOSED — ANSWERED: NO
-
-Participant contradiction can contain locally available evidence that higher-level authority lacks.
-
-Contradiction should therefore be capable of entering an upward reality-correction path rather than automatically producing punishment.
-
-This does not create a general right to ignore legitimate instructions.
-
-**Arises from:** emergency architecture; local evidence versus higher-level instruction; Peaceful Heterogeneity.
 
 ---
 
