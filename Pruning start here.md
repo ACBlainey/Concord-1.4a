@@ -112,3 +112,16 @@ For each completed pass report: domain; exact full repository-relative file path
 **For a new instance reading this file before domain assignment:** acknowledge readiness, confirm the two mandatory documents and the live registry are accessible, summarise the protected exclusions and conflict-safe claiming rules, then **ask the user which domain to assign**. Do not begin pruning or create an automation until instructed. If a requested recurring automation is supported and explicitly authorised, scope it to that assigned domain and require the same fresh-read, exclusive-claim and verification protocol on every run.
 
 **This bootstrap file is a navigation and start-up control, not a replacement for the authoritative living handoff, registry, domain documentation or source comparison.** It is itself protected V1.4a-native development.
+
+
+## Periodic evidence checks — recurring execution discontinuity (2026-11-25)
+
+A second conversation has been reported to exhibit premature final responses after successful preliminary retrievals. Existing recovery instructions and a reported thinking-effort change did not establish a remedy. The cause remains UNKNOWN. See [the existing research record, section 17](02_Domains/03_Research/Active_Development/Participation_and_Intelligence/Intermittent%20AI%20Execution%20Discontinuity%20%E2%80%94%20Observational%20Research%20Record%20001.md#17-second-conversation-case--recurrence-during-governance-pruning).
+
+Future pruning is subject to periodic evidence-based review. Review actual changed files/deletion commits, source-survival evidence, registry claim/release and saved handoff against reported dispositions. Include justified KEEP outcomes. A successful scheduler invocation, number of retrieved documents or accurate INCOMPLETE label does not establish completed work.
+
+Distinguish paused inactivity from a worker expected to proceed. Repeated incomplete invocations, claimed completion without supporting state, stranded own claims or missing bookkeeping warrant reporting and reconciliation under the existing recovery method. Record last verified action and first outstanding operation; do not invent an external blocker or infer a cause. Resume no schedule and seize no claim merely to perform a check.
+
+Keep reviews proportionate: examine new work and identified unresolved bookkeeping, rather than repeatedly re-auditing completed architecture or creating new audit companions. A reviewer may also stop prematurely; monitoring does not certify itself. Report what was actually verified and any unavailable evidence.
+
+The author has requested periodic checks. Actual schedules and their state are maintained in the automation service, not inferred from this document. This instruction neither restarts pruning nor guarantees monitoring coverage.
