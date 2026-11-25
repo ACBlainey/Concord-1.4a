@@ -2236,7 +2236,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 
 ### `09_Open_Questions/Recovery`
 | `Current Open Questions — Recovery Register 02.md` | UNREVIEWED | PENDING | — | Live Git blob 4266cd1e1cf9; no final review disposition matched |
-| `Current Open Questions — Recovery Register 03 — Multisubstrate Justice.md` | UNREVIEWED | PENDING | — | Live Git blob 630fe9f4ac91; no final review disposition matched |
+| `Current Open Questions — Recovery Register 03 — Multisubstrate Justice.md` | KEEP | COMPLETED | ChatGPT-ClosedQuestions-Diagnostic-20261125 / CQ-DIAG-20261125-003 | 2026-11-25 UTC; retain six unresolved research questions; supporting Research and Law coverage not secured for subsequent pruning; no source changes; verified live blob 630fe9f4ac91b76def73a3005eddb9301796bfb3 |
 
 ### `99_Repository_Administration`
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 054482affb6e; no final review disposition matched |
