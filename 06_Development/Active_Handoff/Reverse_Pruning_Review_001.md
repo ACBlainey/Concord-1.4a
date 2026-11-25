@@ -45,3 +45,8 @@
 ### 2026-11-25 — Multisubstrate Justice recovery register (CQ-DIAG-20261125-003)
 
 - `09_Open_Questions/Recovery/Current Open Questions — Recovery Register 03 — Multisubstrate Justice.md`: KEEP / COMPLETED. Retain all six unresolved research questions; supporting Research and Law coverage is not yet secured against subsequent pruning. No source edit. Live blob `630fe9f4ac91b76def73a3005eddb9301796bfb3`. Registry disposition `05277f771dd2a017010d83011eb3ff991f7f8313` verified. No outstanding claim for this pass.
+
+
+### 2026-11-25 — Completion evidence and silent-stop recovery (PRUNE-PROCEDURE-20261125-COMPLETION)
+
+Author-directed procedure maintenance, Codex-Governance-20261125: `Pruning start here.md` now requires verified pass outcomes (COMPLETED/BLOCKED/INCOMPLETE), distinguishes intentions/attempts/results, and extends recovery to unattempted actions before any claim exists. Existing supervisors must assess actual work evidence rather than successful invocation status. Authorised achievable work continues; no new approval gate, registry status, audit document, monitor or schedule is introduced. Root commit `43b675e621a9579063fe30d2883a80bb5dfb0aa1`; all-pruner directive `PRUNE-LIVE-20261125-COMPLETION-EVIDENCE` in `06_Development/Active_Handoff/Pruning_Live_Instructions_001.md`, commit `71ee7f2078033b96f86d295b8185a7380d3b3099`. Both saved files independently read back exactly; prior text preserved. Workers acknowledge/apply on their next pass. This amendment supplements the existing interruption-recovery and direct-pruning rules; no raw transcript published.
