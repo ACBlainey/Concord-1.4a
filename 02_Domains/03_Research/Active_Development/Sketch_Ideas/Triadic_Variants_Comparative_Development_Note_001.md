@@ -23,7 +23,7 @@ The work should compare strengths, weaknesses, failure and capture modes, practi
 | Configuration | Decision membership | Spatial/authority relationship | Current role |
 | --- | --- | --- | --- |
 | Basic triad | Three distinct decision units | No GTP, expansion or hierarchy inherently required | Minimal research baseline |
-| 1 — Shared-node mesh | One steward per node; each triangle uses its three node stewards | The same steward participates in oversight of several incident triangles and a wider node-centred area | Proposed variant |
+| 1 — Shared-node mesh | One steward per node, holding distinct triangle-specific functional offices; each triangle uses its three node stewards | The same person acts through different scoped offices, with triangle/aggregate/hexagon competence distinguished | Proposed variant |
 | 2 — Flat overlaid triangle triads | Three triangle-owned steward positions; neighbouring triangles have distinct stewards | Positions may share node coordinates without sharing office identity or jurisdiction | Current operational baseline, with its actual existing rules |
 | 3 — Hierarchical overlaid triads | Overlaid triads with explicitly defined upward decision relationships | A real authority hierarchy is proposed for investigation, not inferred from GTP geometry | Proposed variant |
 
@@ -51,31 +51,62 @@ The sketch proposes stewardship/jurisdiction over individual triangles and the c
 
 For a working implementation, those assignments would need their own explicit lawful constitution and functional scope. They are proposals of this variant, not powers supplied by geometry or amendments of current Chapter 132.
 
+### Author clarification — persons, functional offices and jurisdiction
+
+The author clarified on 25 November 2026 that shared personal identity does not collapse the functional offices. Let triangle A have offices A1, A2 and A3, and B have B1, B2 and B3. For edge-adjacent triangles in the mesh:
+
+| Office pair or office | Holder relationship |
+| --- | --- |
+| A1 and B1 | The same steward holds two distinct triangle-specific offices |
+| A2 and B2 | Another steward holds two distinct triangle-specific offices |
+| A3 | A's third steward |
+| B3 | B's third steward, distinct from A3 |
+
+There are **six triangle-office memberships and four distinct people**. A decision for A and a decision for B can be separate legitimate exercises in separate contexts. The fact that a person contributes to both does not alone make either act an invalid duplicate.
+
+For a joint A+B decision, however, those two offices must not silently be treated as two independent people. Counting every office once would give the shared holders two contributions each and the other holders one each. Counting every person once would instead give four equal personal contributions. Neither arrangement is automatically the correct territorial or functional representation; the intended balance and aggregation rule remain to be designed.
+
+As a diagnostic example using the same binary proposition, suppose both shared holders favour it and both unshared holders oppose it. The two local triads each return 2–1 in favour; pooling office ballots gives 4–2 in favour; one ballot per distinct person gives 2–2. These are different aggregation semantics, not three interchangeable descriptions of one vote. Real local questions may differ, so this is a controlled mathematical example rather than an adopted regional rule.
+
+The same steward may act for a triangle, an aggregate region or an entire node-centred hexagon. Distinguish the holder, functional office, function, geographic extent, mesh resolution, particular decision and source/conditions of competence. A proposed regional office is not simply the sum of all triangle offices, and a broader jurisdiction does not automatically authorise every local action or confer more votes.
+
+This is a proposed mesh-office arrangement, not a correction of the flat operational model. Office can identify responsibility and scope without becoming a stored stock of general authority. The relevant act must still be justified within the variant's expressly designed competence and current conditions.
+
 ### First mathematical boundary
 
 For a regular fan at one fixed mesh resolution:
 
-| Region | Distinct node stewards if all its incident vertices participate | Distinct triangle-owned positions in the flat overlay |
-| --- | ---: | ---: |
-| One triangle | 3 | 3 |
-| Two edge-adjacent triangles | 4 | 6 |
-| Six triangles around one central node | 7 | 18 |
+| Region | Distinct mesh stewards if all its incident vertices participate | Mesh triangle-office memberships | Flat-overlay triangle-owned positions |
+| --- | ---: | ---: | ---: |
+| One triangle | 3 | 3 | 3 |
+| Two edge-adjacent triangles | 4 | 6 | 6 |
+| Six triangles around one central node | 7 | 18 | 18 |
 
-The first two counts follow by sharing an edge's two vertices. A regular six-triangle fan has its central vertex plus six outer vertices. The flat counts assume each triangle retains its own three distinct positions and no region-level selection has yet been made.
+The people counts follow from the shared vertices: two adjacent triangles share two of their corners, while a regular six-triangle fan has its central vertex plus six outer vertices. Triangle-office memberships remain three per triangle in both arrangements. The flat counts assume distinct triangle-owned positions; no region-level forum has yet been selected. These office counts exclude any separately constituted aggregate/hexagon office, whose membership and powers remain to be specified.
 
-These are membership counts for comparison, not adopted regional voting rules. In the mesh variant the central steward is also the only member incident to every triangle in the fan, so equal headcount does not alone establish equal influence or exposure.
+These are membership counts for comparison, not adopted regional voting rules. In the mesh variant the central steward is also the only member incident to every triangle in the fan, so equal headcount does not alone establish equal influence or exposure. The central holder occupies six triangle offices and each outer holder occupies two within this fan. Pooling all 18 local-office contributions would therefore weight the centre 6/18 and each outer holder 2/18; that is different from seven equally weighted regional members. Neither is adopted here.
 
 The term “hexagon” is conditional. Spherical tessellations, nonregular nodes, boundaries, mixed-resolution seams and defects require actual topology rather than a universal six-triangle assumption.
 
 ### Aggregation choices still to design
 
-The membership set of a connected region is the union of its relevant vertices, not the sum of triangle memberships. The union may have even cardinality.
+For all-vertex participation, the set of distinct mesh stewards in a connected region is derived from the union of its relevant vertices. That is different from its set of triangle-specific offices or any separately constituted regional forum. The person count may be even despite there being three offices per triangle.
 
 Candidate approaches include a direct regional decision by all eligible distinct members, a separately selected three-person forum, or constituent triads producing resultants. Each changes representation, weighting or legitimacy and requires its own analysis.
 
-Do not force oddness by counting a shared person repeatedly, adding a chair with an unexamined casting vote, dropping an inconvenient steward, or borrowing current expanded voting without testing whether its independence conditions survive shared membership.
+Do not manufacture apparent oddness or independence by silently changing the unit counted. If the design permits a person to contribute through several offices, expose and evaluate the resulting weighting and correlation; do not present those offices as independent people. A casting vote, exclusion of a member or use of current expanded voting likewise requires an explicit design and analysis rather than an outcome-driven adjustment.
 
 Selection could preserve a three-unit decision kernel but exclude some territorial representatives. Constituent resultants could preserve area representation but permit the same person to influence several inputs. Direct aggregation could preserve all members but require a tie/unresolved procedure. No choice is settled by the sketch alone.
+
+### Regional exposure and ESCP — a potential benefit to test
+
+The author proposes that broader interaction, knowledge and influence across the hexagon may improve a steward's judgement in an individual triangle. Familiarity with neighbouring conditions could reveal dependencies, displaced costs, shared infrastructure, competing needs or consequences that a narrowly local view misses.
+
+This is a plausible evaluation-space benefit, not proof that the broader view is complete or that regional influence always improves local decisions. Distinguish knowledge gained through exposure from access permission, decision jurisdiction and voting weight. Broader authorised information can inform a local decision without importing a regional mandate into it.
+
+Shared experience could also correlate errors, spread one misleading interpretation across several triads, overload the same steward, or cause regional priorities to overshadow local needs. Different offices do not create epistemically independent observers merely by being named separately.
+
+Compare broader-exposure and narrower-exposure conditions while keeping the decision question, relevant information rights and voting rule explicit. Assess missed externalities, newly discovered factors, local accuracy, dissent, correlations, workload and capture reach. Test knowledge-sharing arrangements separately from vote-weight changes where feasible, so an improvement from information is not automatically attributed to authority concentration.
 
 ### Expected trade-offs to test
 
@@ -139,6 +170,8 @@ Before ranking configurations, hold the actual task and consequence scope suffic
 | Decision quality | What errors, omissions, disagreements and correlated failures occur? |
 | Responsiveness | How long to a valid decision, authorised execution and recovery? |
 | Representation | Which people/areas/functions are represented, excluded or repeatedly influential? |
+| Office versus person | How many distinct holders and functional offices contribute; which jurisdiction does each act concern; how are repeated holders weighted? |
+| Evaluation-space exposure | Does broader regional interaction improve local judgement, and which correlations, overloads or local-interest losses accompany it? |
 | Capture | How many compromised participants, credentials or selection mechanisms affect which decisions? |
 | Information | What remains independent, what may be shared, and what can leak? |
 | Workload | How many concurrent responsibilities and overlapping matters can a steward sustain? |
@@ -167,7 +200,7 @@ Existing bounded-voting and triadic source families must be checked before dupli
 
 The sketch establishes a coherent family of different research directions. Shared actual membership, coincident abstract positions and hierarchical competence are different design choices, not interchangeable readings of the current architecture.
 
-The immediate unresolved design problem is how territorial aggregation selects or composes a valid decision unit while controlling duplicate influence, representation and authority. The two-triangle four-member case is a useful first test.
+The immediate unresolved design problem is how territorial aggregation selects or composes a valid decision unit while distinguishing people, functional offices, jurisdiction, correlation and vote weight. The two-triangle case has six triangle offices held by four people and is a useful first test. The potential ESCP benefit of wider regional exposure should be evaluated alongside these balances.
 
 **Operational Governance and Judiciary are unchanged. No new module has been extracted or graduated, no fork has been constituted, and no variant adoption is claimed.**
 
