@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Causal diagnosis overstated; diagnostic procedure needs correction.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** Transmission loss is a useful candidate failure mechanism. Compare source versions, available context, changes and resulting behaviour; several causes may coexist.
+
+**Corrections required:** Sections 2–5, 8 and 11 cannot establish a failure as actorless, locally justified, invisible, inevitable at every handover, or detectable from timing alone. Failure to locate a decision record does not prove no decision or duty breach occurred; later discovery does not exclude governance or comprehension failures. A participant may misunderstand without detecting it. The exclusive attribution of triadic/GTP losses, the count of failed recovery attempts and their causes remain unverified here. Explanation and safeguards may both be needed; do not prescribe entrenchment only for deliberate rejection or infer exemption from responsibility.
+
+**Source checks:** AUR scope-bound gap classification; CRADP source resolution and uncertainty; the corrected Note 001; existing developer handover/source-integrity rules.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # Transmission Failure as a Distinct Failure Class
