@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Useful purpose statements; proposed supremacy and universality need correction.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** Concise purpose and protected-interest statements can help interpretation and reveal what a change might affect. Preserve relevant intent with usable mechanisms, conditions, exceptions and interfaces.
+
+**Corrections required:** Sections 1–5 and 8–10 overstate intent as sufficient to prevent loss, guarantee safe replacement, or support judgement in isolation. Stated purpose does not override operative law, rights, authority limits, competent interpretation or lawful adoption. Do not impose one adjacent sentence for every provision, prohibit all separate provenance, or prefer an unsupported intent over a clearly recorded UNKNOWN. The instruction to omit status labels from operational specifications does not establish deployed implementation or validation; research hypotheses retain research status. Fixed Ethical Kernel principles are not automatically replaceable mechanisms. The claimed common origin of five instruments is an interpretation, not established independent derivation.
+
+**Source checks:** Law's Legal Classification Grammar and Legal Derivation and Consequence Architecture; Ethical Kernel; operational developer guide; AUR and KCS owner/interface distinctions.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # Intent Statements as a General Architectural Instrument
