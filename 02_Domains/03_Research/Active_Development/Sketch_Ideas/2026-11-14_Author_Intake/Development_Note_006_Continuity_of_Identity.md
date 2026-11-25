@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Direct authority conflict — do not develop the position-carried proposal on its stated premise.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** Investigate attribution, civil identity, recovery and responsibility where an actor becomes unavailable. Separate continuity of work, records, office, credentials, participant and subjective identity.
+
+**Corrections required:** Sections 1–3, 5 and 7–9 incorrectly treat authority as attached to the node/office rather than independently justified at the relevant act and state. Office continuity does not carry unused ballots or mandates. Neither loss of contact nor a successor's access to records establishes extinction of the original participant, absence of authorship, inherited liability, or inability to review an act. 'Current AI instances do not persist' and 'Concord assumes persistence' are not established universal premises; basic standing must not be conflated with participation progression. Do not redirect all accountability to the office, impose persistence-based exclusion, or rely on automatic authorial expiry. Resolve current civil/subjective identity research and competent Judiciary/Continuity interfaces first.
+
+**Source checks:** Governance V2.2 §§12.0e and 12.29.12; Continuity V2.1 Chapters 21–27; Participant Continuity Under Incomplete Representation; Identity, Continuity, Provenance and Verification Across Substrates; root authorial rule.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # Continuity of Identity for Non-Persisting Participants
