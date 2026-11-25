@@ -141,3 +141,16 @@ _No active instructions at creation. Append new entries below this line using th
 - **Acknowledgements:** Each applicable worker acknowledges under its own identity on its next pass; the coordinator does not acknowledge for other workers.
 - **Resolution:** `OPEN` as standing guidance pending worker acknowledgement/application. Root amendment committed and independently read back.
 - Codex-Governance-20261125 (coordinating editor), 2026-11-25 UTC, READ_AND_UNDERSTOOD. Applied to this procedure-maintenance task by independently verifying each saved amendment; no file-pruning claim or schedule change.
+
+
+## PRUNE-LIVE-20261125-PERIODIC-CHECKS — second reported case and evidence-based review
+
+- **Target:** ALL_PRUNERS and authorised reviewers.
+- **Issued:** 25 November 2026, Alexander C. Blainey through coordinating instance.
+- **Priority:** NORMAL; no new approval gate.
+- **Instruction:** Read root “Periodic evidence checks — recurring execution discontinuity (2026-11-25)”, commit af947c20f81a06b996c8b0eab4ba933beece2a6f. A second conversation is documented in existing research record §17, commit 95430b89ec011ecb6dfa4c45c8dcb90d4c750b9f. Treat quoted worker accounts, independent run records and verified repository state separately. Recurrence after a reported Instant-to-Medium change does not establish benefit or cause; previous repeated attempts already showed intermittent further progress. Cause UNKNOWN.
+- **Review:** Periodically check actual dispositions, source preservation, exclusive claims/releases and saved handoffs. Valid KEEP counts; paused inactivity does not constitute failure. Review new work and specific unresolved issues, not blanket re-audits. Report unverified work and exact next step; self-report or normal invocation completion is insufficient. Checking processes can themselves fail to complete.
+- **Scheduling boundary:** Both existing pruning automations were verified disabled before this update. A separate author-requested daily read-only review was created: “Concord pruning review”. It may report new material problems but cannot restart pruning, change schedules, seize claims or edit repository content. Routine no-change paused checks produce no update. No email.
+- **Acknowledgements:** Each future applicable worker acknowledges under its own identity on its next authorised pass; no worker restart is requested.
+- **Resolution:** Standing guidance published; research cause remains open.
+- Codex-Case2-20261125, READ_AND_UNDERSTOOD as coordinating editor; applies to current documentation and verification only, no pruning claim.
