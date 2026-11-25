@@ -46,6 +46,24 @@ This permission applies to routine retries, interrupted-pass recovery and docume
 
 If a pass is cut short, the **durable registry claim and handoff records are the recovery checkpoint**, not the interrupted instance's memory. The next invocation must re-read them. Do not create or retry automation schedules just because an invocation failed.
 
+## Mandatory completion check and premature-termination recovery — 2026-11-25
+
+**Response completion is not task completion.** A normal response ending, successful run status, announced next action or absence of a reported error does not establish that work was attempted or completed. Distinguish identified action, announced action, actual tool invocation, successful operation and independently verified resulting state.
+
+Before ending a pruning pass, check the actual tool results and current repository evidence and report one outcome:
+
+- **COMPLETED:** the file disposition and any edit/deletion are independently verified; the own registry row is resolved and the required existing handoff entry is saved and verified. A justified KEEP is a completed review, not a deletion. State the actual result.
+- **BLOCKED:** identify the observed blocker, last verified state, any active claim and exact outstanding next operation. Do not invent a permission or technical failure when no operation was attempted.
+- **INCOMPLETE:** work remains unfinished without an established blocker. State the last verified operation, any active claim and exact next operation. Do not present an intention, preliminary retrieval or partial sequence as a completed pruning pass.
+
+These are pass-reporting outcomes, not new file-registry statuses. While continuation remains possible and authorised, perform the next necessary operation rather than ending with a promise to do it. This check is not a reason to pause for approval, manufacture a blocker or stop after each tool call.
+
+**Recovery includes stops before a claim exists.** At the next manual continuation or scheduled invocation, inspect the preceding available response/tool results as well as the live registry and handoff. An announced action with no corresponding attempt remains outstanding even if the response ended normally and no claim was recorded. After mandatory fresh-state checks, resume the first unverified operation; claim the exact file before editing it. Preserve valid completed work and repeat only reads or checks required for freshness, ownership, conflicts or unresolved uncertainty. If prior execution evidence is unavailable, establish current state rather than assuming success or failure. Never seize another worker's claim.
+
+Use the existing registry and concise handoff for durable checkpoints when needed; do not create additional audit documents or a separate per-operation ledger. An interrupted instance may fail to recognise its own stopping, so its self-report alone is insufficient.
+
+**For existing scheduled-work reviews or supervising instances:** judge completed work from verified file dispositions, commits and saved bookkeeping, not merely a successful invocation status or confident final response. A run lacking completion evidence remains unverified until reconciled. These instructions do not install automatic monitoring, create a new schedule or authorise changes to existing schedules.
+
 ## Read these documents first, in order
 
 1. **This entry point:** `Pruning start here.md` (repository root). Read in full.
