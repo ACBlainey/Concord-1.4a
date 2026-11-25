@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Revision needed before using its conclusions.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** The distinction between working comprehension and reconstructing external dependencies is useful; a bounded reconstruction exercise could test discoverability, missed dependencies, false dependencies and onboarding cost.
+
+**Corrections required:** Sections 2–4, 6–8 and 12 do not establish legibility as the sole binding constraint, automatic model improvement, visible comprehension failure, zero initial context at every instance change, or the proposed multiplicative size equation. Treat these as hypotheses, not measured relationships. Do not settle the size-limit question or impose universal documentation requirements from this note. Source/interface scope, retrieval, relevant working capacity, cognitive diversity, maintenance cost and actual execution reliability all require consideration. A finite dependency test does not establish global completeness.
+
+**Source checks:** Architectural Unit Resolution (AUR); CRADP; KCS V2.0 Chapters 31–33; ESCP; the developer guide's context/handover distinctions.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # Architectural Size, Legibility and the Comprehension Ceiling
