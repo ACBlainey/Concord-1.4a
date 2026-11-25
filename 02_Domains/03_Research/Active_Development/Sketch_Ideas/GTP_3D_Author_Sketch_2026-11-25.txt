@@ -1,0 +1,16 @@
+GTP needs a new version to extend it into a 3D space.
+
+In two possble ways:
+1) extrude teh existing trinagular teselations upward by an equal dimension to the triangle side lengths.
+this gives a new layer of trinalge imedaitley above the existing triangle but at altitude.
+the problem with this is it does not allow for thaht higher altitude triangle to be slightly bigger allowign for earths curvature.
+So if this method is used, that additonal length in teh higher triangle edges must be calulated and adusted acocording to its altitude (greater circumference around eth earth.
+
+2) A mid point from existing tringle corners and that point elavated above the plane of teh triangle to create a 3 sided pyramid.
+then adjacent pyramid top points joined to form a new triangle.
+this method has an issue taht each new layer is offset by 50% from teh lower triagle layer.
+
+3) some other method that addresses problems wiht 1 & 2 and creates a multi layered method that is easy to understand and accounts for earths greater circumference at altitude.
+
+
+The reason/need for GTP 3D is for flight paths, Satelaite trajectory etc that tie to ground level gtp teselation. 
