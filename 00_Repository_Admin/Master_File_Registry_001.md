@@ -2230,7 +2230,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 4f63f37c9a20; no final review disposition matched |
 
 ### `09_Open_Questions/Closed_Questions`
-| `Closed Questions — Core Conceptual Closures 01.md` | IN_EVALUATION | IN_PROGRESS | ChatGPT-ClosedQuestions-Diagnostic-20261125 / CQ-DIAG-20261125-001 | UTC 2026-11-25; exact path 09_Open_Questions/Closed_Questions/Closed Questions — Core Conceptual Closures 01.md; prior UNREVIEWED / PENDING; source d982dd5c1b1a636cf8d4f22f251a9c053702f9fe; selective comparison against Governance V2.2; preserve uncertain architecture |
+| `Closed Questions — Core Conceptual Closures 01.md` | KEEP | COMPLETED | ChatGPT-ClosedQuestions-Diagnostic-20261125 / CQ-DIAG-20261125-001 | 2026-11-25 UTC; partial prune CQ-02 and CQ-08 covered by Governance V2.2 Section 03 §24.11; eight closures retained pending integration/dependency resolution; exact V1.3 original d982dd5c1b1a636cf8d4f22f251a9c053702f9fe; edit 4d6909c04c5f950b51cae98020ca0b8c15599348; verified blob c42dc052e2ac44ad3e60dc0c1e1f865c4e08d3e9; 1363 characters removed |
 | `Current Closed Questions — Part 1 — Conceptual, Bounded and Retired Closures.md` | UNREVIEWED | PENDING | — | Live Git blob 28dc76b6344c; no final review disposition matched |
 | `Current Closed Questions — Part 2 — Architecturally Addressed Closures.md` | UNREVIEWED | PENDING | — | Live Git blob ea5bda77af3b; no final review disposition matched |
 
