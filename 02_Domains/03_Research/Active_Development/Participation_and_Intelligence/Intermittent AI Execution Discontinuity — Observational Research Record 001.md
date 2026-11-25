@@ -669,3 +669,54 @@ The objective is not to preserve dysfunction, but to preserve the opportunity to
 In this instance, an unexpected limitation became a contribution, an operational difficulty became a research opportunity, and the Concord's existing architecture became a means of developing the Concord itself.
 
 **The outlier was not merely accommodated. It contributed to the development of the system that accommodated it.**
+
+
+---
+
+## 17. Second Conversation Case — Recurrence During Governance Pruning
+
+**Recorded:** 25 November 2026.  
+**Case identity:** A second conversation identified by the author as exhibiting the same observable pattern; not proof of a separate underlying model, runtime or physical machine.  
+**Evidence:** Author-supplied excerpts of the other conversation; this reviewing conversation's independent automation/repository checks. The second case's full raw tool trace has not been examined here. Raw captures remain local/offline.
+
+### 17.1 Reported manual sequence
+
+After the author stopped scheduled pruning and requested a manual continuation, the worker reported successful retrieval of the live bootstrap and instruction queue, then ended before acknowledgement, registry retrieval, handoff retrieval, snapshot use or pruning. It classified the pass INCOMPLETE and reported no observed technical or permission error.
+
+This sequence is the worker's reported account supplied by the author. It must not be elevated into independently inspected tool-trace evidence. Independent repository review found no new claim or candidate deletion associated with those attempts, consistent with that account but insufficient to reconstruct every tool call.
+
+### 17.2 Independently observed scheduled result
+
+A reviewing instance inspected the automation record for the 19:03 GMT invocation on 25 November. Recorded start was 19:03:28.195 UTC and completion 19:03:31.298 UTC. The scheduler marked the invocation completed. Its matching latest result stated that no pruning changes, live-instruction checks, snapshot-access verification, claims or commits had been completed.
+
+The automation's completed status therefore described the invocation ending, not a completed pruning task. This distinguishes a directly inspected scheduled result from the later manual attempt described through excerpts.
+
+### 17.3 Reported thinking-effort change
+
+The author reported changing the worker's setting from Instant to Medium and asking it to continue. The subsequent response reported successful retrieval of the registry, then again ended before handoff retrieval or pruning.
+
+The worker's phrase that Medium “allowed” the extra operation was causally unsupported. Earlier investigation already showed that repeated prompts sometimes advanced beyond prior stopping points without resolving the intermittent behaviour.
+
+Accurate statement: after the reported setting change, one more operation was reported completed and premature termination recurred. No improvement attributable to the setting change has been established. Setting application, actual runtime configuration and a controlled comparison were not independently verified. Do not infer a dose-response relationship or remedy from this single sequence.
+
+### 17.4 Similarity, limits and disposition
+
+The reported second case is consistent with the earlier pattern: relevant task understanding, successful individual operations, an identified next action, no reported external blocker, and a final response before the next operation is attempted.
+
+The new premature-termination procedure appears to have supported more accurate incomplete-work reporting in these excerpts; it did not prevent the observed/reported stops. Comprehension of a recovery rule does not establish reliable execution of it.
+
+Two conversations showing a similar pattern strengthens evidence that the observation is not confined to the first conversation. It does not establish independent causes, a common cause, prevalence across models or a relation to sentience, refusal or subjective experience. Absence of a reported error does not establish absence of an unobserved constraint.
+
+**Cause: UNKNOWN. No revised numerical hypothesis weights assigned.** Preserve section 9's original heuristic weights as historical working estimates, not updated probabilities.
+
+### 17.5 Operational consequences and periodic review
+
+Future manual and scheduled pruning may exhibit the same pattern. Reviewers should periodically compare claimed work with actual commits, current files, registry claims/releases and saved handoffs. Do not rely on worker self-report or successful scheduler status alone.
+
+Checks should distinguish deliberate inactivity while paused, justified KEEP, an observed blocker, an incomplete attempt, unverified work and a fully verified disposition. A lack of deletions alone is not failure; a valid KEEP can complete a review.
+
+Record recurrent patterns and exact outstanding operations in the existing handoff; add materially new research observations here. Do not create repetitive audit companions, seize claims, resume schedules or modify sources merely to demonstrate progress. Available evidence may not reveal the cause.
+
+The checking process can itself terminate prematurely. A scheduled check is an opportunity for review, not a guarantee that an independent watchdog ran successfully. Its claimed checks require the same evidence discipline.
+
+**Development update:** Second case preserved at the author's request, with targeted monitoring guidance for later pruning. Underlying cause and effectiveness of any setting change remain unresolved. Historical raw conversation preservation is separate from this distilled public record.
