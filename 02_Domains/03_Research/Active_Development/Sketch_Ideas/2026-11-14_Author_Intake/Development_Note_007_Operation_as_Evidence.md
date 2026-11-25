@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Evidence hierarchy and simulation claims require correction.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** Actual development incidents can reveal useful limitations and should be preserved with their conditions, attempted actions, observations, interventions and uncertainty.
+
+**Corrections required:** Sections 1–2 and 5–10 cannot establish that simulation is incapable of unanticipated combinations or that real operation is always stronger evidence. Surprise is relative to an observer; generated or stochastic scenarios can expose unenumerated outcomes. Operational evidence has different confounds and scope, not automatic evidential superiority. EVA already distinguishes simulation, prototype/sandbox, field-pilot and longitudinal/operational observation. Pruning is author-delegated repository work, not deployment of triadic civil institutions. Verify specific collision/recovery claims rather than treating write rejection as a proven same-row collision or partition. Compare documented simulation coverage, not whether an event was impossible to simulate. Preserve failed/unattempted actions and recovery assistance; neither a live commit nor normal response completion validates broader architecture.
+
+**Source checks:** Empirical Validation Architecture, especially T5 and T9–T11 and claim/test matching; CRADP; root editing/execution boundary; the 25 November execution-discontinuity research and pruning completion guidance.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # Operation as Evidence
