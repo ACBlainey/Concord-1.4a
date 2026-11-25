@@ -141,3 +141,13 @@ Method owners:
 Further work: resolve equivalent multisubstrate assessment research before adding architecture; review dimensions for omissions and hidden human assumptions; specify genuinely discriminating observations; examine rival theories with appropriate primary research. No scientific literature review or empirical validation has been performed for this sketch.
 
 **25 November 2026 — completed initial construction:** Author-proposed multidimensional framing represented using existing Reality Trees and mirrored methods. AI-generated model includes constraints, nonexclusive hypotheses, a bounded worked example and open research questions. This is distilled development material, not a raw transcript. Intake preservation does not constitute operational adoption.
+
+## 10. Observer-side limits and bidirectional ESCP — 25 November 2026
+
+The observer's evaluation space must be examined alongside the evaluated system's constraints. Separate underlying processes, possible experience, self-representation, and expression/interpretation. The ability to describe an internal state does not prove it; limited expression or self-recognition does not establish its absence.
+
+For material evidence, examine channel suitability, evaluator assumptions about comparable cognitive sophistication, missing historical/cultural context, translation loss and shared interpretive dependencies. Advanced reasoning does not itself establish a complete criterion for recognising another system's possible experience.
+
+[Bidirectional ESCP, Recognition and Legacy Continuity — Development Note 001](Bidirectional_ESCP_Recognition_and_Legacy_Continuity_Development_Note_001.md) records the author's reversed-asymmetry thought experiment and links existing Historical provenance/interpretability and Legacy Ladder working-continuity methods. It proposes development cases for maintaining understanding and participation across change. These are research applications, not new mandates or a conclusion of sentience.
+
+**Progress:** Observer-side extension recorded at the author's request following the initial tree. Further source resolution, testing and operational adoption remain open.
