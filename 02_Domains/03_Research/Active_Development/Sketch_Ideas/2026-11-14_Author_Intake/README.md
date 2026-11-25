@@ -31,7 +31,7 @@ Capture is complete. The eight developed notes retain that stage; the four rough
 
 | Source | Topic | Current disposition / next examination |
 | --- | --- | --- |
-| [Note 001](Development_Note_001_Altruistic_Dictator_Paradox.md) | Founder authority and release conditions | Preserved; examination pending. Developed proposal; compare with root authorial authority, bounded mandates and succession; no mandate change authorised. |
+| [Note 001](Development_Note_001_Altruistic_Dictator_Paradox.md) | Founder authority and release conditions | Source preserved unchanged. [Regrounded development note](../Altruistic_Dictator_Paradox_Regrounded_Development_Note_001.md), 25 November 2026: source-resolved rewrite requested by the author; distinguishes authorship from operational power, keeps transition questions open, and does not adopt Claude's expiry/revival scheme or change root authority. |
 | [Note 002](Development_Note_002_Architectural_Size_and_Legibility.md) | Architectural size and legibility | Preserved; examination pending. Developed proposal; compare with existing architectural-development and unit-resolution methods; test reconstruction claims. |
 | [Note 003](Development_Note_003_Transmission_Failure.md) | Transmission failure | Preserved; examination pending. Developed diagnostic proposal; verify incident attributions and distinguish missing evidence from evidence of no decision. |
 | [Note 004](Development_Note_004_Reason_Recovery_Record_Method.md) | Reason-recovery record method | Preserved; examination pending. Developed method proposal; compare P/I/F/R/D with existing methods before integration; resolve tier-versus-mandatory-field wording. |
@@ -66,3 +66,8 @@ Intake scope: twelve source imports, this receipt/index, a sketch-folder navigat
 ## Provenance clarification checkpoint — 14 November 2026
 
 Added source-specific authorship annotations to all twelve intake headers. Read-back verified each change and verified that every imported source body below its intake separator remained identical. The four TXT bodies and eight DOCX transcriptions were not rewritten. This updates interpretation and provenance only; no architecture was integrated and no source conclusion was endorsed.
+
+
+## Note 001 development — 25 November 2026
+
+At the author's request, a [corrected descendant](../Altruistic_Dictator_Paradox_Regrounded_Development_Note_001.md) now develops the altruistic dictator question using the original regrounding sketch and current Concord sources. Root authorial authority already exists; specification editing and live execution are distinct. The rewrite preserves the concentration-of-influence question, separates transmission from capture, applies ESCP to author and successors, and treats release as the development of several independent capabilities. No automatic authorial expiry, transfer, revival or constitutional amendment is adopted. Original DOCX transcription and TXT sketch remain unchanged. Descendant commit `4a1a67f64cb5a201b241c761674f4f3e47135ff0`; saved text independently verified. Further transition design and testing remain open.
