@@ -1,144 +1,61 @@
-> Intake record — received 14 November 2026 from Alexander C. Blainey. Original filename: `Interface Declaration — Development Note 008.docx`. Original file SHA-256: `05354691be2b920f1a3420cf827411ac13a68053dce24f210921847b82df694f`.
-> Protected new development in V1.4a; not inherited V1.3 pruning material. Preserved source; proposals and descriptive claims are not adopted architecture. See [intake index](README.md) for status, routing and source checks.
+# Discoverable Cross-Domain Interfaces
+## Development Note 008 — Using Existing Owners and Dependency Architecture
 
-> Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
+**Originating idea:** Alexander C. Blainey. Revised with ChatGPT on 25 November 2026 at the author's request.  
+**Stage:** Research development; no new operational requirement is adopted by this note.  
+**Version boundary:** This corrected Note 008 replaces the supplied Claude expansion in the active repository. The superseded text is historical provenance, not unincorporated architecture. See the [intake index](README.md) for source history and current routing.  
+**Preservation:** V1.4a-native development, protected from inherited-material pruning.
 
-## Alignment guidance — 25 November 2026
+## The useful requirement
 
-**Existing KCS owner must be reused; no new universal declaration system adopted.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+A participant working on one part of the Concord needs a practical way to discover which external functions it relies on, what it supplies, and which relevant interface conditions remain uncertain.
 
-**Useful core:** Make relevant producers, consumers, conditions, assumptions and unresolved interface requirements discoverable at the boundary where they are needed.
+Clear local explanations can help. They do not require a separate universal declaration system if the function is already adequately represented elsewhere.
 
-**Corrections required:** Sections 1–6 and 8–10 incorrectly imply that no existing artefact represents cross-domain dependencies. KCS V2.0 Chapters 31–33 already specify material relations, owners, evidence, scope, uncertainty and selective change propagation. The four proposed fields omit these important distinctions and do not prove completeness or satisfaction. Unknown ownership does not create a new owner; a dependency does not automatically block work or transfer authority. Domain-local documentation and KCS indexing can coexist with protected access. A derived view can be stale or incorrect; same-commit updates cannot guarantee consistency across external owners. Do not require universal public declarations, invent a rival dependency register, or impose repository-wide atomic updates. Pilot only a bounded usability/interface improvement through existing owners.
+## Existing material-dependency owner
 
-**Source checks:** KCS V2.0 Chapters 31–33, especially §§33.1–33.8; AUR local versus distributed satisfaction; CRADP reuse/repair before invention; developer guide's domain-boundary rules.
+KCS V2.0 Chapters 31–33 already represent material relations, dependent/prerequisite functions, owners, evidence, scope, versions, uncertainty, visibility and review triggers.
 
-The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+The operational sequence is record, traverse, filter, classify, route for competent review, record outcome, propagate where material, and stop.
 
----
+A reference is not automatically evidence or material dependence. A dependency's existence does not mean it is currently blocking. An indexed alternative is not proof of equivalent capability.
 
-# Cross-Domain Interface Declaration
+KCS makes relations visible and routes attention. It does not own the affected systems or acquire authority to change them.
 
-Standard, format and the dependency record that prevents silent divergence
+## Resolve the unit before declaring a gap
 
-| Field | Value |
-| --- | --- |
-| Document | Development Note 008 — Development Method |
-| Subject | Standard and format for cross-domain interface declaration |
-| Author | Alexander C. Blainey |
-| Originating discussion | 10 November 2026 |
-| Status | Development note. Not adopted constitutional architecture. |
-| Companions | Notes 002, 003 and 004 |
+Use AUR to distinguish local ownership, intentional scoping, external satisfaction, distributed satisfaction, representation gaps, inadequate interfaces and unresolved searches.
 
-## Abstract
+A domain can legitimately rely on another owner without repeating that owner's internals. Conversely, naming an external capability does not demonstrate that the actual interface is adequate.
 
-Development Note 002 identifies cross-domain legibility as the variable governing architectural size, and recommends interface declaration as one of three instruments for raising the ceiling. This note specifies it: what a domain must declare, in what form, with what adequacy tests, and how the declarations are kept true as the architecture changes.
+Use CRADP to decide whether the appropriate action is reuse, clarification, connection, repair or genuinely new development. Missing local declaration text alone does not establish missing architecture.
 
-The central instrument is the dependency record. Concord's historical losses occurred where no such record existed: Governance depended on a mechanism that lived elsewhere, and nothing said so. A dependency record states the direction of reliance, names the owner, and makes a local artefact's non-local consequences visible to a reader who holds only the local artefact.
+## A local explanation where useful
 
-## 1. What problem the declaration solves
+For a particular interface, identify the relevant producer and consumer, what crosses the boundary, the conditions of reliance, operative scope/version, and how failure or uncertainty is exposed.
 
-A domain that is fully coherent internally can still be incoherent with its neighbours, and the incoherence is invisible from inside either domain. Each side's material is consistent; the inconsistency lives in the relationship, which neither side's documents describe.
+Reuse KCS records and authoritative definitions where they provide that information adequately. A short source pointer may suffice. Additional local text should solve a specific usability or behaviour problem.
 
-This is the condition under which domains develop at odds with each other without recognising it. The failure is not local competence — it is the absence of any artefact whose subject is the relationship. A domain's own README describes the domain. Nothing describes what the domain requires of others or promises to them.
+Neither a fixed four-field schema nor a complete declaration for every document is imposed here. Unknown fields should remain visibly unknown, and disputed ownership should not be assigned to the recorder by default.
 
-## 2. Scope
+## Authority, privacy and maintenance
 
-Every domain, cross-domain architecture and portable module declares its interfaces. The obligation is on the material at the level at which reliance occurs: a domain declares at domain level, and a mechanism that other material consumes declares at its own level, even within one domain.
+Dependency representation does not transfer mandates, access rights or control between owners. Protected relations may require purpose-bounded views rather than a universally public graph.
 
-Three exemptions apply, and they follow the provision test in Note 004. Material that requires and guarantees nothing takes no declaration. Material whose entire content is a restatement of another owner's provision takes a pointing declaration rather than its own. And a domain with genuine dependencies in one direction only declares only that direction — the obligation is symmetrical but the content is not.
+A derived view can be stale, incomplete or incorrectly computed. A stored view can be reliable when versioned and maintained appropriately. The choice depends on the use and evidence, not an absolute prohibition.
 
-## 3. Required declarations
+Coordinate material interface changes through existing owner and KCS processes. A same-commit edit can help within one controlled repository but cannot guarantee atomic consistency across independent systems. Preserve version compatibility, acknowledgements or unresolved state where needed; do not invent a universal stop condition.
 
-| Declaration | Content | Adequacy test |
-| --- | --- | --- |
-| Inbound dependencies | Each external decision, mechanism, record or permission the domain relies on, with the owner named | Each is stated as a dependency, not as a background assumption |
-| Outbound guarantees | What the domain commits to provide, and under what conditions | A consumer can rely on it without reading the domain's internals |
-| Assumed invariants | Conditions the domain treats as true but does not itself establish | Each names who establishes it, or is marked unestablished |
-| Interface points | Where the domain's boundaries are, and what crosses them in each direction | A reader can tell which material is internal and which is contract |
-| Unresolved interfaces | Boundaries the domain knows are not yet specified | Marked as open rather than omitted |
+Only changes to materially relevant properties should propagate review, under the competent domains' thresholds. Uncertainty alone is not a new grant of central authority.
 
-The assumed-invariants field is the one most likely to be omitted and the one most likely to cause a silent divergence, because an assumption that is treated as background is by definition not written anywhere. Where the establishing party cannot be named, that is itself a finding.
+## A possible bounded improvement
 
-## 4. The dependency record
+Select one interface whose requirements are difficult to discover. Compare its existing owner records and local documentation, then test whether a targeted pointer or clarification improves retrieval and correct use.
 
-The dependency record is the form in which the declarations are carried, and it is the specific artefact whose absence produced the historical losses. It has one entry per dependency and states four facts.
+Measure omissions, invented dependencies, privacy exposure, false review cascades and maintenance cost. Retain useful corrections in the appropriate existing owner location.
 
-| Field | Content |
-| --- | --- |
-| From | The domain, mechanism or provision that depends |
-| To | The owner of the thing depended upon, named as an owner rather than as a location |
-| Nature | One of: decision, mechanism, record, permission, or definition |
-| Direction | One-way or mutual, stated explicitly |
+The proposal is a usability and interface-development question within the existing architecture. No rival KCS register, new central controller or repository-wide documentation obligation is adopted.
 
-Two properties of this record do the work. It names the owner, so a reader can find the depended-on material rather than knowing only that it exists somewhere. And it states direction, so a reader can tell whether a change they are making will propagate — which is the specific information whose absence allowed a local edit to remove a mechanism another domain relied on.
+## Source route
 
-## 5. Format and placement
-
-Declarations belong in the domain's operational documentation, in a standardised section, co-located with the domain's own material rather than in a central register. A central register reintroduces the separation that makes the failure possible: a reader can have the domain without reaching the register.
-
-The declarations should be structured rather than prose, so that they are consistent across domains and can be checked mechanically — by searching for dependencies whose target owner has no reciprocal awareness, or for interface points that no declaration covers. Defined field names and a fixed ordering are sufficient; a formal schema is not required for the first pass and should not delay it.
-
-## 6. Maintenance
-
-A declaration that is not maintained becomes misleading, which is worse than absent. Three obligations:
-
-Coupled revision. a change to a declared interface requires the declaration to be updated in the same commit. As with the reason-recovery record, a stale declaration is a defect.
-
-No silent closure. a declaration may not be closed without either naming the owner or recording that no owner exists. Silence is not a resolution.
-
-Discovery as evidence. where a dependency is discovered that was not declared, the incident should be recorded and the declaration corrected, on the principle that a missed dependency is evidence about the declaration practice and not only about the specific interface.
-
-## 7. Value beyond prevention
-
-The declarations do more than prevent loss, and the additional value is worth stating because it affects the priority of the work.
-
-Asymmetries become visible. a dependency whose target has no awareness of being depended upon is a risk, and the record identifies these directly. This includes dependencies on undeveloped architecture, which Note 004 already allows to be recorded as open gaps.
-
-The size test becomes possible. the declarations give the reconstruction limit a direct test. A fresh instance given the declarations alone can be asked what the domains require of one another, which is the measurement proposed in Note 002, section 9.
-
-Independence claims become checkable. a domain with no inbound dependencies is either genuinely independent or has not examined itself. The record makes the difference obvious and therefore makes a claim of independence checkable.
-
-## 8. Risks and counterarguments
-
-### 8.1 The declarations become an unbounded overhead
-
-Five fields per interface across a large corpus is substantial. Mitigation: declarations are short, they are structured rather than argued, and they displace the developmental prose the 1.4a correction removes. The obligation is per reliance, not per document.
-
-### 8.2 Declarations will be wrong or incomplete
-
-A domain may misdeclare. Mitigation: this is why section 6 records missed dependencies as evidence. A declared dependency that is wrong is still more useful than an undeclared one, because it can be examined and corrected.
-
-### 8.3 Centralised checking will be wanted
-
-It is natural to want one register that shows the whole dependency graph. Mitigation: the graph should be derived by reading the declarations, not stored as a separate artefact. A derived view cannot drift; a stored one can, and the drift is invisible.
-
-### 8.4 This duplicates the reason-recovery record
-
-Both instruments carry a dependency field. Mitigation: they are the same field at different levels. Note 004 records dependencies at provision level; this note records them at domain and mechanism level. Provision-level records roll up into the domain declaration, and where they disagree the disagreement is itself a finding.
-
-## 9. Recommendations
-
-Require interface declaration from every domain, cross-domain architecture and consumed mechanism, as standing operational documentation rather than an audit item.
-
-Adopt the five required declarations in section 3, with the adequacy tests stated.
-
-Adopt the four-field dependency record in section 4, naming the owner and stating direction.
-
-Place declarations in the domain's own documentation in a standardised structured section. Do not maintain a central register; derive any whole-graph view from the declarations.
-
-Require declaration updates in the same commit as the interface change, and prohibit closing a declaration without naming an owner or recording that none exists.
-
-Record discovered-but-undeclared dependencies as evidence about the declaration practice.
-
-Use the declarations as the input to the reconstruction test in Development Note 002, section 9.
-
-Take Governance V2.2's naming of cross-domain interfaces among its deferred audit items as the precedent, and convert it from an audit item into a standing obligation across all domains.
-
-## 10. Summary
-
-Incoherence between domains is invisible from inside either domain, because the inconsistency lives in the relationship and no artefact has the relationship as its subject. Interface declaration supplies that artefact: inbound dependencies, outbound guarantees, assumed invariants, interface points and unresolved interfaces, carried in a four-field dependency record that names the owner and states direction.
-
-Placed with the domain rather than in a register, maintained in the same commit as the change it describes, the declaration makes a local artefact's non-local consequences visible to a reader who holds only the local artefact — which is the condition under which Concord's fundamental architecture was lost.
-
-End of Development Note 008. Prepared from the authoring discussion of 10 November 2026 and from the Concord-1.4a repository state at commit 65344f4. This note is a development artefact; it does not amend operational architecture and carries no authority beyond its argument.
+KCS V2.0 Chapters 31–33, especially §§33.1–33.8; AUR; CRADP; operational developer guide. Exact links are maintained in the [intake index](README.md#existing-source-routes).
