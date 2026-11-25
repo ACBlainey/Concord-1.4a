@@ -2225,7 +2225,7 @@ This register inventories **every file currently present** in Concord-1.4a, grou
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 0965ecdd567b; no final review disposition matched |
 
 ### `09_Open_Questions`
-| `Current Open Questions — Concord V1.3.md` | IN_EVALUATION | IN_PROGRESS | ChatGPT-ClosedQuestions-Diagnostic-20261125 / CQ-DIAG-20261125-002 | 2026-11-25 UTC; exact path 09_Open_Questions/Current Open Questions — Concord V1.3.md; prior UNREVIEWED / PENDING; source a923bb4f0cb15fa55c011b930cf2a4da7aac4b56; empty migration placeholder, local dependency check |
+| `Current Open Questions — Concord V1.3.md` | REMOVED | COMPLETED | ChatGPT-ClosedQuestions-Diagnostic-20261125 / CQ-DIAG-20261125-002 | 2026-11-25 UTC; empty inherited migration placeholder; no living architecture; local dependency review; exact V1.3 original a923bb4f0cb15fa55c011b930cf2a4da7aac4b56; deletion ec16ea1308dd32b221de4404a49f1dffabeab586 verified absent; 238 bytes removed |
 | `Current Open Questions — V1.2 Migration Source.md` | UNREVIEWED | PENDING | — | Live Git blob f29d3186c1b8; no final review disposition matched |
 | `README.md` | UNREVIEWED | PENDING | — | Live Git blob 4f63f37c9a20; no final review disposition matched |
 
