@@ -4,7 +4,7 @@
 
 ## Current intake
 
-- [14 November 2026 — eight Development Notes and four rough sketches](2026-11-14_Author_Intake/README.md): captured and protected; source/owner resolution and development pending.
+- [14 November 2026 intake — current corrected notes and four author sketches](2026-11-14_Author_Intake/README.md): eight working notes now use the 25 November Concord-aligned revisions. At the author's explicit direction, superseded Claude expansions were removed from active content; do not recover them as unincorporated architecture during migration. Four original author sketches remain unchanged; further research and testing remain open.
 - Earlier sketches remain in this folder and in the relevant Research active-development areas. This entry point does not certify their review status or complete the wider migration.
 
 ## Working route
