@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Existing KCS owner must be reused; no new universal declaration system adopted.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** Make relevant producers, consumers, conditions, assumptions and unresolved interface requirements discoverable at the boundary where they are needed.
+
+**Corrections required:** Sections 1–6 and 8–10 incorrectly imply that no existing artefact represents cross-domain dependencies. KCS V2.0 Chapters 31–33 already specify material relations, owners, evidence, scope, uncertainty and selective change propagation. The four proposed fields omit these important distinctions and do not prove completeness or satisfaction. Unknown ownership does not create a new owner; a dependency does not automatically block work or transfer authority. Domain-local documentation and KCS indexing can coexist with protected access. A derived view can be stale or incorrect; same-commit updates cannot guarantee consistency across external owners. Do not require universal public declarations, invent a rival dependency register, or impose repository-wide atomic updates. Pilot only a bounded usability/interface improvement through existing owners.
+
+**Source checks:** KCS V2.0 Chapters 31–33, especially §§33.1–33.8; AUR local versus distributed satisfaction; CRADP reuse/repair before invention; developer guide's domain-boundary rules.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # Cross-Domain Interface Declaration
