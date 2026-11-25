@@ -3,6 +3,18 @@
 
 > Authorship clarification — Alexander C. Blainey, 14 November 2026: the original DOCX is Claude's expansion of the author's ideas, produced without full Concord context. Its arguments, assumptions and conclusions are not automatically endorsed by the author or adopted by Concord. Embedded author labels are preserved as part of the supplied source, not proof of endorsement of every passage. Recover the useful underlying questions and mechanisms, then resolve them against the author's direct statements and existing Concord architecture; preserve this source and develop corrected descendants separately.
 
+## Alignment guidance — 25 November 2026
+
+**Unadopted method; amend scope and owner mapping before any pilot.** This is a source-preserving review annotation, not an amendment of operational architecture. Use this guidance and the [intake review](README.md#alignment-review--25-november-2026) before developing the proposal below.
+
+**Useful core:** P/I/F/R/D can be explored as a compact, consequence-sensitive prompt for a particular unresolved design question. Identify actual requirements, purpose, failure conditions, alternatives and material dependencies where useful.
+
+**Corrections required:** Sections 1, 3, 5–6 and 8–11 must not enact the discarded Note 001 authorial-expiry condition, require every provision to be judgeable without other sources, or make all constitutional foundations replaceable. The universal P/I/F/R requirement conflicts with the lighter Tier 3 schema; resolve before testing. A reconstructed present function is not proof of original intent. An external consumer does not automatically make a provision constitutional. Co-location is a usability option, not proof that distributed records fail. Reuse AUR/CRADP and KCS dependency records rather than introducing a competing ledger or mandatory per-provision bureaucracy.
+
+**Source checks:** The Ethical Kernel's fixed principles versus corrigible interpretations; root authorial authority; AUR; CRADP; KCS V2.0 Chapters 31–33; operational developer guide.
+
+The supplied Claude expansion below remains verbatim for provenance. Its recommendations are not adopted requirements. The review does not authorise an automatic new office, authority transfer, documentation campaign or change to the Ethical Kernel.
+
 ---
 
 # The Reason-Recovery Record: Method
