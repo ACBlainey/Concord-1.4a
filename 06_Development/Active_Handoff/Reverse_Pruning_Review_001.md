@@ -40,3 +40,8 @@
 
 - `09_Open_Questions/Current Open Questions — Concord V1.3.md`: REMOVED / COMPLETED. Empty inherited migration placeholder; no substantive architecture. Local snapshot dependency review identified no living dependency; parent README preserves migration principle.
 - Exact V1.3 original `a923bb4f0cb15fa55c011b930cf2a4da7aac4b56`; claim `c4ad88bbaa4401a4b2476213b2b5befb00bf91ce`; deletion `ec16ea1308dd32b221de4404a49f1dffabeab586` verified absent in complete live tree and archive intact. Registry release `aec4c92c9d239f68e7bcfbd68a3612dec6aae782` verified. Removed 238 bytes. No outstanding claim for this pass.
+
+
+### 2026-11-25 — Multisubstrate Justice recovery register (CQ-DIAG-20261125-003)
+
+- `09_Open_Questions/Recovery/Current Open Questions — Recovery Register 03 — Multisubstrate Justice.md`: KEEP / COMPLETED. Retain all six unresolved research questions; supporting Research and Law coverage is not yet secured against subsequent pruning. No source edit. Live blob `630fe9f4ac91b76def73a3005eddb9301796bfb3`. Registry disposition `05277f771dd2a017010d83011eb3ff991f7f8313` verified. No outstanding claim for this pass.
