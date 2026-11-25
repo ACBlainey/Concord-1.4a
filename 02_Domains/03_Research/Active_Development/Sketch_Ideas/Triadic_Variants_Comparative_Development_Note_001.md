@@ -51,6 +51,38 @@ The sketch proposes stewardship/jurisdiction over individual triangles and the c
 
 For a working implementation, those assignments would need their own explicit lawful constitution and functional scope. They are proposals of this variant, not powers supplied by geometry or amendments of current Chapter 132.
 
+### Hexagonal regions — area effects and non-overlapping authority
+
+The author clarified on 25 November 2026 that the primary purpose of hexagonal regional organisation is a more natural treatment of area effects, rather than an attempt to create higher authority by spatial scale. Weather is an example: relevant conditions and consequences can extend across several local triangles and approach from many directions.
+
+The intended hexagon is a compact, approximately circular regional footprint that can tessellate with neighbouring cells. The author's description of overlapping circular influence being truncated into hexagonal edges expresses the objective: broad regional evaluation with definite jurisdictional boundaries, rather than several ambiguous competing area mandates.
+
+Keep three objects distinct:
+
+- **The GTP mesh:** the underlying triangular spatial reference.
+- **An evaluation neighbourhood:** information and effects relevant to a steward's judgement; these may cross jurisdictional edges.
+- **An assigned regional jurisdiction:** an explicitly delimited functional competence, intended to avoid conflicting concurrent authority for the same matter.
+
+A hard jurisdictional edge does not mean weather or information stops there. Cross-boundary observation, information sharing and coordination still need appropriate interfaces. Conversely, knowing about conditions outside a cell does not grant authority over that neighbouring cell.
+
+#### Geometric consistency to resolve
+
+A six-triangle fan around a regular node is hexagonal, but taking the full fan around **every** adjacent node does not produce disjoint regional jurisdictions. Two edge-adjacent node-centred fans share the two triangles incident to their common edge. Their broader viewpoints can overlap; their assignments cannot simply be called non-overlapping without an additional allocation rule.
+
+A partition using selected regional centres and whole GTP triangles is one candidate for retaining the intended six-triangle cells. Its centre selection, coverage, boundary offices, treatment of the other node stewards and actual mesh topology must be designed. It must not silently remove their local triangle offices.
+
+Alternatively, constructing exclusive nearest-centre regions for all nodes changes the cell boundaries; those regions need not be the full six-triangle fans or unions of whole triangles at the same GTP resolution. Any such proposal must identify the spatial mapping rather than assume identical footprints.
+
+The development task is to reconcile the author's objectives: compact regional evaluation, unambiguous functional jurisdiction, distinct local offices and direct composition from GTP spaces. No regional partition is selected by this clarification alone.
+
+#### GTP interoperability as a design requirement
+
+Where a regional cell is composed of whole GTP triangles, it can be represented by their explicit set, mesh revision and resolution. This supports exact spatial correspondence between local and regional descriptions. It does not itself transfer local mandates, decide regional voting weight or supply a cross-region decision rule.
+
+Validate exact coverage, no unintended gaps or double-assigned cells, seam handling and appropriate treatment of nonregular or spherical nodes. “Hexagon” describes the regular case, not permission to force every global node into sixfold geometry.
+
+The intended wider evaluation space is a benefit to investigate, not a claim that one finite shape contains every relevant factor or maximises every form of knowledge.
+
 ### Author clarification — persons, functional offices and jurisdiction
 
 The author clarified on 25 November 2026 that shared personal identity does not collapse the functional offices. Let triangle A have offices A1, A2 and A3, and B have B1, B2 and B3. For edge-adjacent triangles in the mesh:
@@ -90,9 +122,11 @@ The term “hexagon” is conditional. Spherical tessellations, nonregular nodes
 
 ### Aggregation choices still to design
 
+**Author's preferred target:** regional voting should decompose to **three decision-producing units**, or another justified odd number. This concerns the composition of the deciding forum, not merely naming three possible outcomes. It is a research design objective; no decomposition rule has yet been selected. Information gathering may involve more people or offices than the final decision kernel.
+
 For all-vertex participation, the set of distinct mesh stewards in a connected region is derived from the union of its relevant vertices. That is different from its set of triangle-specific offices or any separately constituted regional forum. The person count may be even despite there being three offices per triangle.
 
-Candidate approaches include a direct regional decision by all eligible distinct members, a separately selected three-person forum, or constituent triads producing resultants. Each changes representation, weighting or legitimacy and requires its own analysis.
+Candidate approaches include a separately selected three-person forum or three constituent resultants, with another odd-sized structure where justified. A direct all-member regional vote remains a comparison case; it does not meet the preferred odd-number target where the actual membership is even. Each changes representation, weighting or legitimacy and requires its own analysis.
 
 Do not manufacture apparent oddness or independence by silently changing the unit counted. If the design permits a person to contribute through several offices, expose and evaluate the resulting weighting and correlation; do not present those offices as independent people. A casting vote, exclusion of a member or use of current expanded voting likewise requires an explicit design and analysis rather than an outcome-driven adjustment.
 
@@ -177,6 +211,8 @@ Before ranking configurations, hold the actual task and consequence scope suffic
 | Workload | How many concurrent responsibilities and overlapping matters can a steward sustain? |
 | Authority | Which source legitimates each decision and subsequent effect? |
 | Scaling/topology | How do boundaries, aggregation, irregular nodes and multiple resolutions behave? |
+| Regional partition | Does the chosen hexagonal allocation give exact GTP correspondence and unambiguous function-specific boundaries without losing local offices? |
+| Decision decomposition | Does aggregation produce three units or a justified odd number without concealing repeated holders, unequal influence or unresolved outcomes? |
 | Failure/recovery | What happens with absence, recusal, insufficient information, lost records or split communications? |
 | Change | How are variants adopted, compared, replaced or transitioned without changing authority by stealth? |
 
