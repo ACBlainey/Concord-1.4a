@@ -34,3 +34,9 @@
 
 - `09_Open_Questions/Closed_Questions/Closed Questions — Core Conceptual Closures 01.md`: KEEP / COMPLETED. Removed CQ-02 and CQ-08, covered by Governance V2.2 Section 03 §24.11. Eight closures retained verbatim pending remaining integration/dependency checks.
 - Exact Concord-1.3 original verified: `d982dd5c1b1a636cf8d4f22f251a9c053702f9fe`. Edit `4d6909c04c5f950b51cae98020ca0b8c15599348`; verified live blob `c42dc052e2ac44ad3e60dc0c1e1f865c4e08d3e9`. Removed 1,363 characters (16.75%). Registry release `04da9323fd034f126565110c7c6790fbb7eb9226` verified. No outstanding claim.
+
+
+### 2026-11-25 — Open Questions placeholder prune (CQ-DIAG-20261125-002)
+
+- `09_Open_Questions/Current Open Questions — Concord V1.3.md`: REMOVED / COMPLETED. Empty inherited migration placeholder; no substantive architecture. Local snapshot dependency review identified no living dependency; parent README preserves migration principle.
+- Exact V1.3 original `a923bb4f0cb15fa55c011b930cf2a4da7aac4b56`; claim `c4ad88bbaa4401a4b2476213b2b5befb00bf91ce`; deletion `ec16ea1308dd32b221de4404a49f1dffabeab586` verified absent in complete live tree and archive intact. Registry release `aec4c92c9d239f68e7bcfbd68a3612dec6aae782` verified. Removed 238 bytes. No outstanding claim for this pass.
