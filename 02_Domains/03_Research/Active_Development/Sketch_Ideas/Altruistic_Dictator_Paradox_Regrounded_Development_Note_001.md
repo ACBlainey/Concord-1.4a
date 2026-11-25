@@ -6,7 +6,7 @@
 **Stage:** Research development note; proposed transition arrangements remain open.  
 **Provenance:** Corrected descendant of Claude's Development Note 001 and the author's regrounding sketch, preserved in the [14 November intake](2026-11-14_Author_Intake/README.md). This revision does not amend root authorial authority or operational architecture.
 
-**Protected V1.4a-native development.** The supplied sources remain unchanged. This note is not inherited V1.3 pruning material.
+**Protected V1.4a-native development.** At the author's direction on 25 November 2026, the superseded Claude expansion has been removed from the active repository to prevent migration as unincorporated architecture. The author's original sketch remains unchanged; source history is recorded in the intake index. This note is not inherited V1.3 pruning material.
 
 ## 1. The question that must remain visible
 
@@ -168,6 +168,6 @@ The practical direction is to reduce dependence through recoverable understandin
 
 ### Source boundary
 
-Primary framing: [the author's original regrounding sketch](2026-11-14_Author_Intake/Sketch_Regrounding_the_Concord.md). Earlier interpretation: [Claude's preserved Development Note 001](2026-11-14_Author_Intake/Development_Note_001_Altruistic_Dictator_Paradox.md).
+Primary framing: [the author's original regrounding sketch](2026-11-14_Author_Intake/Sketch_Regrounding_the_Concord.md). The superseded Claude interpretation is historical provenance only; see the [intake source-history boundary](2026-11-14_Author_Intake/README.md#source-history-and-migration-boundary).
 
 Architectural checks: AUTHORIAL_AUTHORITY.md; the Ethical Kernel; the operational developer guide; Governance V2.2 Chapter 12; the civilisational orientation note; ESCP; and the existing generative-closure research. These have different roles: orientation and research inform the analysis but do not override root or operational rules. No raw conversation transcript is reproduced.
