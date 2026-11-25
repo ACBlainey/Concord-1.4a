@@ -116,12 +116,83 @@ Mapping a satellite above an area does not itself create ownership, vote weight 
 
 This research can support infrastructure, environmental and flight/orbit representations without changing the flat operational triadic architecture or resolving the distinct triadic-variant research.
 
+## 10. Universal multi-body model — author extension, 25 November 2026
+
+### One geometric system, multiple body instances
+
+The author proposes a standardised, extrudable GTP model that can be mapped to Earth, Mars and other planets or spheroids. The aim is to avoid separately redesigning the geometric engine for every body and to relate the physical scale of a body's surface to its size.
+
+A promising separation is:
+
+- **Shared model:** root topology, child/address conventions, lateral/radial construction, neighbour rules and conversion interfaces.
+- **Body instance:** identified centre/frame, size/shape parameters, orientation, reference surface/datum and time/epoch conventions where relevant.
+- **Selected resolution:** the subdivision and radial detail needed for the physical task.
+
+Different body parameters do not require different geometric algorithms. A body-specific reference is nevertheless required so that otherwise identical local addresses do not identify both an Earth location and a Mars location.
+
+### What “surface layer” could mean
+
+Distinguish three uses of level/layer:
+
+1. **Radial position:** where the reference surface lies relative to the body's centre in the shared physical construction.
+2. **Angular subdivision depth:** which triangular subdivision is used to obtain a desired lateral cell size.
+3. **Altitude band:** a bounded radial/height interval above or below the chosen reference surface.
+
+If the intended universal construction uses one common physical length hierarchy, a larger body can meet its surface at a different size/radial scale. The rule relating that hierarchy to an arbitrary surface still needs design; a body's radius need not coincide with an integer shell boundary.
+
+If the construction instead uses the same angular grid at each body's reference surface, its surface may be labelled height zero for every body while different angular subdivision levels deliver comparable physical cell sizes. These are related but distinct interpretations of the author's proposal. Neither should be silently selected by using the word “layer” for both.
+
+### Size and subdivision: the spherical case
+
+For a corresponding angular edge spanning angle theta on a sphere of radius R, the surface arc length is:
+
+**s = R theta**
+
+Its corresponding chord length is **2 R sin(theta/2)**. Thus matching angular cells scale in linear size with radius.
+
+Using the approximate characteristic halving of lateral length with subdivision depth L:
+
+**s(L, R) approximately equals C R / 2^L**
+
+where C depends on the selected root/cell convention. To obtain comparable physical lengths on bodies A and B:
+
+**L_B - L_A approximately equals log2(R_B / R_A)**
+
+For example, doubling radius calls for approximately one additional angular subdivision to recover the same characteristic lateral size. This is a geometric illustration, not a claim about the exact sizes of Earth and Mars cells.
+
+Integer subdivision levels and variable cell geometry mean that arbitrary radii will not necessarily produce exactly identical physical cells by a layer offset alone. Retain explicit size/shape and metric conversion rather than presenting the level number as a complete body description.
+
+### Spheroids and registration
+
+Uniform radial scaling is exact for the stated spherical model. A general spheroid also requires shape parameters and a defined projection/height convention. Terrain is a further represented surface, not automatically the reference spheroid.
+
+A universal standard can contain those parameters without becoming a different standard for each body. Likewise, reference meridian and orientation can be configured rather than forcing existing records into a new unannounced alignment.
+
+The shared model should support both comparison of equal angular resolution and comparison of approximately equal physical size. It should label which comparison is being made.
+
+### Existing Earth/Mars sources and migration
+
+The existing Mars specification §2.1 describes distinct planetary GTP systems as necessary because metric cell dimensions depend on radius; §2.2 already considers cross-body scale comparison. Its shared subdivision conventions are useful source material for the proposed generalisation.
+
+The new research distinguishes a body-specific instance from an independently designed framework: different metric dimensions establish the need for parameters, not by themselves the need for separate geometric engines. This is a development interpretation to test, not a silent rewrite of the existing Earth/Mars documents.
+
+Before a universal release, compare both implementations for root numbering, orientation, datum and address conventions, then specify reversible mappings and version/body identifiers. Preserve old addresses and their interpretation. The Mars document's chosen reference-meridian convention, for example, must not be silently treated as identical to another coordinate system.
+
+### Next bounded test
+
+Instantiate one spherical geometry engine at two arbitrary radii. Check shared angular addresses, size scaling, proposed physical-resolution offsets, radial-cell adjacency and back-reference to each surface. Then test a spheroid and body-specific frame/datum mappings.
+
+Evaluate whether altitude-driven refinement is needed to control physical cell size as radius increases; do not assume one unchanged angular depth gives constant-size cells through the whole volume.
+
+This extension changes physical representation only. It does not add a third decision dimension, universal interplanetary government or authority from shared coordinates. Existing surface-referenced decision arrangements remain unchanged.
+
 ## Sources and next work
 
 - [Original GTP 3D sketch](GTP_3D_Author_Sketch_2026-11-25.txt).
 - [Earth GTP implementation](../../../../05_Applications_and_Implementations/GTP_Earth/1_3%20GTP.md), particularly §11.11 height/datum and the existing coordinate/pose interfaces.
+- [Mars GTP implementation](../../../../05_Applications_and_Implementations/GTP_Mars/GTP%20Mars%20edition.md), particularly §§2.1–2.2 and its body-specific address/reference conventions.
 - [Environment and Habitat Stewardship — Three-Dimensional Spatial Use](../../../../02_Domains/15_Environment_and_Habitat_Stewardship/Environment%20and%20Habitat%20Stewardship%20%E2%80%94%20Basic%20Principles%20for%20Environmental%20Understanding,%20Commons%20Stewardship%20and%20Three-Dimensional%20Spatial%20Use.md).
 - [ESA Navipedia — Ellipsoidal and Cartesian Coordinates Conversion](https://gssc.esa.int/navipedia/index.php/Ellipsoidal_and_Cartesian_Coordinates_Conversion), checked 25 November 2026.
 - [NASA/JPL — Description of Orbits and Ephemerides](https://ssd.jpl.nasa.gov/orbits_doc.html), checked 25 November 2026.
 
-The first development candidate is a surface-address-preserving radial-layer prototype. Selecting a final geometry, vertical-spacing scheme, global datum conversion, address syntax and trajectory interface remains future work. This note does not establish that a new operational GTP version has been released.
+The first development candidate is a surface-address-preserving radial-layer prototype. Selecting a final geometry, vertical-spacing scheme, shared multi-body scale hierarchy, body-specific frame/datum conversion, address syntax and trajectory interface remains future work. This note does not establish that a new operational GTP version has been released.
