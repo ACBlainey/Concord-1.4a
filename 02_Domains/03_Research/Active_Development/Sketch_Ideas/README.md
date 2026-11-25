@@ -4,6 +4,8 @@
 
 ## Current intake
 
+- [25 November 2026 — GTP 3D physical mapping](GTP_3D_Physical_Mapping_Development_Note_001.md), with the [verbatim author sketch](GTP_3D_Author_Sketch_2026-11-25.txt): altitude/volume extension for flight paths and satellite trajectories, retaining surface GTP references. Radial-layer prototype proposed for comparison with extrusion/pyramids; datum, refinement and trajectory interfaces remain open. Physical representation only; decision-making remains abstractly two-dimensional and no operational source is amended.
+
 - [25 November 2026 — triadic variants](Triadic_Variants_Comparative_Development_Note_001.md), with the [verbatim author sketch](Triadic_Variance_Author_Sketch_2026-11-25.txt): basic triad, shared-node mesh, current flat overlay and proposed hierarchical overlay. Research-only alternatives; current flat Governance/Judiciary remain unchanged. Regional aggregation, authority allocation and comparative failure/capture modes require development before any portable release or adoption.
 
 - [14 November 2026 intake — current corrected notes and four author sketches](2026-11-14_Author_Intake/README.md): eight working notes now use the 25 November Concord-aligned revisions. At the author's explicit direction, superseded Claude expansions were removed from active content; do not recover them as unincorporated architecture during migration. Four original author sketches remain unchanged; further research and testing remain open.
