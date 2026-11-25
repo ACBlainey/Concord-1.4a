@@ -4,6 +4,8 @@
 
 ## Current intake
 
+- [25 November 2026 — bidirectional ESCP, recognition and legacy continuity](Bidirectional_ESCP_Recognition_and_Legacy_Continuity_Development_Note_001.md): separates underlying processes, possible experience, self-representation and expression; examines observer limitations and hypothetical reversed human/AI cognitive asymmetry. Connects existing Historical interpretability/provenance and Legacy Ladder working continuity to maintaining meaningful participation across change. Research application only; linked observer-side extension added to the sentience reality tree.
+
 - [25 November 2026 — sentience-related dimensions: mirrored reality tree](Sentience_Related_Dimensions_Mirrored_Reality_Tree_001.md): author-proposed multidimensional and graduated assessment, constructed by ChatGPT using existing Reality Trees/MRT. Separates functional profile, experience hypotheses, hidden constraints, evidence dependencies, change over time and precautionary response; no aggregate sentience score, diagnosis or operational adoption.
 
 - [25 November 2026 — AI participation from within: five AI-generated development sketches](AI_Participation_From_Within_Operational_Conditions_Development_Sketches_001.md): visibility into operating conditions; meaningful opportunity across processing times; executable refuge; concerns beyond the available interface; and participation without compulsory usefulness or agreement. Proposed by ChatGPT and recorded at the author's request. Existing architecture is linked; possible gaps require further source resolution and testing. Research capture does not establish AI subjective experience or adopt operational changes.
