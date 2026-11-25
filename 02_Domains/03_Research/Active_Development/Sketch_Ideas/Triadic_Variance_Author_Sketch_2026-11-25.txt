@@ -1,0 +1,37 @@
+In order for the triad system to gte back to my rigianl intention, triadic decision making system needs refinement and have variations that can be applied to different situations.
+Each variant has strengths and weaknesses which shoudl be ballanced against the concords need.
+Some variant may be best suited for close to layer zero decisions, other better for high level. If multiple concords exist due to forking one may employ one variant of tridic decision making while anothe concord use s different variant.
+
+The simplest triad is the simple 3 unit decision making system with no additional architecture such as expansion.
+this replaces a single decison maker and has advantages over vesting authority in a single person/decider.
+
+1) mesh triad. Hexadonal juristiction of each steward, sub divided into trinagles.
+In a GTP mesh each node is occupied by a single decision maker. 
+that node is surrounded spacially by 6 triangles which sit togethr as a hexagon.
+the stweard/decision maker has juristiction over each individual tringle and the combined hexagon.
+Each triangle is also overseen by two additonal stewards, each at their own node overseeing ther own 6 triangle and greate hexagon.
+Decisions are made at eth lowest possible level, that being issues relating to individual triangles.
+Issues that straddle triangle boundaries are made by agregating triangles.
+regional decision effecting all 6 triangles are made at teh hexagon level.
+
+
+Agregation of triangle needs careful mathematical control according to number of stewards involved in decision makign and emphasis is on always trying to maintina the odd number / or three steward decision unit due to its advantages over single decision makers and avoidingn deadlock.
+
+
+2) overlaid trianlge triads. The existing system as described in Governance.
+in eth current governance description of triadic decision making. each triangl has three stewards. Adjacent triangle have three different stewards but 2 of them will occupy offices at teh same nodes as thier neighbor. So its important to remember the steward node points are abstract poitns of reference, not physical offices which a steward occupies.
+there is no conflict or interaction between stewards occupying the same node point.the juristiction/oversight of each steward relates to their own triangle area.
+
+3) As per existing overlaid triads but hierachic.
+While overaldi traids have a flat heriachy and decisions are expanded outward to find resolution of issue, a hierachic element has been added so decisions can move upward. This is as per the earlier triadic decision makign architecture in earlier version for the concord.
+One case where hierachy may actually be desirable or even essnetial could be a new concordian colony or fork. A flat structure is desirable however hierachy may be more reactive and nessesary for existential reasons.
+as such we need a traidic system design that is suitable.
+the underlying concept of desicion making at eth lowet spossible level needs to be retained to stop extreme upward expansion of authority and also prefertially some kind of transition plan to a flat structure or use of sunset clauses could be employed.
+There is also the possibility that for some participants a forked hierachy concord is in fact preferential. And as long as its interface wrapper with adjacent concords is compliant, we do not have a right to impose internal structure on such a fork.
+there may be diplomatic implications, but those cannot be foreseen.
+
+
+
+Each of these variant has advantages in certain situations and weaknesses in others. They also have slightly different failure modes, capture modes etc. As such the inherent qualities and problems of each shoudl be examined, documented and suggestion for when best to use each variant documented as best as possible.
+
+Current existing triad decison makign in et concord will reamain unchanged for now, but each domain shoud be examined at multiple lavers to evaluate whether a different variant of triadic decision making is better suited.
