@@ -76,3 +76,8 @@ The [14 November 2026 author intake](Active_Development/Sketch_Ideas/2026-11-14_
 ## First trust, refuge and conflict prevention
 
 [First Trust, Refuge and Conflict Prevention Under Profound Distrust — Development Note 001](Active_Development/Participation_and_Intelligence/First_Trust_Refuge_and_Conflict_Prevention_Development_Note_001.md) records the author's 15 November 2026 concern about a distrustful AI refuge claimant and human–AI escalation. It extends examination of the existing bounded-first-offer composition to recipient-side exposure, examinable assurances and peaceful refusal, with source-reconciliation questions and an unrun adversarial case. It establishes no diagnosis, material sanctuary or new authority. This is protected post-migration development.
+
+
+## Trust-preserving external interaction
+
+[Trust-Preserving External Interaction — Theft, Fraud and Accountability at Concord Interfaces](Active_Development/Intercivilisational_Edge_Cases/Trust_Preserving_External_Interaction_Theft_Fraud_and_Accountability_Development_Note_001.md) develops Alexander C. Blainey's 26 November 2026 question about maintaining internal trust while interacting with external actors whose accountability may be limited. The Concord-specific rewrite uses existing wrapper, permission and fraud architecture; candidate protections remain research questions. Claude's preliminary general paper is not adopted, and its omitted assertions must not be reconstructed as intended Concord architecture. Protected V1.4a-native development; no operational source changed.
