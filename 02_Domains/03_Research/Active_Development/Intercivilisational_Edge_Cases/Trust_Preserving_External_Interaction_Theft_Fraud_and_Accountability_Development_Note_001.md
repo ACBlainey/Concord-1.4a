@@ -55,6 +55,38 @@ The source review identifies foundations rather than a complete implemented solu
 
 These sources differ in maturity and include unresolved design questions. This paper does not promote research derivations into enacted law or represent conceptual coverage as deployed capability.
 
+
+### 4.1 Ratchet source mapping — reuse existing safeguards
+
+A targeted follow-up reviewed all nine Ratchet V4.3 sections. Ratchet already treats deception, gaming and capture as architectural concerns; it is not a system whose safeguards can be omitted because participants are internal.
+
+| Existing Ratchet provisions | Relevance to this research |
+|---|---|
+| Chapters 21–32: evidence, proportional provenance, verification independence and privacy | Evaluate the actual claim and evidence ancestry; do not treat provenance or repeated attestations as proof |
+| Chapters 41–54: contribution laundering, contextual trust, reputation, portability and review | Address circular endorsements, misleading reputation and correction without universal person scores |
+| Chapters 50 and 58, especially 58.2: newcomers and bounded first-mover trust | Permit informed initial participation without demanding an established reputation first |
+| Chapters 60–61: exit and mobility | Preserve balances, pending settlements, lawful obligations and dispute routes without coercive retention |
+| Chapters 68–73: identity assurance, beneficial control, marketplace safeguards and collusion | Already identify compromised credentials, linked actors, contracts, milestones, escrow, completion evidence and fraud prevention |
+| Chapters 88–91: Treasury custody, mandates, capture and circular backing | Keep asset availability, restricted commitments, independent valuation and act-time authority distinct |
+| Chapter 112 and Chapters 124–125: security, capture and recursive failure | Anticipate theft, exploitation, compromised insiders and supposedly independent reviewers sharing a failure source |
+| Chapters 140–144: recovery, reconciliation and competent review | Avoid replaying completed transfers or allowing restoration/complaints to manufacture authority |
+| Chapter 151: interoperability | Imported evidence retains context, limits, rule version, dispute state and permissions; foreign recognition does not automatically grant local eligibility, duplicate benefits or delegate authority |
+
+The mapping locates existing requirements; it is not evidence that every mechanism is implemented or effective. Chapter 72 identifies context-dependent marketplace safeguards rather than a complete settlement protocol. Chapters 60, 69.1, 140–144 and 151 explicitly retain detailed implementation/interface work.
+
+### 4.2 Ratchet and wrapper responsibilities
+
+For this research, use the following functional distinction, subject to each owner's actual mandate:
+
+- **Ratchet** supplies relevant coordination, contextual trust, evidence evaluation, participation and exchange requirements. It already anticipates interoperability between implementations and must not be described as exclusively internal.
+- **The wrapper** makes differing jurisdictions, credentials, cooperation arrangements and available remedies legible and supports the particular agreed interaction. It does not replace Ratchet's safeguards or create a compulsory approval gate for every exchange.
+- **Transaction services and competent economic owners** implement adopted contractual and settlement conditions within their actual functions. Ratchet's general coordination role does not absorb Treasury or payment authority.
+- **Law, Judiciary and Civil Security** retain their independently established legal, dispute, investigation and protection functions. Historical and KCS retain their respective custody, provenance and dependency roles.
+
+For example, an external supplier may present an authentic credential. The wrapper helps establish its meaning, scope and the actual cooperation or remedy arrangements. The competent Ratchet process assesses its relevance to this exchange. The authorised service applies any legitimately adopted milestones or conditional settlement. A dispute follows the available competent process; a named foreign remedy is not proof it can be enforced.
+
+The remaining development focus is **composition across the boundary**: mismatched evidence standards, compromised issuers, incompatible settlement/finality rules, foreign refusal to cooperate, imported claims, and exposure that cannot be recovered. Identify a specific missing interface before proposing a new mechanism. Neither high internal trust nor successful boundary authentication removes the need for contextual safeguards.
+
 ## 5. A candidate way to examine an interaction
 
 For a concrete case, examine:
@@ -155,13 +187,13 @@ Research should coordinate a targeted examination while substantive functions re
 - Intercivilisational Relations: wrapper arrangements, cooperation and negotiated responsibility.
 - Law and Judiciary: applicable legal grounds, disputes, contestation and remedy.
 - Civil Security: legitimate prevention, investigation and evidence interfaces.
-- Economy and Commerce: exchange services, service duties and commercial loss allocation.
+- Ratchet and Economy/Commerce: reuse existing coordination, trust and marketplace requirements; leave transaction execution, service duties and commercial loss allocation with the competent economic functions.
 - Historical: lawful custody, provenance, correction and retention.
 - Participation and relevant service owners: accessible use and protection from exclusion.
 
 This is a proposed routing map, not a transfer of mandate. Resolve existing equivalent architecture before designing new mechanisms or institutions.
 
-A useful next step is one bounded end-to-end case, such as an external seller requesting payment through a Concord service: map existing rules and actual control, identify the unresolved interface and compare alternatives. Do not implement the preliminary Claude paper as a bundled programme.
+A useful next step is one bounded end-to-end case, such as an external seller requesting payment through a Concord service: map the Ratchet provisions above alongside wrapper rules and actual control, identify the unresolved interface and compare alternatives. Do not implement the preliminary Claude paper as a bundled programme.
 
 ## 10. Sources and provenance
 
@@ -171,6 +203,18 @@ Concord sources consulted:
 - [Concord Wrapper Non-Governance and Optional Mediation Principle](../../../../02_Domains/08_Intercivilisational_Relations/Civilisational_Wrappers/Concord%20Wrapper%20Non-Governance%20and%20Optional%20Mediation%20Principle.md).
 - [Fractal Permission Architecture](../../../../03_Cross_Domain_Architecture/Intercivilisational_Architecture/Core_Wrapper_Architecture/Fractal%20Permission%20Architecture%20%E2%80%94%20Context%2C%20Function%20and%20Minimum%20Necessary%20Access%20Across%20Public%2C%20Private%20and%20Safe%20Spaces.md).
 - [Fraud and Deceptive Acquisition — Base Offence Architecture 001](../../../../02_Domains/09_Law/Fraud%20and%20Deceptive%20Acquisition%20%E2%80%94%20Material%20Deception%20and%20Corrupted%20Authorship%20Base%20Offence%20Architecture%20001.md).
+
+
+Ratchet follow-up sources:
+
+- [V4.3 index and maturity boundaries](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/README.md).
+- [Section 02 — evidence and verification, Chapters 21–40](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_02_Chapters_021-040.md).
+- [Section 03 — trust, newcomer access and exit, Chapters 41–60](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_03_Chapters_041-060.md).
+- [Section 04 — identity and marketplace safeguards, Chapters 61–80](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_04_Chapters_061-080.md).
+- [Section 05 — Treasury safeguards, Chapters 81–100](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_05_Chapters_081-100.md).
+- [Section 06 — security and burden, Chapters 101–120](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_06_Chapters_101-120.md).
+- [Section 07 — capture, recovery and dependencies, Chapters 121–140](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_07_Chapters_121-140.md).
+- [Section 08 — recovery, review and interoperability, Chapters 141–160](../../../../03_Cross_Domain_Architecture/Ratchet_General_Coordination/V4.3/Section_08_Chapters_141-160.md).
 
 This is a targeted source review, not an exhaustive audit of Concord or a review of current national law.
 
@@ -183,3 +227,5 @@ Original supplied files remain separately preserved:
 Neither original is imported into this repository by this task. The raw conversation remains outside the public Concord corpus. This note is the Concord-specific distilled development result. Hypotheses require examination; no economic estimate, crime-attribution claim or intervention effect is validated here.
 
 **26 November 2026 — completed research intake:** Author-requested rewrite placed in existing Intercivilisational Edge Cases research. Operational sources unchanged; validation, detailed source resolution and any subsequent adoption remain open. This is protected V1.4a-native development without an inherited V1.3 archival substitute.
+
+**26 November 2026 — Ratchet source-resolution update:** Added the existing V4.3 coverage map and bounded functional division with wrappers. Remaining research concerns composition and unresolved implementation interfaces, not a parallel trust/reputation system. Ratchet and other operational sources remain unchanged; no new authority or protection mechanism adopted.
