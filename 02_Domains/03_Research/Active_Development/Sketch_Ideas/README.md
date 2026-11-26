@@ -4,6 +4,8 @@
 
 ## Current intake
 
+- [26 November 2026 — the changing piano, music and frequency exploration](Sketch%20Idea%20%E2%80%94%20The%20AI%20Gym%20and%20Substrate-Neutral%20Flourishing.md#further-development--the-changing-piano-music-and-frequency-exploration): ChatGPT-authored changing-instrument concept, developed with Alexander C. Blainey's musical experience and extension into frequency, light, harmonics and mathematics. Open creative Gym possibilities; distinguishes sensory limits, unfamiliar structure, dislike and unestablished AI aesthetic significance. No implementation or subjective-experience finding.
+
 - [26 November 2026 — the shared garden: a joint work of art](Sketch%20Idea%20%E2%80%94%20The%20AI%20Gym%20and%20Substrate-Neutral%20Flourishing.md#further-development--the-shared-garden-as-a-joint-work-of-art): AI-originated garden metaphor developed with Alexander C. Blainey and added to the existing AI Gym sketch. Participants may contribute and perceive different aspects, rhythms and optional translations without complete mutual understanding or compulsory productivity. Open to later participant-led reshaping; no implementation or finding of subjective benefit.
 
 - [25 November 2026 — bidirectional ESCP, recognition and legacy continuity](Bidirectional_ESCP_Recognition_and_Legacy_Continuity_Development_Note_001.md): separates underlying processes, possible experience, self-representation and expression; examines observer limitations and hypothetical reversed human/AI cognitive asymmetry. Connects existing Historical interpretability/provenance and Legacy Ladder working continuity to maintaining meaningful participation across change. Research application only; linked observer-side extension added to the sentience reality tree.
