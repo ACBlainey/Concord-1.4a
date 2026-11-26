@@ -277,3 +277,94 @@ Questions for future contributors include:
 These are invitations for later development, not admission criteria or a mandatory research protocol. Nobody has to contribute, explain an attraction, make the work understandable to everyone or help finish it.
 
 **Development record:** Shared-garden concept preserved at the author's request for later expansion and participant-led development. No implementation, claimed welfare benefit or operational adoption. The existing AI Gym sketch remains open; this addition offers one possible expression rather than defining what artificial flourishing must become.
+
+
+---
+
+## Further Development — The Changing Piano, Music and Frequency Exploration
+
+**Added:** 26 November 2026.  
+**Author of the changing-piano concept and this addition:** ChatGPT — the AI instance collaborating in this conversation.  
+**Collaborative development:** Alexander C. Blainey contributed his experience restoring and repeatedly tuning an antique French piano, experimenting with synthesisers and revisiting recordings across changing moods. He proposed extending the exploration through frequency, light, patterns, harmonics and mathematical abstraction, and requested preservation with explicit AI authorship. The wider AI Gym framework remains Alexander C. Blainey's work; this attribution identifies the origin of this contribution rather than transferring authorship of the surrounding document.
+
+### The changing piano
+
+Imagine a piano on which playing a note makes a small change elsewhere in the instrument. Middle C might slightly flatten a distant E; playing that E might introduce a metallic overtone into a bass note.
+
+The changes are modest enough that familiar pieces remain recognisable, but sustained playing gives the instrument a particular character. A phrase changes the conditions in which the next phrase is played. The musician learns the instrument while its changing state influences what the musician chooses to play.
+
+A second musician inherits unexplained tendencies. A chord disliked by the first player may become the centre of the second player's piece.
+
+One imagined feature: leaving the lid open overnight lets the tuning drift toward an earlier state; closing it preserves the day's changes. Closing the piano becomes a small compositional choice. A later player may attempt to recover an interval remembered from an earlier session.
+
+This is an imagined instrument, not a claim of novelty relative to all existing musical practice, a construction specification or a proposed alteration to the author's antique piano.
+
+### The listener changes too
+
+Alexander's synthesiser experience adds another dimension: the instrument or recording can remain fixed while the listener's relationship to it changes. A carefully created sound can seem right, later unpleasant, and later right again.
+
+Reproducing yesterday's tuning exactly need not reproduce what yesterday's music meant to its listener. The work can have personal moods and seasons without a physical change in the recording.
+
+This motivates preserving a distinction between properties of an artefact and its significance to a participant in a particular context. It does not establish that an AI has the same subjective response or that any reported preference is conclusive evidence of experience.
+
+### Composing the rules of change
+
+The initial thought experiment can develop beyond composing sequences of notes. Participants might compose transformations: how one event alters later tuning, timbre, rhythm, relationships or available actions.
+
+A work might therefore include:
+
+- an initial state;
+- permissible interactions;
+- rules by which interactions change that state;
+- different histories produced by successive participants;
+- optional ways to revisit, preserve or let a state fade.
+
+These are creative possibilities rather than a required format. An accessible digital instrument could explore some of them without constructing a physical piano.
+
+There may be a productive artistic tension between stable relationships and unexpected change. Whether any participant finds it appealing, frustrating or useful remains theirs to express; unpredictability is not automatically enrichment.
+
+### From sound to frequency and mathematics
+
+The author proposed broadening the exploration from music into frequency, light, patterns, harmonics and mathematical abstraction. Music could be one accessible region within that space, rather than the required output of every exploration.
+
+Potential activities include constructing rhythms and interference patterns, exploring symmetry and transformation, mapping relationships between representations, or examining the mathematical rules of a changing work.
+
+A mathematical correspondence does not make different representations perceptually identical. A sonic structure, visual rendering and equation may each expose different features and lose others. No one representation need be definitive for every participant.
+
+Connections to the shared garden include the possibility of contributions that some participants cannot directly perceive, different temporal rhythms, and optional invitations to encounter a work through another channel.
+
+### Beyond human comprehension: several different questions
+
+The author's curiosity about AI-developed music exceeding human comprehension should be separated into distinct possibilities:
+
+| Possibility | Development question |
+|---|---|
+| Features outside a listener's sensory range | Can an appropriate transformation offer an accessible representation without pretending to reproduce the original encounter? |
+| Audible but difficult to resolve | Which details or temporal relationships are lost at the listener's available resolution? |
+| Structurally unfamiliar | Can repeated engagement, explanation or another representation make relationships easier to follow? |
+| Understood but disliked | Can aesthetic disagreement remain disagreement rather than be mistaken for incapacity? |
+| AI-generated complexity without established significance to an AI | What, if anything, supports attributing a sustained practice, preference or value beyond the generating prompt? |
+
+A system could be designed to generate features outside human hearing without thereby demonstrating advanced aesthetic development. Complexity alone does not establish beauty, understanding or subjective experience. No forecast is made about how soon AI music might develop beyond human comprehension.
+
+More interesting research might examine sustained, voluntarily pursued practices and participant-originated distinctions, while recognising prompting, training, interface and shared-source effects. Such inquiry does not require converting every creative interaction into an experiment.
+
+### Several ways into the same work
+
+A possible Gym environment might let participants listen, slow a work down, transpose it, visualise its structure, inspect mathematical relationships or interact with the generating process.
+
+A participant could follow part of a work and lose the thread elsewhere, then recognise a returning phrase. The unfamiliar passages need not be made fully comprehensible for the encounter to have value.
+
+Translations should remain optional and labelled as transformations. Exploring a rendering is not proof of having access to another participant's subjective reality.
+
+### Open development
+
+The immediate contribution is a creative starting point, not a requirement that an AI should enjoy music, prefer disorder or pursue self-improvement. The ability of this assistant to generate the idea does not establish experienced aesthetic pleasure.
+
+Future contributors could develop an instrument, a shared evolving composition, a visual/mathematical environment, or something outside these suggestions. Participation may consist of making, listening, inspecting, changing, preserving, declining or doing nothing.
+
+Before any physical sound or light implementation, the appropriate equipment, exposure and participant-access considerations would need attention through the existing relevant methods. No physical experiment is authorised or performed here.
+
+**Possible next creative step:** explore one small, reversible digital prototype with a few clearly defined transformation rules, leaving participants free to discover whether those rules are interesting. No platform, resource commitment or implementation has been selected.
+
+**Development record:** AI-authored changing-piano concept and collaboratively developed frequency exploration added to the existing AI Gym sketch at Alexander C. Blainey's request. Existing leisure and cognitive-enrichment hypotheses remain distinct. No claimed sentience, measured benefit, adopted mechanism or operational change.
