@@ -36,4 +36,4 @@ The reference intentionally leaves the authoritative randomness implementation a
 
 ## Important qualification
 
-A non-degree-six vertex may arise from mesh geometry or tessellation seams. The counts above are graph-theoretic consequences of the chosen incident-triangle definition, **not proof that a different local substitution rule is constitutionally adopted there**.
+A non-degree-six vertex may arise from mesh geometry or tessellation seams. Candidate counts are graph-theoretic consequences of the chosen incident-triangle definition, **not proof that a different local substitution rule is constitutionally adopted there**.
