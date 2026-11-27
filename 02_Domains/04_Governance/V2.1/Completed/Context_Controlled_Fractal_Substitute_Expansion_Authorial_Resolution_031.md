@@ -4,15 +4,7 @@
 
 ## Core rule
 
-Horizontal candidate-pool expansion is **fractal and method-preserving**. Each ring is screened for eligibility and participant identity, then selects exactly **one** eligible Steward to fill the original **single bounded decision position**. If one candidate remains eligible, that candidate fills by default. If two or more remain, choose one by an auditable, tamper-resistant, unbiased uniform random draw. If none remains, expand to the next legally available ring when justified. Never convert a larger pool into more votes or greater jurisdiction.
-
-## Ordinary ring progression
-
-- **First ring:** Five other Steward positions at the same abstract vertex, one from each of the five incident neighbouring triangles.
-- **Second ring:** The other two Steward positions in each of those five neighbouring triangles: ten nominal additional positions. When the first ring has **zero eligible candidates**, use this second-ring pool and apply **the same** screening and random-selection mechanism, with deterministic appointment if exactly one qualifies.
-- **Further rings:** The same fractal principle applies: expand through the GTP adjacency structure, build a distinct candidate set, exclude previously considered positions and duplicate persons, independently screen eligibility, then choose one by the same rule. **Exact topology enumeration, ordering and overlap resolution beyond the specified ten-person second ring require formalisation**; do not assert an unverified fixed growth factor.
-
-Each Steward position remains owned by its own triangle. Spatial adjacency identifies candidates, not a standing cross-triangle body or automatically transferred authority.
+Horizontal candidate-pool expansion is **fractal and method-preserving**.
 
 ## Context-sensitive exceptional expansion
 
@@ -22,16 +14,9 @@ Ordinarily, use the nearest ring containing at least one eligible candidate. **H
 
 **Major localised emergency with non-local consequences:** A nuclear power station emergency is an example where consequences can cross several triangle jurisdictions. The emergency may justify **wider governance coordination under existing emergency response authority**, including independently justified expanded decision forums. This is **distinct** from widening the candidate pool to fill one recused or absent Steward position. Emergency coordination does not manufacture vote authority, eliminate local rights, or grant open-ended powers.
 
-## Selection invariants across rings
+## Selection provenance
 
-1. Establish lawful vacancy cause. Material conflict recusal is substitution-eligible; insufficient-information abstention calls for evidence gathering rather than replacement.
-2. Verify decision-event boundary, original position and authorising mandate.
-3. Establish a distinct eligible candidate set for the selected ring(s), with independent conflicts and identity checks; no repeated participation in the full decision-event graph.
-4. If `n=0`, use the context-controlled next-ring rule or withhold where expansion is not legitimate.
-5. If `n=1`, appoint the sole eligible candidate by default.
-6. If `n>=2`, use an unbiased uniform random draw among the eligible candidates.
-7. Revalidate before consequential commitment; one substitute fills one original position only; expire vote-specific authority after the decision event.
-8. Record provenance, security cause codes, protected confidential details, and anti-manipulation controls.
+Record provenance, security cause codes, protected confidential details, and anti-manipulation controls.
 
 ## Resilience and limitations
 
