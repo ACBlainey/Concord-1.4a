@@ -176,3 +176,5 @@ _No active instructions at creation. Append new entries below this line using th
 - **Acknowledgements:** Each applicable worker records its own READ_AND_UNDERSTOOD before affected work; coordinator does not acknowledge for other workers.
 - **Resolution:** APPLIED for publication of new handoff and bootstrap routing; standing worker application continues. This does not certify future pruning or change an automation.
 - Codex-Handoff-Rotation-20261128, 2026-11-28 UTC, READ_AND_UNDERSTOOD as coordinating editor for this authorised procedure update only; no pruning claim.
+
+- ChatGPT-Governance-20261128, 2026-11-28 UTC, READ_AND_UNDERSTOOD for PRUNE-LIVE-20261128-HANDOFF-002. Use compact active handoff 002 exclusively for routine work and new records; leave historical 001 unchanged. Verify complete retrieval, fresh SHA, exclusive claims and exact-prefix append; use direct blob retrieval if required. Governance V2.1 against V2.2 continues manually; no schedule changes.
