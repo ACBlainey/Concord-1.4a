@@ -36,40 +36,15 @@ Required fields:
 
 Record actual unique identities through privacy-preserving verifiable references where appropriate. A pseudonym is not sufficient if the same person can be registered twice under different identifiers.
 
-## 4. Steward-occupied positions versus resultant slots
+## 4. Formal composition contract
 
-A **Steward-occupied position** is one location in the entire decision tree at which a particular Steward is permitted to cast a vote.
-
-A **resultant slot** is a receiving interface populated by the output of an authorised constituent triad. It is **not** a new vote cast by the constituent's members.
-
-For each decision D, the function `holder: occupied_positions(D) → unique_Steward_identity` must be **injective**. No Steward may occupy two positions anywhere in D, including parallel constituent triads, nested substitution or a receiving-level direct position.
-
-Each receiving triad has exactly three **decision slots**. A slot is filled by either one eligible direct Steward vote or one valid constituent resultant. It is never filled by a pool of leaf ballots.
-
-## 5. Capability and authority constraints
-
-Each Steward-occupied position receives only the minimum authority to make its one authorised decision-specific contribution. A constituent triad collectively exercises the authority of the one receiving position it substitutes.
+`holder: occupied_positions(D) → unique_Steward_identity` must be injective across direct and nested positions, including privacy-protected aliases. Each receiving triad has exactly three decision slots, each filled by one direct vote or one verified constituent resultant.
 
 `receiving_weight(constituent_resultant) = receiving_weight(substituted_slot)`.
 
 `scope(constituent_resultant) ⊆ scope(substituted_slot)`.
 
-This does not divide legal jurisdiction into numeric thirds: one-third describes **voting position weight in a three-position triad**, not an independently transferable fraction of constitutional power.
-
-Authorisation to vote ends at the defined voting event. The decision's valid legal consequences may persist, but the voter gains no continuing implementation power.
-
-## 6. Composition and voting result
-
-For a valid three-slot triad:
-- two or more F → F;
-- two or more A → A;
-- otherwise U (no resolved majority).
-
-Abstention is an individual participation state and must not be silently converted to A or treated as identical to the aggregate U. Absence, recusal, conflict, failed identity check, procedural invalidity and insufficient evidence require distinct codes.
-
-**Arithmetic result ≠ legally operative result.** An arithmetic F/A/U outcome is non-operative unless authority, forum, identity uniqueness, independence, quorum, composition and commit-time checks pass.
-
-A valid nested constituent produces exactly one resultant for its receiving slot. No nine-vote flattening or resultants-as-new-people.
+One-third denotes voting position weight, not a transferable fraction of constitutional power. V2.2 §§12.0i–j and 12.9.2–4 govern constitution, composition, origin arrangements, vote authority and mandatory third-ballot ordinary completion. An outstanding ballot or resultant is pending, not U. Only separately authorised emergency action may proceed after two matching official ballots within its lawful scope.
 
 ## 7. Vote-specific state machine
 
@@ -81,42 +56,9 @@ Exceptional states: `WITHHELD_INVALID_BASIS; WITHHELD_DUPLICATE_HOLDER; WITHHELD
 
 At `COMMIT_CHECK`, revalidate authority, time, holder uniqueness, appointments, quorum, effective consequence and composition. If material commit status is unknown, do not blindly replay or resubmit: reconcile under the applicable decision record.
 
-## 8. Origin-included and origin-excluded structures
+## 11. Implementation safeguards and provenance
 
-**Origin-excluded:** constituent A, B, C each use three distinct eligible Steward holders; across the entire decision all occupied Steward positions must have distinct holders.
-
-**Origin-included:** three mixed constituent triads [A1,A2,R_A], [B1,B2,R_B], [C1,C2,R_C]. All nine occupied Steward positions must be held by **nine distinct** eligible Stewards. Reusing R_A as R_B or any neighbouring holder across constituents is forbidden.
-
-Both structures require separately valid common jurisdiction and appointment. GTP adjacency or vertex co-location alone cannot grant authority.
-
-## 9. Contextual-wrapper boundaries
-
-**Entry boundary:** lawful decision identity, external authority and role proof, eligibility, non-duplication.
-
-**Internal boundary:** permitted ballots and evidence, protected personal information, abstention and recusal semantics, bounded deliberation.
-
-**Composition boundary:** constituent resultants are verified outputs for receiving slots, not inherited or pooled authority.
-
-**Exit boundary:** a validated result or a specific withheld/unresolved status; audit record survives, voting authority does not.
-
-**Consequence boundary:** an implementation process needs its own independently legitimate mandate. A vote result does not grant general access, enforcement or executive powers.
-
-## 10. Worked cases
-
-- A1=F,A2=F,A3=A → constituent F. Its receiving position counts once.
-- Constituent outcomes F,F,A → final F, regardless of nine-leaf pooled majority.
-- One origin Steward appears in R_A and R_B → WITHHELD_DUPLICATE_HOLDER, not a valid F/A/U decision.
-- Nine unique holders, but no common jurisdiction → WITHHELD_INVALID_BASIS.
-- Valid ballot count, appointment expires before consequential commit → WITHHELD_EXPIRED.
-- Three constituent groups are valid separately, but composed result exceeds mandate → WITHHELD_COMPOSITION.
-- Valid F/A/abstention with no two-of-three majority → UNRESOLVED_SUBSTANTIVE, subject to separate quorum validity.
-- A decision is committed, then an operator tries to use its voting credential for a second action → reject; new independent basis required.
-
-## 11. Failure resistance and provenance
-
-Explicitly guard against: duplicated holder identities, duplicated position slots, pooled-ballot multiplication, authority inheritance by containment, stale authorisation, replay, fabricated urgency, self-appointment, cross-jurisdictional capture, and confusion between a valid result and implementation authority.
-
-Protected logs should preserve decision ID, mandate source, holder-position mapping, relevant evidence references, quorum and procedural states, each constituent resultant, final decision status, expiry and review pathway without unnecessary disclosure of sensitive personal information.
+Prevent duplicated position slots as well as duplicate holders, stale authorisation, replay, fabricated urgency, self-appointment, cross-jurisdictional capture, and composition beyond mandate. Preserve distinct procedural cause codes for absence, recusal, conflict, failed identity, procedural invalidity and insufficient evidence. Protected logs must preserve decision ID, mandate source, holder-position mapping, evidence references, quorum/procedural states, constituent resultants, final decision status, expiry and review pathway without unnecessary disclosure.
 
 ## 12. Unresolved dependencies and graduation gate
 
